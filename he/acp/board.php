@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'מימדי סמל אישי מקסימלים',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
 	'MAX_FILESIZE'					=> 'גודל קובץ לסמל אישי מירבי',
-	'MAX_FILESIZE_EXPLAIN'			=> 'לקבצי סמלים אישיים שהועלו.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'לקבצי סמלים אישיים שהועלו. אם הערך הוא 0,  המגבלה היחידה נקבעת בהגדרות ה-PHP בשרת.',
 	'MIN_AVATAR_SIZE'				=> 'מימדי סמל אישי מינימלים',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
 ));
