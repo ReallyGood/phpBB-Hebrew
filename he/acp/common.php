@@ -520,7 +520,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK'					=> '<strong>נעל נושא</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>נעל הודעה</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>מיזג הודעות</strong> לתוך נושא<br />» %s',
-	'LOG_MOVE'					=> '<strong>העביר נושא</strong><br />» מ %1$s ל %2$s',
+	'LOG_MOVE'					=> '<strong>העביר נושא</strong><br />» מ%1$s ל%2$s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>סגר דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>מחק דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>סגר דיווח</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>מחק דיווח</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>העביר הודעות מפוצלות</strong><br />» אל %s',
-	'LOG_SPLIT_SOURCE'			=> '<strong>פיצל הודעות</strong><br />» מ %s',
+	'LOG_SPLIT_SOURCE'			=> '<strong>פיצל הודעות</strong><br />» מ%s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>דחה נושא “%1$s” בגלל הסיבה הבאה</strong><br />%2$s',

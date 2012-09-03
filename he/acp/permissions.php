@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'RESULTING_PERMISSION'			=> 'תוצאת הרשאה',
 	'ROLE'							=> 'כלל',
 	'ROLE_ADD_SUCCESS'				=> 'הכלל נוסף בהצלחה.',
-	'ROLE_ASSIGNED_TO'				=> 'משתמשים/קבוצות שנקבעו ל %s',
+	'ROLE_ASSIGNED_TO'				=> 'משתמשים/קבוצות שנקבעו ל%s',
 	'ROLE_DELETED'					=> 'הכלל הוסר בהצלחה.',
 	'ROLE_DESCRIPTION'				=> 'תיאור הכלל',
 
