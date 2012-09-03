@@ -111,7 +111,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'נשלח מהאייפי\דומיין',
 
-	'RANK'					=> 'דרגה',
 	'REAL_NAME'				=> 'שם הנמען',
 	'RECIPIENT'				=> 'נמען',
 	'REMOVE_FOE'			=> 'הסר נודניק',

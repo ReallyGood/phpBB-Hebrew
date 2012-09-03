@@ -53,7 +53,8 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'סריקת הטבלאות שלך העלתה התקנה חוקית ללא שימוש בקידומת הטבלאות.',
 	'BOARD_NOT_INSTALLED'			=> 'לא נמצאה התקנה',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'ממשק ההמרה הייחודי של phpBB3 דורש מערכת phpBB3 מותקנת, <a href="%s">המשך בהתקנת phpBB3</a>.',
-
+	'BACKUP_NOTICE'					=> 'אנא גבה את המערכת שלך לפני השדרוג למקרה ויתעוררו בעיות במהלך תהליך השדרוג.',
+	
 	'CATEGORY'					=> 'קטגוריה',
 	'CACHE_STORE'				=> 'סוג זיכרון',
 	'CACHE_STORE_EXPLAIN'		=> 'המיקום הפיזי בו הנתונים מאוחסנים, מערכת קבצים מועדפת.',
