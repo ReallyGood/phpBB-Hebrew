@@ -267,6 +267,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON9'		=> 'משתמש הגדיר תמונה 9',
 	'IMG_USER_ICON10'		=> 'משתמש הגדיר תמונה 10',
 
+	'INACTIVE_STYLES'			=> 'עיצוב לא פעיל',
 	'INCLUDE_DIMENSIONS'		=> 'הכלל ממדים',
 	'INCLUDE_IMAGESET'			=> 'כלול ערכת תמונה',
 	'INCLUDE_TEMPLATE'			=> 'כלול תבנית עיצוב',
