@@ -38,12 +38,12 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'שאלות ותשובות',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'שאלה זו היא אמצעי למניעת שליחת טפסים אוטומטית על ידי בוטים.',
-	'CONFIRM_QUESTION_WRONG'	=> 'סיפקת תשובה לא נכונה לשאלה.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'שאלת אימות זו היא אמצעי למניעת שליחה אוטומטית של טפסים על ידי בוטים.',
+	'CONFIRM_QUESTION_WRONG'	=> 'התשובה שסיפקת לשאלת האימות איננה נכונה.',
 
 	'QUESTION_ANSWERS'			=> 'תשובות',
 	'ANSWERS_EXPLAIN'			=> 'אנא הכנס תשובות נכונות לשאלה, אחת בכל שורה.',
-	'CONFIRM_QUESTION'			=> 'שאלה',
+	'CONFIRM_QUESTION'			=> 'שאלת אימות',
 
 	'ANSWER'					=> 'תשובה',
 	'EDIT_QUESTION'				=> 'ערוך שאלה',
