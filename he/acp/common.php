@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'מספר משתמשים',
 	'NUMBER_ORPHAN'		=> 'קבצים מצורפים ללא שולח',
 	
-	'PHP_VERSION_OLD'	=> 'גירסאת הPHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטיםs%s',
+	'PHP_VERSION_OLD'	=> 'גירסאת הPHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטים%s',
 	'POSTS_PER_DAY'		=> 'הודעות ליום',
 
 	'PURGE_CACHE'			=> 'טיהור המטמון',
