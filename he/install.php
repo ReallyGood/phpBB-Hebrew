@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_INTRO_BODY'		=> 'מכאן, אתה יכול ליבא נתונים מתוכנות מערכת אחרות (מותקנות). הרשימה הבאה מציגה את כל אפשרויות ההמרה הזמינות הנוכחיות. אם אין המרה מוצגת ברשימה זו לתוכנת המערכת ממנה אתה מעוניין להמיר, בדוק באתר שלנו בו יכולות להיות זמינות אפשרויות המרה נוספות להורדה.',
 	'CONVERT_NEW_CONVERSION'	=> 'המרה חדשה',
 	'CONVERT_NOT_EXIST'			=> 'ההמרה שצוינה אינה קיימת.',
-	'CONVERT_OPTIONS'                       => 'אפשרויות',
+	'CONVERT_OPTIONS'			=> 'אפשרויות',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'המידע שהוזן אושר. כדי להתחיל בתהליך ההמרה, אנא לחץ על הכפתור מתחת.',
 	'CONV_ERR_FATAL'					=> 'התרחשה שגיאה בהמרה',
 
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'שגיאת התקנה',
 	'INST_ERR_DB_CONNECT'		=> 'לא ניתן להתחבר לבסיס הנתונים, ראה הודעת שגיאה להלן.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'קובץ בסיס הנתונים שצוין נמצא בתוך עץ תיקיות המערכת. אתה צריך לשים קובץ זה במיקום לא נגיש.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'הקידומת שהזנת לא חוקית. היא  חייבת להתחיל באות, ויכולה להכיל אותיות, מספרים וקו תחתון בלבד.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'הקידומת שהזנת לא חוקית. היא חייבת להתחיל באות, ויכולה להכיל אותיות, מספרים וקו תחתון בלבד.',
 	'INST_ERR_DB_NO_ERROR'		=> 'לא ניתנה הודעת שגיאה.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'הגרסה של MySQL המותקנת על שרת זה אינה מותאמת לאפשרות “MySQL עם סיומת MySQLi” אשר בחרת. נסה את האפשרות “MySQL” במקום זאת.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'הגרסה של סיומת SQLite אשר התקנת ישנה מדי, אתה חייב לשדרג אותה לפחות לגרסה 2.8.2.',
@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'וודא שהתיקיה הבאה קיימת וניתנת לכתיבה על-ידי השרת ונסה שנית:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'וודא שהתיקיות הבאות קיימות וניתנות לכתיבה על-ידי השרת ונסה שנית:<br />»<strong>%s</strong>.',
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'   => 'מבנה בסיס הנתונים MySQL שלך ל phpBB ישן מדי. phpBB דורש מבנה ל MySQL 3.x/4.x, אבל השרת פועל על MySQL %2s.<br /><strong>לפני שתמשיך בעדכון, אתה צריך לשדרג את המבנה.</strong><br /><br />אנא עבור אל <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">המאמר לגבי ששדרוג מבנה MySQL</a>. אם אתה נתקל בבעיות, תוכל להשתמש <a href="http://www.phpbb.co.il/viewforum.php?f=21">בפורומי התמיכה שלנו</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'מבנה בסיס הנתונים MySQL שלך ל phpBB ישן מדי. phpBB דורש מבנה ל MySQL 3.x/4.x, אבל השרת פועל על MySQL %2s.<br /><strong>לפני שתמשיך בעדכון, אתה צריך לשדרג את המבנה.</strong><br /><br />אנא עבור אל <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">המאמר לגבי ששדרוג מבנה MySQL</a>. אם אתה נתקל בבעיות, תוכל להשתמש <a href="http://www.phpbb.co.il/viewforum.php?f=21">בפורומי התמיכה שלנו</a>.',
 
 	'NAMING_CONFLICT'			=> 'התנגשות שמות: %s ו %s שניהם כינויים<br /><br />%s',
 	'NEXT_STEP'					=> 'המשך לשלב הבא',
@@ -361,7 +361,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_TOPICS_POSTED'		=> 'יוצר פרטי נושאים שנשלחו',
 
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'שגיאה התרחשה בעת יצירת פרטי הנושאים שנשלחו. תוכל לנסות שלב זה שנית בלוח הבקרה למנהלים ראשיים לאחר שתהליך ההמרה יושלם.',
-	'VERIFY_OPTIONS'                        => 'מוודא אפשרויות המרה',
+	'VERIFY_OPTIONS'			=> 'מוודא אפשרויות המרה',
 	'VERSION'					=> 'גרסה',
 
 	'WELCOME_INSTALL'			=> 'ברוך הבא להתקנת phpBB3',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'כל הקבצים מעודכנים לגרסה האחרונה של phpBB. אתה צריך כעת <a href="../ucp.php?mode=login">להתחבר לפורום שלך</a> ולבדוק אם הכל עובד כשורה. אל תשכח למחוק, לשנות שם או להעביר את תיקית ההתקנה!  אנא שלח לנו מידע מעודכן על הגדרות השרת והמערכת מעמוד <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">מידע סטטיסטי</a> בלוח הבקרה למנהלים ראשיים.',
+	'ALL_FILES_UP_TO_DATE'		=> 'כל הקבצים מעודכנים לגרסה האחרונה של phpBB. אתה צריך כעת <a href="../ucp.php?mode=login">להתחבר לפורום שלך</a> ולבדוק אם הכל עובד כשורה. אל תשכח למחוק, לשנות שם או להעביר את תיקית ההתקנה! אנא שלח לנו מידע מעודכן על הגדרות השרת והמערכת מעמוד <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">מידע סטטיסטי</a> בלוח הבקרה למנהלים ראשיים.',
 	'ARCHIVE_FILE'				=> 'קובץ מקור בתוך ארכיון',
 
 	'BACK'				=> 'חזרה',
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'אתה צריך כעת <a href="../ucp.php?mode=login">להתחבר לפורום שלך</a> ולבדוק שהכל עובד כשורה. אל תשכח למחוק, לשנות שם או להעביר את תיקית ההתקנה!',
 	'CONTINUE_UPDATE_NOW'			=> 'המשך בתהליך העדכון עכשיו',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'המשך בעדכון עכשיו',					// Shown after file upload to indicate the update process is not yet finished
-	'CURRENT_FILE'               => 'תחילת ההתנגשות - קוד קובץ המקור לפני העדכון',
+	'CURRENT_FILE'					=> 'תחילת ההתנגשות - קוד קובץ המקור לפני העדכון',
 	'CURRENT_VERSION'				=> 'גרסה נוכחית',
 
 	'DATABASE_TYPE'						=> 'סוג בסיס נתונים',
@@ -407,8 +407,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'							=> 'הורד',
 	'DOWNLOAD_AS'						=> 'הורד בתור',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'הורד קבצים ששונו (מומלץ)',
-	'DOWNLOAD_CONFLICTS'            => 'הורד את ההתנגשויות עבור קובץ זה',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'      => 'חפש &lt;&lt;&lt; כדי לראות את ההתנגשויות',
+	'DOWNLOAD_CONFLICTS'				=> 'הורד את ההתנגשויות עבור קובץ זה',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'חפש &lt;&lt;&lt; כדי לראות את ההתנגשויות',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'הורד ארכיון קבצים ששונו',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'לאחר סיום ההורדה אתה צריך לחלץ את קובץ הארכיון. אתה תמצא את הקבצים ששונו אשר אתה צריך להעלות לתיקית המערכת של phpBB3. העלה את הקבצים למיקומים שלהם בהתאמה. לאחר שהעלת את כל הקבצים, בדוק את הקבצים שנית עם הכפתור האחר שלהלן.',
 
@@ -453,13 +453,13 @@ $lang = array_merge($lang, array(
 	
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'אל תמזג - השתמש בקובץ החדש',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'אל תמזג - השתמש בקובץ המותקן הנוכחי',
-	'MERGE_MOD_FILE_OPTION'      => 'מזג שינויים (מסיר קוד phpBB חדש בתוך איזור ההתנגשות)',
+	'MERGE_MOD_FILE_OPTION'		=> 'מזג שינויים (מסיר קוד phpBB חדש בתוך איזור ההתנגשות)',
 	'MERGE_NEW_FILE_OPTION'		=> 'מזג שינויים (מסיר קוד ששונה בתוך איזור ההתנגשות)',
-	'MERGE_SELECT_ERROR'      => 'מצבי מיזוג קבצים עם התנגשות לא נבחרו כראוי.',
-	'MERGING_FILES'            => 'ממזג שינויים',
-	'MERGING_FILES_EXPLAIN'      => 'אוסף כרגע שינויי קובץ סופי.<br /><br />אנא המתן עד ש phpBB תשלים את כל הפעולות על הקבצים ששונו.',
+	'MERGE_SELECT_ERROR'		=> 'מצבי מיזוג קבצים עם התנגשות לא נבחרו כראוי.',
+	'MERGING_FILES'				=> 'ממזג שינויים',
+	'MERGING_FILES_EXPLAIN'		=> 'אוסף כרגע שינויי קובץ סופי.<br /><br />אנא המתן עד ש phpBB תשלים את כל הפעולות על הקבצים ששונו.',
 
-	'NEW_FILE'                  => 'סוף התנגשות',
+	'NEW_FILE'					=> 'סוף התנגשות',
 	'NEW_USERNAME'					=> 'שם משתמש חדש',
 	'NO_AUTH_UPDATE'				=> 'לא מורשה לעדכן',
 	'NO_ERRORS'						=> 'אין שגיאות',
@@ -571,7 +571,7 @@ $lang = array_merge($lang, array(
 	'VERSION_NOT_UP_TO_DATE'	=> 'הגרסה המותקנת של phpBB3 אינה מעודכנת. אנא המשך בתהליך העדכון.',
 	'VERSION_NOT_UP_TO_DATE_ACP'=> 'הגרסה המותקנת של phpBB3 אינה מעודכנת.<br />כאן תמצא קישור להכרזת השחרור של הגרסה האחרונה וכמו כן הוראות כיצד לבצע את תהליך העדכון.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'הגרסה המותקנת של phpBB3 אינה מעודכנת.',
-	'VERSION_UP_TO_DATE'		=> 'הגרסה המותקנת של phpBB3 מעודכנת.  למרות שאין עדכונים זמינים בזמן זה, תוכל להמשיך כדי לבצע בדיקת חוקיות.',
+	'VERSION_UP_TO_DATE'		=> 'הגרסה המותקנת של phpBB3 מעודכנת. למרות שאין עדכונים זמינים בזמן זה, תוכל להמשיך כדי לבצע בדיקת חוקיות.',
 	'VERSION_UP_TO_DATE_ACP'	=> 'הגרסה המותקנת של phpBB3 הינה מעודכנת. אין עדכונים זמינים כרגע.',
 	'VIEWING_FILE_CONTENTS'		=> 'מציג תוכן קובץ',
 	'VIEWING_FILE_DIFF'			=> 'מציג הבדלי קובץ',

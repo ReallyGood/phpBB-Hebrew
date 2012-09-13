@@ -55,13 +55,13 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקובץ המצורף להודעה זאת.',
 
 	'EDITED_TIMES_TOTAL'	=> 'נערך לאחרונה על ידי %1$s בתאריך %2$s, נערך %3$d פעמים בסך הכל.',
-	'EDITED_TIME_TOTAL'		=> 'נערך לאחרונה על ידי %1$s בתאריך %2$s, נערך פעם אחת בסך הכל.',  // phpBBHeb Group:: In original english there was ' %3$d', but in hebrew we don't really need to count one time with a number, just say "edited one time" and that`s it.
+	'EDITED_TIME_TOTAL'		=> 'נערך לאחרונה על ידי %1$s בתאריך %2$s, נערך פעם אחת בסך הכל.', // phpBBHeb Group:: In original english there was ' %3$d', but in hebrew we don't really need to count one time with a number, just say "edited one time" and that`s it.
 	'EMAIL_TOPIC'			=> 'שלח דואר אלקטרוני לחבר',
 	'ERROR_NO_ATTACHMENT'	=> 'הקובץ המצורף שנבחר לא קיים יותר.',
 
 	'FILE_NOT_FOUND_404'	=> 'הקובץ <strong>%s</strong> לא קיים.',
 	'FORK_TOPIC'			=> 'העתק נושא',
-	'FULL_EDITOR' => 'עורך מלא',
+	'FULL_EDITOR'	=> 'עורך מלא',
 
 	'LINKAGE_FORBIDDEN'		=> 'אינך מורשה לצפות, להוריד או לתת קישור ל/מאתר זה.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'קיבלת הודעה על נושא זה, אנא התחבר על מנת לצפות בו.',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'		=> 'הודעה ראשונה שלא נקראה',
 	'VISIT_WEBSITE'			=> 'אתר',
 	'VOTE_SUBMITTED'		=> 'הצבעתך נקלטה.',
-	'VOTE_CONVERTED'                => 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
+	'VOTE_CONVERTED'		=> 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
 ));
 
 ?>

@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'acl_f_email'		=> array('lang' => 'רשאי לשלוח בדואר אלקטרוני נושאים', 'cat' => 'actions'),
 
 	'acl_f_search'		=> array('lang' => 'רשאי לחפש בפורום', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'רשאי לבטל הגבלת הצפה', 'cat' => 'misc'),
+	'acl_f_ignoreflood'	=> array('lang' => 'רשאי לבטל הגבלת הצפה', 'cat' => 'misc'),
 	'acl_f_postcount'	=> array('lang' => 'ספירת הודעות במונה ההודעות<br /><em>שים לב כי הגדרה זו תחול רק על הודעות חדשות.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'רשאי לכתוב הודעה ללא אישור', 'cat' => 'misc'),
 ));

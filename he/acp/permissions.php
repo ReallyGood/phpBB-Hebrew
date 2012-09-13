@@ -274,9 +274,9 @@ $lang = array_merge($lang, array(
 	'TRACE_TOTAL'							=> 'סך הכל',
 
 	'USERS_NOT_ASSIGNED'			=> 'אין משתמשים שנקבעו לכלל זה',
-	'USER_IS_MEMBER_OF_DEFAULT'             => 'הוא חבר בקבוצות המוגדרות מראש הבאות',
-	'USER_IS_MEMBER_OF_CUSTOM'              => 'הוא חבר בקבוצות המשתמש המוגדרות הבאות',
-	'USER_GROUP_NORMAL'                             => 'קבוצות משתמש שהמשתמש חבר בהם',
+	'USER_IS_MEMBER_OF_DEFAULT'		=> 'הוא חבר בקבוצות המוגדרות מראש הבאות',
+	'USER_IS_MEMBER_OF_CUSTOM'		=> 'הוא חבר בקבוצות המשתמש המוגדרות הבאות',
+	'USER_GROUP_NORMAL'				=> 'קבוצות משתמש שהמשתמש חבר בהם',
 
 	'VIEW_ASSIGNED_ITEMS'	=> 'ראה פריטים שנקבעו',
 	'VIEW_LOCAL_PERMS'		=> 'הרשאות מקומיות',
@@ -284,7 +284,8 @@ $lang = array_merge($lang, array(
 	'VIEW_PERMISSIONS'		=> 'ראה הרשאות',
 
 	'WRONG_PERMISSION_TYPE'	=> 'סוג ההרשאה הנבחרת שגויה.',
-	'WRONG_PERMISSION_SETTING_FORMAT'       => 'הגדרת ההרשאות נכתבו בפורמט לא תקין, phpBB לא יכול לעבד אותם כראוי.',
+	'WRONG_PERMISSION_SETTING_FORMAT'	
+	=> 'הגדרת ההרשאות נכתבו בפורמט לא תקין, phpBB לא יכול לעבד אותם כראוי.',
 ));
 
 ?>

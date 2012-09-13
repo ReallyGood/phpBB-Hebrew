@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_TOPIC_EXPLAIN'	=> 'הודעה זו תשלח כטקסט נקי, אל תכלול כאו קוד HTML או BBCode. אנא שים לב שפירטי הנושא כבר כלולים בהודעה, הכתובת לחזרה תיקבע על פי כתובת הדואר אלקטרוני שלך.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'אתה מוכרח לספק כתובת דואר אלקטרוני תקינה של הנמען.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'אתה מוכרח לכתוב את ההודעה שהינך רוצה לשלוח בדואר אלקטרוני.',
-	'EMPTY_MESSAGE_IM'              => 'אתה חייב להזין הודעה לשליחה.',
+	'EMPTY_MESSAGE_IM'		=> 'אתה חייב להזין הודעה לשליחה.',
 	'EMPTY_NAME_EMAIL'		=> 'אתה מוכרח לציין שם אמיתי של הנמען.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'אתה מוכרח לציין נושא להודעה.',
 	'EQUAL_TO'				=> 'שווה ל',
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 
 	'USERNAME_BEGINS_WITH'	=> 'שמות משתמש המתחילים באות',
 	'USER_ADMIN'			=> 'נהל משתמש',
-	'USER_BAN'            => 'חסימה',
+	'USER_BAN'				=> 'חסימה',
 	'USER_FORUM'			=> 'סטטיסטיקת המשתמש',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'לא נשלחו תזכורות בזמן זה',

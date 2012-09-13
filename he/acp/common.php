@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'ACP_MOD_LOGS'				=> 'מעקב אחר פעולות מנהלים',
 	'ACP_MOD_ROLES'				=> 'תפקידי מנהלים',
 	
-	'ACP_NO_ITEMS'            => 'אין פריטים כרגע.',
+	'ACP_NO_ITEMS'				=> 'אין פריטים כרגע.',
 	
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'קבצים מצורפים ללא שולח',
 	
@@ -208,8 +208,8 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'ניהול ראשי',
 	'ADMIN_INDEX'			=> 'עמוד ניהול ראשי',
 	'ADMIN_PANEL'			=> 'לוח בקרה למנהלים ראשיים',
-	'ADM_LOGOUT'         => 'התנתקות מלוח הבקרה',
-    'ADM_LOGGED_OUT'      => 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
+	'ADM_LOGOUT'			=> 'התנתקות מלוח הבקרה',
+	'ADM_LOGGED_OUT'		=> 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
 
 	'BACK'					=> 'חזור',
 
@@ -274,13 +274,13 @@ $lang = array_merge($lang, array(
 
 	'SELECT_ANONYMOUS'		=> 'בחר משתמש אורח',
 	'SELECT_OPTION'			=> 'בחר אפשרות',
-    
+
 	'SETTING_TOO_LOW'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קטן מידי. הערך המינימלי המאושר הוא %2$d.',
 	'SETTING_TOO_BIG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” גבוה מידי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_LONG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” ארוך מידי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_SHORT'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קצר מידי. הערך המינימלי המאושר הוא %2$d.',
 	'SHOW_ALL_OPERATIONS'	=> 'הצג את כל הפעולות',
-    
+
 	'UCP'					=> 'לוח בקרה למשתמש',
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
 	'USER_CONTROL_PANEL'	=> 'לוח בקרה למשתמש',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'גודל בסיס נתונים',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'פנקציית  overloading הוגדרה לא נכון',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'פנקציית overloading הוגדרה לא נכון',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> חייב להיות מוגדר ל0 או ל4. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'קידוד תכונת השקיפות הוגדר לא נכון',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> חייב להיות מוגדר ל0. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'לא ידוע',
 	'INACTIVE_USERS'				=> 'משתמשים לא פעילים',
 	'INACTIVE_USERS_EXPLAIN'		=> 'זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או להזכיר (על-ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'   => 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על-ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על-ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
 	'NO_INACTIVE_USERS'	=> 'אין משתמשים לא פעילים',
 
 	'SORT_INACTIVE'		=> 'תאריך ללא פעילות',
@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ %1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>הרשאות הועברו מ</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'      => '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
 	
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>ניסיון התחברות לניהול ראשי נכשל</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>ניסיון התחברות לניהול ראשי הצליח</strong>',
@@ -471,7 +471,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>שחרר משתמש מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>שחרר IP מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>שחרר דואר אלקטרוני מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL'	=> '<strong>שחרר דואר אלקטרוני מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_USER'			=> '<strong>חסם משתמש</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>חסם IP</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_EMAIL'			=> '<strong>חסם דואר אלקטרוני</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
@@ -589,7 +589,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>ערך פרטי ערכת תמונות</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'				=> '<strong>ערך ערכת תמונות</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'			=> '<strong>יצא ערכת תמונות</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'             => '<strong>ערכת תמונות חסרה ל“%2$s” המקומית</strong><br />» %1$s',
+	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>ערכת תמונות חסרה ל“%2$s” המקומית</strong><br />» %1$s',
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>רענן מיקום “%2$s” של ערכת תמונות</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'		=> '<strong>רענן ערכת תמונות</strong><br />» %s',
 
@@ -659,7 +659,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_ADDED'		=> '<strong>הוסיף סיבת דיווח/חסימה</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>הסיר סיבת דיווח/חסימה</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>עדכן סיבת דיווח/חסימה</strong><br />» %s',
-	'LOG_REFERER_INVALID'      => '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
+	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 
 	'LOG_RESET_DATE'			=> '<strong>תאריך התקנת המערכת אופס</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>',
