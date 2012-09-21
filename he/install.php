@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 
 	// mbstring
 	'MBSTRING_CHECK'						=> 'בדיקת סיומת <samp>mbstring</samp>',
-	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>נדרש</strong> - <samp>mbstring</samp> היא סיומת PHP אשר מספקת פונקציות מחרוזות מרובות בייטים. מאפיינים מסויימים של mbstring לא מותאמים ל־phpBB3 וחייבים להיות כבויים.',
+	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>נדרש</strong> - <samp>mbstring</samp> היא סיומת PHP אשר מספקת פונקציות מחרוזות מרובות בייטים. מאפיינים מסוימים של mbstring לא מותאמים ל־phpBB3 וחייבים להיות כבויים.',
 	'MBSTRING_FUNC_OVERLOAD'				=> 'פונקצית עומס יתר',
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> חייב להקבע ל־0 או 4.',
 	'MBSTRING_ENCODING_TRANSLATION'			=> 'קידוד תו ברור',

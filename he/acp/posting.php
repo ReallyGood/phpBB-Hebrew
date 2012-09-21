@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 		'EMAIL'			=> 'כתובת דואר אלקטרוני תיקנית.',
 		'URL'			=> 'כתובת אינטרנט תקנית של כל פרוטוקול (http, ftp וכדומה לא מותרות לשימוש כדי למנוע ניצולי JavaScript). אם לא צויין פרוטוקול “http://” נכנס כברירת מחדל.',
 		'LOCAL_URL'		=> 'קישור פנימי. הקישור מוכרח להיות מקושר לנושא כלשהו ולא יכול להכיל שם שרת או פרוטוקול.',
-		'COLOR'			=> 'צבע HTML, יכול להיות בצורת מספר <samp>#FFFF00</samp> או צבע CSS לדוגמא <samp>fuchsia</samp> או <samp>InactiveBorder</samp>'
+		'COLOR'			=> 'צבע HTML, יכול להיות בצורת מספר <samp>#FFFF00</samp> או צבע CSS לדוגמה <samp>fuchsia</samp> או <samp>InactiveBorder</samp>'
 	)
 ));
 
