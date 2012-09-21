@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: $
 * @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB διωψΰμι - www.phpBB.co.il
+* @author 2008-07-16 - phpBB Χ”Χ™Χ©Χ¨ΧΧΧ™ - www.phpBB.co.il
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
