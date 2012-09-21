@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'acl_u_masspm_group'=> array('lang' => 'רשאי לשלוח הודעות לקבוצות', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => 'רשאי לקרוא הודעות פרטיות', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => 'רשאי לערוך הודעות פרטיות עצמיות', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => 'רשאי למחוק הודעות פרטיות מהתיקיה האישית', 'cat' => 'pm'),
+	'acl_u_pm_delete'	=> array('lang' => 'רשאי למחוק הודעות פרטיות מהתיקייה האישית', 'cat' => 'pm'),
 	'acl_u_pm_forward'	=> array('lang' => 'רשאי להעביר הודעות פרטיות', 'cat' => 'pm'),
 	'acl_u_pm_emailpm'	=> array('lang' => 'רשאי לשלוח בדואר אלקטרוני הודעות פרטיות', 'cat' => 'pm'),
 	'acl_u_pm_printpm'	=> array('lang' => 'רשאי להדפיס הודעות פרטיות', 'cat' => 'pm'),

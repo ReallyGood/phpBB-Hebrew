@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'					=> 'הורד',
 	'DOWNLOAD_AS'				=> 'הורד בתור',
 	'DOWNLOAD_STORE'			=> 'הורד או אחסן קובץ',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקיה <samp>store/</samp>.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקייה <samp>store/</samp>.',
 
 	'EDIT'					=> 'ערוך',
 	'ENABLE'				=> 'הפעל',
@@ -610,7 +610,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>התקין חבילת שפה</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>עדכן פרטי חבילת שפה</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>החליף קובץ שפה</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>שלח קובץ שפה והכניס אותו לתיקיה store</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>שלח קובץ שפה והכניס אותו לתיקייה store</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>שלח בשולח הדואר</strong><br />» %s',
 

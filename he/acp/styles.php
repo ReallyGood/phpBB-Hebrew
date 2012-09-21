@@ -380,7 +380,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_EDITOR'			=> 'עריכת קוד HTML של עיצוב',
 	'TEMPLATE_EDITOR_HEIGHT'	=> 'גובה חלון עריכה',
 	'TEMPLATE_ERR_ARCHIVE'		=> 'אנא בחר מתודת ספרייה',
-	'TEMPLATE_ERR_CACHE_READ'	=> 'התיקיה cache אשר בשימוש לאחסון גרסאות קבצי הערכה בזכרון המטמון לא ניתנת להפתח.',
+	'TEMPLATE_ERR_CACHE_READ'	=> 'התיקייה cache אשר בשימוש לאחסון גרסאות קבצי הערכה בזכרון המטמון לא ניתנת להפתח.',
 	'TEMPLATE_ERR_COPY_LONG'	=> 'אורך זכויות היוצרים אינו יכול לעלות על 60 תווים.',
 	'TEMPLATE_ERR_NAME_CHARS'	=> 'שם תבנית העיצוב יכול להכיל מספרים אותיות ואת הסימנים -, +, _ בלבד..',
 	'TEMPLATE_ERR_NAME_EXIST'	=> 'שם תבנית העיצוב שבחרת כבר קיים במערכת, אנא בחר שם אחר.',
@@ -397,7 +397,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'			=> 'אחסן תבניות עיצוב ב',
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'תמונות מאוחסנות תמיד בקבצי המערכת.',
 	'TEMPLATE_NAME'				=> 'שם תבנית עיצוב',
-	'TEMPLATE_FILE_NOT_WRITABLE'=> 'לא ניתן לכתוב לקובץ תבנית העיצוב %s. אנא בדוק את ההרשאות של התיקיה ושל הקבצים.',
+	'TEMPLATE_FILE_NOT_WRITABLE'=> 'לא ניתן לכתוב לקובץ תבנית העיצוב %s. אנא בדוק את ההרשאות של התיקייה ושל הקבצים.',
 	'TEMPLATE_REFRESHED'		=> 'תבנית העיצוב רועננה בהצלחה.',
 
 	'THEME_ADDED'				=> 'סגנון חדש נוסף לבסיס הנתונים.',
