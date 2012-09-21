@@ -253,7 +253,7 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<samp>כן</samp> אשר עוברת על התוצאה המקומית הנוכחית <samp>לעולם לא</samp>. %sאתר הרשאה גלובאלית%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<samp>לעולם לא</samp> אשר לא משפיעה על ההרשאה המקומית. %sאתר הרשאה גלובאלית%s',
 
-	'TRACE_USER_FOUNDER'					=> 'המשתמש הינו מייסד, לכן תמיד הרשאות המנהל מוגדרות ל<samp>כן</samp>.',
+	'TRACE_USER_FOUNDER'					=> 'המשתמש הנו מייסד, לכן תמיד הרשאות המנהל מוגדרות ל<samp>כן</samp>.',
 	'TRACE_USER_KEPT'						=> 'הרשאת המשתמש היא <samp>לא</samp> כך שהערך הכולל הקודם נשמר.',
 	'TRACE_USER_KEPT_LOCAL'					=> 'הרשאת המשתמש לפורום זה היא <samp>לא</samp> כך שהערך הכולל הקודם נשמר.',
 	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'הרשאת המשתמש נקבעה ל<samp>לעולם לא</samp> והערך הכולל נקבע ל<samp>לעולם לא</samp>, כך ששום דבר לא השתנה.',

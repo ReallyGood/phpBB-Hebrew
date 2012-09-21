@@ -60,11 +60,11 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_FILESIZE'				=> 'גודל קובץ מירבי',
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'גודל מרבי של כל קובץ. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP בשרת.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'גודל קובץ מרבי להודעה פרטית',
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'גודל מרבי של קובץ, מצורף להודעה הפרטית, כאשר 0 הינו בלתי מוגבל.',
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'גודל מרבי של קובץ, מצורף להודעה הפרטית, כאשר 0 הנו בלתי מוגבל.',
 	'ATTACH_ORPHAN_URL'					=> 'קבצים מצורפים ללא שולח',
 	'ATTACH_POST_ID'					=> 'מספר ID של הודעה',
 	'ATTACH_QUOTA'						=> 'מכסת קבצים מצורפים כללית',
-	'ATTACH_QUOTA_EXPLAIN'				=> 'שטח אחסון מרבי זמין לקבצים מצורפים למערכת השלמה, כאשר 0 הינו בלתי מוגבל.',
+	'ATTACH_QUOTA_EXPLAIN'				=> 'שטח אחסון מרבי זמין לקבצים מצורפים למערכת השלמה, כאשר 0 הנו בלתי מוגבל.',
 	'ATTACH_TO_POST'					=> 'צרף קובץ להודעה',
 
 	'CAT_FLASH_FILES'			=> 'קבצי פלאש',
