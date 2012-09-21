@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_SELECTED'		=> 'הסר נבחרים',
 
-	'USER_GROUP_CHANGE'			=> 'מקבוצה “%1$s” ל “%2$s”',
+	'USER_GROUP_CHANGE'			=> 'מקבוצה “%1$s” ל־“%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'בטל ניהול קבוצה',
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'אתה בטוח שאתה רוצה לבטל את ניהול הקבוצה שלך בקבוצה הנבחרת?',
 	'USER_GROUP_DEMOTED'		=> 'ניהול הקבוצה שלך בוטל בהצלחה.',

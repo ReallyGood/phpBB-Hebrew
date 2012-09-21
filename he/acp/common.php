@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> 'פרק סמיילים',
 	'PARSE_URLS'						=> 'פרק קישורים',
 	'PERMISSIONS_TRANSFERRED'			=> 'ההרשאות עוברו',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ %1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ־%1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
 	'PROCEED_TO_ACP'					=> '%sהמשך ללוח הבקרה למנהלים ראשיים%s',
 
 	'REMIND'							=> 'הזכר',
@@ -331,9 +331,9 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'קידוד תכונת השקיפות הוגדר לא נכון',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> חייב להיות מוגדר ל0. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'ממיר תכונת הקלט של HTTP הוגדר לא נכון',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> חייב להיות מוגדר ל <samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'ממיר תכונת הפלט של HTTP הוגדר לא נכון',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> חייב להיות מוגדר ל <samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'קבצים מצורפים ליום',
 	'FORUM_STATS'		=> 'סטטיסטיקות המערכת',
@@ -387,8 +387,8 @@ $lang = array_merge($lang, array(
 	'VIEW_ADMIN_LOG'		=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
 	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
 
-	'WELCOME_PHPBB'			=> 'ברוך הבא ל phpBB3',
-	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל 640 או לפחות ל 644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WELCOME_PHPBB'			=> 'ברוך הבא ל־phpBB3',
+	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -439,18 +439,18 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובאלים</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאת פורום של קבוצות</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>הוסיף או ערך הרשאת מנהל פורום של קבוצות</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאת פורום של קבוצות</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>הוסיף או ערך הרשאת מנהל פורום של קבוצות</strong> מ־%1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>הוסיף או ערך מנהלים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>הוסיף או ערך מנהלים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>הסיר מנהלים ראשיים</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובאלים</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>הרשאות הועברו מ</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
@@ -553,7 +553,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_EMAIL'		=> '<strong>שגיאת דואר אלקטרוני</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>יצר פורום חדש</strong><br />» %s',
-	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ %1$s<br />» %2$s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ־%1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>מחק פורום</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>מחק פורום ואת תתי־הפורומים שלו</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>מחק פורום והעביר תתי־פורומים</strong> אל %1$s<br />» %2$s',
@@ -596,7 +596,7 @@ $lang = array_merge($lang, array(
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>הפעיל משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>מחק משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזכורת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
-	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ %1$s ל phpBB %2$s</strong>',
+	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ־%1$s ל־phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>התקין את phpBB %s</strong>',
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>בדיקת חיבור IP/דפדפן/X_FORWARDED_FOR נכשלה</strong><br />»IP של המשתמש “<em>%1$s</em>” נבדק אל מול חיבור IP “<em>%2$s</em>”, מחרוזת דפדפן המשתמש “<em>%3$s</em>” נבדקה אל מול מחרוזת דפדפן המשתמש בחיבור “<em>%4$s</em>” ומחרוזת X_FORWARDED_FOR של המשתמש “<em>%5$s</em>” נבדקה אל מול מחרוזת X_FORWARDED_FOR של החיבור “<em>%6$s</em>”.',
@@ -614,7 +614,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>שלח בשולח הדואר</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>שינה שולח בנושא “%1$s”</strong><br />» מ %2$s ל %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>שינה שולח בנושא “%1$s”</strong><br />» מ־%2$s ל־%3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>מודול כובה</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>מודול הופעל</strong><br />» %s',
@@ -710,8 +710,8 @@ $lang = array_merge($lang, array(
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה סיסמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ “%2$s” ל “%3$s”',
-	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ “%1$s” ל “%2$s”',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
+	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ־“%1$s” ל־“%2$s”',
 	'LOG_USER_USER_UPDATE'	=> '<strong>עדכן פרטי משתמש</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'		=> '<strong>חשבון משתמש הופעל</strong>',

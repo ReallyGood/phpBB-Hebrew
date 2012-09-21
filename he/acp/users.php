@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'QUICK_TOOLS'			=> 'כלים מהירים',
 
 	'REGISTERED'			=> 'רשומים',
-	'REGISTERED_IP'			=> 'רשומים מ IP',
+	'REGISTERED_IP'			=> 'רשומים מ־IP',
 	'RETAIN_POSTS'			=> 'שמור הודעות',
 
 	'SELECT_FORM'			=> 'בחר טופס',

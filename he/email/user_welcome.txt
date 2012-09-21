@@ -1,4 +1,4 @@
-Subject: ברוך הבא ל "{SITENAME}"
+Subject: ברוך הבא ל־"{SITENAME}"
 
 {WELCOME_MSG}
 
