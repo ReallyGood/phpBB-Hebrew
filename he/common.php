@@ -671,7 +671,7 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> '%d הודעות',
 	'USERS'					=> 'משתמשים',
 	'USE_PERMISSIONS'		=> 'נסה את הרשאות המשתמש',
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'אנו מצטערים, אך אינך מורשה להשתמש באפשרות זו. יכול להיות שרק נרשמת לכאן והינך צריך להשתתף יותר כדי להשתמש באפשרות זו.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'אנו מצטערים, אך אינך מורשה להשתמש באפשרות זו. יכול להיות שרק נרשמת לכאן והנך צריך להשתתף יותר כדי להשתמש באפשרות זו.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'נצפה',

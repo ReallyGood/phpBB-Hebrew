@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 
 	'HTML_REPLACEMENT'				=> 'HTML תחליף',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color:{COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family:{SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'כאן הינך מגדיר את התחלופה בHTML למוגדר למעלה. אל תשכח להשתמש באותם הסימנים.',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'כאן הנך מגדיר את התחלופה בHTML למוגדר למעלה. אל תשכח להשתמש באותם הסימנים.',
 
 	'TOKEN'					=> 'טוקן',
 	'TOKENS'				=> 'טוקן',
