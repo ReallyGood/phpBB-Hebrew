@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_VIEWTOPIC'		=> 'המערכת דורשת ממך להיות רשום ומחובר כדי לצפות בנושא הזה.',
 
 	'MAKE_ANNOUNCE'				=> 'שנה ל־“הכרזה”',
-	'MAKE_GLOBAL'				=> 'שנה ל־“גלובאלי”',
+	'MAKE_GLOBAL'				=> 'שנה ל־“גלובלי”',
 	'MAKE_NORMAL'				=> 'שנה ל־“נושא רגיל”',
 	'MAKE_STICKY'				=> 'שנה ל־“דביק”',
 	'MAX_OPTIONS_SELECT'		=> 'אתה יכול לבחור עד <strong>%d</strong> אפשרויות',

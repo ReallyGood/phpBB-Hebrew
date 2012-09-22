@@ -94,8 +94,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'הגדרות כלליות',
 	'ACP_GENERAL_TASKS'				=> 'משימות כלליות',
-	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובאלים',
-	'ACP_GLOBAL_PERMISSIONS'		=> 'הרשאות גלובאליות',
+	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובלים',
+	'ACP_GLOBAL_PERMISSIONS'		=> 'הרשאות גלובליות',
 	'ACP_GROUPS'					=> 'קבוצות',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'הרשאות פורום של קבוצה',
 	'ACP_GROUPS_MANAGE'				=> 'ניהול קבוצות',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'הצגת הרשאות ניהול ראשי',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול פורום',
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'הצגת הרשאות לפי פורום',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול גלובאלי',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול גלובלי',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'הצגת הרשאות לפי משתמש',
 	
 	'ACP_WORDS'					=> 'צנזור מילים',
@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
-	'DIRECTORY_NOT_DIR'			=> 'הנתיב שהוזן “%s” אינו תיקיה.',
+	'DIRECTORY_NOT_DIR'			=> 'הנתיב שהוזן “%s” אינו תיקייה.',
 	'DIRECTORY_NOT_WRITABLE'	=> 'הנתיב שהוזן “%s” אינו ניתן לכתיבה.',
 	'DISABLE'					=> 'כבה',
 	'DOWNLOAD'					=> 'הורד',
@@ -233,7 +233,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_OPTIONS'		=> 'אפשרויות כלליות',
 	'GENERAL_SETTINGS'		=> 'הגדרות כלליות',
-	'GLOBAL_MASK'			=> 'משימת הרשאה גלובאלית',
+	'GLOBAL_MASK'			=> 'משימת הרשאה גלובלית',
 
 	'INSTALL'				=> 'התקן',
 	'IP'					=> 'IP של משתמש',
@@ -298,7 +298,7 @@ $lang = array_merge($lang, array(
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המערכת עצמה. המעקב פעולות מספק לך מידע אשר תוכל להשתמש בו לפתירת בעיות מסויימות, למשל אי־מסירת הודעות דואר אלקטרוני. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המערכת עצמה. המעקב פעולות מספק לך מידע אשר תוכל להשתמש בו לפתירת בעיות מסוימות, למשל אי־מסירת הודעות דואר אלקטרוני. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'עמוד זה רושם את כל הפעולות אשר התבצעו בפורומים, נושאים והודעות וכמו כן פעולות שהתצבעו על משתמשים על־ידי מנהלים, כולל חסימה. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את המעקב הפעולות בשלמותו.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי משתמשים או על משתמשים (דיווחים, אזהרות והודעות משתמש).',
 	'ALL_ENTRIES'				=> 'כל הרישומים',
@@ -431,13 +431,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>הוסיף או ערך הרשאות משתמש של משתמשים</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>הוסיף או ערך הרשאות משתמש של קבוצות</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובאלי של משתמשים</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובאלי של קבוצות</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובלי של משתמשים</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובלי של קבוצות</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של משתמשים</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של קבוצות</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובאלים</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובלים</strong><br />» %s',
 
 	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>הסיר מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובאלים</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובלים</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s',
 

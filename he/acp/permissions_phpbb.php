@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 		'm_'			=> 'הרשאות מנהל',
 		'f_'			=> 'הרשאות פורום',
 		'global'		=> array(
-			'm_'			=> 'הרשאות מנהל גלובאלי',
+			'm_'			=> 'הרשאות מנהל גלובלי',
 		),
 	),
 ));
@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'acl_u_viewprofile'	=> array('lang' => 'רשאי לצפות בפרופילים, רשימת המשתמשים, ורשימת המחוברים', 'cat' => 'profile'),
 	'acl_u_chgname'		=> array('lang' => 'רשאי לשנות שם משתמש', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => 'רשאי לשנות סיסמה', 'cat' => 'profile'),
+	'acl_u_chgpasswd'	=> array('lang' => 'רשאי לשנות ססמה', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => 'רשאי לשנות את כתובת הדואר האלקטרוני', 'cat' => 'profile'),
 	'acl_u_chgavatar'	=> array('lang' => 'רשאי לשנות את תמונת התצוגה', 'cat' => 'profile'),
 	'acl_u_chggrp'		=> array('lang' => 'רשאי לשנות את קבוצת ברירת המחדל', 'cat' => 'profile'),
@@ -186,13 +186,13 @@ $lang = array_merge($lang, array(
 	'acl_m_merge'	=> array('lang' => 'רשאי למזג נושאים', 'cat' => 'topic_actions'),
 
 'acl_m_info'	=> array('lang' => 'רשאי לראות פרטי הודעה', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובאלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
-	'acl_m_ban'		=> array('lang' => 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובאלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_warn'	=> array('lang' => 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_ban'		=> array('lang' => 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'רשאי לשנות הגדרות מערכת/לבדוק עבור עידכונים', 'cat' => 'settings'),
+	'acl_a_board'		=> array('lang' => 'רשאי לשנות הגדרות מערכת/לבדוק עבור עדכונים', 'cat' => 'settings'),
 	'acl_a_server'		=> array('lang' => 'רשאי לשנות שרת/הגדרות תקשורת', 'cat' => 'settings'),
 	'acl_a_jabber'		=> array('lang' => 'רשאי לשנות הגדרות Jabber', 'cat' => 'settings'),
 	'acl_a_phpinfo'		=> array('lang' => 'רשאי לראות הגדרות PHP', 'cat' => 'settings'),
@@ -218,8 +218,8 @@ $lang = array_merge($lang, array(
 	'acl_a_ban'			=> array('lang' => 'רשאי לנהל חסימות', 'cat' => 'user_group'),
 
 	'acl_a_viewauth'	=> array('lang' => 'רשאי לראות הרשאות מוסתרות', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'רשאי לשנות הרשאות לקבוצות מסויימות', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'רשאי לשנות הרשאות למשתמשים מסויימים', 'cat' => 'permissions'),
+	'acl_a_authgroups'	=> array('lang' => 'רשאי לשנות הרשאות לקבוצות מסוימות', 'cat' => 'permissions'),
+	'acl_a_authusers'	=> array('lang' => 'רשאי לשנות הרשאות למשתמשים מסוימים', 'cat' => 'permissions'),
 	'acl_a_fauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה לפורום', 'cat' => 'permissions'),
 	'acl_a_mauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהלים', 'cat' => 'permissions'),
 	'acl_a_aauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהל הראשי', 'cat' => 'permissions'),
