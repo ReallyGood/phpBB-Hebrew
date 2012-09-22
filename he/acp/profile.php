@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'INVALID_FIELD_IDENT_LEN'	=> 'השדה יכול להכיל רק 17 תווים.',
 	'ISO_LANGUAGE'				=> 'שפה [%s]',
 
-	'LANG_SPECIFIC_OPTIONS'		=> 'אפשרות שפה מסויימת [<strong>%s</strong>]',
+	'LANG_SPECIFIC_OPTIONS'		=> 'אפשרות שפה מסוימת [<strong>%s</strong>]',
 
 	'MAX_FIELD_CHARS'		=> 'מספר תווים מקסימלי',
 	'MAX_FIELD_NUMBER'		=> 'מספר המשתמשים הגבוהה ביותר',
