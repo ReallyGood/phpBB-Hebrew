@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'מחק טבלה או העבר לפורום',
 	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'מחק תת פורום או העבר לפורום',
-	'DEFAULT_STYLE'						=> 'סיגנון ברירת המחדל',
+	'DEFAULT_STYLE'						=> 'סגנון ברירת המחדל',
 	'DELETE_ALL_POSTS'					=> 'מחק הודעות',
 	'DELETE_SUBFORUMS'					=> 'מחק תת פורומים והודעות',
 	'DISPLAY_ACTIVE_TOPICS'				=> 'הפעל נושאים פעילים',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_TOO_LONG'				=> 'חוקי הפורום יכולים להכיל מקסימום 4000 תווים.',
 	'FORUM_SETTINGS'					=> 'הגדרות הפורום',
 	'FORUM_STATUS'						=> 'מצב הפורום',
-	'FORUM_STYLE'						=> 'סיגנון הפורום',
+	'FORUM_STYLE'						=> 'סגנון הפורום',
 	'FORUM_TOPICS_PAGE'					=> 'נושאים בעמוד',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'אם אין אפס ערך זה יעקוף הגדרות ברירת המחדל של נושאים בעמוד.',
 	'FORUM_TYPE'						=> 'סוג הפורום',
