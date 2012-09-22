@@ -112,8 +112,8 @@ $lang = array_merge($lang, array(
 	'MIN_FIELD_NUMBER'		=> 'מספר המשתמשים הנמוך ביותר',
 
 	'NO_FIELD_ENTRIES'			=> 'אין כניסות מוגדרות',
-	'NO_FIELD_ID'				=> 'אין שדה מזוהה מסויים.',
-	'NO_FIELD_TYPE'				=> 'אין סוג שדה מסויים.',
+	'NO_FIELD_ID'				=> 'אין שדה מזוהה מסוים.',
+	'NO_FIELD_TYPE'				=> 'אין סוג שדה מסוים.',
 	'NO_VALUE_OPTION'			=> 'האפשרות שווה למספר לא מוגדר',
 	'NO_VALUE_OPTION_EXPLAIN'	=> 'בשביל ערך לא מוגדר. אם השדה דרוש, המשתמש יקבל שגיאה אם ייבחר את האפשרות שנבחרה כאן.',
 	'NUMBERS_ONLY'				=> 'רק מספרים (0-9)',
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'PROFILE_BASIC_OPTIONS'		=> 'אפשרויות בסיסיות',
 	'PROFILE_FIELD_ACTIVATED'	=> 'שדה פרופיל הופעל בהצלחה.',
 	'PROFILE_FIELD_DEACTIVATED'	=> 'שדה פרופיל נוטרל בהצלחה.',
-	'PROFILE_LANG_OPTIONS'		=> 'אפשרויות שפה מסויימות',
+	'PROFILE_LANG_OPTIONS'		=> 'אפשרויות שפה מסוימות',
 	'PROFILE_TYPE_OPTIONS'		=> 'אפשרויות מסוימות סוג הפרופיל',
 
 	'RADIO_BUTTONS'				=> 'כפתורי רדיו',

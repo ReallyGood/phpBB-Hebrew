@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'נושאים הממתינים לאישור',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'זוהי רשימת הנושאים שנרשמו על ידי משתמשים אשר ממתינים לקבל אישור לפני פירסום ההודעות לקהל המשתמשים בפורום.',
 
-	'MCP_VIEW_USER'			=> 'ראה אזהרות של משתמשים מסויימים',
+	'MCP_VIEW_USER'			=> 'ראה אזהרות של משתמשים מסוימים',
 
 	'MCP_WARN'				=> 'אזהרות',
 	'MCP_WARN_FRONT'		=> 'עמוד ראשון',

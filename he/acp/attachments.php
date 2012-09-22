@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXTENSIONS_URL'				=> 'סיומות',
 	'ATTACH_EXT_GROUPS_URL'				=> 'קבוצות סיומות',
 	'ATTACH_ID'							=> 'ID',
-	'ATTACH_MAX_FILESIZE'				=> 'גודל קובץ מירבי',
+	'ATTACH_MAX_FILESIZE'				=> 'גודל קובץ מרבי',
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'גודל מרבי של כל קובץ. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP בשרת.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'גודל קובץ מרבי להודעה פרטית',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'גודל מרבי של קובץ, מצורף להודעה הפרטית, כאשר 0 הנו בלתי מוגבל.',
@@ -117,8 +117,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_ATTACHMENTS'				=> 'מספר מרבי של קבצים מצורפים לכל הודעה',
 	'MAX_ATTACHMENTS_PM'			=> 'מספר מרבי של קבצים מצורפים לכל הודעה פרטית',
-	'MAX_EXTGROUP_FILESIZE'			=> 'גודל קובץ מירבי',
-	'MAX_IMAGE_SIZE'				=> 'מימדי תמונה מירביים',
+	'MAX_EXTGROUP_FILESIZE'			=> 'גודל קובץ מרבי',
+	'MAX_IMAGE_SIZE'				=> 'מימדי תמונה מרביים',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'גודל מרבי של תמונות מצורפות. קבע את שני הערכים ל־0 פיקסלים על 0 פיקסלים כדי לכבות את בדיקת המימדים.',
 	'MAX_THUMB_WIDTH'				=> 'רוחב מרבי לתמונה מוקטנת בפיקסלים',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'תמונה מוקטנת הנוצרת לא תעבור את הרוחב הנקבע כאן.',
@@ -168,7 +168,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR'					=> 'תיקיית קבצים',
 	'UPLOAD_DIR_EXPLAIN'			=> 'נתיב לאחסון הקבצים המצורפים. שים לב שאם תשנה את התיקייה לאחר שיש בה כבר קבצים מצורפים, תצטרך להעביר אותם למיקום החדש ידנית.',
 	'UPLOAD_ICON'					=> 'סמל העלאה',
-	'UPLOAD_NOT_DIR'				=> 'המיקום לקבצים שציינת אינו נראה כתיקיה.',
+	'UPLOAD_NOT_DIR'				=> 'המיקום לקבצים שציינת אינו נראה כתיקייה.',
 ));
 
 ?>
