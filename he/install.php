@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	// mbstring
 	'MBSTRING_CHECK'						=> 'בדיקת סיומת <samp>mbstring</samp>',
 	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>נדרש</strong> - <samp>mbstring</samp> היא סיומת PHP אשר מספקת פונקציות מחרוזות מרובות בייטים. מאפיינים מסוימים של mbstring לא מותאמים ל־phpBB3 וחייבים להיות כבויים.',
-	'MBSTRING_FUNC_OVERLOAD'				=> 'פונקצית עומס יתר',
+	'MBSTRING_FUNC_OVERLOAD'				=> 'פונקציית עומס יתר',
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> חייב להיקבע ל־0 או 4.',
 	'MBSTRING_ENCODING_TRANSLATION'			=> 'קידוד תו ברור',
 	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> חייב להיקבע ל־0.',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'OVERVIEW_BODY'					=> 'ברוך הבא ל־phpBB3!<br /><br />"phpBB הישראלי" הנו התרגום העברי הרשמי של phpBB™ אשר הינה מערכת הפורומים המבוססת על קוד פתוח אשר בשימוש הרחב ביותר בעולם. phpBB3 הוא ההתקן האחרון בפיתוח הנמשך שבע שנים. כמו קודמיה, phpBB3 עשירה במאפיינים, ידידותית למשתמש, ונתמכת בצורה מלאה על־ידי צוות phpBB הישראלי. phpBB3 משפרת בצורה רבה את מה שקיים כבר ב־phpBB גרסה 2 המצליחה, ומוסיפה מאפיינים בעלי ביקוש רב אשר אינם קיימים בגרסאות הקודמות.אנו מקווים כי היא עוברת את ציפיותיך.<br /><br />מערכת התקנה זו תדריך אותך לאורך התקנת phpBB3, עדכון לגרסה האחרונה של phpBB3 מגרסאות קודמות, וכמו כן המרה לphpBB3 ממערכת פורומים שונות (כולל phpBB2). למידע נוסף, אנו ממליצים לך לקרוא את <a href="../docs/INSTALL.html">מדריך ההתקנה</a>.<br /><br />כדי לקרוא את רשיון phpBB3 וללמוד על קבלת תמיכה ועמדתנו לגביה, בחר באפשרויות המתאימות בתפריט הצדדי. להמשך, בחר בתווית המתאימה אשר מעל.',
 	'PCRE_UTF_SUPPORT'				=> 'תמיכה ב־PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>לא</strong> תפעל אם התקן ה־PHP שלך אינו מותאם לתמיכה ב־UTF-8 בסיומת PCRE.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'פונקצית ה־PHP getimagesize() זמינה',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'פונקציית ה־PHP getimagesize() זמינה',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>נדרש</strong> - כדי ש־phpBB3 תעבוד כראוי, הפונקציה getimagesize צריכה להיות זמינה.',
 	'PHP_OPTIONAL_MODULE'			=> 'אפשרויות נוספות',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>לא נדרש</strong> - אפשרויות או יישומים אלו אינם נדרשים, אך זמינותם תאפשר לך מאפיינים נוספים.',

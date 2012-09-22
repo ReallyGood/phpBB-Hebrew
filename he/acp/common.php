@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> 'משתמשים וקבוצות',
 	'ACP_CAT_USERS'				=> 'משתמשים',
 	'ACP_CLIENT_COMMUNICATION'	=> 'תקשורת לקוחות',
-	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגיה',
+	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגייה',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
 	
@@ -496,7 +496,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_ATTACH'			=> '<strong>שינה הגדרות צירוף קבצים</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>שינה הגדרות אימות</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>שינה הגדרות סמל אישי</strong>',
-	'LOG_CONFIG_COOKIE'			=> '<strong>שנה הגדרות עוגיה</strong>',
+	'LOG_CONFIG_COOKIE'			=> '<strong>שנה הגדרות עוגייה</strong>',
 	'LOG_CONFIG_EMAIL'			=> '<strong>שינה הגדרות דואר אלקטרוני</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>שינה מאפייני מערכת</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>שינה הגדרות כלליות</strong>',
