@@ -643,7 +643,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_USERS_ZERO'	=> '<strong>0</strong> משתמשים בסך הכל',
 	'TRACKED_PHP_ERROR'	=> 'שגיאות PHP מעוקבות: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'לא ניתן לקבוע את מימדי התמונה.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'לא ניתן לקבוע את ממדי התמונה.',
 	'UNABLE_TO_DELIVER_FILE'=> 'לא ניתן למסור קובץ.',
 	'UNKNOWN_BROWSER'		=> 'דפדפן לא ידוע',
 	'UNMARK_ALL'			=> 'בטל סימון',
