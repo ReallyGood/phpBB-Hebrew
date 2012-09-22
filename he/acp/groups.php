@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'GROUP_SKIP_AUTH'				=> 'שחרר את ראש הקבוצה מהרשאות',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'אם מאופשר ראש קבוצה לא יקבל הרשאות מהקבוצה.',
 	'GROUP_TYPE'					=> 'סוג הקבוצה',
-	'GROUP_TYPE_EXPLAIN'			=> 'יחליט מי יכול להכנס לקבוצה או לראותה.',
+	'GROUP_TYPE_EXPLAIN'			=> 'יחליט מי יכול להיכנס לקבוצה או לראותה.',
 	'GROUP_UPDATED'					=> 'אפשרויות הקבוצה עודכנה בהצלחה.',
 	
 	'GROUP_USERS_ADDED'				=> 'משתמשים חדשים נוספו לקבוצה בהצלחה.',
