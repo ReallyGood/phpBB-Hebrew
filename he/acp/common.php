@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'					=> 'הורד',
 	'DOWNLOAD_AS'				=> 'הורד בתור',
 	'DOWNLOAD_STORE'			=> 'הורד או אחסן קובץ',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקיה <samp>store/</samp>.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקייה <samp>store/</samp>.',
 
 	'EDIT'					=> 'ערוך',
 	'ENABLE'				=> 'הפעל',
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'הודעה',
 	'NO_ADMIN'				=> 'אינך מורשה לנהל מערכת זו.',
 	'NO_EMAILS_DEFINED'		=> 'לא נמצאו כתובות דואר אלקטרוני חוקיות.',
-	'NO_PASSWORD_SUPPLIED'	=> 'אתה צריך להזין את סיסמתך כדי לגשת ללוח הבקרה למנהלים ראשיים.',	
+	'NO_PASSWORD_SUPPLIED'	=> 'אתה צריך להזין את ססמתך כדי לגשת ללוח הבקרה למנהלים ראשיים.',	
 
 	'OFF'					=> 'כבוי',
 	'ON'					=> 'פעיל',
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> 'פרק סמיילים',
 	'PARSE_URLS'						=> 'פרק קישורים',
 	'PERMISSIONS_TRANSFERRED'			=> 'ההרשאות עוברו',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ %1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ־%1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
 	'PROCEED_TO_ACP'					=> '%sהמשך ללוח הבקרה למנהלים ראשיים%s',
 
 	'REMIND'							=> 'הזכר',
@@ -290,17 +290,17 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'עמוד זה רושם את המידע לגבי גרסת PHP המותקנת על שרת זה. הוא כולל פרטים על מודולים טעונים, משתנים זמינים והגדרות ברירת מחדל. מידע זה יכול להיות שימושי בעת בעיות אבחון. שים לב שכמה חברות אחסון יגבילו את המידע המוצג כאן מטעמי ביטחון. מומלץ לא למסור שום פרטים מעמוד זה מלבד כאשר אתה מתבקש על-ידי <a href="http://www.phpbb.co.il/about.php">חברי הצוות הרשמיים</a> בפורומי התמיכה.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'עמוד זה רושם את המידע לגבי גרסת PHP המותקנת על שרת זה. הוא כולל פרטים על מודולים טעונים, משתנים זמינים והגדרות ברירת מחדל. מידע זה יכול להיות שימושי בעת בעיות אבחון. שים לב שכמה חברות אחסון יגבילו את המידע המוצג כאן מטעמי ביטחון. מומלץ לא למסור שום פרטים מעמוד זה מלבד כאשר אתה מתבקש על־ידי <a href="http://www.phpbb.co.il/about.php">חברי הצוות הרשמיים</a> בפורומי התמיכה.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'לא ניתן לגלות מידע על הגדרות PHP. Phpinfo() כבוי מטעמי ביטחון.',
 ));
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על-ידי המנהלים הראשיים של המערכת. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על-ידי המערכת עצמה. המעקב פעולות מספק לך מידע אשר תוכל להשתמש בו לפתירת בעיות מסויימות, למשל אי-מסירת הודעות דואר אלקטרוני. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'עמוד זה רושם את כל הפעולות אשר התבצעו בפורומים, נושאים והודעות וכמו כן פעולות שהתצבעו על משתמשים על-ידי מנהלים, כולל חסימה. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את המעקב הפעולות בשלמותו.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על-ידי משתמשים או על משתמשים (דיווחים, אזהרות והודעות משתמש).',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי המערכת עצמה. המעקב פעולות מספק לך מידע אשר תוכל להשתמש בו לפתירת בעיות מסויימות, למשל אי־מסירת הודעות דואר אלקטרוני. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את מעקב הפעולות בשלמותו.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'עמוד זה רושם את כל הפעולות אשר התבצעו בפורומים, נושאים והודעות וכמו כן פעולות שהתצבעו על משתמשים על־ידי מנהלים, כולל חסימה. אתה יכול למיין לפי שם משתמש, תאריך, IP או פעולה. אם יש לך את ההרשאות המתאימות, אתה יכול להסיר פעולות מסויות או את המעקב הפעולות בשלמותו.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'עמוד זה רושם את כל הפעולות אשר התבצעו על־ידי משתמשים או על משתמשים (דיווחים, אזהרות והודעות משתמש).',
 	'ALL_ENTRIES'				=> 'כל הרישומים',
 
 	'DISPLAY_LOG'	=> 'הצג רישומים קודמים',
@@ -314,10 +314,10 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'תודה שבחרת ב phpBB3 בתור מערכת הפורומים שלך. מסך זה יספק לך סקירה כללית מהירה של כל הסטטיסטיקות השונות של המערכת. הקישורים בתפריט הימני מאפשרים לך לנהל כל חלק במערכת. כל עמוד מכיל את ההוראות שלו על כיצד להשתמש בכלים.',
+	'ADMIN_INTRO'				=> 'תודה שבחרת ב־phpBB3 בתור מערכת הפורומים שלך. מסך זה יספק לך סקירה כללית מהירה של כל הסטטיסטיקות השונות של המערכת. הקישורים בתפריט הימני מאפשרים לך לנהל כל חלק במערכת. כל עמוד מכיל את ההוראות שלו על כיצד להשתמש בכלים.',
 	'ADMIN_LOG'					=> 'פעולות מנהלים ראשיים הרשומות במעקב הפעולות',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על-ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפיה מהקישור הבא:',
-	'AVATAR_DIR_SIZE'			=> 'גודל תיקית הסמלים האישיים',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפיה מהקישור הבא:',
+	'AVATAR_DIR_SIZE'			=> 'גודל תיקיית הסמלים האישיים',
 
 	'BOARD_STARTED'		=> 'תאריך התקנת המערכת',
 	'BOARD_VERSION'		=> 'גרסת המערכת',
@@ -331,9 +331,9 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'קידוד תכונת השקיפות הוגדר לא נכון',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> חייב להיות מוגדר ל0. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'ממיר תכונת הקלט של HTTP הוגדר לא נכון',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> חייב להיות מוגדר ל <samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'ממיר תכונת הפלט של HTTP הוגדר לא נכון',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> חייב להיות מוגדר ל <samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> חייב להיות מוגדר ל־<samp>pass</samp>. אתה יכול לבדוק את הערך הנוכחי בעמוד <samp>פרטי PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'קבצים מצורפים ליום',
 	'FORUM_STATS'		=> 'סטטיסטיקות המערכת',
@@ -387,22 +387,22 @@ $lang = array_merge($lang, array(
 	'VIEW_ADMIN_LOG'		=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
 	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
 
-	'WELCOME_PHPBB'			=> 'ברוך הבא ל phpBB3',
-	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל 640 או לפחות ל 644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WELCOME_PHPBB'			=> 'ברוך הבא ל־phpBB3',
+	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
 $lang = array_merge($lang, array(
 	'INACTIVE_DATE'					=> 'תאריך ללא פעילות',
 	'INACTIVE_REASON'				=> 'סיבה',
-	'INACTIVE_REASON_MANUAL'		=> 'החשבון הופסק על-ידי מנהל ראשי',
+	'INACTIVE_REASON_MANUAL'		=> 'החשבון הופסק על־ידי מנהל ראשי',
 	'INACTIVE_REASON_PROFILE'		=> 'פרטי הפרופיל שונו',
 	'INACTIVE_REASON_REGISTER'		=> 'חשבון שנרשם לאחרונה',
 	'INACTIVE_REASON_REMIND'		=> 'חשבון המשתמש הוכרח לקבל הפעלה מחדש',
 	'INACTIVE_REASON_UNKNOWN'		=> 'לא ידוע',
 	'INACTIVE_USERS'				=> 'משתמשים לא פעילים',
-	'INACTIVE_USERS_EXPLAIN'		=> 'זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או להזכיר (על-ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על-ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
 	'NO_INACTIVE_USERS'	=> 'אין משתמשים לא פעילים',
 
 	'SORT_INACTIVE'		=> 'תאריך ללא פעילות',
@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל מידע שיכול לזהות אותך או את האתר שלך הוסר - המידע כולו <strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם פרוייקט PHP, שפת התיכנות עליה phpBB בנויה.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל מידע שיכול לזהות אותך או את האתר שלך הוסר — המידע כולו <strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם פרוייקט PHP, שפת התיכנות עליה phpBB בנויה.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'בשימוש בכפתור מתחת אתה יכול להציג את כל הערכים שישלחו.',
 	'DONT_SEND_STATISTICS'		=> 'חזור ללוח הבקרה למנהל הראשי אם אתה לא רוצה לשלוח מידע סטטיסטי לphpBB.',
 	'GO_ACP_MAIN'				=> 'עבור לעמוד הראשי בלוח הבקרה למנהל הראשי',
@@ -439,18 +439,18 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובאלים</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאת פורום של קבוצות</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>הוסיף או ערך הרשאת מנהל פורום של קבוצות</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאת פורום של קבוצות</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>הוסיף או ערך הרשאת מנהל פורום של קבוצות</strong> מ־%1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>הוסיף או ערך מנהלים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>הוסיף או ערך מנהלים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>הסיר מנהלים ראשיים</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובאלים</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ %1$s<br />» %2$s',
+	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>הרשאות הועברו מ</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>שינה הגדרות שרת</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>שינה הגדרות מערכת</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>שינה הגדרות חתימה</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>שינה הגדרות אנטי-בוט</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>שינה הגדרות אנטי־בוט</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>משתמש הקפיץ נושא</strong><br />» %s',
@@ -525,7 +525,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>מחק דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>דחה הודעה “%1$s” בגלל הסיבה הבאה</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>ערך הודעה “%1$s” אשר נכתבה על-ידי</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>ערך הודעה “%1$s” אשר נכתבה על־ידי</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'			=> '<strong>סגר דיווח</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>מחק דיווח</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>העביר הודעות מפוצלות</strong><br />» אל %s',
@@ -533,7 +533,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>דחה נושא “%1$s” בגלל הסיבה הבאה</strong><br />%2$s',
-	'LOG_TOPIC_RESYNC'			=> '<strong>סינקרן מחדש מוני נושאים</strong><br />» %s',
+	'LOG_TOPIC_RESYNC'			=> '<strong>סינכרן מחדש מוני נושאים</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>שינה סוג נושא</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>פתח נושא</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>פתח הודעה</strong><br />» %s',
@@ -553,16 +553,16 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_EMAIL'		=> '<strong>שגיאת דואר אלקטרוני</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>יצר פורום חדש</strong><br />» %s',
-	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ %1$s<br />» %2$s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ־%1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>מחק פורום</strong><br />» %s',
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>מחק פורום ואת תתי-הפורומים שלו</strong><br />» %s',
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>מחק פורום והעביר תתי-פורומים</strong> אל %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>מחק פורום ואת תתי־הפורומים שלו</strong><br />» %s',
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>מחק פורום והעביר תתי־פורומים</strong> אל %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>מחק פורום והעביר הודעות </strong> אל %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>מחק פורום ואת תתי-הפורומים שלו, העביר הודעות</strong> אל %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>מחק פורום, העביר הודעות</strong> אל %1$s <strong>ותתי-פורומים</strong> אל %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>מחק פורום ואת תתי־הפורומים שלו, העביר הודעות</strong> אל %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>מחק פורום, העביר הודעות</strong> אל %1$s <strong>ותתי־פורומים</strong> אל %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>מחק פורום וההודעות שלו</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>מחק פורום, ההודעות ותתי-הפורומים שלו</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>מחק פורום וההודעות שלו, העביר תתי-פורומים</strong> אל %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>מחק פורום, ההודעות ותתי־הפורומים שלו</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>מחק פורום וההודעות שלו, העביר תתי־פורומים</strong> אל %1$s<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>ערך פרטי פורום</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>העביר פורום</strong> %1$s <strong>מתחת</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>העביר פורום</strong> %1$s <strong>מעל</strong> %2$s',
@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_APPROVED'	=> '<strong>משתמשים מאושרים בקבוצת המשתמשים</strong> %1$s<br />» %2$s',
 	'LOG_USERS_PENDING'		=> '<strong>משתמשים שביקשו להצטרף לקבוצה “%1$s” וצריך לאשר אותם</strong><br />» %2$s',
 
-	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>שגיאה בזמן יצירת תיעוד</strong><br />» שגיאה ב %1$s בשורה %2$s: %3$s',
+	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>שגיאה בזמן יצירת תיעוד</strong><br />» שגיאה ב־%1$s בשורה %2$s: %3$s',
 
 	'LOG_IMAGESET_ADD_DB'			=> '<strong>הוסיף ערכת תמונות חדשה לבסיס הנתונים</strong><br />» %s',
 	'LOG_IMAGESET_ADD_FS'			=> '<strong>הוסיף ערכת תמונות חדשה למערכת הקבצים</strong><br />» %s',
@@ -596,7 +596,7 @@ $lang = array_merge($lang, array(
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>הפעיל משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>מחק משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזכורת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
-	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ %1$s ל phpBB %2$s</strong>',
+	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ־%1$s ל־phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>התקין את phpBB %s</strong>',
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>בדיקת חיבור IP/דפדפן/X_FORWARDED_FOR נכשלה</strong><br />»IP של המשתמש “<em>%1$s</em>” נבדק אל מול חיבור IP “<em>%2$s</em>”, מחרוזת דפדפן המשתמש “<em>%3$s</em>” נבדקה אל מול מחרוזת דפדפן המשתמש בחיבור “<em>%4$s</em>” ומחרוזת X_FORWARDED_FOR של המשתמש “<em>%5$s</em>” נבדקה אל מול מחרוזת X_FORWARDED_FOR של החיבור “<em>%6$s</em>”.',
@@ -610,11 +610,11 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>התקין חבילת שפה</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>עדכן פרטי חבילת שפה</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>החליף קובץ שפה</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>שלח קובץ שפה והכניס אותו לתיקיה store</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>שלח קובץ שפה והכניס אותו לתיקייה store</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>שלח בשולח הדואר</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>שינה שולח בנושא “%1$s”</strong><br />» מ %2$s ל %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>שינה שולח בנושא “%1$s”</strong><br />» מ־%2$s ל־%3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>מודול כובה</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>מודול הופעל</strong><br />» %s',
@@ -700,18 +700,18 @@ $lang = array_merge($lang, array(
 	'LOG_USER_BAN_IP'		=> '<strong>חסם IP דרך ניהול משתמשים</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'	=> '<strong>חסם דואר אלקטרוני דרך ניהול משתמשים</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>מחק משתמש</strong><br />» %s',
-	'LOG_USER_DEL_ATTACH'	=> '<strong>הסיר את כל הקבצים המצורפים שנשלחו על-ידי המשתמש</strong><br />» %s',
+	'LOG_USER_DEL_ATTACH'	=> '<strong>הסיר את כל הקבצים המצורפים שנשלחו על־ידי המשתמש</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>הסיר סמל אישי של המשתמש</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>רוקן תיבת דואר יוצא למשתמש</strong><br />» %s',
-	'LOG_USER_DEL_POSTS'	=> '<strong>הסיר את כל ההודעות שנשלחו על-ידי המשתמש</strong><br />» %s',
+	'LOG_USER_DEL_POSTS'	=> '<strong>הסיר את כל ההודעות שנשלחו על־ידי המשתמש</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>הסיר חתימת משתמש</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>משתמש הופסק</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>העביר הודעות משתמש</strong><br />» הועדות של “%1$s” לפורום “%2$s”',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה סיסמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ “%2$s” ל “%3$s”',
-	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ “%1$s” ל “%2$s”',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
+	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ־“%1$s” ל־“%2$s”',
 	'LOG_USER_USER_UPDATE'	=> '<strong>עדכן פרטי משתמש</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'		=> '<strong>חשבון משתמש הופעל</strong>',
