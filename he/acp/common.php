@@ -602,7 +602,7 @@ $lang = array_merge($lang, array(
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>בדיקת חיבור IP/דפדפן/X_FORWARDED_FOR נכשלה</strong><br />»IP של המשתמש “<em>%1$s</em>” נבדק אל מול חיבור IP “<em>%2$s</em>”, מחרוזת דפדפן המשתמש “<em>%3$s</em>” נבדקה אל מול מחרוזת דפדפן המשתמש בחיבור “<em>%4$s</em>” ומחרוזת X_FORWARDED_FOR של המשתמש “<em>%5$s</em>” נבדקה אל מול מחרוזת X_FORWARDED_FOR של החיבור “<em>%6$s</em>”.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>חשבון Jabber שונה</strong>',
-	'LOG_JAB_PASSCHG'			=> '<strong>סיסמת Jabber שונתה</strong>',
+	'LOG_JAB_PASSCHG'			=> '<strong>ססמת Jabber שונתה</strong>',
 	'LOG_JAB_REGISTER'			=> '<strong>חשבון Jabber נרשם</strong>',
 	'LOG_JAB_SETTINGS_CHANGED'	=> '<strong>הגדרות Jabber שונו</strong>',
 
@@ -707,7 +707,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_SIG'		=> '<strong>הסיר חתימת משתמש</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>משתמש הופסק</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>העביר הודעות משתמש</strong><br />» הועדות של “%1$s” לפורום “%2$s”',
-	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה סיסמת משתמש</strong><br />» %s',
+	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה ססמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
