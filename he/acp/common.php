@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'הגדרות כלליות',
 	'ACP_GENERAL_TASKS'				=> 'משימות כלליות',
-	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובלים',
+	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובליים',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'הרשאות גלובליות',
 	'ACP_GROUPS'					=> 'קבוצות',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'הרשאות פורום של קבוצה',
@@ -437,7 +437,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של קבוצות</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובלים</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובליים</strong><br />» %s',
 
 	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>הסיר מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובלים</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובליים</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s',
 

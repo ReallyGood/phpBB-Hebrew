@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 	'G_GUESTS'					=> 'אורחים',
 	'G_REGISTERED'				=> 'משתמשים רשומים',
 	'G_REGISTERED_COPPA'		=> 'משתמשי COPPA רשומים',
-	'G_GLOBAL_MODERATORS'		=> 'מנהלים גלובלים',
+	'G_GLOBAL_MODERATORS'		=> 'מנהלים גלובליים',
 	'G_NEWLY_REGISTERED'		=> 'משתמשים שנרשמו לאחרונה',
 
 	'HIDDEN_USERS_ONLINE'		=> '%d משתמשים מוסתרים מחוברים',
