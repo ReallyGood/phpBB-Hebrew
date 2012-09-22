@@ -218,8 +218,8 @@ $lang = array_merge($lang, array(
 	'acl_a_ban'			=> array('lang' => 'רשאי לנהל חסימות', 'cat' => 'user_group'),
 
 	'acl_a_viewauth'	=> array('lang' => 'רשאי לראות הרשאות מוסתרות', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'רשאי לשנות הרשאות לקבוצות מסויימות', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'רשאי לשנות הרשאות למשתמשים מסויימים', 'cat' => 'permissions'),
+	'acl_a_authgroups'	=> array('lang' => 'רשאי לשנות הרשאות לקבוצות מסוימות', 'cat' => 'permissions'),
+	'acl_a_authusers'	=> array('lang' => 'רשאי לשנות הרשאות למשתמשים מסוימים', 'cat' => 'permissions'),
 	'acl_a_fauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה לפורום', 'cat' => 'permissions'),
 	'acl_a_mauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהלים', 'cat' => 'permissions'),
 	'acl_a_aauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהל הראשי', 'cat' => 'permissions'),

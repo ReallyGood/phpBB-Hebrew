@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'PROFILE_BASIC_OPTIONS'		=> 'אפשרויות בסיסיות',
 	'PROFILE_FIELD_ACTIVATED'	=> 'שדה פרופיל הופעל בהצלחה.',
 	'PROFILE_FIELD_DEACTIVATED'	=> 'שדה פרופיל נוטרל בהצלחה.',
-	'PROFILE_LANG_OPTIONS'		=> 'אפשרויות שפה מסויימות',
+	'PROFILE_LANG_OPTIONS'		=> 'אפשרויות שפה מסוימות',
 	'PROFILE_TYPE_OPTIONS'		=> 'אפשרויות מסוימות סוג הפרופיל',
 
 	'RADIO_BUTTONS'				=> 'כפתורי רדיו',
