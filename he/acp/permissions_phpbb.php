@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'acl_u_viewprofile'	=> array('lang' => 'רשאי לצפות בפרופילים, רשימת המשתמשים, ורשימת המחוברים', 'cat' => 'profile'),
 	'acl_u_chgname'		=> array('lang' => 'רשאי לשנות שם משתמש', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => 'רשאי לשנות סיסמה', 'cat' => 'profile'),
+	'acl_u_chgpasswd'	=> array('lang' => 'רשאי לשנות ססמה', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => 'רשאי לשנות את כתובת הדואר האלקטרוני', 'cat' => 'profile'),
 	'acl_u_chgavatar'	=> array('lang' => 'רשאי לשנות את תמונת התצוגה', 'cat' => 'profile'),
 	'acl_u_chggrp'		=> array('lang' => 'רשאי לשנות את קבוצת ברירת המחדל', 'cat' => 'profile'),

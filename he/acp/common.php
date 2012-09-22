@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
-	'DIRECTORY_NOT_DIR'			=> 'הנתיב שהוזן “%s” אינו תיקיה.',
+	'DIRECTORY_NOT_DIR'			=> 'הנתיב שהוזן “%s” אינו תיקייה.',
 	'DIRECTORY_NOT_WRITABLE'	=> 'הנתיב שהוזן “%s” אינו ניתן לכתיבה.',
 	'DISABLE'					=> 'כבה',
 	'DOWNLOAD'					=> 'הורד',
