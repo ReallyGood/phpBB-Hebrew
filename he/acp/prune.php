@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'JOINED_EXPLAIN'			=> 'הכנס את התאריך בפורמט הבא <kbd>YYYY-MM-DD</kbd> .',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'הכנס את התאריך בפורמט <kbd>YYYY-MM-DD</kbd>. הכנס <kbd>0000-00-00</kbd> למחיקת משתמשים שמעולם לא התחברו, תנאי ה<em>לפני ואחרי</em> לא ילקחו בחשבון.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'הכנס את התאריך בפורמט <kbd>YYYY-MM-DD</kbd>. הכנס <kbd>0000-00-00</kbd> למחיקת משתמשים שמעולם לא התחברו, תנאי ה<em>לפני ואחרי</em> לא יילקחו בחשבון.',
 
 	'PRUNE_USERS_LIST'				=> 'משתמשים אותם יש לאפס',
 	'PRUNE_USERS_LIST_DELETE'		=> 'באמצעות הקריטריונים שבחרת החשבונות הבאים יאופסו.',

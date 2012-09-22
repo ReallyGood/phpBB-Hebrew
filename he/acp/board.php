@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'בדוק מתחם דואר אלקטרוני לרישום MX חוקי',
-	'EMAIL_CHECK_MX_EXPLAIN'		=> 'אם פעיל, מתחם הדואר האלקטרוני אשר סופק בהרשמה ובשינוי הפרופיל יבדק לרישום MX חוקי.',
+	'EMAIL_CHECK_MX_EXPLAIN'		=> 'אם פעיל, מתחם הדואר האלקטרוני אשר סופק בהרשמה ובשינוי הפרופיל ייבדק לרישום MX חוקי.',
 	'FORCE_PASS_CHANGE'				=> 'דרוש שינוי ססמה',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'דורש מהמשתמשים לשנות את ססמתם לאחר מספר ימים שנקבע. קבע ערך זה ל0 על מנת לכבות אפשרות זו.',
 	'FORM_TIME_MAX'					=> 'הזמן המקסימלי לשליחת טופס',
@@ -461,7 +461,7 @@ $lang = array_merge($lang, array(
 	'FORM_SID_GUESTS'				=> 'הגבל טפסים לחיבורי אורחים',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'אם פעיל, טוקן הטופס הנוצרת לאורחים תהיה בלעדית לחיבור. זה עלול לגרום לבעיות בכמה ספקיות אינטרנט.',
 	'FORWARDED_FOR_VALID'			=> 'כותרת <var>X_FORWARDED_FOR</var> מאושרת',
-	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'חיבורים ימשכו רק אם הכותרת <var>X_FORWARDED_FOR</var> שווה לזו שנשלחה בבקשה הקודמת. חסימות יבדקו אל מול IP ב־<var>X_FORWARDED_FOR</var> גם כן.',
+	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'חיבורים ימשכו רק אם הכותרת <var>X_FORWARDED_FOR</var> שווה לזו שנשלחה בבקשה הקודמת. חסימות ייבדקו אל מול IP ב־<var>X_FORWARDED_FOR</var> גם כן.',
 	'IP_VALID'						=> 'אישור IP של פעולה',
 	'IP_VALID_EXPLAIN'				=> 'קובע כמה מכתובות ה־IP של המשתמשים בשימוש לאישור הפעולה; <samp>הכל</samp> שווה לכתובת המלאה, <samp>A.B.C</samp> x.x.x הראשונים, <samp>A.B</samp> x.x הראשונים, <samp>ללא</samp> מכבה בדיקה. בכתובות IP בגרסה 6 <samp>A.B.C</samp> שווה ל־4 החלקים הראשונים ו־<samp>A.B</samp> ל־3 החלקים הראשונים.',
 	'IP_LOGIN_LIMIT_MAX'			=> 'מספר ניסיונות חיבור מקסימלי עבור כתובת IP',
@@ -483,7 +483,7 @@ $lang = array_merge($lang, array(
 	'REF_HOST'						=> 'רק שרת בתוקף',
 	'REF_PATH'						=> 'וגם תיקייה בתוקף',
 	'REFERER_VALID'					=> 'בדיקת דף מפנה',
-	'REFERER_VALID_EXPLAIN'			=> 'אם מאופשר, הדף המפנה שנשלח יבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
+	'REFERER_VALID_EXPLAIN'			=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
 	'TPL_ALLOW_PHP'					=> 'אפשר php בערכות',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו ויבוצעו בערכות.',
 ));
@@ -546,7 +546,7 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL'				=> 'השתמש ב־SSL כדי להתחבר',
 	'JAB_USE_SSL_EXPLAIN'		=> 'אם פעיל, חיבור מאובטח ינסה להתבצע. יציאת ה־Jabber תשונה ל־5223 אם היציאה 5222 צוינה.',
 	'JAB_USERNAME'				=> 'שם משתמש ל־Jabber או JID',
-	'JAB_USERNAME_EXPLAIN'		=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא יבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
+	'JAB_USERNAME_EXPLAIN'		=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
 ));
 
 ?>
