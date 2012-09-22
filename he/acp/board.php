@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול לקבוע את הגדרות המערכת הבסיסיות, לתת לה שם ותאור מתאימים, ובין היתר ערכי ברירת מחדל לאזור זמן ושפה.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול לקבוע את הגדרות המערכת הבסיסיות, לתת לה שם ותיאור מתאימים, ובין היתר ערכי ברירת מחדל לאזור זמן ושפה.',
 	'CUSTOM_DATEFORMAT'				=> 'מותאם אישית…',
 	'DEFAULT_DATE_FORMAT'			=> 'תבנית תאריך',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'תבנית התאריך זהה לפונקציית התאריך <code>date</code> של PHP.',

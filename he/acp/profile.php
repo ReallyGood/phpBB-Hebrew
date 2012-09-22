@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'CHECKBOX'					=> 'תיבת סימון',
 	'COLUMNS'					=> 'עמודה',
 	'CP_LANG_DEFAULT_VALUE'		=> 'ערך בררת מחדל',
-	'CP_LANG_EXPLAIN'			=> 'תאור שדה',
+	'CP_LANG_EXPLAIN'			=> 'תיאור שדה',
 	'CP_LANG_EXPLAIN_EXPLAIN'	=> 'ההסבר לשדה זה יוצג למשתמש.',
 	'CP_LANG_NAME'				=> 'שם /כותרת השדה יוצג למשתמש',
 	'CP_LANG_OPTIONS'			=> 'אפשרויות',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 	'FIELD_BOOL'				=> 'בוליאני (כן/לא)',
 	'FIELD_DATE'				=> 'תאריך',
-	'FIELD_DESCRIPTION'			=> 'תאור השדה',
+	'FIELD_DESCRIPTION'			=> 'תיאור השדה',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'ההסבר לשדה זה יוצג למשתמש',
 	'FIELD_DROPDOWN'			=> 'תיבת גלילה',
 	'FIELD_IDENT'				=> 'זיהוי שדה',
