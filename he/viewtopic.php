@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 	'MISSING_INLINE_ATTACHMENT'	=> 'הקובץ המצורף <strong>%s</strong> לא זמין יותר.',
 	'MOVE_TOPIC'				=> 'העבר נושא',
 
-	'NO_ATTACHMENT_SELECTED'=> 'לא בחרת קובץ מצורף להוריד או לצפיה.',
+	'NO_ATTACHMENT_SELECTED'=> 'לא בחרת קובץ מצורף להוריד או לצפייה.',
 	'NO_NEWER_TOPICS'		=> 'אין נושאים חדשים יותר בפורום זה.',
 	'NO_OLDER_TOPICS'		=> 'אין נושאים ישנים יותר בפורום זה.',
 	'NO_UNREAD_POSTS'		=> 'אין הודעות שלא נקראו בנושא הזה.',

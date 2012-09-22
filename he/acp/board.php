@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH'				=> 'אפשר אימות HTTP ',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'מאפשר אימות HTTP, אשר מאפשר למשתמשים לקבל תוכן אשר מוסתר מאורחים על ידי הוספת משתנה <samp>auth=http</samp> להזנת הכתובת. אנא שים לב שחלק ממערכי PHP דורשים שינויים נוספים בקובץ .htaccess. הוראות ניתן למצוא באותו הקובץ.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'סטטיסטיקת פרטים',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'הצג סטטיסטיקה מתחת לפרטי ההזנות<br />(לדוגמא נשלח על ידי, תאריך וזמן, תגובות, צפיות)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'הצג סטטיסטיקה מתחת לפרטי ההזנות<br />(לדוגמה נשלח על ידי, תאריך וזמן, תגובות, צפיות)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'דחה פורומים אלה',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'תוכן מפורומים אלה <strong>לא יכלל בהזנות</strong>. אל תבחר בפורומים כדי למשוך מידע מכל הפורומים.<br />בחר בכמה פורומים על ידי לחיצה על <samp>CTRL</samp> ולחיצה בעכבר.',
 ));

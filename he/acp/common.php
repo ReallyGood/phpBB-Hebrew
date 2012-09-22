@@ -316,7 +316,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'תודה שבחרת ב־phpBB3 בתור מערכת הפורומים שלך. מסך זה יספק לך סקירה כללית מהירה של כל הסטטיסטיקות השונות של המערכת. הקישורים בתפריט הימני מאפשרים לך לנהל כל חלק במערכת. כל עמוד מכיל את ההוראות שלו על כיצד להשתמש בכלים.',
 	'ADMIN_LOG'					=> 'פעולות מנהלים ראשיים הרשומות במעקב הפעולות',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפיה מהקישור הבא:',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפייה מהקישור הבא:',
 	'AVATAR_DIR_SIZE'			=> 'גודל תיקיית הסמלים האישיים',
 
 	'BOARD_STARTED'		=> 'תאריך התקנת המערכת',
@@ -388,7 +388,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
 
 	'WELCOME_PHPBB'			=> 'ברוך הבא ל־phpBB3',
-	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמה: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -734,7 +734,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>משתמש ביטל חברות מקבוצה</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>מחק אזהרת משתמש</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמא: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
+	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמה: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>מחק את כל אזהרות המשתמש</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',

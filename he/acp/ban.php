@@ -50,8 +50,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'סיבה לחסימה',
 	'BAN_GIVE_REASON'		=> 'הסיבה המוצגת לחסום',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'רשימת החסומים עודכנה בהצלחה.',
-	'BANNED_UNTIL_DATE'		=> 'עד %s', // לדוגמא: "עד ב' 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'	=> '%1$s (עד %2$s)', // לדוגמא: "7 ימים (עד ג' 14.Jul.2009, 14:44)"
+	'BANNED_UNTIL_DATE'		=> 'עד %s', // לדוגמה: "עד ב' 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (עד %2$s)', // לדוגמה: "7 ימים (עד ג' 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'חסום כתובת דואר אלקטרוני אחת או יותר',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את כתובות הדואר האלקטרוני שהוזנו מכל החסימות הנוכחיות.',
