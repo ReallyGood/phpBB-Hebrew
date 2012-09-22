@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'FOUND_SEARCH_MATCHES'	=> 'החיפוש הניב %d תוצאות',
 	'FOUND_MORE_SEARCH_MATCHES'	=> 'החיפוש הניב יותר מ־%d תוצאות',
 	
-	'GLOBAL'	=> 'הכרזה גלובאלית',
+	'GLOBAL'	=> 'הכרזה גלובלית',
 	
 	'IGNORED_TERMS'	=> 'לא נכלל',
 	'IGNORED_TERMS_EXPLAIN'	=> 'המילים הבאות לא נכללו בחיפוש שלך מפני שהן מילים נפוצות מידי: <strong>%s</strong>.',

@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'FWD_FROM'					=> 'מאת: %s',
 	'FWD_TO'					=> 'אל: %s',
 
-	'GLOBAL_ANNOUNCEMENT'		=> 'הכרזה גלובאלית',
+	'GLOBAL_ANNOUNCEMENT'		=> 'הכרזה גלובלית',
 
 	'HIDE_ONLINE'				=> 'הסתר את מצב החיבור שלי',
 	'HIDE_ONLINE_EXPLAIN'		=> 'שינוי הגדרה זו לא תפעל עד ביקורך הבא במערכת.',

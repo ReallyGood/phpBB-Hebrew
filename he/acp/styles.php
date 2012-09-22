@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'FONT_FACE_EXPLAIN'		=> 'יש באפשרותך לבחור מספר פונטים על ידי הפרדם בפסיקים. אם למשתמש אחד הפונטים אינו מותקן על המחשב, הבא המותקן אחריו יעבוד עבורו.',
 	'FONT_SIZE'				=> 'גודל גופן',
 
-	'GLOBAL_IMAGES'			=> 'גלובאלי',
+	'GLOBAL_IMAGES'			=> 'גלובלי',
 
 	'HIDE_CSS'				=> 'הסתר CSS חדש',
 
@@ -205,14 +205,14 @@ $lang = array_merge($lang, array(
 	'IMG_ANNOUNCE_UNREAD_LOCKED'		=> 'הכרזות נעולות שלא נקראו',
 	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE'	=> 'הכרזה נעולה נשלחה ל',
 
-	'IMG_GLOBAL_READ'					=> 'הכרזה גלובאלית',
-	'IMG_GLOBAL_READ_MINE'				=> 'הכרזה גלובאלית',
-	'IMG_GLOBAL_READ_LOCKED'			=> 'הכרזה גלובאלית נעולה',
-	'IMG_GLOBAL_READ_LOCKED_MINE'		=> 'הכרזה גלובאלית נעולה נשלחה ל',
-	'IMG_GLOBAL_UNREAD'					=> 'הכרזות גלובאליות שלא נקראו',
-	'IMG_GLOBAL_UNREAD_MINE'			=> 'הכרזה גלובאלית נשלחה ל',
-	'IMG_GLOBAL_UNREAD_LOCKED'			=> 'הכרזות גלובאליות נעולות שלא נקראו',
-	'IMG_GLOBAL_UNREAD_LOCKED_MINE'		=> 'הכרזה גלובאלית נעולה נשלחה ל',
+	'IMG_GLOBAL_READ'					=> 'הכרזה גלובלית',
+	'IMG_GLOBAL_READ_MINE'				=> 'הכרזה גלובלית',
+	'IMG_GLOBAL_READ_LOCKED'			=> 'הכרזה גלובלית נעולה',
+	'IMG_GLOBAL_READ_LOCKED_MINE'		=> 'הכרזה גלובלית נעולה נשלחה ל',
+	'IMG_GLOBAL_UNREAD'					=> 'הכרזות גלובליות שלא נקראו',
+	'IMG_GLOBAL_UNREAD_MINE'			=> 'הכרזה גלובלית נשלחה ל',
+	'IMG_GLOBAL_UNREAD_LOCKED'			=> 'הכרזות גלובליות נעולות שלא נקראו',
+	'IMG_GLOBAL_UNREAD_LOCKED_MINE'		=> 'הכרזה גלובלית נעולה נשלחה ל',
 
 	'IMG_PM_READ'		=> 'קרא הודעות פרטיות',
 	'IMG_PM_UNREAD'		=> 'הודעה פרטית שלא נקראה',
