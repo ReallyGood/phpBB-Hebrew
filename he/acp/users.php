@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 
 	'MOVE_POSTS_EXPLAIN'	=> 'בחר את הפורום אליו אתה רוצה להעביר את ההודעות של המשתמש.',
 	
-	'NO_SPECIAL_RANK'		=> 'לא צויינה דרגה',
+	'NO_SPECIAL_RANK'		=> 'לא צוינה דרגה',
 	'NO_WARNINGS'			=> 'אין אזהרות.',
 	'NOT_MANAGE_FOUNDER'	=> 'ניסית לנהל משתמש בדרגת מייסד, רק מייסדים אחרים לנהל משתמש שהוא מייסד.',
 

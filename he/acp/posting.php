@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	
 	'TOO_MANY_SMILIES'			=> 'ההגבלה של %d סמיילים הושגה.',
 
-	'WRONG_PAK_TYPE'	=> 'החבילה שצויינה לא מכילה את הסוג הדרוש.',
+	'WRONG_PAK_TYPE'	=> 'החבילה שצוינה לא מכילה את הסוג הדרוש.',
 ));
 
 // Word censors
@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 
 	'MUST_SELECT_RANK'		=> 'אתה מוכרח לבחור דרגה',
 	
-	'NO_ASSIGNED_RANK'		=> 'לא צויינה דרגה מיוחדת.',
+	'NO_ASSIGNED_RANK'		=> 'לא צוינה דרגה מיוחדת.',
 	'NO_RANK_TITLE'			=> 'לא ציינת כותרת לדרגה.',
 	'NO_UPDATE_RANKS'		=> 'הדרגה נמחקה בהצלחה. אך חשבונות המשתמש אשר משתמשים בדרגה זאת לא עודכנו. אתה תיאלץ לעדכן להם את הדרגה באופן ידני.',
 
