@@ -586,7 +586,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_MSN'					=> 'שם ה־MSNM/WLM name שהזנת ארוך מידי.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'הססמה שהזנת ארוכה מידי.',
 	'TOO_LONG_OCCUPATION'			=> 'העיסוק שהזנת ארוך מידי.',
-	'TOO_LONG_PASSWORD_CONFIRM'		=> 'סיסמאת האישור שהזנת ארוכה מידי.',
+	'TOO_LONG_PASSWORD_CONFIRM'		=> 'סיסמת האישור שהזנת ארוכה מידי.',
 	'TOO_LONG_USER_PASSWORD'		=> 'הססמה שהזנת ארוכה מידי.',
 	'TOO_LONG_USERNAME'				=> 'שם המשתמש שהזנת ארוך מידי.',
 	'TOO_LONG_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוך מידי.',
@@ -594,7 +594,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_WEBSITE'				=> 'כתובת אתר הבית ארוך מידי.',
 	'TOO_LONG_YIM'					=> 'שם ה־Yahoo! Messenger שהזנת ארוך מידי.',
 
-	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסת להצביע ליותר מידי אפשרויות.',
+	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מידי אפשרויות.',
 	'TOO_SHORT'						=> 'הערך שהזנת קצר מדי.',
 
 	'TOO_SHORT_AIM'					=> 'שם התצוגה שהזנת קצר מידי.',
@@ -607,7 +607,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_MSN'					=> 'שם ה־MSNM/WLM שהזנת קצר מידי.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'הססמה שהזנת קצרה מידי.',
 	'TOO_SHORT_OCCUPATION'			=> 'העיסוק שהזנת קצר מידי.',
-	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'סיסמאת האישור שהזנת קצרה מידי.',
+	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'ססמת האישור שהזנת קצרה מידי.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'הססמה שהזנת קצרה מידי.',
 	'TOO_SHORT_USERNAME'			=> 'שם המשתמש שהזנת קצר מידי.',
 	'TOO_SHORT_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוכה מידי.',
