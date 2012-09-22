@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_FIELD_IDENT'				=> 'זוהה שדה ריק',
 	'EMPTY_USER_FIELD_NAME'			=> 'נא הכנס שם/כותרת לשדה',
 	'ENTRIES'						=> 'כניסות',
-	'EVERYTHING_OK'					=> 'הכל בסדר',
+	'EVERYTHING_OK'					=> 'הכול בסדר',
 
 	'FIELD_BOOL'				=> 'בוליאני (כן/לא)',
 	'FIELD_DATE'				=> 'תאריך',
