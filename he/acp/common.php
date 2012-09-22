@@ -431,8 +431,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>הוסיף או ערך הרשאות משתמש של משתמשים</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>הוסיף או ערך הרשאות משתמש של קבוצות</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובאלי של משתמשים</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובאלי של קבוצות</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובלי של משתמשים</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>הוסיף או ערך הרשאות מנהל גלובלי של קבוצות</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של משתמשים</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של קבוצות</strong><br />» %s',
 

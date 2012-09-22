@@ -186,8 +186,8 @@ $lang = array_merge($lang, array(
 	'acl_m_merge'	=> array('lang' => 'רשאי למזג נושאים', 'cat' => 'topic_actions'),
 
 'acl_m_info'	=> array('lang' => 'רשאי לראות פרטי הודעה', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובאלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
-	'acl_m_ban'		=> array('lang' => 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובאלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_warn'	=> array('lang' => 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'acl_m_ban'		=> array('lang' => 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
