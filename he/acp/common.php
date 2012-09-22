@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'משתמשים ליום',
 
 	'VALUE'					=> 'ערך',
-	'VERSIONCHECK_FAIL'			=> 'נכשל הנסיון לקבל מידע על הגרסה האחרונה.',
+	'VERSIONCHECK_FAIL'			=> 'נכשל הניסיון לקבל מידע על הגרסה האחרונה.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'בדיקת גרסה מחדש',
 	'VIEW_ADMIN_LOG'		=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
 	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
