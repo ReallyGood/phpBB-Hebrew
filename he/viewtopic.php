@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'SHOW_QR'				=> 'תגובה מהירה',
 	'SUBMIT_VOTE'			=> 'שלח הצבעתך',
 
-	'TOTAL_VOTES'			=> 'סך הכל הצבעות',
+	'TOTAL_VOTES'			=> 'סך הכול הצבעות',
 
 	'UNLOCK_TOPIC'			=> 'פתח נושא',
 
