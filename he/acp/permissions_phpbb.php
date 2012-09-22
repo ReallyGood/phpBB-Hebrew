@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'רשאי לשנות הגדרות מערכת/לבדוק עבור עידכונים', 'cat' => 'settings'),
+	'acl_a_board'		=> array('lang' => 'רשאי לשנות הגדרות מערכת/לבדוק עבור עדכונים', 'cat' => 'settings'),
 	'acl_a_server'		=> array('lang' => 'רשאי לשנות שרת/הגדרות תקשורת', 'cat' => 'settings'),
 	'acl_a_jabber'		=> array('lang' => 'רשאי לשנות הגדרות Jabber', 'cat' => 'settings'),
 	'acl_a_phpinfo'		=> array('lang' => 'רשאי לראות הגדרות PHP', 'cat' => 'settings'),
