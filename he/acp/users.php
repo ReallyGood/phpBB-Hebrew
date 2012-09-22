@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'מחק הודעות',
 	'DELETE_USER'			=> 'מחק משתמש',
-	'DELETE_USER_EXPLAIN'	=> 'אנא שים לב שמחיקת משתמש הינה לתמיד ואין אפשרות לשיחזור. הודעות פרטיות שנשלחו על-ידי משתמש זה ולא נקראו ימחקו ולא יהיו זמינות אצל הנמען',
+	'DELETE_USER_EXPLAIN'	=> 'אנא שים לב שמחיקת משתמש הינה לתמיד ואין אפשרות לשיחזור. הודעות פרטיות שנשלחו על־ידי משתמש זה ולא נקראו ימחקו ולא יהיו זמינות אצל הנמען',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'ההפעלה מחדש בוצעה בהצלחה.',
 	'FOUNDER'						=> 'מייסד',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'QUICK_TOOLS'			=> 'כלים מהירים',
 
 	'REGISTERED'			=> 'רשומים',
-	'REGISTERED_IP'			=> 'רשומים מ IP',
+	'REGISTERED_IP'			=> 'רשומים מ־IP',
 	'RETAIN_POSTS'			=> 'שמור הודעות',
 
 	'SELECT_FORM'			=> 'בחר טופס',
