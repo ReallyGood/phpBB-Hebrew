@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 
 	'MOVE_POSTS_EXPLAIN'	=> 'בחר את הפורום אליו אתה רוצה להעביר את ההודעות של המשתמש.',
 	
-	'NO_SPECIAL_RANK'		=> 'לא צויינה דרגה',
+	'NO_SPECIAL_RANK'		=> 'לא צוינה דרגה',
 	'NO_WARNINGS'			=> 'אין אזהרות.',
 	'NOT_MANAGE_FOUNDER'	=> 'ניסית לנהל משתמש בדרגת מייסד, רק מייסדים אחרים לנהל משתמש שהוא מייסד.',
 
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'USER_DELETED'					=> 'משתמש נמחק בהצלחה.',
 	'USER_GROUP_ADD'				=> 'הוסף משתמש לקבוצה',
 	'USER_GROUP_NORMAL'				=> 'קבוצות משתמש שהמשתמש חבר בהם',
-	'USER_GROUP_PENDING'			=> 'קבוצות משתמשים במצב נסיון',
+	'USER_GROUP_PENDING'			=> 'קבוצות משתמשים במצב ניסיון',
 	'USER_GROUP_SPECIAL'			=> 'קבוצות מוגדרות מראש שהמשתמש חבר בהם',
 	'USER_LIFTED_NR'				=> 'מעמד הנרשם לאחרונה הוסר בהצלחה מן המשתמש.',
 	'USER_NO_ATTACHMENTS'			=> 'אין קבצים מצורפים להצגה.',
