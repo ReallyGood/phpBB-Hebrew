@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> 'משתמשים וקבוצות',
 	'ACP_CAT_USERS'				=> 'משתמשים',
 	'ACP_CLIENT_COMMUNICATION'	=> 'תקשורת לקוחות',
-	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגיה',
+	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגייה',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
 	
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'הגדרות כלליות',
 	'ACP_GENERAL_TASKS'				=> 'משימות כלליות',
-	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובלים',
+	'ACP_GLOBAL_MODERATORS'			=> 'מנהלים גלובליים',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'הרשאות גלובליות',
 	'ACP_GROUPS'					=> 'קבוצות',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'הרשאות פורום של קבוצה',
@@ -316,7 +316,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'תודה שבחרת ב־phpBB3 בתור מערכת הפורומים שלך. מסך זה יספק לך סקירה כללית מהירה של כל הסטטיסטיקות השונות של המערכת. הקישורים בתפריט הימני מאפשרים לך לנהל כל חלק במערכת. כל עמוד מכיל את ההוראות שלו על כיצד להשתמש בכלים.',
 	'ADMIN_LOG'					=> 'פעולות מנהלים ראשיים הרשומות במעקב הפעולות',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפיה מהקישור הבא:',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'חלק זה מספק לך סקירה כללית של חמשת הפעולות האחרונות אשר התבצעו על־ידי המנהלים הראשיים של המערכת. עותק מלא של מעקב הפעולות ניתן לצפייה מהקישור הבא:',
 	'AVATAR_DIR_SIZE'			=> 'גודל תיקיית הסמלים האישיים',
 
 	'BOARD_STARTED'		=> 'תאריך התקנת המערכת',
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'איפוס מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית',
 	'RESET_ONLINE_CONFIRM'			=> 'אתה בטוח שאתה רוצה לאפס את מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית?',
 	'RESYNC_POSTCOUNTS'				=> 'סנכרון מוני ההודעות מחדש',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'רק הודעות קיימות ילקחו בחשבון. הודעות שאופסו לא יספרו.',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'רק הודעות קיימות יילקחו בחשבון. הודעות שאופסו לא יספרו.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את מוני ההודעות?',
 	'RESYNC_POST_MARKING'			=> 'סנכרון מחדש נושאים מסומנים',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את הנושאים המסומנים?',
@@ -382,13 +382,13 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'משתמשים ליום',
 
 	'VALUE'					=> 'ערך',
-	'VERSIONCHECK_FAIL'			=> 'נכשל הנסיון לקבל מידע על הגרסה האחרונה.',
+	'VERSIONCHECK_FAIL'			=> 'נכשל הניסיון לקבל מידע על הגרסה האחרונה.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'בדיקת גרסה מחדש',
 	'VIEW_ADMIN_LOG'		=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
 	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
 
 	'WELCOME_PHPBB'			=> 'ברוך הבא ל־phpBB3',
-	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמא: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמה: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל מידע שיכול לזהות אותך או את האתר שלך הוסר — המידע כולו <strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם פרוייקט PHP, שפת התיכנות עליה phpBB בנויה.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל מידע שיכול לזהות אותך או את האתר שלך הוסר — המידע כולו <strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם פרויקט PHP, שפת התיכנות עליה phpBB בנויה.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'בשימוש בכפתור מתחת אתה יכול להציג את כל הערכים שישלחו.',
 	'DONT_SEND_STATISTICS'		=> 'חזור ללוח הבקרה למנהל הראשי אם אתה לא רוצה לשלוח מידע סטטיסטי לphpBB.',
 	'GO_ACP_MAIN'				=> 'עבור לעמוד הראשי בלוח הבקרה למנהל הראשי',
@@ -437,7 +437,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>הוסיף או ערך הרשאות מנהל ראשי של קבוצות</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>הוסיף או ערך מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובלים</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>הוסיף או ערך מנהלים גלובליים</strong><br />» %s',
 
 	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>הוסיף או ערך הרשאת פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>הוסיף או ערך הרשאת מנהל פורום של משתמשים</strong> מ־%1$s<br />» %2$s',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>הוסיף או ערך הרשאות פורומים</strong> מ־%1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>הסיר מנהלים ראשיים</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובלים</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>הסיר מנהלים גלובליים</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>הסיר מנהלים</strong> מ־%1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>הסיר הרשאות פורום משתמש/קבוצה</strong> מ־%1$s<br />» %2$s',
 
@@ -496,7 +496,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_ATTACH'			=> '<strong>שינה הגדרות צירוף קבצים</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>שינה הגדרות אימות</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>שינה הגדרות סמל אישי</strong>',
-	'LOG_CONFIG_COOKIE'			=> '<strong>שנה הגדרות עוגיה</strong>',
+	'LOG_CONFIG_COOKIE'			=> '<strong>שנה הגדרות עוגייה</strong>',
 	'LOG_CONFIG_EMAIL'			=> '<strong>שינה הגדרות דואר אלקטרוני</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>שינה מאפייני מערכת</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>שינה הגדרות כלליות</strong>',
@@ -602,7 +602,7 @@ $lang = array_merge($lang, array(
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>בדיקת חיבור IP/דפדפן/X_FORWARDED_FOR נכשלה</strong><br />»IP של המשתמש “<em>%1$s</em>” נבדק אל מול חיבור IP “<em>%2$s</em>”, מחרוזת דפדפן המשתמש “<em>%3$s</em>” נבדקה אל מול מחרוזת דפדפן המשתמש בחיבור “<em>%4$s</em>” ומחרוזת X_FORWARDED_FOR של המשתמש “<em>%5$s</em>” נבדקה אל מול מחרוזת X_FORWARDED_FOR של החיבור “<em>%6$s</em>”.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>חשבון Jabber שונה</strong>',
-	'LOG_JAB_PASSCHG'			=> '<strong>סיסמת Jabber שונתה</strong>',
+	'LOG_JAB_PASSCHG'			=> '<strong>ססמת Jabber שונתה</strong>',
 	'LOG_JAB_REGISTER'			=> '<strong>חשבון Jabber נרשם</strong>',
 	'LOG_JAB_SETTINGS_CHANGED'	=> '<strong>הגדרות Jabber שונו</strong>',
 
@@ -707,7 +707,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_SIG'		=> '<strong>הסיר חתימת משתמש</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>משתמש הופסק</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>העביר הודעות משתמש</strong><br />» הועדות של “%1$s” לפורום “%2$s”',
-	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה סיסמת משתמש</strong><br />» %s',
+	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה ססמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
@@ -734,7 +734,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>משתמש ביטל חברות מקבוצה</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>מחק אזהרת משתמש</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמא: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
+	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמה: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>מחק את כל אזהרות המשתמש</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',

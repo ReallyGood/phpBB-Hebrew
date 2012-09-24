@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 	'acl_a_prune'		=> array('lang' => 'רשאי לאפס פורומים', 'cat' => 'forums'),
 
 	'acl_a_icons'		=> array('lang' => 'רשאי לשנות סמיילים ואייקונים לנושא/הודעה', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => 'רשאי לשנות צינזורים', 'cat' => 'posting'),
+	'acl_a_words'		=> array('lang' => 'רשאי לשנות צנזורים', 'cat' => 'posting'),
 	'acl_a_bbcode'		=> array('lang' => 'רשאי להגדיר תגי BBCode', 'cat' => 'posting'),
 	'acl_a_attach'		=> array('lang' => 'רשאי לשנות הגדרות קובץ מצורף', 'cat' => 'posting'),
 
