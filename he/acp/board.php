@@ -449,7 +449,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'אשר דפדפן',
 	'BROWSER_VALID_EXPLAIN'			=> 'מפעיל אישור דפדפן לכל חיבור לשיפור האבטחה.',
 	'CHECK_DNSBL'					=> 'בדוק IP כנגד רשימת ה־DNS השחורה',
-	'CHECK_DNSBL_EXPLAIN'			=> 'אם פעיל כתובת ה־IP של המשתמש תבדק כנגד שירותי ה־DNSBL הבאים בהרשמה ובשליחה: <a href="http://www.spamcop.net">www.spamcop.net</a> ו־<a href="http://spamhaus.org">spamhaus.org</a>. תהליך זה יכול למשך זמן מה, לפי הגדרות השרת. אם מתרחשות האטות במערכת או יותר מדי תהליכים שנכשלו מדיווחים, מומלץ לכבות בדיקה זו.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'אם פעיל כתובת ה־IP של המשתמש תיבדק כנגד שירותי ה־DNSBL הבאים בהרשמה ובשליחה: <a href="http://www.spamcop.net">www.spamcop.net</a> ו־<a href="http://spamhaus.org">spamhaus.org</a>. תהליך זה יכול למשך זמן מה, לפי הגדרות השרת. אם מתרחשות האטות במערכת או יותר מדי תהליכים שנכשלו מדיווחים, מומלץ לכבות בדיקה זו.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'בדוק מתחם דואר אלקטרוני לרישום MX חוקי',
