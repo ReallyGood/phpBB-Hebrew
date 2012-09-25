@@ -403,7 +403,7 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_FORM_FOUND'		=> 'ההעלאה הותחלה אבל לא נמצא טופס העלאת קובץ חוקי.',
 	'NO_USER'					=> 'המשתמש המבוקש לא נמצא.',
 	'NO_USERS'					=> 'המשתמשים המבוקשים לא נמצאו.',
-	'NO_USER_SPECIFIED'			=> 'לא צויין שם משתמש.',
+	'NO_USER_SPECIFIED'			=> 'לא צוין שם משתמש.',
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'אין הודעות ממתינות',		// 0
