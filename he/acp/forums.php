@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ'			=> 'איפוס אוטומטי תקופתי',
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'מספר הימים בין אירועי האיפוס.',
 	'AUTO_PRUNE_VIEWED'			=> 'איפוס הודעות אוטומטי לפי תאריכי הצפיות האחרונות בהודעה',
-	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'מספר הימים שעברו מאז הצפיה באשכול בפעם האחרונה שלאחריה הנושא יוסר.',
+	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'מספר הימים שעברו מאז הצפייה באשכול בפעם האחרונה שלאחריה הנושא יוסר.',
 
 	'CONTINUE'						=> 'המשך',
 	'COPY_PERMISSIONS'				=> 'העתק הרשאות מ',
