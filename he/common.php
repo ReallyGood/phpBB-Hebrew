@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מידי.',
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
-	'TOO_LONG_AIM'					=> 'שם המסך שהזנך ארוך מידי.',
+	'TOO_LONG_AIM'					=> 'שם המסך שהזנת ארוך מידי.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'קוד האישור שהזנת ארוך מידי.',
 	'TOO_LONG_DATEFORMAT'			=> 'תבנית התאריך שהזנת ארוכה מדי.',
 	'TOO_LONG_ICQ'					=> 'מספר ה־ICQ שהזנת ארוך מידי.',
