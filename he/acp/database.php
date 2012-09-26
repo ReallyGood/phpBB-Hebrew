@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'	=> 'הורד גיבוי',
 
 	'FILE_TYPE'			=> 'סוג קובץ',
-	'FILE_WRITE_FAIL'	=> 'לא ניתן לכתוב קובץ לתיקיית האיחסון.',
+	'FILE_WRITE_FAIL'	=> 'לא ניתן לכתוב קובץ לתיקיית האחסון.',
 	'FULL_BACKUP'		=> 'מלא',
 
 	'RESTORE_FAILURE'		=> 'קובץ הגיבוי פגום.',
