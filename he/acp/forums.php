@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_FORUM'					=> 'ערוך פורום',
 	'ENABLE_INDEXING'				=> 'הפעל חיפוש ראשי',
-	'ENABLE_INDEXING_EXPLAIN'		=> 'אם סימנת כן הודעות שנרשמו בפורום זה יכללו בחיפוש.',
+	'ENABLE_INDEXING_EXPLAIN'		=> 'אם סימנת כן הודעות שנרשמו בפורום זה ייכללו בחיפוש.',
 	'ENABLE_POST_REVIEW'			=> 'אפשר סקירת הודעה',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'אם סימנת כן משתמשים יכולים לסקור את ההודעה שלהם אם הודעות חדשות נכתבו לנושא בזמן שהם כתבו את הודעתם. מומלץ לא לאפשר אפשרות זו לפורומי צ\'ט.',
 	'ENABLE_QUICK_REPLY'			=> 'אפשר תגובה מהירה',
