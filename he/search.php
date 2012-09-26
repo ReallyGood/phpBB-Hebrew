@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'	=> 'הכרזה גלובלית',
 	
 	'IGNORED_TERMS'	=> 'לא נכלל',
-	'IGNORED_TERMS_EXPLAIN'	=> 'המילים הבאות לא נכללו בחיפוש שלך מפני שהן מילים נפוצות מידי: <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN'	=> 'המילים הבאות לא נכללו בחיפוש שלך מפני שהן מילים נפוצות מדי: <strong>%s</strong>.',
 	
 	'JUMP_TO_POST'			=> 'עבור להודעה',
 	
