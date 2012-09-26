@@ -112,6 +112,4 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'			=> 'אתר',
 	'VOTE_SUBMITTED'		=> 'הצבעתך נקלטה.',
 	'VOTE_CONVERTED'		=> 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
-));
-
-?>
+));

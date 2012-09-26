@@ -757,5 +757,3 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'						=> 'גודל כולל',
 	'DOWNLOADS'							=> 'הורדות',
 ));
-
-?>

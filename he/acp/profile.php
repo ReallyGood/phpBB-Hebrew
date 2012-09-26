@@ -154,6 +154,4 @@ $lang = array_merge($lang, array(
 	'USER_FIELD_NAME'	=> 'שם/כותרת שדה שתוצג למשתמש',
 
 	'VISIBILITY_OPTION'				=> 'אפשרויות תצוגה',
-));
-
-?>
+));

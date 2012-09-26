@@ -287,5 +287,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_SETTING_FORMAT'	
 	=> 'הגדרת ההרשאות נכתבו בפורמט לא תקין, phpBB לא יכול לעבד אותם כראוי.',
 ));
-
-?>

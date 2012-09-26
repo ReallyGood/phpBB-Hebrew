@@ -170,5 +170,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'סמל העלאה',
 	'UPLOAD_NOT_DIR'				=> 'המיקום לקבצים שציינת אינו נראה כתיקייה.',
 ));
-
-?>

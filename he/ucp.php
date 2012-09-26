@@ -561,5 +561,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'אין בקשות חברות בהמתנה',
 	'NO_NONMEMBER'	=> 'אין קבוצות ללא חברות',
 ));
-
-?>

@@ -237,6 +237,4 @@ $lang = array_merge($lang, array(
 	'acl_a_reasons'		=> array('lang' => 'רשאי לנהל סיבות דיווח/חסימה', 'cat' => 'misc'),
 	'acl_a_backup'		=> array('lang' => 'רשאי לגבות/לשחזר בסיס נתונים', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'רשאי לנהל חיפוש מאגר נתונים והגדרות', 'cat' => 'misc'),
-));
-
-?>
+));

@@ -93,6 +93,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE'			=> 'בטל ניהול קבוצה',
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'אתה בטוח שאתה רוצה לבטל את ניהול הקבוצה שלך בקבוצה הנבחרת?',
 	'USER_GROUP_DEMOTED'		=> 'ניהול הקבוצה שלך בוטל בהצלחה.',
-));
-
-?>
+));

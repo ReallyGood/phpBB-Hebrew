@@ -548,5 +548,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'שם משתמש ל־Jabber או JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
 ));
-
-?>

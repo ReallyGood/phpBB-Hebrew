@@ -102,6 +102,4 @@ $lang = array_merge($lang, array(
 	'SORT_TIME'	=> 'תאריך ושעת הכתיבה',
 	
 	'TOO_FEW_AUTHOR_CHARS'	=> 'אתה חייב לציין לפחות %d תווים מהשם של המחבר.',
-));
-
-?>
+));

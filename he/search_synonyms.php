@@ -188,5 +188,4 @@ $synonyms = array(
 	'withold'	=> 'withhold',
 
 	'yeild'	=> 'yield',
-);
-?>
+);

@@ -101,6 +101,4 @@ $lang = array_merge($lang, array(
 
 	'WRONG_LANGUAGE_FILE'		=> 'קובץ השפה הנבחר אינו תקין.',
 	// another note: I finished it. And I don't know if I should publish it now or when I will finish all the land_files..hmm...I gonna publish it now..yea..and then eat something.
-));
-
-?>
+));

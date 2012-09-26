@@ -129,5 +129,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'להגיד כן כאן תגדיר את קבוצה זו כברירת המחדל למשתמשים שנוספו.',
 	'USER_GROUP_LEADER'				=> 'הגדר כראש הקבוצה',
 ));
-
-?>

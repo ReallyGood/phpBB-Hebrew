@@ -87,6 +87,4 @@ $lang = array_merge($lang, array(
 	'PRUNE_SUCCESS'					=> 'איפוס הפורומים התבצע בהצלחה.',
 
 	'TOPICS_PRUNED'		=> 'נושאים אופסו',
-));
-
-?>
+));

@@ -139,6 +139,4 @@ $lang = array_merge($lang, array(
 	'USER_SIG_UPDATED'				=> 'חתימת המשתמש עודכנה.',
 	'USER_WARNING_LOG_DELETED'		=> 'אין מידע זמין. ככל הנראה יומן המעקב נמחק.',
 	'USER_TOOLS'					=> 'כלים בסיסיים',
-));
-
-?>
+));

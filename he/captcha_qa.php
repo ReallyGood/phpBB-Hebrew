@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	
 	'QA_LAST_QUESTION'			=> 'אתה לא יכול למחוק את כל השאלות בזמן שהרכיב פעיל.',
 ));
-
-?>

@@ -144,6 +144,4 @@ $lang = array_merge($lang, array(
 	'VISITED'				=> 'ביקר לאחרונה',
 
 	'WWW'					=> 'אתר אינטרנט',
-));
-
-?>
+));

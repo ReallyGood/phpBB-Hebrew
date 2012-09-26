@@ -65,6 +65,4 @@ $lang = array_merge($lang, array(
 	
 	'NO_EMAIL_MESSAGE'		=> 'אתה חייב להזין הודעה.',
 	'NO_EMAIL_SUBJECT'		=> 'אתה חייב לציין כותרת להודעה שלך.',
-));
-
-?>
+));

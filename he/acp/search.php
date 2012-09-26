@@ -105,6 +105,4 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_EXPLAIN'					=> 'הפעל את שירות החיפוש כולל חיפוש המשתמשים.',
 	'YES_SEARCH_UPDATE'						=> 'הפעל עדכון טקסט מלא',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'מעדכן את מאגרי הטקסט המלא בזמן שליחה, מתבצע גם אם החיפוש כבוי.',
-));
-
-?>
+));

@@ -80,6 +80,4 @@ $lang = array_merge($lang, array(
 	'PARENT_NO_EXIST'		=> 'ההורה אינו קיים.',
 
 	'SELECT_MODULE'			=> 'בחר מודול',
-));
-
-?>
+));
