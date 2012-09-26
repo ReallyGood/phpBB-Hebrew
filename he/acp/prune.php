@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'USER_DELETE_SUCCESS'		=> 'נמחקו חשבונות המשתמשים הנבחרים בהצלחה.',
 	'USER_PRUNE_FAILURE'		=> 'אין משתמשים שמתאימים לקריטריונים שקבעת.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'התאריך שהקשת שגוי, מצופה שהתאריך ירשם בפורמט<kbd>YYYY-MM-DD</kbd>.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'התאריך שהקשת שגוי, מצופה שהתאריך יירשם בפורמט <kbd>YYYY-MM-DD</kbd>.',
 ));
 
 // Forum Pruning
