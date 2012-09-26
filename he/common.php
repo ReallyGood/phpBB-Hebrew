@@ -614,8 +614,8 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_EMAIL_CONFIRM'		=> 'אישור כתובת הדואר האלקטרוני שהזנת ארוך מדי.',
 	'TOO_SHORT_WEBSITE'				=> 'כתובת אתר הבית שהזנת קצר מדי.',
 	'TOO_SHORT_YIM'					=> 'שם ה־Yahoo! Messenger שהזנת קצר מדי.',
-	'TOO_SMALL'						=> 'הערך שהזנת קטן מידי.',
-	'TOO_SMALL_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> קטן מידי.',
+	'TOO_SMALL'						=> 'הערך שהזנת קטן מדי.',
+	'TOO_SMALL_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> קטן מדי.',
 
 	'TOPIC'				=> 'נושא',
 	'TOPICS'			=> 'נושאים',
