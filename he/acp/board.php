@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3 לגלריית הסמלים האישיים, למשל <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'נתיב אחסון הסמלים האישיים',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/avatars/upload</samp>.',
-	'MAX_AVATAR_SIZE'				=> 'ממדי סמל אישי מקסימלים',
+	'MAX_AVATAR_SIZE'				=> 'ממדי סמל אישי מקסימליים',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
 	'MAX_FILESIZE'					=> 'גודל קובץ לסמל אישי מרבי',
 	'MAX_FILESIZE_EXPLAIN'			=> 'לקבצי סמלים אישיים שהועלו. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP בשרת.',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ENABLE'					=> 'אפשר הזנות',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'מפעיל או מכבה את הזנות הATOM לכל המערכת.<br />כיבוי יכבה את כל ההזנות, ללא קשר לאפשרויות מתחת ולהגדרתם.',
 	'ACP_FEED_LIMIT'					=> 'מספר פריטים להזנה',
-	'ACP_FEED_LIMIT_EXPLAIN'			=> 'מספר מקסימאלי של פריטים בהזנה שיוצג.',
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'מספר מקסימלי של פריטים בהזנה שיוצג.',
 
 	'ACP_FEED_OVERALL'					=> 'אפשר הזנות לכל המערכת',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> 'הודעות חדשות במערכת.',
