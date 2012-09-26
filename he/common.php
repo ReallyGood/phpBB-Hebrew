@@ -572,8 +572,8 @@ $lang = array_merge($lang, array(
 	'TEST_CONNECTION'	=> 'בדוק חיבור',
 	'THE_TEAM'			=> 'הצוות',
 	'TIME'			=> 'זמן',
-	'TOO_LARGE'						=> 'הערך שהזנת גדול מידי.',
-	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מידי.',
+	'TOO_LARGE'						=> 'הערך שהזנת גדול מדי.',
+	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מדי.',
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
 	'TOO_LONG_AIM'					=> 'שם המסך שהזנת ארוך מדי.',
