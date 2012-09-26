@@ -594,7 +594,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_WEBSITE'				=> 'כתובת אתר הבית ארוך מדי.',
 	'TOO_LONG_YIM'					=> 'שם ה־Yahoo! Messenger שהזנת ארוך מדי.',
 
-	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מידי אפשרויות.',
+	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מדי אפשרויות.',
 	'TOO_SHORT'						=> 'הערך שהזנת קצר מדי.',
 
 	'TOO_SHORT_AIM'					=> 'שם התצוגה שהזנת קצר מדי.',
