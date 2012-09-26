@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	'LOGIN'								=> 'התחבר',
 	'LOGIN_CHECK_PM'					=> 'התחבר כדי לבדוק הודעות פרטיות.',
 	'LOGIN_CONFIRMATION'				=> 'אישור התחברות',
-	'LOGIN_CONFIRM_EXPLAIN'				=> 'כדי להמנע מחשבונות של גורמים עוינים, המערכת דורשת ממך להזין קוד אישור לאחר כמות מרבית של התחברויות שנכשלו. הקוד מוצג בתמונה אשר אתה רואה להלן. אם אינך מצליח לראות את התמונה צור קשר עם %sהמנהל הראשי של המערכת%s.', // unused
+	'LOGIN_CONFIRM_EXPLAIN'				=> 'כדי להימנע מחשבונות של גורמים עוינים, המערכת דורשת ממך להזין קוד אישור לאחר כמות מרבית של התחברויות שנכשלו. הקוד מוצג בתמונה אשר אתה רואה להלן. אם אינך מצליח לראות את התמונה צור קשר עם %sהמנהל הראשי של המערכת%s.', // unused
 	'LOGIN_ERROR_ATTEMPTS'				=> 'עברת את המספר המרבי המותר של ניסיונות התחברות. בנוסף לשם המשתמש והססמה שלך אתה צריך לפתור את האנטי-בוט שמתחת.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'אינך אומתת על־ידי Apache.',
 	'LOGIN_ERROR_PASSWORD'				=> 'ציינת ססמה שגוייה. בדוק את ססמתך ונסה שנית. אם אתה ממשיך להיתקל בבעיות צור קשר עם %sהמנהל הראשי של המערכת%s.',
@@ -403,7 +403,7 @@ $lang = array_merge($lang, array(
 	'NO_UPLOAD_FORM_FOUND'		=> 'ההעלאה הותחלה אבל לא נמצא טופס העלאת קובץ חוקי.',
 	'NO_USER'					=> 'המשתמש המבוקש לא נמצא.',
 	'NO_USERS'					=> 'המשתמשים המבוקשים לא נמצאו.',
-	'NO_USER_SPECIFIED'			=> 'לא צויין שם משתמש.',
+	'NO_USER_SPECIFIED'			=> 'לא צוין שם משתמש.',
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'אין הודעות ממתינות',		// 0
@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מידי.',
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
-	'TOO_LONG_AIM'					=> 'שם המסך שהזנך ארוך מידי.',
+	'TOO_LONG_AIM'					=> 'שם המסך שהזנת ארוך מידי.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'קוד האישור שהזנת ארוך מידי.',
 	'TOO_LONG_DATEFORMAT'			=> 'תבנית התאריך שהזנת ארוכה מדי.',
 	'TOO_LONG_ICQ'					=> 'מספר ה־ICQ שהזנת ארוך מידי.',

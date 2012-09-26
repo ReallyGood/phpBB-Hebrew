@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'MODULE_EDITED'				=> 'המודול נערך בהצלחה.',
 	'MODULE_ENABLED'			=> 'הפעל מודול',
 	'MODULE_LANGNAME'			=> 'שפת המודול',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'הכנס את שם המודול המוצג. השתמש בשפה מדוייקת אם השם מקושר לקובץ שפה.',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'הכנס את שם המודול המוצג. השתמש בשפה מדויקת אם השם מקושר לקובץ שפה.',
 	'MODULE_TYPE'				=> 'סוג המודול',
 
 	'NO_CATEGORY_TO_MODULE'	=> 'לא מצליח להעביר את הקטגוריה למודול. אנא הסר/העבר את כל הפורומים לפני עשיית פעולה זו.',

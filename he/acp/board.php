@@ -107,12 +107,12 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3 לגלריית הסמלים האישיים, למשל <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'נתיב אחסון הסמלים האישיים',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/avatars/upload</samp>.',
-	'MAX_AVATAR_SIZE'				=> 'ממדי סמל אישי מקסימלים',
+	'MAX_AVATAR_SIZE'				=> 'ממדי סמל אישי מקסימליים',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
 	'MAX_FILESIZE'					=> 'גודל קובץ לסמל אישי מרבי',
 	'MAX_FILESIZE_EXPLAIN'			=> 'לקבצי סמלים אישיים שהועלו. אם הערך הוא 0, המגבלה היחידה נקבעת בהגדרות ה־PHP בשרת.',
-	'MIN_AVATAR_SIZE'				=> 'ממדי סמל אישי מינימלים',
-	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
+	'MIN_AVATAR_SIZE'				=> 'ממדי סמל אישי מינימליים',
+	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'רוחב × גובה בפיקסלים.',
 ));
 
 // Message Settings
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ENABLE'					=> 'אפשר הזנות',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'מפעיל או מכבה את הזנות הATOM לכל המערכת.<br />כיבוי יכבה את כל ההזנות, ללא קשר לאפשרויות מתחת ולהגדרתם.',
 	'ACP_FEED_LIMIT'					=> 'מספר פריטים להזנה',
-	'ACP_FEED_LIMIT_EXPLAIN'			=> 'מספר מקסימאלי של פריטים בהזנה שיוצג.',
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'מספר מקסימלי של פריטים בהזנה שיוצג.',
 
 	'ACP_FEED_OVERALL'					=> 'אפשר הזנות לכל המערכת',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> 'הודעות חדשות במערכת.',
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ITEM_STATISTICS'			=> 'סטטיסטיקת פרטים',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'הצג סטטיסטיקה מתחת לפרטי ההזנות<br />(לדוגמה נשלח על ידי, תאריך וזמן, תגובות, צפיות)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'דחה פורומים אלה',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'תוכן מפורומים אלה <strong>לא יכלל בהזנות</strong>. אל תבחר בפורומים כדי למשוך מידע מכל הפורומים.<br />בחר בכמה פורומים על ידי לחיצה על <samp>CTRL</samp> ולחיצה בעכבר.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'תוכן מפורומים אלה <strong>לא ייכלל בהזנות</strong>. אל תבחר בפורומים כדי למשוך מידע מכל הפורומים.<br />בחר בכמה פורומים על ידי לחיצה על <samp>CTRL</samp> ולחיצה בעכבר.',
 ));
 
 // Visual Confirmation Settings
@@ -300,7 +300,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'השתמש ברעש רקע קדמי כדי לגרום לתמונה להיות קשה יותר לקריאה.',
 	'CAPTCHA_GD_X_GRID'						=> 'רעש רקע בציר x',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'השתמש בהגדרות נמוכות יותר כדי לגרום לתמונה להיות קשה יותר לקריאה. 0 יכבה את רעש הרקע של ציר ה־x.',
-	'CAPTCHA_GD_Y_GRID'						=> 'ררעש רקע בציר y',
+	'CAPTCHA_GD_Y_GRID'						=> 'רעש רקע בציר y',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'השתמש בהגדרות נמוכות יותר כדי לגרום לתמונה להיות קשה יותר לקריאה. 0 יכבה את רעש הרקע של ציר ה־y.',
 	'CAPTCHA_GD_WAVE'						=> 'גל עיוות',
 	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'אפשרות זו מוסיפה גל עיוות לתמונה.',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'אשר דפדפן',
 	'BROWSER_VALID_EXPLAIN'			=> 'מפעיל אישור דפדפן לכל חיבור לשיפור האבטחה.',
 	'CHECK_DNSBL'					=> 'בדוק IP כנגד רשימת ה־DNS השחורה',
-	'CHECK_DNSBL_EXPLAIN'			=> 'אם פעיל כתובת ה־IP של המשתמש תבדק כנגד שירותי ה־DNSBL הבאים בהרשמה ובשליחה: <a href="http://www.spamcop.net">www.spamcop.net</a> ו־<a href="http://spamhaus.org">spamhaus.org</a>. תהליך זה יכול למשך זמן מה, לפי הגדרות השרת. אם מתרחשות האטות במערכת או יותר מדי תהליכים שנכשלו מדיווחים, מומלץ לכבות בדיקה זו.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'אם פעיל כתובת ה־IP של המשתמש תיבדק כנגד שירותי ה־DNSBL הבאים בהרשמה ובשליחה: <a href="http://www.spamcop.net">www.spamcop.net</a> ו־<a href="http://spamhaus.org">spamhaus.org</a>. תהליך זה יכול למשך זמן מה, לפי הגדרות השרת. אם מתרחשות האטות במערכת או יותר מדי תהליכים שנכשלו מדיווחים, מומלץ לכבות בדיקה זו.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'בדוק מתחם דואר אלקטרוני לרישום MX חוקי',
