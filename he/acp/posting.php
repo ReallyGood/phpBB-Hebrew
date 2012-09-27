@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> 'שורת עזר',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'שדה זה הוא הטקסט שיופיע במעבר עכבר על הBBCode.',
 	'BBCODE_HELPLINE_TEXT'		=> 'הטקסט של שורת העזר',
-	'BBCODE_HELPLINE_TOO_LONG'	=> 'הטקסט של שורת העזר שהזנת ארוך מידי.',
+	'BBCODE_HELPLINE_TOO_LONG'	=> 'הטקסט של שורת העזר שהזנת ארוך מדי.',
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'השם שבחרת כבר קיים.',
 	'BBCODE_INVALID'			=> 'הBBCode בנוי בצורה לא תקינה.',

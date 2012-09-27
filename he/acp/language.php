@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	// shahar told us to write some notes...so...i'm very hungrey now.. and this is it..I guess..
 	'NO_FILE_SELECTED'				=> 'אינך ציינת קובץ שפה.',
 	'NO_LANG_ID'					=> 'אינך ציינת חבילת שפות',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'אינך יכול למחוק את שפת הברירת מחדל של המערכת. <br />במידה ואתה באמת רוצה למחוק את החבילה, שנה את חבילת הברירת המחדל של המערכת תחילה.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />במידה ואתה באמת רוצה למחוק את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה.',
 	
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'אין חבילות שפה לא מותקנות.',
 
