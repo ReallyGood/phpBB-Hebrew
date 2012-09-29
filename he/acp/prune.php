@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'בחר אם להפוך משתמשים ללא פעילים או למחוק אותם לחלוטין. אנא שים לב כי מחיקת משתמשים לא ניתנת לשחזור!',
 	'DELETE_USERS'				=> 'מחק',
 	'DELETE_USER_POSTS'			=> 'מחק את הודעותיו של המשתמש החסום',
-	'DELETE_USER_POSTS_EXPLAIN'	=> 'מוחק את ההודעות של משתמש מחוק, לא פועל במידה והמשתמש מושבת.',
+	'DELETE_USER_POSTS_EXPLAIN'	=> 'מוחק את ההודעות של משתמש מחוק, לא פועל אם המשתמש מושבת.',
 
 	'JOINED_EXPLAIN'			=> 'הכנס את התאריך בפורמט הבא <kbd>YYYY-MM-DD</kbd> .',
 
