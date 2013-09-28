@@ -1,13 +1,13 @@
 <?php
-/** 
+/**
 *
 * viewtopic [Hebrew]
 *
 * @package language
 * @version $Id: $
-* @copyright (c) 2007 phpBB Group 
+* @copyright (c) 2007 phpBB Group
 * @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -67,10 +67,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_TOPIC'	=> 'קיבלת הודעה על נושא זה, אנא התחבר על מנת לצפות בו.',
 	'LOGIN_VIEWTOPIC'		=> 'המערכת דורשת ממך להיות רשום ומחובר כדי לצפות בנושא הזה.',
 
-	'MAKE_ANNOUNCE'				=> 'שנה ל־“הכרזה”',
-	'MAKE_GLOBAL'				=> 'שנה ל־“גלובלי”',
-	'MAKE_NORMAL'				=> 'שנה ל־“נושא רגיל”',
-	'MAKE_STICKY'				=> 'שנה ל־“דביק”',
+	'MAKE_ANNOUNCE'				=> 'הפוך להכרזה',
+	'MAKE_GLOBAL'				=> 'הפוך לגלובלי',
+	'MAKE_NORMAL'				=> 'הפוך לרגיל',
+	'MAKE_STICKY'				=> 'הפוך לדביק',
 	'MAX_OPTIONS_SELECT'		=> 'אתה יכול לבחור עד <strong>%d</strong> אפשרויות',
 	'MAX_OPTION_SELECT'			=> 'אתה יכול לבחור רק אפשרות <strong>אחת</strong>',
 	'MISSING_INLINE_ATTACHMENT'	=> 'הקובץ המצורף <strong>%s</strong> לא זמין יותר.',
