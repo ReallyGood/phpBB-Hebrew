@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'שיטת החיפוש מנקה כרגע את המאגר שלה. הפעולה יכולה להמשך מספר דקות.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'שיטת הטקסט המלא של MySQL ניתנת לשימוש רק עם MySQL4 ומעל.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'            => 'מאגרי הטקסט המלא של MySQL ניתנים לשימוש רק עם טבלאות MyISAM או InnoDB. MySQL 5.6.4 או גרסה מאוחר יותר נדרש לטובת מאגרי טקסט מלא בשימוש בטבלאות InnoDB.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'            => 'מאגרי הטקסט המלא של MySQL ניתנים לשימוש רק עם טבלאות MyISAM או InnoDB. MySQL 5.6.4 או גרסה מאוחר יותר נדרש לטובת מאגרי טקסט מלא בשימוש בטבלאות InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'מספר כולל של הודעות במאגר',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'תמיכה לאותיות לא לטיניות בקידוד UTF-8 בעזרת mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'תמיכה לאותיות לא לטיניות בקידוד UTF-8 בעזרת PCRE:',
