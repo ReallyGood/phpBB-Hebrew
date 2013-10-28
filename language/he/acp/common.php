@@ -4,10 +4,10 @@
 * acp common [Hebrew]
 *
 * @package language
-* @version $Id$
-* @copyright (c) 2005 phpBB Group
+* @version $Id: $
+* @copyright (c) 2007 phpBB Group 
 * @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
 
@@ -513,9 +513,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>משתמש הקפיץ נושא</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>מחק הודעה “%1$s” שנכתבה על ידי</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>מחק הודעה</strong><br />» %s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>מחק נושא מוצל</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>מחק נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>מחק נושא</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>העתיק נושא</strong><br />» מ%s',
 	'LOG_LOCK'					=> '<strong>נעל נושא</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>נעל הודעה</strong><br />» %s',
@@ -740,6 +740,22 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
+
+));
+	
+// Two language keys with the same text were used in different locations
+// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
+// log entries are not broken. Ensure it is included in your language file.
+$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
+
+// Manage attachments module for phpBB3 MOD
+$lang = array_merge($lang, array(
+	'ACP_MANAGE_ATTACHMENTS'			=> 'ניהול קבצים מצורפים',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'כאן אתה יכול לנהל קבצים המצורפים להודעות. אתה יכול למחוק את הקבצים או לנתב אותם להודעות קיימות. ניתוב מחדש דורש ID תקין להודעה, תאלץ לבדוק את הID בעצמך. כך הקובץ המצורף יצורף להודעה אשר בה בחרת.',
+	'LOG_ATTACH_DEL'					=> '<strong>הקבצים המצורפים נמחקו</strong><br />» %s',
+	'LOG_ATTACH_REASSIGNED'				=> '<strong>קובץ מצורף מנותב להודעה</strong><br />» ID %1$d - %2$s',
+	'TOTAL_SIZE'						=> 'גודל כולל',
+	'DOWNLOADS'							=> 'הורדות',
 ));
 
 ?>

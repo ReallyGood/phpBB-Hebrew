@@ -433,6 +433,7 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_TEMPLATE'	=> 'תבניות עיצוב שהוסרו',
 	'UNINSTALLED_THEME'		=> 'סגנונות שהוסרו',
 	'UNSET'					=> 'לא מוגדר',
+
 ));
 
 ?>
