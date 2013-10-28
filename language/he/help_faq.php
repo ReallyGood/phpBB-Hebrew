@@ -1,5 +1,4 @@
 <?php
-<?php
 /** 
 *
 * help_faq [Hebrew]

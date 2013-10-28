@@ -75,7 +75,6 @@ $lang = array_merge($lang, array(
 	'MISSING_LANGUAGE_FILE'		=> 'קובץ שפה חסר: <strong style="color:red">%s</strong>',
 	'MISSING_LANG_VARIABLES'	=> 'משתני שפה חסרים',
 	'MODS_FILES'				=> 'קבצי שפה של מודים',
-	// shahar told us to write some notes...so...i'm very hungrey now.. and this is it..I guess..
 	'NO_FILE_SELECTED'				=> 'אינך ציינת קובץ שפה.',
 	'NO_LANG_ID'					=> 'אינך ציינת חבילת שפות',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />אם אתה באמת רוצה למחוק את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה.',
@@ -100,7 +99,6 @@ $lang = array_merge($lang, array(
 	'UPLOAD_SETTINGS'			=> 'הגדרות העלאה',
 
 	'WRONG_LANGUAGE_FILE'		=> 'קובץ השפה הנבחר אינו תקין.',
-	// another note: I finished it. And I don't know if I should publish it now or when I will finish all the land_files..hmm...I gonna publish it now..yea..and then eat something.
 ));
 
 ?>
