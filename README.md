@@ -1,7 +1,7 @@
 phpBB-Hebrew
 ============
 
-The Hebrew localization of phpBB happens here, current version: 3.1.
+The Hebrew localization of phpBB happens here, current version: 3.1-a2.
 
 ## Contribute
 You can report mistakes and send suggestions [here](http://phpbb.co.il/viewforum.php?f=26) (hebrew).
