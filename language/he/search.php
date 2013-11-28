@@ -1,13 +1,12 @@
 <?php
 /** 
 *
-* search.php [Hebrew]
+* search [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -42,9 +41,14 @@ $lang = array_merge($lang, array(
 	
 	'DISPLAY_RESULTS'	=> 'הצג את תוצאות החיפוש כ',
 	
-	'FOUND_SEARCH_MATCH'	=> 'החיפוש הניב תוצאה אחת בלבד',
-	'FOUND_SEARCH_MATCHES'	=> 'החיפוש הניב %d תוצאות',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'החיפוש הניב יותר מ־%d תוצאות',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> 'החיפוש הנציב תוצאה %d',
+		2	=> 'החיפוש הניב %d תוצאות',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> 'החיפוש הניב יותר מתוצאה %d',
+		2	=> 'החיפוש הניב יותר מ %d תוצאות',
+	),
 	
 	'GLOBAL'	=> 'הכרזה גלובלית',
 	
@@ -59,7 +63,7 @@ $lang = array_merge($lang, array(
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'ציינת יותר מדי מילים לחיפוש. אנא אל תציין יותר מ־%1$d מילים.',
 	
-	'NO_KEYWORDS'			=> 'יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %dאותיות ולא להכיל יותר מ־%d אותיות, לא כולל תווים משלימים.',
+	'NO_KEYWORDS'			=> 'יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s אותיות ולא יכולה להכין יותר מ־%s אותיות, לא כולל תווים משלימים.',
 	'NO_RECENT_SEARCHES'	=> 'לא בוצעו חיפושים במערכת לאחרונה.',
 	'NO_SEARCH'				=> 'אנחנו מתנצלים, אך אינך מורשה להשתמש במערכת החיפוש.',
 	'NO_SEARCH_RESULTS'		=> 'לא נמצאו תוצאות מתאימות.',
@@ -69,6 +73,7 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'לא נמצאו תוצאות מכיוון והמילים <strong>%s</strong> לא נמצאו כלל בשום הודעה.',
 	
 	'POST_CHARACTERS'	=> 'תווים מההודעה',
+	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
 	
 	'RECENT_SEARCHES'	=> 'חיפושים אחרונים שבוצעו',
 	'RESULT_DAYS'	=> 'הגבל תוצאות לפי זמן כתיבה',
@@ -102,7 +107,11 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'	=> 'נושא ההודעה',
 	'SORT_TIME'	=> 'תאריך ושעת הכתיבה',
 	
-	'TOO_FEW_AUTHOR_CHARS'	=> 'אתה חייב לציין לפחות %d תווים מהשם של המחבר.',
-));
+	'SPHINX_SEARCH_FAILED'		=> 'חיפוש נכשל: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'סליחה, החיפוש לא ניתן לביצוע. מידע נוסף עבור שגיאה זו תועד ביומן השגיאות.',
 
-?>
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'אתה חייב לציין לפחות תו %d מהשם של המחבר.',
+		2	=> 'אתה חייב לציין לפחות %d תווים מהשם של המחבר.',
+	),
+));

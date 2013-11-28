@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
+*
 * acp_permissions (phpBB Permission Set) [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
 */
 
 /**
@@ -35,208 +36,174 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 /**
-*	MODDERS PLEASE NOTE
-*	
-*	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp 
-*	language folder.
+*	EXTENSION-DEVELOPERS PLEASE NOTE
 *
-*	An example of how the file could look like:
-*
-*	<code>
-*
-*	if (empty($lang) || !is_array($lang))
-*	{
-*		$lang = array();
-*	}
-*
-*	// Adding new category
-*	$lang['permission_cat']['bugs'] = 'Bugs';
-*
-*	// Adding new permission set
-*	$lang['permission_type']['bug_'] = 'Bug Permissions';
-*
-*	// Adding the permissions
-*	$lang = array_merge($lang, array(
-*		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
-*		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
-*	));
-*
-*	</code>
+*	You are able to put your permission sets into your extension.
+*	The permissions logic should be added via the 'core.permissions' event.
+*	You can easily add new permission categories, types and permissions, by
+*	simply merging them into the respective arrays.
+*	The respective language strings should be added into a language file, that
+*	start with 'permissions_', so they are automatically loaded within the ACP.
 */
 
-// Define categories and permission types
 $lang = array_merge($lang, array(
-	'permission_cat'	=> array(
-		'actions'		=> 'פעולות',
-		'content'		=> 'תוכן',
-		'forums'		=> 'פורומים',
-		'misc'			=> 'שונות',
-		'permissions'	=> 'הרשאות',
-		'pm'			=> 'הודעות פרטיות',
-		'polls'			=> 'סקרים',
-		'post'			=> 'הודעה',
-		'post_actions'	=> 'פעולות הודעה',
-		'posting'		=> 'פרסום',
-		'profile'		=> 'פרופיל',
-		'settings'		=> 'הגדרות',
-		'topic_actions'	=> 'פעולות נושא',
-		'user_group'	=> 'משתמשים וקבוצות',
-	),
-
-	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.
-	'permission_type'	=> array(
-		'u_'			=> 'הרשאות משתמש',
-		'a_'			=> 'הרשאות מנהל ראשי',
-		'm_'			=> 'הרשאות מנהל',
-		'f_'			=> 'הרשאות פורום',
-		'global'		=> array(
-			'm_'			=> 'הרשאות מנהל גלובלי',
-		),
-	),
+	'ACL_CAT_ACTIONS'		=> 'פעולות',
+	'ACL_CAT_CONTENT'		=> 'תוכן',
+	'ACL_CAT_FORUMS'		=> 'פורומים',
+	'ACL_CAT_MISC'			=> 'שונות',
+	'ACL_CAT_PERMISSIONS'	=> 'הרשאות',
+	'ACL_CAT_PM'			=> 'הודעות פרטיות',
+	'ACL_CAT_POLLS'			=> 'סקרים',
+	'ACL_CAT_POST'			=> 'הודעה',
+	'ACL_CAT_POST_ACTIONS'	=> 'פעולות הודעה',
+	'ACL_CAT_POSTING'		=> 'פרסום',
+	'ACL_CAT_PROFILE'		=> 'פרופיל',
+	'ACL_CAT_SETTINGS'		=> 'הגדרות',
+	'ACL_CAT_TOPIC_ACTIONS'	=> 'פעולות נושא',
+	'ACL_CAT_USER_GROUP'	=> 'משתמשים וקבוצות',
 ));
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'רשאי לצפות בפרופילים, רשימת המשתמשים, ורשימת המחוברים', 'cat' => 'profile'),
-	'acl_u_chgname'		=> array('lang' => 'רשאי לשנות שם משתמש', 'cat' => 'profile'),
-	'acl_u_chgpasswd'	=> array('lang' => 'רשאי לשנות ססמה', 'cat' => 'profile'),
-	'acl_u_chgemail'	=> array('lang' => 'רשאי לשנות את כתובת הדואר האלקטרוני', 'cat' => 'profile'),
-	'acl_u_chgavatar'	=> array('lang' => 'רשאי לשנות את תמונת התצוגה', 'cat' => 'profile'),
-	'acl_u_chggrp'		=> array('lang' => 'רשאי לשנות את קבוצת ברירת המחדל', 'cat' => 'profile'),
+	'ACL_U_VIEWPROFILE'	=> 'רשאי לצפות בפרופילים, רשימת המשתמשים, ורשימת המחוברים',
+	'ACL_U_CHGNAME'		=> 'רשאי לשנות שם משתמש',
+	'ACL_U_CHGPASSWD'	=> 'רשאי לשנות ססמה',
+	'ACL_U_CHGEMAIL'	=> 'רשאי לשנות את כתובת הדואר האלקטרוני',
+	'ACL_U_CHGAVATAR'	=> 'רשאי לשנות את תמונת התצוגה',
+	'ACL_U_CHGGRP'		=> 'רשאי לשנות את קבוצת ברירת המחדל',
+	'ACL_U_CHGPROFILEINFO'	=> 'ראשי לשנות מידע בשדות הפרופיל',
 
-	'acl_u_attach'		=> array('lang' => 'רשאי לצרף קבצים', 'cat' => 'post'),
-	'acl_u_download'	=> array('lang' => 'רשאי להוריד קבצים', 'cat' => 'post'),
-	'acl_u_savedrafts'	=> array('lang' => 'רשאי לשמור טיוטות', 'cat' => 'post'),
-	'acl_u_chgcensors'	=> array('lang' => 'רשאי לנטרל מילים מצונזרות', 'cat' => 'post'),
-	'acl_u_sig'			=> array('lang' => 'רשאי להשתמש בחתימה', 'cat' => 'post'),
+	'ACL_U_ATTACH'		=> 'רשאי לצרף קבצים',
+	'ACL_U_DOWNLOAD'	=> 'רשאי להוריד קבצים',
+	'ACL_U_SAVEDRAFTS'	=> 'רשאי לשמור טיוטות',
+	'ACL_U_CHGCENSORS'	=> 'רשאי לנטרל מילים מצונזרות',
+	'ACL_U_SIG'			=> 'רשאי להשתמש בחתימה',
 
-	'acl_u_sendpm'		=> array('lang' => 'רשאי לשלוח הודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => 'רשאי לשלוח הודעות לכמה משתמשים', 'cat' => 'pm'),
-	'acl_u_masspm_group'=> array('lang' => 'רשאי לשלוח הודעות לקבוצות', 'cat' => 'pm'),
-	'acl_u_readpm'		=> array('lang' => 'רשאי לקרוא הודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_edit'		=> array('lang' => 'רשאי לערוך הודעות פרטיות עצמיות', 'cat' => 'pm'),
-	'acl_u_pm_delete'	=> array('lang' => 'רשאי למחוק הודעות פרטיות מהתיקייה האישית', 'cat' => 'pm'),
-	'acl_u_pm_forward'	=> array('lang' => 'רשאי להעביר הודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_emailpm'	=> array('lang' => 'רשאי לשלוח בדואר אלקטרוני הודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_printpm'	=> array('lang' => 'רשאי להדפיס הודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_attach'	=> array('lang' => 'רשאי לצרף קבצים בהודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_download'	=> array('lang' => 'רשאי להוריד קבצים בהודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_bbcode'	=> array('lang' => 'רשאי להשתמש בBBcode בהודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_smilies'	=> array('lang' => 'רשאי להשתמש בסמיילים בהודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'רשאי להשתמש בתג [img] בהודעות פרטיות', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'רשאי להשתמש בתג [flash] בהודעות פרטיות', 'cat' => 'pm'),
+	'ACL_U_SENDPM'		=> 'רשאי לשלוח הודעות פרטיות',
+	'ACL_U_MASSPM'		=> 'רשאי לשלוח הודעות לכמה משתמשים',
+	'ACL_U_MASSPM_GROUP'=> 'רשאי לשלוח הודעות לקבוצות',
+	'ACL_U_READPM'		=> 'רשאי לקרוא הודעות פרטיות',
+	'ACL_U_PM_EDIT'		=> 'רשאי לערוך הודעות פרטיות עצמיות',
+	'ACL_U_PM_DELETE'	=> 'רשאי למחוק הודעות פרטיות מהתיקייה האישית',
+	'ACL_U_PM_FORWARD'	=> 'רשאי להעביר הודעות פרטיות',
+	'ACL_U_PM_EMAILPM'	=> 'רשאי לשלוח בדואר אלקטרוני הודעות פרטיות',
+	'ACL_U_PM_PRINTPM'	=> 'רשאי להדפיס הודעות פרטיות',
+	'ACL_U_PM_ATTACH'	=> 'רשאי לצרף קבצים בהודעות פרטיות',
+	'ACL_U_PM_DOWNLOAD'	=> 'רשאי להוריד קבצים בהודעות פרטיות',
+	'ACL_U_PM_BBCODE'	=> 'רשאי להשתמש בBBcode בהודעות פרטיות',
+	'ACL_U_PM_SMILIES'	=> 'רשאי להשתמש בסמיילים בהודעות פרטיות',
+	'ACL_U_PM_IMG'		=> 'רשאי להשתמש בתג [img] בהודעות פרטיות',
+	'ACL_U_PM_FLASH'	=> 'רשאי להשתמש בתג [flash] בהודעות פרטיות',
 
-	'acl_u_sendemail'	=> array('lang' => 'רשאי לשלוח דואר אלקטרוני', 'cat' => 'misc'),
-	'acl_u_sendim'		=> array('lang' => 'רשאי לשלוח הודעות פרטיות', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => 'רשאי להתעלם מהגבלת ההצפה', 'cat' => 'misc'),
-	'acl_u_hideonline'	=> array('lang' => 'רשאי להסתיר מצב מחובר', 'cat' => 'misc'),
-	'acl_u_viewonline'	=> array('lang' => 'רשאי לראות משתמשים מוסתרים מחוברים', 'cat' => 'misc'),
-	'acl_u_search'		=> array('lang' => 'רשאי לחפש בפורום', 'cat' => 'misc'),
+	'ACL_U_SENDEMAIL'	=> 'רשאי לשלוח דואר אלקטרוני',
+	'ACL_U_SENDIM'		=> 'רשאי לשלוח הודעות פרטיות',
+	'ACL_U_IGNOREFLOOD'	=> 'רשאי להתעלם מהגבלת ההצפה',
+	'ACL_U_HIDEONLINE'	=> 'רשאי להסתיר מצב מחובר',
+	'ACL_U_VIEWONLINE'	=> 'רשאי לראות משתמשים מוסתרים מחוברים',
+	'ACL_U_SEARCH'		=> 'רשאי לחפש בפורום',
 ));
 
 // Forum Permissions
 $lang = array_merge($lang, array(
-	'acl_f_list'		=> array('lang' => 'רשאי לראות פורום', 'cat' => 'post'),
-	'acl_f_read'		=> array('lang' => 'רשאי לקרוא בפורום', 'cat' => 'post'),
-	'acl_f_post'		=> array('lang' => 'רשאי להוסיף נושא חדש', 'cat' => 'post'),
-	'acl_f_reply'		=> array('lang' => 'רשאי להגיב לנושאים', 'cat' => 'post'),
-	'acl_f_icons'		=> array('lang' => 'רשאי להשתמש באייקונים', 'cat' => 'post'),
-	'acl_f_announce'	=> array('lang' => 'רשאי לכתוב הכרזות', 'cat' => 'post'),
-	'acl_f_sticky'		=> array('lang' => 'רשאי לכתוב הודעות דביקות', 'cat' => 'post'),
+	'ACL_F_LIST'		=> 'רשאי לראות פורום',
+	'ACL_F_READ'		=> 'רשאי לקרוא בפורום',
+	'ACL_F_SEARCH'		=> 'רשאי לחפש בפורום',
+	'ACL_F_SUBSCRIBE'	=> 'רשאי להרשם לפורום',
+	'ACL_F_PRINT'		=> 'רשאי להדפיס נושאים',
+	'ACL_F_EMAIL'		=> 'רשאי לשלוח בדואר האלקטרוני נושאים',
+	'ACL_F_BUMP'		=> 'רשאי להקפיץ נושאים',
+	'ACL_F_USER_LOCK'	=> 'רשאי לנעול נושאים של עצמו',
+	'ACL_F_DOWNLOAD'	=> 'רשאי להוריד קבצים',
+	'ACL_F_REPORT'		=> 'רשאי לדווח על הודעות',
 
-	'acl_f_poll'		=> array('lang' => 'רשאי ליצור סקרים', 'cat' => 'polls'),
-	'acl_f_vote'		=> array('lang' => 'רשאי להצביע לסקרים', 'cat' => 'polls'),
-	'acl_f_votechg'		=> array('lang' => 'רשאי לשנות את ההצבעה', 'cat' => 'polls'),
+	'ACL_F_POST'		=> 'רשאי לכתוב נושא חדש',
+	'ACL_F_STICKY'		=> 'רשאי לכתוב נושאים דביקים',
+	'ACL_F_ANNOUNCE'	=> 'רשאי לכתוב הכרזות',
+	'ACL_F_REPLY'		=> 'רשאי להגיב לנושאים',
+	'ACL_F_EDIT'		=> 'רשאי לערוך את הודעותיו',
+	'ACL_F_DELETE'		=> 'רשאי למחוק את הודעותיו לצמיתות',
+	'ACL_F_SOFTDELETE'	=> 'רשאי למחוק מחיקה רכה את הודעותיו<br /><em>מנהלים, בעלי ההרשאה לאשר הודעות, יכולים לשחזר שנמחקו מחיקה רכה.</em>',
+	'ACL_F_IGNOREFLOOD' => 'רשאי לבטל הגבלת הצפה',
+	'ACL_F_POSTCOUNT'	=> 'ספירת הודעות במונה ההודעות<br /><em>שים לב כי הגדרה זו תחול רק על הודעות חדשות.</em>',
+	'ACL_F_NOAPPROVE'	=> 'רשאי לכתוב הודעה ללא אישור',
 
-	'acl_f_attach'		=> array('lang' => 'רשאי לצרף קבצים', 'cat' => 'content'),
-	'acl_f_download'	=> array('lang' => 'רשאי להוריד קבצים', 'cat' => 'content'),
-	'acl_f_sigs'		=> array('lang' => 'רשאי להשתמש בחתימה', 'cat' => 'content'),
-	'acl_f_bbcode'		=> array('lang' => 'רשאי להשתמש בBBCode', 'cat' => 'content'),
-	'acl_f_smilies'		=> array('lang' => 'רשאי להשתמש בסמיילים', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'רשאי להשתמש בתג [img]', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'רשאי להשתמש בתג [flash] ', 'cat' => 'content'),
+	'ACL_F_ATTACH'		=> 'רשאי לצרף קבצים',
+	'ACL_F_ICONS'		=> 'רשאי להשתמש באייקונים בנושאים/הודעות',
+	'ACL_F_BBCODE'		=> 'רשאי להשתמש בBBCode',
+	'ACL_F_FLASH'		=> 'רשאי להשתמש בתג [flash]',
+	'ACL_F_IMG'			=> 'רשאי להשתמש בתג [img]',
+	'ACL_F_SIGS'		=> 'רשאי להשתמש בחתימה',
+	'ACL_F_SMILIES'		=> 'רשאי להשתמש בסמיילים',
 
-	'acl_f_edit'		=> array('lang' => 'רשאי לערוך את הודעותיו', 'cat' => 'actions'),
-	'acl_f_delete'		=> array('lang' => 'רשאי למחוק את הודעותיו', 'cat' => 'actions'),
-	'acl_f_user_lock'	=> array('lang' => 'רשאי לנעול נושאים שפתח', 'cat' => 'actions'),
-	'acl_f_bump'		=> array('lang' => 'רשאי להקפיץ נושאים', 'cat' => 'actions'),
-	'acl_f_report'		=> array('lang' => 'רשאי לדווח על הודעות', 'cat' => 'actions'),
-	'acl_f_subscribe'	=> array('lang' => 'רשאי להירשם לפורום', 'cat' => 'actions'),
-	'acl_f_print'		=> array('lang' => 'רשאי להדפיס נושא', 'cat' => 'actions'),
-	'acl_f_email'		=> array('lang' => 'רשאי לשלוח בדואר אלקטרוני נושאים', 'cat' => 'actions'),
-
-	'acl_f_search'		=> array('lang' => 'רשאי לחפש בפורום', 'cat' => 'misc'),
-	'acl_f_ignoreflood'	=> array('lang' => 'רשאי לבטל הגבלת הצפה', 'cat' => 'misc'),
-	'acl_f_postcount'	=> array('lang' => 'ספירת הודעות במונה ההודעות<br /><em>שים לב כי הגדרה זו תחול רק על הודעות חדשות.</em>', 'cat' => 'misc'),
-	'acl_f_noapprove'	=> array('lang' => 'רשאי לכתוב הודעה ללא אישור', 'cat' => 'misc'),
+	'ACL_F_POLL'		=> 'רשאי ליצור סקרים',
+	'ACL_F_VOTE'		=> 'רשאי להצביע לסקרים',
+	'ACL_F_VOTECHG'		=> 'רשאי לשנות את ההצבעה',
 ));
 
 // Moderator Permissions
 $lang = array_merge($lang, array(
-	'acl_m_edit'		=> array('lang' => 'רשאי לערוך הודעות', 'cat' => 'post_actions'),
-	'acl_m_delete'		=> array('lang' => 'רשאי למחוק הודעות', 'cat' => 'post_actions'),
-	'acl_m_approve'		=> array('lang' => 'רשאי לאשר הודעות', 'cat' => 'post_actions'),
-	'acl_m_report'		=> array('lang' => 'רשאי לסגור ולמחוק דיווחים', 'cat' => 'post_actions'),
-	'acl_m_chgposter'	=> array('lang' => 'רשאי לשנות את מחבר ההודעה', 'cat' => 'post_actions'),
+	'ACL_M_EDIT'		=> 'רשאי לערוך הודעות',
+	'ACL_M_DELETE'		=> 'רשאי למחוק הודעות לצמיתות',
+	'ACL_M_SOFTDELETE'	=> 'רשאי למחוק הודעות מחיקה רכה<br /><em>מנהלים, בעלי ההרשאה לאשר הודעות, יכולים לשחזר שנמחקו מחיקה רכה.</em>',
+	'ACL_M_APPROVE'		=> 'רשאי לאשר הודעות',
+	'ACL_M_REPORT'		=> 'רשאי לסגור ולמחוק דיווחים',
+	'ACL_M_CHGPOSTER'	=> 'רשאי לשנות את מחבר ההודעה',
 
-	'acl_m_move'	=> array('lang' => 'רשאי להעביר נושאים', 'cat' => 'topic_actions'),
-	'acl_m_lock'	=> array('lang' => 'רשאי לנעול נושאים', 'cat' => 'topic_actions'),
-	'acl_m_split'	=> array('lang' => 'רשאי לפצל נושאים', 'cat' => 'topic_actions'),
-	'acl_m_merge'	=> array('lang' => 'רשאי למזג נושאים', 'cat' => 'topic_actions'),
+	'ACL_M_MOVE'	=> 'רשאי להעביר נושאים',
+	'ACL_M_LOCK'	=> 'רשאי לנעול נושאים',
+	'ACL_M_SPLIT'	=> 'רשאי לפצל נושאים',
+	'ACL_M_MERGE'	=> 'רשאי למזג נושאים',
 
-'acl_m_info'	=> array('lang' => 'רשאי לראות פרטי הודעה', 'cat' => 'misc'),
-	'acl_m_warn'	=> array('lang' => 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
-	'acl_m_ban'		=> array('lang' => 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', 'cat' => 'misc'), // This moderator setting is only global (and not local)
+	'ACL_M_INFO'	=> 'רשאי לראות פרטי הודעה',
+	'ACL_M_WARN'	=> 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'		=> 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'acl_a_board'		=> array('lang' => 'רשאי לשנות הגדרות מערכת/לבדוק עבור עדכונים', 'cat' => 'settings'),
-	'acl_a_server'		=> array('lang' => 'רשאי לשנות שרת/הגדרות תקשורת', 'cat' => 'settings'),
-	'acl_a_jabber'		=> array('lang' => 'רשאי לשנות הגדרות Jabber', 'cat' => 'settings'),
-	'acl_a_phpinfo'		=> array('lang' => 'רשאי לראות הגדרות PHP', 'cat' => 'settings'),
+	'ACL_A_BOARD'		=> 'רשאי לשנות הגדרות מערכת/לבדוק עבור עדכונים',
+	'ACL_A_SERVER'		=> 'רשאי לשנות שרת/הגדרות תקשורת',
+	'ACL_A_JABBER'		=> 'רשאי לשנות הגדרות Jabber',
+	'ACL_A_PHPINFO'		=> 'רשאי לראות הגדרות PHP',
 
-	'acl_a_forum'		=> array('lang' => 'רשאי לנהל פורומים', 'cat' => 'forums'),
-	'acl_a_forumadd'	=> array('lang' => 'רשאי להוסיף פורומים חדשים', 'cat' => 'forums'),
-	'acl_a_forumdel'	=> array('lang' => 'רשאי למחוק פורומים', 'cat' => 'forums'),
-	'acl_a_prune'		=> array('lang' => 'רשאי לאפס פורומים', 'cat' => 'forums'),
+	'ACL_A_FORUM'		=> 'רשאי לנהל פורומים',
+	'ACL_A_FORUMADD'	=> 'רשאי להוסיף פורומים חדשים',
+	'ACL_A_FORUMDEL'	=> 'רשאי למחוק פורומים',
+	'ACL_A_PRUNE'		=> 'רשאי לאפס פורומים',
 
-	'acl_a_icons'		=> array('lang' => 'רשאי לשנות סמיילים ואייקונים לנושא/הודעה', 'cat' => 'posting'),
-	'acl_a_words'		=> array('lang' => 'רשאי לשנות צנזורים', 'cat' => 'posting'),
-	'acl_a_bbcode'		=> array('lang' => 'רשאי להגדיר תגי BBCode', 'cat' => 'posting'),
-	'acl_a_attach'		=> array('lang' => 'רשאי לשנות הגדרות קובץ מצורף', 'cat' => 'posting'),
+	'ACL_A_ICONS'		=> 'רשאי לשנות סמיילים ואייקונים לנושא/הודעה',
+	'ACL_A_WORDS'		=> 'רשאי לשנות צנזורים',
+	'ACL_A_BBCODE'		=> 'רשאי להגדיר תגי BBCode',
+	'ACL_A_ATTACH'		=> 'רשאי לשנות הגדרות קובץ מצורף',
 
-	'acl_a_user'		=> array('lang' => 'רשאי לנהל משתמשים<br /><em>הגדרה זו כוללת גם צפייה בדפדפן המשתמשים בתוך רשימת המשתמשים המחוברים.</em>', 'cat' => 'user_group'),
-	'acl_a_userdel'		=> array('lang' => 'רשאי למחוק/לאפס משתמשים', 'cat' => 'user_group'),
-	'acl_a_group'		=> array('lang' => 'רשאי לנהל קבוצות', 'cat' => 'user_group'),
-	'acl_a_groupadd'	=> array('lang' => 'רשאי להוסיף קבוצות חדשות', 'cat' => 'user_group'),
-	'acl_a_groupdel'	=> array('lang' => 'רשאי למחוק קבוצות', 'cat' => 'user_group'),
-	'acl_a_ranks'		=> array('lang' => 'רשאי לנהל דרגות', 'cat' => 'user_group'),
-	'acl_a_profile'		=> array('lang' => 'רשאי לנהל שדות מותאמים אישית בפרופיל', 'cat' => 'user_group'),
-	'acl_a_names'		=> array('lang' => 'רשאי לנהל שמות משתמש לא מורשים', 'cat' => 'user_group'),
-	'acl_a_ban'			=> array('lang' => 'רשאי לנהל חסימות', 'cat' => 'user_group'),
+	'ACL_A_USER'		=> 'רשאי לנהל משתמשים<br /><em>הגדרה זו כוללת גם צפייה בדפדפן המשתמשים בתוך רשימת המשתמשים המחוברים.</em>.</em>',
+	'ACL_A_USERDEL'		=> 'רשאי למחוק/לאפס משתמשים',
+	'ACL_A_GROUP'		=> 'רשאי לנהל קבוצות',
+	'ACL_A_GROUPADD'	=> 'רשאי להוסיף קבוצות חדשות',
+	'ACL_A_GROUPDEL'	=> 'רשאי למחוק קבוצות',
+	'ACL_A_RANKS'		=> 'רשאי לנהל דרגות',
+	'ACL_A_PROFILE'		=> 'רשאי לנהל שדות מותאמים אישית בפרופיל',
+	'ACL_A_NAMES'		=> 'רשאי לנהל שמות משתמש לא מורשים',
+	'ACL_A_BAN'			=> 'רשאי לנהל חסימות',
 
-	'acl_a_viewauth'	=> array('lang' => 'רשאי לראות הרשאות מוסתרות', 'cat' => 'permissions'),
-	'acl_a_authgroups'	=> array('lang' => 'רשאי לשנות הרשאות לקבוצות מסוימות', 'cat' => 'permissions'),
-	'acl_a_authusers'	=> array('lang' => 'רשאי לשנות הרשאות למשתמשים מסוימים', 'cat' => 'permissions'),
-	'acl_a_fauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה לפורום', 'cat' => 'permissions'),
-	'acl_a_mauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהלים', 'cat' => 'permissions'),
-	'acl_a_aauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למנהל הראשי', 'cat' => 'permissions'),
-	'acl_a_uauth'		=> array('lang' => 'רשאי לשנות הרשאות מחלקה למשתמש', 'cat' => 'permissions'),
-	'acl_a_roles'		=> array('lang' => 'רשאי לנהל כללים', 'cat' => 'permissions'),
-	'acl_a_switchperm'	=> array('lang' => 'רשאי להשתמש בהרשאות אחרות', 'cat' => 'permissions'),
+	'ACL_A_VIEWAUTH'	=> 'רשאי לראות הרשאות מוסתרות',
+	'ACL_A_AUTHGROUPS'	=> 'רשאי לשנות הרשאות לקבוצות מסוימות',
+	'ACL_A_AUTHUSERS'	=> 'רשאי לשנות הרשאות למשתמשים מסוימים',
+	'ACL_A_FAUTH'		=> 'רשאי לשנות הרשאות מחלקה לפורום',
+	'ACL_A_MAUTH'		=> 'רשאי לשנות הרשאות מחלקה למנהלים',
+	'ACL_A_AAUTH'		=> 'רשאי לשנות הרשאות מחלקה למנהל הראשי',
+	'ACL_A_UAUTH'		=> 'רשאי לשנות הרשאות מחלקה למשתמש',
+	'ACL_A_ROLES'		=> 'רשאי לנהל כללים',
+	'ACL_A_SWITCHPERM'	=> 'רשאי להשתמש בהרשאות אחרות',
 
-	'acl_a_styles'		=> array('lang' => 'רשאי לנהל עיצובים', 'cat' => 'misc'),
-	'acl_a_viewlogs'	=> array('lang' => 'רשאי לראות מעקב פעולות', 'cat' => 'misc'),
-	'acl_a_clearlogs'	=> array('lang' => 'רשאי למחוק מעקב פעולות', 'cat' => 'misc'),
-	'acl_a_modules'		=> array('lang' => 'רשאי לנהל מודולים', 'cat' => 'misc'),
-	'acl_a_language'	=> array('lang' => 'רשאי לנהל חבילות שפה', 'cat' => 'misc'),
-	'acl_a_email'		=> array('lang' => 'רשאי לשלוח כמות גדולה של דואר אלקטרוני', 'cat' => 'misc'),
-	'acl_a_bots'		=> array('lang' => 'רשאי לנהל רובוטים', 'cat' => 'misc'),
-	'acl_a_reasons'		=> array('lang' => 'רשאי לנהל סיבות דיווח/חסימה', 'cat' => 'misc'),
-	'acl_a_backup'		=> array('lang' => 'רשאי לגבות/לשחזר בסיס נתונים', 'cat' => 'misc'),
-	'acl_a_search'		=> array('lang' => 'רשאי לנהל חיפוש מאגר נתונים והגדרות', 'cat' => 'misc'),
+	'ACL_A_EXTENSIONS'	=> 'רשאי לנהל תוספות',
+	'ACL_A_VIEWLOGS'	=> 'רשאי לראות מעקב פעולות',
+	'ACL_A_CLEARLOGS'	=> 'רשאי למחוק מעקב פעולות',
+	'ACL_A_MODULES'		=> 'רשאי לנהל מודולים',
+	'ACL_A_LANGUAGE'	=> 'רשאי לנהל חבילות שפה',
+	'ACL_A_EMAIL'		=> 'רשאי להשתמש בשולח הדואר האלקטרוני',
+	'ACL_A_BOTS'		=> 'רשאי לנהל רובוטים',
+	'ACL_A_REASONS'		=> 'רשאי לנהל סיבות דיווח/חסימה',
+	'ACL_A_BACKUP'		=> 'רשאי לגבות/לשחזר בסיס נתונים',
+	'ACL_A_SEARCH'		=> 'רשאי לנהל חיפוש מאגר נתונים והגדרות',
 ));
-
-?>

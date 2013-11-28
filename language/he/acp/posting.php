@@ -4,10 +4,9 @@
 * posting [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -47,6 +46,7 @@ $lang = array_merge($lang, array(
 	
 	'BBCODE_ADDED'				=> 'BBCode נוסף בהצלחה.',
 	'BBCODE_EDITED'				=> 'BBCode נערך בהצלחה.',
+	'BBCODE_DELETED'			=> 'BBCode הוסר בהצלחה.',
 	'BBCODE_NOT_EXIST'			=> 'בחרת BBCode שלא קיים.',
 	'BBCODE_HELPLINE'			=> 'שורת עזר',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'שדה זה הוא הטקסט שיופיע במעבר עכבר על הBBCode.',
@@ -121,15 +121,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'ראשון',
 
 	'ICONS_ADD'				=> 'הוסף אייקון חדש',
-	'ICONS_NONE_ADDED'		=> 'לא נוספו אייקונים.',
-	'ICONS_ONE_ADDED'		=> 'האייקון נוסף בהצלחה.',
-	'ICONS_ADDED'			=> 'האייקונים נוספו בהצלחה.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'לא נוספו אייקונים.',
+		1	=> 'האייקון נוסף בהצלח.',
+		2	=> 'האייקונים נוספו בהצלחה.',
+	),
 	'ICONS_CONFIG'			=> 'הגדרת האייקון',
 	'ICONS_DELETED'			=> 'האייקון הוסר בהצלחה.',
 	'ICONS_EDIT'			=> 'ערוך אייקון',
-	'ICONS_ONE_EDITED'		=> 'האייקון עודכן בהצלחה.',
-	'ICONS_NONE_EDITED'		=> 'לא עודכנו אייקונים.',
-	'ICONS_EDITED'			=> 'האייקונים עודכנו בהצלחה.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'לא עודכנו אייקונים.',
+		1	=> 'האייקון עודכן בהצלחה.',
+		2	=> 'האייקונים עודכנו בהצלחה.',
+	),
 	'ICONS_HEIGHT'			=> 'גובה האייקון',
 	'ICONS_IMAGE'			=> 'תמונת האייקון',
 	'ICONS_IMPORTED'		=> 'חבילת האייקונים הותקנה בהצלחה.',
@@ -161,9 +165,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'בחר קובץ חבילה',
 	'SMILIES_ADD'				=> 'הוסף סמיילי חדש',
-	'SMILIES_NONE_ADDED'		=> 'לא נוספו סמיילים.',
-	'SMILIES_ONE_ADDED'			=> 'הסמיילי נוסף בהצלחה.',
-	'SMILIES_ADDED'				=> 'הסמיילים נוספו בהצלחה.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'לא נוספו סמיילים.',
+		1	=> 'הסמיילי נוסף בהצלחה.',
+		2	=> 'הסמיילים נוספו בהצלחה.',
+	),
 	'SMILIES_CODE'				=> 'קוד הסמיילי',
 	'SMILIES_CONFIG'			=> 'הגדרת הסמיילי',
 	'SMILIES_DELETED'			=> 'הסמיילי הוסר בהצלחה.',
@@ -171,9 +177,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'			=> 'הסמיילי “%s” לא נוסף, מכיוון שלא הוזן הקוד.',
 	'SMILIE_NO_EMOTION'			=> 'הסמיילי “%s” לא נוסף, מכיוון שלא הוזנה ההבעה.',
 	'SMILIE_NO_FILE'			=> 'הסמיילי “%s” לא נוסף, מכיוון שהקובץ חסר.',
-	'SMILIES_NONE_EDITED'		=> 'לא עודכנו סמיילים.',
-	'SMILIES_ONE_EDITED'		=> 'הסמיילי עודכן בהצלחה.',
-	'SMILIES_EDITED'			=> 'הסמיילים עודכנו בהצלחה.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'לא עודכנו סמיילים.',
+		1	=> 'הסמיילי עודכן בהצלחה.',
+		2	=> 'הסמיילים עודכנו בהצלחה.',
+	),
 	'SMILIES_EMOTION'			=> 'הבעה',
 	'SMILIES_HEIGHT'			=> 'גובה הסמיילי',
 	'SMILIES_IMAGE'				=> 'תמונת הסמיילי',
@@ -185,7 +193,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'קובץ תמונה של הסמיילי',
 	'SMILIES_WIDTH'				=> 'רוחב הסמיילי',
 	
-	'TOO_MANY_SMILIES'			=> 'ההגבלה של %d סמיילים הושגה.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'ההגבלה של סמיילי %d הושגה.',
+		2	=> 'ההגבלה של %d סמיילים הושגה.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'החבילה שצוינה לא מכילה את הסוג הדרוש.',
 ));
@@ -277,5 +288,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'בשימוש בדיווחים',
 ));
-
-?>

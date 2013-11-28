@@ -4,10 +4,9 @@
 * ucp [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -40,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'בעת הגישה אל “%1$s” (להלן “אנחנו”, “אותנו”, “שלנו”, “%1$s”, “%2$s”), אתה מסכים לציית לתנאים הבאים. אם אינך מסכים לציית לכל התנאים הבאים, אנא אל תיגש ו/או תשתמש ב־“%1$s”. אנו יכולים לשנות תנאים אלו בכל זמן נתון ונשקיע את מירב מאמצינו כדי לידע אותך, אך יהיה זה נבון מצידך לסקור תנאים אלו בקביעות כחלק מהשימוש המתמשך ב־“%1$s”. לאחר שינויים אתה מסכים לציית לתנאים אלו כאשר הם מעודכנים ו/או מתוקנים.<br />
 	<br />
-	הפורומים שלנו מבוססים על phpBB (להלן “הם”, “אותם”, “שלהם”, “מערכת phpBB”, “www.phpbb.co.il”, “קבוצת phpBB”, “צוות phpBB הישראלי”) אשר הינה מערכת בולטיין המשוחררת תחת הסכם “<a href="http://www.opensource.org/licenses/gpl-license.php">רישיון ציבורי כללי</a>” (להלן “GPL”) וניתנת להורדה דרך אתר <a href="http://www.phpbb.co.il/">www.phpbb.co.il</a>. מערכת phpBB מקלה על האינטרנט המבוסס דיונים בלבד, קבוצת phpBB אינה אחראית לכל מה שאנו מאפשרים ו/או לא מאפשרים בתור תוכן מורשה ו/או מנוהל. למידע נוסף לגבי phpBB, ראה: <a href="http://www.phpbb.co.il/">http://www.phpbb.co.il/</a>.<br />
+	הפורומים שלנו מבוססים על phpBB (להלן “הם”, “אותם”, “שלהם”, “מערכת phpBB”, “www.phpbb.co.il”, “קבוצת phpBB”, “צוות phpBB הישראלי”) אשר הינה מערכת בולטיין המשוחררת תחת הסכם “<a href="http://www.opensource.org/licenses/gpl-2.0.php">רישיון ציבורי כללי v2</a>” (להלן “GPL”) וניתנת להורדה דרך אתר <a href="http://www.phpbb.co.il/">www.phpbb.co.il</a>. מערכת phpBB מקלה על האינטרנט המבוסס דיונים בלבד, קבוצת phpBB אינה אחראית לכל מה שאנו מאפשרים ו/או לא מאפשרים בתור תוכן מורשה ו/או מנוהל. למידע נוסף לגבי phpBB, ראה: <a href="http://www.phpbb.co.il/">http://www.phpbb.co.il/</a>.<br />
 	<br />
 	אתה מסכים לא לשלוח דברים גסים, גזעניים, אלימים, פוגעים, בלתי חוקיים או כל חומר אחר אשר שנוי במחלוקת במדינה שלך, במדינה בה “%1$s” מאוחסנת או בחוק הבינלאומי. אם תעשה זאת תוביל את עצמך לחסימה מיידית ולצמיתות, עם הודעה לספק שירות האינטרנט אם זה יראה לנו דרוש. כתובות ה־IP של כל ההודעות נשמרות כדי לעזור בכפיית תנאים אלו. אתה מסכים של “%1$s” יש את הזכות להסיר, לערוך, להעביר או לסגור כל נושא בכל זמן נתון הנראה לנו מתאים. בתור משתמש אתה מסכים שכל המידע אשר אתה מזין יאוחסן בבסיס הנתונים. בעוד שמידע זה לא ייחשף לשום צד שלישי ללא הסכמתך, לא “%1$s” ולא phpBB ישאו באחריות לכל ניסיון פריצה אשר יכול להוסיף לחשיפת המידע.
 	',
@@ -89,13 +88,24 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'זוהי רשימת הקבצים אשר צירפת להודעות בפורומים.',
 	'ATTACHMENTS_DELETED'			=> 'הקבצים המצורפים נמחקו בהצלחה.',
 	'ATTACHMENT_DELETED'			=> 'הקובץ המצורף נמחק בהצלחה.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'The selected "Remember Me" login keys were successfully deleted.',
 	'AVATAR_CATEGORY'				=> 'קטגוריה',
-	'AVATAR_EXPLAIN'				=> 'ממדים מרביים; רוחב: %1$d פיקסלים, גובה: %2$d פיקסלים, גודל קובץ: %3$.2f KiB.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar is a service that allows you to maintain the same avatar across multiple websites. Visit <a href="http://www.gravatar.com/">Gravatar</a> for more information.',
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Gallery avatar',
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'You can choose your avatar from a locally available set of avatars.',
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Remote avatar',
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Link to avatar images from another website.',
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Upload avatar',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Upload your own custom avatar.',
+	'AVATAR_EXPLAIN'				=> 'nnsho nrchho; רוחב: %1$s, גובה: %2$s, גודל קובץ: %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'אפשרות הסמל האישי כבויה כרגע.',
 	'AVATAR_GALLERY'				=> 'גלריה מקומית',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'לא ניתן להעלות סמל אישי אל %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'לא ניתן להציג את הסמל האישי שלך מכיוון שסמלים אישיים נהפכו ללא מורשים.',
 	'AVATAR_PAGE'					=> 'עמוד',
+	'AVATAR_SELECT'					=> 'Select your avatar',
+	'AVATAR_TYPE'					=> 'Avatar type',
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'לא ניתן להציג את הסמל האישי הנוכחי שלך בגלל שסוגו נהפך ללא מורשה.',
 
 	'BACK_TO_DRAFTS'			=> 'חזור לטיוטות השמורות',
@@ -104,10 +114,11 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'הגדרת השנה תרשום את גילך בזמן יום ההולדת שלך.',
 	'BOARD_DATE_FORMAT'			=> 'תבנית התאריך שלי',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'התחביר שבשימוש זהה לפונקציית ה־PHP <a href="http://www.php.net/date">date()</a>.',
-	'BOARD_DST'					=> 'שעון קיץ פעיל',
 	'BOARD_LANGUAGE'			=> 'השפה שלי',
 	'BOARD_STYLE'				=> 'עיצוב המערכת שלי',
 	'BOARD_TIMEZONE'			=> 'אזור הזמן שלי',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'הצעה: %s',
+	'TIMEZONE_INVALID'			=> 'אזור הזמן שבחרת לא תקין.',
 	'BOOKMARKS'					=> 'מועדפים',
 	'BOOKMARKS_EXPLAIN'			=> 'אתה יכול לסמן נושאים כמועדפים לשימוש עתידי. בחר בתיבת הסימון של כל פריט מועדף אשר אתה מעוניין למחוק, ולחץ על הכפתור <em>הסר פריטי מועדפים מסומנים</em>.',
 	'BOOKMARKS_DISABLED'		=> 'אפשרות המועדפים כבויה במערכת זו.',
@@ -124,8 +135,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sחזור לתיקיית “%3$s” שלך%2$s',
 	'CONFIRMATION'				=> 'אישור הרשמה',
 	'CONFIRM_CHANGES'			=> 'אישור שינויים',	
-	'CONFIRM_EMAIL'				=> 'אישור כתובת דואר אלקטרוני',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'אתה צריך למלא שדה זה אם אתה משנה את כתובת הדואר האלקטרוני שלך בלבד.',
 	'CONFIRM_EXPLAIN'			=> 'כדי להימנע מהרשמות אוטומטיות, המערכת דורשת ממך להזין קוד אישור. הקוד מוצג בתמונה אשר אתה אמור לראות להלן. אם אינך מצליח לקרוא את הקוד מכל סיבה שהיא, צור קשר עם %sהמנהל הראשי%s.',
 	'VC_REFRESH'				=> 'רענן קוד אישור',
 	'VC_REFRESH_EXPLAIN'		=> 'אם אינך מצליח לקרוא את הקוד תוכל לבקש אחד חדש בעזרת לחיצה על הכפתור.',
@@ -189,10 +198,16 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'יצא תצוגה זו',
 
 	'FIELD_REQUIRED'					=> 'השדה “%s” חייב להיות שלם.',
-	'FIELD_TOO_SHORT'					=> 'השדה “%1$s” קצר מדי, לפחות %2$d תווים נדרשים.',
-	'FIELD_TOO_LONG'					=> 'השדה “%1$s” ארוך מדי, לא יותר מ־%2$d תווים מורשים.',
-	'FIELD_TOO_SMALL'					=> 'הערך של “%1$s” קטן מדי, ערך מינימלי של %2$d נדרש.',
-	'FIELD_TOO_LARGE'					=> 'הערך של “%1$s” גדול מדי, ערך מרבי של %2$d מורשה.',
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> 'השדה “%2$s” קצר מדי, לפחות תו %1$d נדרש.',
+		2	=> 'השדה “%2$s” קצר מדי, לפחות %1$d תווים נדרשים.',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> 'השדה “%2$s” ארוך מידי, לכל היותר תו %1$d מורשה.',
+		2	=> 'השדה “%2$s” ארוך מידי, לכל היותר %1$d תווים מורשים.',
+	),
+	'FIELD_TOO_SMALL'					=> 'הערך של “%2$s” קטן מידי, לפחות %1$d תווים נדרשים.',
+	'FIELD_TOO_LARGE'					=> 'הערך של “%2$s” גדול מידי, ערך מירבי של %1$d תווים מורשים.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, מספרים בלבד מורשים.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, תווי אותיות בלבד מורשים.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, תווי אותיות, רווח או -+_[] בלבד מורשים.',
@@ -203,13 +218,19 @@ $lang = array_merge($lang, array(
 	'FOES_EXPLAIN'				=> 'נודניקים הם משתמשים אשר אתה מתעלם מהם כברירת מחדל. הודעות אשר נשלחות על־ידי משתמשים אלו לא יוצגו לגמרי. הודעות פרטיות מהנודניקים עדיין מותרות. שים לב שאתה לא יכול להתעלם ממנהלים או מנהלים ראשיים.',
 	'FOES_UPDATED'				=> 'רשימת הנודניקים שלך עודכנה בהצלחה.',
 	'FOLDER_ADDED'				=> 'התיקייה נוספה בהצלחה.',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d מתוך %2$d הודעות מאוחסנות',
+		'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> 'הודעה %2$d מתוך %1$d אוחסנה',
+		2	=> '%2$d מתוך %1$d הודעות אוחסנו',
+	),
 	'FOLDER_NAME_EMPTY'			=> 'אתה חייב להזין שם לתיקייה זו.',
 	'FOLDER_NAME_EXIST'			=> 'התיקייה <strong>%s</strong> כבר קיימת.',
-	'FOLDER_OPTIONS'			=> 'אפשרויות תיקייה',
+	'FOLDER_OPTIONS'			=> 'אאפשרויות תיקיי',
 	'FOLDER_RENAMED'			=> 'שם התיקייה שונה בהצלחה.',
 	'FOLDER_REMOVED'			=> 'התיקייה הוסרה בהצלחה.',
-	'FOLDER_STATUS_MSG'			=> 'התיקייה %1$d%% מלאה (%2$d מתוך %3$d הודעות מאוחסנות)',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'התיקייה %3$d%% מלאה (הודעה %2$d מתוך%1$d אוחסנה)',
+		2	=> 'התיקייה %3$d%% מלאה (%2$d מתוך %1$d הודעות אוחסנו)',
+	),
 	'FORWARD_PM'				=> 'העבר הודעה פרטית',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'לפני שתוכל להמשיך לגלוש במערכת אתה נדרש לשנות את ססמתך.',
 	'FRIEND_MESSAGE'			=> 'הודעה מחבר',
@@ -226,6 +247,10 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'אל: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'הכרזה גלובלית',
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar email',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Enter the email address you used for registering your account on <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar dimensions',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Specify the width and height of the avatar, leave blank to attempt automatic verification.',
 
 	'HIDE_ONLINE'				=> 'הסתר את מצב החיבור שלי',
 	'HIDE_ONLINE_EXPLAIN'		=> 'שינוי הגדרה זו לא תפעל עד ביקורך הבא במערכת.',
@@ -247,6 +272,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'ממדי סמל אישי',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'ציין את הרוחב והגובה של הסמל האישי, השאר ריק כדי לנסות לבדוק אוטומטית.',
 	'LOGIN_EXPLAIN_UCP'			=> 'נא התחבר כדי לגשת ללוח הבקרה למשתמש.',
+	'LOGIN_LINK'					=> 'Link or register your account on an external service with your board account',
+	'LOGIN_LINK_EXPLAIN'			=> 'You have attempted to login with an external service that is not yet connected to an account on this board. You must now either link this account to an existing account or create a new account.',
+	'LOGIN_LINK_MISSING_DATA'		=> 'Data that is necessary to link your account with an external service is not available. Please restart the login process.',
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'No data has been provided to this page to link an external account to a forum account. Please contact the board administrator if you continue to experience problems.',
+	'LOGIN_KEY'					=> 'Login Key',
+	'LOGIN_TIME'				=> 'Login Time',
 	'LOGIN_REDIRECT'			=> 'התחברת בהצלחה.',
 	'LOGOUT_FAILED'				=> 'אינך מנותק, מפני שהבקשה אינה התאימה לחיבור שלך. צור קשר עם המנהל הראשי אם אתה ממשיך להיתקל בבעיות.',
 	'LOGOUT_REDIRECT'			=> 'התנתקת בהצלחה.',
@@ -267,17 +298,39 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'העבר הודעות מהתיקייה שהוסרה אל',
 	'MOVE_DOWN'						=> 'העבר למטה',
 	'MOVE_MARKED_TO_FOLDER'			=> 'העבר מסומנים אל %s',
-	'MOVE_PM_ERROR'					=> 'שגיאה התרחשה בעת העברת ההודעות לתיקייה חדשה, רק %1d מתוך %2d הודעות הועברו.',
+	'MOVE_PM_ERROR'					=> array(
+		2	=> 'An error occurred while moving the messages to the new folder, only %2d from %1d messages were moved.',
+	),
 	'MOVE_TO_FOLDER'				=> 'העבר לתיקייה',
 	'MOVE_UP'						=> 'העבר למעלה',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'לא הזנת אישור כתובת דואר אלקטרוני.',
-	'NEW_EMAIL_ERROR'				=> 'כתובות הדואר האלקטרוני שהזנת אינן תואמות.',
 	'NEW_FOLDER_NAME'				=> 'השם החדש לתיקייה',
 	'NEW_PASSWORD'					=> 'ססמה חדשה',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'לא הזנת את הססמה בשנית.',
 	'NEW_PASSWORD_ERROR'			=> 'הססמאות שהזנת אינן תואמות.',
-	'NOTIFY_METHOD'					=> 'שיטת הודעה',
+
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Mark all notifications read',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Are you sure you want to mark all notifications read?',
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'All notifications have been marked read.',
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Miscellaneous Notifications',
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Moderation Notifications',
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Administration Notifications',
+	'NOTIFICATION_GROUP_POSTING'						=> 'Posting Notifications',
+	'NOTIFICATION_METHOD_EMAIL'							=> 'דואר אלקטרוני',
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
+	'NOTIFICATION_TYPE'									=> 'Notification type',
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Someone replies to a topic you have bookmarked',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Someone requests to join a group you lead',
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'A post or topic needs approval',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Your topics/posts are approved or disapproved by a moderator',
+	'NOTIFICATION_TYPE_PM'								=> 'Someone sends you a private message',
+	'NOTIFICATION_TYPE_POST'							=> 'Someone replies to a topic to which you are subscribed',
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Someone quotes you in a post',
+	'NOTIFICATION_TYPE_REPORT'							=> 'Someone reports a post',
+	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Someone creates a topic in a forum to which you are subscribed',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Newly registered user requiring activation',
+
+	'NOTIFY_METHOD'					=> 'Notification method',
 	'NOTIFY_METHOD_BOTH'			=> 'שניהם',
 	'NOTIFY_METHOD_EMAIL'			=> 'דואר אלקטרוני בלבד',
 	'NOTIFY_METHOD_EXPLAIN'			=> 'שיטה להעברת ההודעות שנשלחו דרך המערכת.',
@@ -294,8 +347,10 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'אתה לא יכול להוסיף את עצמך לרשימת הנודניקים.',
 	'NOT_AGREE'						=> 'אני לא מסכים לתנאים אלו',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'תיקיית היעד “%s” נראית מלאה. הפעולה המבוקשת לא התבצעה.',
-	'NOT_MOVED_MESSAGE'				=> 'יש לך הודעה פרטית 1 הנמצאת כרגע בהמתנה מפני שהתיקייה מלאה.',
-	'NOT_MOVED_MESSAGES'			=> 'יש לך %d הודעות פרטיות הנמצאות כרגע בהמתנה מפני שהתיקייה מלאה.',
+		'NOT_MOVED_MESSAGES'			=> array(
+		1	=> 'You have %d private message currently on hold because of full folder.',
+		2	=> 'You have %d private messages currently on hold because of full folder.',
+	),
 	'NO_ACTION_MODE'				=> 'לא צוינה פעולת הודעה.',
 	'NO_AUTHOR'						=> 'לא מוגדר כותב להודעה זו',
 	'NO_AVATAR_CATEGORY'			=> 'ללא',
@@ -305,6 +360,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'אינך מורשה להעביר הודעות פרטיות.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'אינך מורשה לשלוח הודעות פרטיות לקבוצות.',
 	'NO_AUTH_PASSWORD_REMINDER'		=> 'אינך מורשה לבקש ססמה חדשה.',
+	'NO_AUTH_PROFILEINFO'			=> 'You are not authorised to change your profile information.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'אינך מורשה לקרוא הודעות פרטיות אשר בהמתנה.',
 	'NO_AUTH_READ_MESSAGE'			=> 'אינך מורשה לקרוא הודעות פרטיות.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'אתה לא יכול לקרוא הודעה זו מפני שהיא הוסרה על־ידי הכותב.',
@@ -335,13 +391,13 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'לא בחרת להירשם לאף פורום או נושא.',
 	'NO_WATCHED_TOPICS'			=> 'אינך רשום לקבלת עדכונים לאף נושא.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$d עד %2$d תווים באורך, חייבת להכיל אותיות במשפט מעורבב וחייבת להכיל מספרים.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'חייבת להיות בין %1$d עד %2$d תווים.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$d עד %2$d תווים באורך וחייבת להכיל אותיות במשפט מעורבב.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$d עד %2$d תווים באורך, חייבת להכיל אותיות במשפט מעורב, חייבת להכיל מספרים וחייבת להכיל סימנים.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$s לבין %2$s באורך, חייבת להכיל אותיות קטנות וגדולות באנגלית וחייבת להכיל מספרים.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'חייבת להיות בין %1$s לבין %2$s.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$s לבין %2$sבאורך, חייבת להכיל אותיות קטנות וגדולות באנגלית.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$s לבין %2$s באורך,חייבת להכיל אותיות קטנות וגדולות באנגלית, חייבת להכיל מספרים וחייבת להכיל סימנים.',
 	'PASSWORD'					=> 'ססמה',
-	'PASSWORD_ACTIVATED'		=> 'הססמה החדשה שלך הופעלה.',
-	'PASSWORD_UPDATED'			=> 'ססמה חדשה נשלחה לדואר האלקטרוני שלך.',
+	'PASSWORD_ACTIVATED'		=> 'הססמה החדשה שלך הפועלה.',
+	'PASSWORD_UPDATED'			=> 'ססמה חדשה נשלחה לדואר האלקטרוני של.',
 	'PERMISSIONS_RESTORED'		=> 'ההרשאות המקוריות שוחזרו בהצלחה.',
 	'PERMISSIONS_TRANSFERRED'	=> 'ההרשאות הועברו בהצלחה מ־<strong>%s</strong>, תוכל לגלוש כעת במערכת עם הרשאות משתמש זה.<br />שים לב שהרשאות מנהל ראשי לא הועברו. תוכל לחזור להרשאות אשר נקבעו לך בכל זמן נתון.',
 	'PM_DISABLED'				=> 'אפשרות ההודעות הפרטיות כבויה במערכת זו.',
@@ -367,6 +423,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'ההעדפות שלך עודכנו.',
 	'PROFILE_INFO_NOTICE'		=> 'שים לב שמידע זה ניתן לצפייה על־ידי המשתמשים האחרים. הזהר מלכלול פרטים אישיים. כל השדות המסומנים עם * חייבים להיות שלמים.',
 	'PROFILE_UPDATED'			=> 'הפרופיל שלך עודכן.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'The "Remember Me" login keys automatically log you in when you visit the board. If you logout, the remember me login key is deleted only on the computer you are using to logout. Here you can see remember login keys created on other computers you used to access this site.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'There are no saved "Remember Me" login keys.',
 
 	'RECIPIENT'							=> 'נמען',
 	'RECIPIENTS'						=> 'נמענים',
@@ -391,17 +449,21 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> 'הכלל הוסר בהצלחה.',
 	'RULE_LIMIT_REACHED'				=> 'אינך יכול להוסיף יותר כללים להודעות הפרטיות. הגעת למקסימום הכללים שניתן להגדיר.',
 	'RULE_NOT_DEFINED'					=> 'הכלל לא צוין כראוי.',
-	'RULE_REMOVED_MESSAGE'				=> 'הודעה פרטית אחת הועברה מחדש עקב מסנני ההודעות הפרטיות.',
-	'RULE_REMOVED_MESSAGES'				=> '%d הודעות פרטיות הועברו מחדש עקב מסנני ההודעות הפרטיות.',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> 'הודעה פרטית %d הוסרה עקב מסנני ההודעות הפרטיות.',
+		2	=> '%d הודעות פרטיות הוסרו עקב מסנני ההודעות הפרטיות.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'הססמה החדשה שהזנת זהה לססמתך הנוכחית.',
 	'SEARCH_YOUR_POSTS'			=> 'הצג את ההודעות שלך',
 	'SEND_PASSWORD'				=> 'שלח ססמה',
-	'SENT_AT'					=> 'נשלח',
+	'SENT_AT'					=> 'נשלח',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'משתמשים יכולים ליצור איתי קשר בעזרת דואר אלקטרוני',
 	'SIGNATURE_EXPLAIN'			=> 'זהו חלק טקסט אשר מתווסף להודעות שלך בפורומים. ישנה הגבלה של %d תווים.',
 	'SIGNATURE_PREVIEW'			=> 'כך תיראה חתימתך בהודעות',
-	'SIGNATURE_TOO_LONG'		=> 'הססמה שלך ארוכה מדי.',
+	'SIGNATURE_TOO_LONG'		=> 'חתימתך ארוכה מידי.',
+	'SELECT_CURRENT_TIME'		=> 'בחר זמן נוכחי',
+	'SELECT_TIMEZONE'			=> 'בחר אזור זמן',
 	'SORT'						=> 'מיין',
 	'SORT_COMMENT'				=> 'תיאור הקובץ',
 	'SORT_DOWNLOADS'			=> 'הורדות',
@@ -420,11 +482,20 @@ $lang = array_merge($lang, array(
 	'UCP_ADMIN_ACTIVATE'		=> 'שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. המנהל הראשי יסקור את חשבונך ואם יאשר, תקבל הודעת דואר אלקטרוני לכתובת שציינת.',
 	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'קבצים מצורפים',
+	'UCP_AUTH_LINK'				=> 'External accounts',
+	'UCP_AUTH_LINK_ASK'			=> 'You currently have no account associated with this external service. Click the button below to link your board account to an account with this external service.',
+	'UCP_AUTH_LINK_ID'			=> 'Unique identifier',
+	'UCP_AUTH_LINK_LINK'		=> 'Link',
+	'UCP_AUTH_LINK_MANAGE'		=> 'Manage external account associations',
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Linking board accounts to external services is not supported by this board’s current authentication method.',
+	'UCP_AUTH_LINK_TITLE'		=> 'Manage your external account associations',
+	'UCP_AUTH_LINK_UNLINK'		=> 'Unlink',
 	'UCP_COPPA_BEFORE'			=> 'לפני %s',
 	'UCP_COPPA_ON_AFTER'		=> 'בתאריך או לאחר %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. תקבל הודעת דואר אלקטרוני לכתובת שציינת אשר מכילה קישור להפעלת החשבון.',
 	'UCP_ICQ'					=> 'מספר ICQ',
 	'UCP_JABBER'				=> 'כתובת Jabber',
+	'UCP_LOGIN_LINK'			=> 'Set up an external account association',
 
 	'UCP_MAIN'					=> 'סקירה כללית',
 	'UCP_MAIN_ATTACHMENTS'		=> 'ניהול קבצים מצורפים',
@@ -433,8 +504,13 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'עמוד ראשי',
 	'UCP_MAIN_SUBSCRIBED'		=> 'ניהול הרשמות',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
+	'UCP_MSNM'					=> 'Windows Live Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'לא שלחת קבצים.',
+
+	'UCP_NOTIFICATION_LIST'				=> 'Manage notifications',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Here you may view all past notifications.',
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Edit notification options',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Here you can set your preferred notification methods for the board.',
 
 	'UCP_PREFS'					=> 'העדפות מערכת',
 	'UCP_PREFS_PERSONAL'		=> 'ערוך הגדרות כלליות',
@@ -456,10 +532,13 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_REG_DETAILS'	=> 'ערוך הגדרות חשבון',
 	'UCP_PROFILE_SIGNATURE'		=> 'ערוך חתימה',
 
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Manage “Remember Me” login keys',
+
 	'UCP_USERGROUPS'			=> 'קבוצות משתמשים',
 	'UCP_USERGROUPS_MEMBER'		=> 'ערוך חברויות',
 	'UCP_USERGROUPS_MANAGE'		=> 'ניהול קבוצות',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'The password reset functionality has been disabled. If you need help accessing your account, please contact the %sBoard Administrator%s',
 	'UCP_REGISTER_DISABLE'			=> 'יצירת חשבון חדש כרגע בלתי אפשרית.',
 	'UCP_REMIND'					=> 'שלח ססמה',
 	'UCP_RESEND'					=> 'שלח קישור להפעלה לדואר אלקטרוני',
@@ -475,12 +554,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'העלה מהמחשב שלך',
 	'UPLOAD_AVATAR_URL'				=> 'העלה מכתובת',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'הזן את כתובת המיקום המכיל את התמונה, התמונה תועתק לאתר זה.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'שם המשתמש חייב להיות בין %1$d עד %2$d תווים באורך ומשתמש בתווי אותיות.',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'שם המשתמש חייב להיות בין %1$d עד %2$d תווים באורך ומשתמש בתווי אותיות, רווח או -+_[].',
-	'USERNAME_ASCII_EXPLAIN'		=> 'שם המשתמש חייב להיות בין %1$d עד %2$d תווים באורך ומשתמש בתווי ASCII בלבד, ללא תווים מיוחדים.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'שם המשתמש חייב להיות בין %1$d עד %2$d תווים באורך ומשתמש בתווי אותיות ומספרים בלבד.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'שם המשתמש חייב להיות בין %1$d עד %2$d תווים באורך ומשתמש בתווי אותיות, מספרים, רווח או -+_[].',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'האורך חייב להיות בין %1$d עד %2$d תווים.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל אותיות בלבד.',
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל אותיות, רווח או -+_[].',
+	'USERNAME_ASCII_EXPLAIN'		=> 'שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכיל תווי ASCII בלבד, ללא תווים מיוחדים.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכין אותיות ומספרים בלבד.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'שם המשתמש חייב להיות בין %1$s לבין %2$s ולהכין אותיות, מספרים, רווח או -+_[].',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'האורך חייב להיות בין %1$s לבין %2$s.',
 	'USERNAME_TAKEN_USERNAME'		=> 'שם המשתמש שבחרת כבר בשימוש, אנא בחר בשם אחר.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'שם המשתמש שהזנת לא מורשה או מכיל מילה לא מורשת. אנא בחר בשם אחר.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'שמות המשתמשים שציינת לא נמצאו או שלא הופעלו.',
@@ -493,8 +572,10 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'הודעה פרטית הבאה',
 	'VIEW_PM'					=> 'צפה בהודעה',
 	'VIEW_PM_INFO'				=> 'פרטי ההודעה',
-	'VIEW_PM_MESSAGE'			=> 'הודעה 1',
-	'VIEW_PM_MESSAGES'			=> '%d הודעות',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> 'הודעה %d',
+		2	=> '%d הןדעות',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'הודעה פרטית קודמת בהיסטוריה',
 	'VIEW_PREVIOUS_PM'			=> 'הודעה פרטית קודמת',
 	'VIEW_SIGS'					=> 'הצג חתימות',
@@ -561,5 +642,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'אין בקשות חברות בהמתנה',
 	'NO_NONMEMBER'	=> 'אין קבוצות ללא חברות',
 ));
-
-?>

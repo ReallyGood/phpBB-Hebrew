@@ -4,10 +4,9 @@
 * acp_prune [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -38,7 +37,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'חלק זה מאפשר לך למחוק או להפוך ללא פעיל משתמשים במערכת שלך. ניתן לסנן חשבונות במגוון דרכים; לפי כמות הודעות, פעילות אחרונה, וכדומה. ניתן לשלב קריטריונים בשביל לצמצם את כמות החשבונות שיושפעו. לדוגמה, אתה יכול לאפס משתמשים עם פחות מ10 הודעות, שגם לא היו פעילים אחרי 2002-01-01. לחלופין, אתה יכול לדלג על בחירת הקריטריונים על ידי הזנת רשימת משתמשים (כל אחד בשורה נפרדת) לתוך תיבת הטקסט. תזהר עם כלי זה! ברגע שמשתמש נמחק, אין דרך לשחזר את הפעולה.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Use * as a wildcard for text fields. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
+
+	'CRITERIA'				=> 'Criteria',
 
 	'DEACTIVATE_DELETE'			=> 'הפוך ללא פעיל או מחק',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'בחר אם להפוך משתמשים ללא פעילים או למחוק אותם לחלוטין. אנא שים לב כי מחיקת משתמשים לא ניתנת לשחזור!',
@@ -46,15 +47,17 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'מחק את הודעותיו של המשתמש החסום',
 	'DELETE_USER_POSTS_EXPLAIN'	=> 'מוחק את ההודעות של משתמש מחוק, לא פועל אם המשתמש מושבת.',
 
-	'JOINED_EXPLAIN'			=> 'הכנס את התאריך בפורמט הבא <kbd>YYYY-MM-DD</kbd> .',
+	'JOINED_EXPLAIN'			=> 'הכנס את התאריך בפורמט <kbd>YYYY-MM-DD</kbd>. אתה רשאי להשתמש בשתי השדות לקביעת טווח זמנים, או להשאיר אחד ריק לטווח זמנים רחב.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'הכנס את התאריך בפורמט <kbd>YYYY-MM-DD</kbd>. הכנס <kbd>0000-00-00</kbd> למחיקת משתמשים שמעולם לא התחברו, תנאי ה<em>לפני ואחרי</em> לא יילקחו בחשבון.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'הכנס את התאריך בפורמט <kbd>YYYY-MM-DD</kbd>. הכנס <kbd>0000-00-00</kbd> למחיקת משתמשים שמעולם לא התחברו, תנאי <em>הלפני ולאחר</em> לא יילקחו בחשבון.',
 
+	'POSTS_ON_QUEUE'			=> 'הודעות הממתינות לאישור',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'מוגבל למשתמשים המוגדרים בקבוצת המשתמשים שנבחרה.',
 	'PRUNE_USERS_LIST'				=> 'משתמשים אותם יש לאפס',
-	'PRUNE_USERS_LIST_DELETE'		=> 'באמצעות הקריטריונים שבחרת החשבונות הבאים יאופסו.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'באמצעות הקריטריונים שבחרת החשבונות הבאים יושבתו.',
+	'PRUNE_USERS_LIST_DELETE'		=> 'באמצעות הקריטריונים שבחרת לאיפוס משתמשים החשבונות הבאים ימחקו, אתה יכול להסיר משתמשים ספציפים מהרשימה על ידי הסרת הסימון מהתיבה ליד שם המשתמש.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'באמצעות הקריטריונים שבחרת לאיפוס משתמשים החשבונות הבאים יהפכו ללא פעילים, אתה יכול להסיר משתמשים ספציפים מהרשימה על ידי הסרת הסימון מהתיבה ליד שם המשתמש.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'הכנס שמות משתמש ספציפים כאן, הם יהיו בשימוש בהגדרות הקריטריון למעלה. לא ניתן לאפס מייסדים.',
+	'SELECT_USERS_EXPLAIN'		=> 'הכנס שמות משתמש ספציפים כאן, הם יהיו בשימוש יחד עם הגדרות הקריטריון למעלה. לא ניתן לקצץ מייסדים.',
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'הושבתה פעילותם של המשתמשים הנבחרים בהצלחה.',
 	'USER_DELETE_SUCCESS'		=> 'נמחקו חשבונות המשתמשים הנבחרים בהצלחה.',
@@ -88,5 +91,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> 'נושאים אופסו',
 ));
-
-?>

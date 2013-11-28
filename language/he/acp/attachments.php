@@ -4,10 +4,9 @@
 * acp_attachments [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -33,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 // translators to re-order the output of data while ensuring it remains correct
 //
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
+// equally where a string contains only two placeholders whic~h are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
@@ -63,6 +62,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'גודל מרבי של קובץ, מצורף להודעה הפרטית, כאשר 0 הנו בלתי מוגבל.',
 	'ATTACH_ORPHAN_URL'					=> 'קבצים מצורפים ללא שולח',
 	'ATTACH_POST_ID'					=> 'מספר ID של הודעה',
+	'ATTACH_POST_TYPE'					=> 'סוג ההודעה',
 	'ATTACH_QUOTA'						=> 'מכסת קבצים מצורפים כללית',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'שטח אחסון מרבי זמין לקבצים מצורפים למערכת השלמה, כאשר 0 הנו בלתי מוגבל.',
 	'ATTACH_TO_POST'					=> 'צרף קובץ להודעה',
@@ -170,5 +170,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'סמל העלאה',
 	'UPLOAD_NOT_DIR'				=> 'המיקום לקבצים שציינת אינו נראה כתיקייה.',
 ));
-
-?>

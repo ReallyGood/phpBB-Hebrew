@@ -4,10 +4,9 @@
 * acp_database [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -74,5 +73,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'		=> 'בחירת טבלאות',
 	'TABLE_SELECT_ERROR'=> 'אתה חייב לבחור לפחות טבלה אחת.',
 ));
-
-?>

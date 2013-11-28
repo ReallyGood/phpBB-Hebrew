@@ -4,10 +4,9 @@
 * acp common [Hebrew]
 *
 * @package language
-* @version $Id$
 * @copyright (c) 2005 phpBB Group
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -60,6 +59,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOTS'					=> 'עכבישים/רובוטים',
 	
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
+	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 
 	'ACP_CAT_DATABASE'			=> 'בסיס נתונים',
 	'ACP_CAT_DOT_MODS'			=> 'מודים',
@@ -82,7 +82,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'שמות משתמשים לא מורשים',
 	
 	'ACP_EMAIL_SETTINGS'		=> 'הגדרות דואר אלקטרוני',
-	'ACP_EXTENSION_GROUPS'		=> 'ניהול קבוצות סיומות',
+	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
+	'ACP_EXTENSIONS'			=> 'Extensions',
 	
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'הרשאות לפי פורומים',
 	'ACP_FORUM_LOGS'				=> 'מעקב אחר פעולות בפורומים',
@@ -101,10 +103,10 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'ניהול קבוצות',
 	'ACP_GROUPS_MANAGEMENT'			=> 'ניהול קבוצה',
 	'ACP_GROUPS_PERMISSIONS'		=> 'הרשאות של קבוצה',
+	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
 	
 	'ACP_ICONS'					=> 'סמלי נושאים',
 	'ACP_ICONS_SMILIES'			=> 'סמלי/סמיילים של נושאים',
-	'ACP_IMAGESETS'				=> 'ערכות תמונות',
 	'ACP_INACTIVE_USERS'		=> 'משתמשים לא פעילים',
 	'ACP_INDEX'					=> 'עמוד ניהול ראשי',
 	
@@ -116,7 +118,10 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'מתחבר',
 	
 	'ACP_MAIN'					=> 'עמוד ניהול ראשי',
-	'ACP_MANAGE_EXTENSIONS'		=> 'ניהול סיומות',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'ניהול קבצים מצורפים',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'כאן אתה יכול לנהל ולמחוק קבצים שצורפו להודעות ולהודעות פרטיות.',
+	
+	'ACP_MANAGE_EXTENSIONS'		=> 'ניהול סיומות קבצים מצורפים',
 	'ACP_MANAGE_FORUMS'			=> 'ניהול פורומים',
 	'ACP_MANAGE_RANKS'			=> 'ניהול דירוגים',
 	'ACP_MANAGE_REASONS'		=> 'ניהול סיבות דיווח/חסימה',
@@ -162,9 +167,10 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'הגדרות שרת',
 	'ACP_SIGNATURE_SETTINGS'	=> 'הגדרות חתימה',
 	'ACP_SMILIES'				=> 'סמיילים',
-	'ACP_STYLE_COMPONENTS'		=> 'רכיבי עיצוב',
 	'ACP_STYLE_MANAGEMENT'		=> 'ניהול עיצובים',
 	'ACP_STYLES'				=> 'עיצובים',
+	'ACP_STYLES_CACHE'			=> 'Purge Cache',
+	'ACP_STYLES_INSTALL'		=> 'Install Styles',
 	'ACP_SUBMIT_CHANGES'		=> 'שלח שינויים',
 	
 	'ACP_TEMPLATES'				=> 'תבניות',
@@ -225,11 +231,15 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'הורד בתור',
 	'DOWNLOAD_STORE'			=> 'הורד או אחסן קובץ',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'אתה יכול להוריד ישירות את הקובץ או לשמור אותו בתיקייה <samp>store/</samp>.',
+	'DOWNLOADS'          		=> 'הורדות',
 
 	'EDIT'					=> 'ערוך',
 	'ENABLE'				=> 'הפעל',
 	'EXPORT_DOWNLOAD'		=> 'הורד',
 	'EXPORT_STORE'			=> 'אחסן',
+
+	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
+	'FILES_STATS_WRONG'		=> 'Your files statistics are probably inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'אפשרויות כלליות',
 	'GENERAL_SETTINGS'		=> 'הגדרות כלליות',
@@ -239,6 +249,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP של משתמש',
 	'IP_HOSTNAME'			=> 'כתובות IP או שמות שרתים',
 
+	'LOAD_NOTIFICATIONS'			=> 'Display Notifications',
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Display the notifications list on every page (typically in the header).',
 	'LOGGED_IN_AS'			=> 'אתה מחובר בתור:',
 	'LOGIN_ADMIN'			=> 'כדי לנהל את המערכת אתה חייב להיות משתמש מורשה.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'כדי לנהל את המערכת אתה חייב לאמת את עצמך מחדש.',
@@ -256,6 +268,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'הודעה',
 	'NO_ADMIN'				=> 'אינך מורשה לנהל מערכת זו.',
 	'NO_EMAILS_DEFINED'		=> 'לא נמצאו כתובות דואר אלקטרוני חוקיות.',
+	'NO_FILES_TO_DELETE'	=> 'הקבצים המצורפים שבחרת למחיקה לא קיימים.',
 	'NO_PASSWORD_SUPPLIED'	=> 'אתה צריך להזין את ססמתך כדי לגשת ללוח הבקרה למנהלים ראשיים.',	
 
 	'OFF'					=> 'כבוי',
@@ -270,6 +283,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'הזכר',
 	'RESYNC'							=> 'סנכרון מחדש',
+	'RESYNC_FILES_STATS'				=> 'Resynchronise files statistics',
+	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Recalculates the total number and size of files attached to posts and private messages.',
 	'RETURN_TO'							=> 'חזור אל…',
 
 	'SELECT_ANONYMOUS'		=> 'בחר משתמש אורח',
@@ -280,6 +295,8 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_LONG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” ארוך מדי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_SHORT'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קצר מדי. הערך המינימלי המאושר הוא %2$d.',
 	'SHOW_ALL_OPERATIONS'	=> 'הצג את כל הפעולות',
+
+	'TOTAL_SIZE'      		=> 'Total size',
 
 	'UCP'					=> 'לוח בקרה למשתמש',
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
@@ -353,28 +370,39 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'טיהור המטמון',
 	'PURGE_CACHE_CONFIRM'	=> 'האם אתה בטוח שברצונך לטהר את המטמון?',
 	'PURGE_CACHE_EXPLAIN'	=> 'מטהר את כל הרכיבים הקשורים למטמון, אשר כוללים כל קבצי ערכה או שאילתות אשר במטמון.',
-	
+	'PURGE_CACHE_SUCCESS'	=> 'המטמון טוהר בהצלחה.',
+
 	'PURGE_SESSIONS'			=> 'טיהור כל החיבורים',
 	'PURGE_SESSIONS_CONFIRM'	=> 'האם אתה בטוח שברצונך לטהר את כל החיבורים? כל המשתמשים ינותקו.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'טיהור כל החיבורים. זה ינתק את כל המשתמשים על ידי קיצוץ טבלת החיבורים.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'החיבורים טוהרו בהצלחה.',
 
 	'RESET_DATE'					=> 'איפוס תאריך התקנת המערכת',
 	'RESET_DATE_CONFIRM'			=> 'אתה בטוח שאתה רוצה לאפס את תאריך התקנת המערכת?',
+	'RESET_DATE_SUCCESS'				=> 'תאריך התקנת המערכת אופס',
 	'RESET_ONLINE'					=> 'איפוס מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית',
 	'RESET_ONLINE_CONFIRM'			=> 'אתה בטוח שאתה רוצה לאפס את מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית?',
+	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise files statistics?',
 	'RESYNC_POSTCOUNTS'				=> 'סנכרון מוני ההודעות מחדש',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'רק הודעות קיימות יילקחו בחשבון. הודעות שאופסו לא יספרו.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את מוני ההודעות?',
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Resynchronised post counts',
 	'RESYNC_POST_MARKING'			=> 'סנכרון מחדש נושאים מסומנים',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את הנושאים המסומנים?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'ראשית מבטל את סימון כל הנושאים ואז מסמן נושאים כראוי אשר נראתה בהם כל פעילות במשך שש החודשים האחרונים.',
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'Resynchronised dotted topics',
 	'RESYNC_STATS'					=> 'סנכרון מחדש סטטיסטיקות',
 	'RESYNC_STATS_CONFIRM'			=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את הסטטיסטיקות?',
 	'RESYNC_STATS_EXPLAIN'			=> 'מחשב מחדש את המספר הכולל של ההודעות, הנושאים, המשתמשים והקבצים.',
+	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics',
 	'RUN'							=> 'הרץ כעת',
 
 	'STATISTIC'					=> 'סטטיסטיקה',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'סנכרון מחדש או איפוס הסטטיסטיקות',
+
+	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
+	'TIMEZONE_SELECTED'	=> '(currently selected)',
 
 	'TOPICS_PER_DAY'	=> 'נושאים ליום',
 
@@ -526,12 +554,17 @@ $lang = array_merge($lang, array(
 	'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>דחה הודעה “%1$s” בגלל הסיבה הבאה</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>ערך הודעה “%1$s” אשר נכתבה על־ידי</strong><br />» %2$s',
+	'LOG_POST_RESTORED'			=> '<strong>שיחזר הודעה</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>סגר דיווח</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>מחק דיווח</strong><br />» %s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>שיחזר נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>מחק מחיקה רכה הודעה “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>מחק מחיקה רכה נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>העביר הודעות מפוצלות</strong><br />» אל %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>פיצל הודעות</strong><br />» מ%s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>אישר נושא</strong><br />» %s',
+	'LOG_TOPIC_RESTORED'		=> '<strong>שיחזר נושא</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>דחה נושא “%1$s” בגלל הסיבה הבאה</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>סינכרן מחדש מוני נושאים</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>שינה סוג נושא</strong><br />» %s',
@@ -583,19 +616,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>שגיאה בזמן יצירת תיעוד</strong><br />» שגיאה ב־%1$s בשורה %2$s: %3$s',
 
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>הוסיף ערכת תמונות חדשה לבסיס הנתונים</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>הוסיף ערכת תמונות חדשה למערכת הקבצים</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'			=> '<strong>מחק ערכת תמונות</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>ערך פרטי ערכת תמונות</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'				=> '<strong>ערך ערכת תמונות</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'			=> '<strong>יצא ערכת תמונות</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>ערכת תמונות חסרה ל“%2$s” המקומית</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>רענן מיקום “%2$s” של ערכת תמונות</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>רענן ערכת תמונות</strong><br />» %s',
-
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>הפעיל משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>מחק משתמשים לא פעילים</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזכורת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזוכרת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ־%1$s ל־phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>התקין את phpBB %s</strong>',
 
@@ -637,6 +660,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>תפקיד משתמש נערך</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>תפקיד משתמש הוסר</strong><br />» %s',
 
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s',
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>שדה פרופיל הופעל</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>שדה פרופיל נוסף</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>שדה פרופיל הופסק</strong><br />» %s',
@@ -659,37 +683,44 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_ADDED'		=> '<strong>הוסיף סיבת דיווח/חסימה</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>הסיר סיבת דיווח/חסימה</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>עדכן סיבת דיווח/חסימה</strong><br />» %s',
-	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 
+	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 	'LOG_RESET_DATE'			=> '<strong>תאריך התקנת המערכת אופס</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Files statistics resynchronised</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>מוני הודעות המשתמשים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>נושאים מסומנים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>סטטיסטיקות הודעות, נושאים ומשתמשים סונכרנו מחדש</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>צור חבילת חיפוש עבור</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>מחק חבילת חיפוש עבור</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Error</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>הוסיף עיצוב חדש</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>מחק עיצוב</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>ערך עיצוב</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>יצא עיצוב</strong><br />» %s',
 
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>הוסיף ערכה חדשה לבסיס הנתונים</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>הוסיף ערכה חדשה למערכת הקבצים</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>מחק גרסאות מטמון של קבצי ערכה בערכה <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>מחק ערכה</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>ערך ערכה <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>ערך פרטי ערכה</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>יצא ערכה</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>רענן ערכה</strong><br />» %s',
-
+	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>הוסיף סגנון חדש לבסיס הנתונים</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>הוסיף סגנון חדש למערכת הקבצים</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>סגנון נמחק</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>ערך פרטי סגנון</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>ערך סגנון <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>ערך סגנון <em>%1$s</em></strong><br />» שינה קובץ <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>יצא סגנון</strong><br />» %s',
+	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>רענן סגנון</strong><br />» %s',
 
 	'LOG_UPDATE_DATABASE'	=> '<strong>עדכן בסיס נתונים מגרסה %1$s לגרסה %2$s</strong>',
@@ -741,5 +772,3 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
 ));
-
-?>

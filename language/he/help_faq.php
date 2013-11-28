@@ -4,10 +4,9 @@
 * help_faq [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -46,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'מדוע אני מתנתק באופן אוטומטי?',
-		1 => 'אם לא תסמן את <em>חבר אותי באופן אוטומטי בכל כניסה</em> שהיא תיבה הנמצאת מתחת לשדות ההתחברות, המערכת תחבר אותך רק כאשר תזין כל פעם את הפרטים מחדש. כלי זה מגן על המשתמש שלך משימוש על ידי אדם אחר. בכדי להישאר מחובר, סמן את התיבה לפני ההתחברות. פעולה זו לא מומלצת כאשר אתה מחובר לפורום ברשת מחשבים, כדוגמה בסיפריות, קפה אינטרנט, מחשבי מעבדות באוניברסיטה, וכדומה. אם אינך רואה את התיבה, כנראה ומנהל המערכת ביטל את אפשרות זו.'
+		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
 	),
 	array(
 		0 => 'איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?',
@@ -90,7 +89,7 @@ $help = array(
 	),
 	array(
 		0 => 'שינתי את אזור הזמן והוא עדין שונה מהזמן שלי!',
-		1 => 'אם אתה בטוח שהגדרת את אזור הזמן ושעון קיץ נכון והזמן עדין אינו מכוון כראוי, אז כנראה והזמנים המוגדרים בשרת אינם מוגדרים כראוי. אנא ידע את מנהל המערכת לטיפול בבעיה זו.'
+1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
 	),
 	array(
 		0 => 'השפה שלי אינה ברשימה!',
@@ -360,7 +359,5 @@ $help = array(
 	array(
 		0 => 'האם ניתן להוריד את הזכויות הנמצאות למטה?',
 		1 => 'לא ולא! הרישיון הוא הנו האומנם רישיון חופשי אך אוסר על הסרת זכויות היוצרים והמתרגמים גם יחד ואין לשנותם. תנו כבוד ליוצרי המערכת ועורכייה.'
-)
+	)
 );
-
-?>

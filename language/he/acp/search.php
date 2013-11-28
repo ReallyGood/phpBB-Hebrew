@@ -4,10 +4,9 @@
 * acp_search [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -53,15 +52,40 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'מחיקת המאגר בביצוע',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'שיטת החיפוש מנקה כרגע את המאגר שלה. הפעולה יכולה להמשך מספר דקות.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'שיטת הטקסט המלא של MySQL ניתנת לשימוש רק עם MySQL4 ומעל.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'            => 'מאגרי הטקסט המלא של MySQL ניתנים לשימוש רק עם טבלאות MyISAM או InnoDB. MySQL 5.6.4 או גרסה מאוחר יותר נדרש לטובת מאגרי טקסט מלא בשימוש בטבלאות InnoDB.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'שיטת הטקסט המלא של MySQL ניתנת לשימוש רק עם MySQL4 ומעל.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'מאגרי הטקסט המלא של MySQL ניתנים לשימוש רק עם טבלאות MyISAM או InnoDB. MySQL 5.6.4 או גרסה מאוחר יותר נדרש לטובת מאגרי טקסט מלא בשימוש בטבלאות InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'מספר כולל של הודעות במאגר',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'תמיכה לאותיות לא לטיניות בקידוד UTF-8 בעזרת mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'תמיכה לאותיות לא לטיניות בקידוד UTF-8 בעזרת PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'אם ל־PCRE אין את מאפייני קידוד האות, שיטת החיפוש תנסה להשתמש במנוע המשפטים הרגילים של mbstring.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'שיטת החיפוש דורשת מאפייני קידוד אות של PCRE, זמין רק ב־PHP 4.4, 5.1 ומעל, אם אתה רוצה לחפש אותיות לא לטיניות.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'מילים המכילות לפחות את כמות האותיות המצוינת יכנסו לאינדקס החיפוש. אתה או הספק שלך יכולים לשנות את הגדרה זו רק על ידי שינוי הגדרות ה־mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'מילים המכילות לא יותר מכמות האותיות המצוינת יכנסו לאינדקס החיפוש. אתה או הספק שלך יכולים לשנות את הגדרה זו רק על ידי שינוי הגדרות ה־mysql.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.',
+	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL 8.3 and above.',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts',
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version',
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimum word length for keywords',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximum word length for keywords',
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'This search backend requires PostgreSQL version 8.3 and above.',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'The Text search configuration profile used to determine the parser and dictionary.',
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Words with at least this many characters will be included in the query to the database.',
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Words with no more than this many characters will be included in the query to the database.',
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Configure the following settings to generate sphinx config file',
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Path to data directory',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'It will be used to store the indexes and log files. You should create this directory outside the web accessible directories. (should have a trailing slash)',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Number of posts in frequently updated delta index',
+	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx search daemon host',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Host on which the sphinx search daemon (searchd) listens. Leave empty to use the default localhost',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Indexer memory limit',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'This number should at all times be lower than the RAM available on your machine. If you experience periodic performance problems this might be due to the indexer consuming too many resources. It might help to lower the amount of memory available to the indexer.',
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Number of posts in main index',
+	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx search daemon port',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port on which the sphinx search daemon (searchd) listens. Leave empty to use the default Sphinx API port 9312',
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'The sphinx search for phpBB supports MySQL and PostgreSQL only.',
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config file',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'The generated content of the sphinx config file. This data needs to be pasted into the sphinx.conf which is used by sphinx search daemon.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data and config directory paths are not defined. Please define them to generate the config file.',
+
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'הגדרות חיפוש כלליות',
 	'GO_TO_SEARCH_INDEX'					=> 'עבור לעמוד מאגר החיפוש',
@@ -86,8 +110,15 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'השהיית הצפה חיפושי אורח',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'מספר של שניות אשר אורחים חייבים להמתין בין חיפושים. אם אורח אחד מחפש כל האחרים חייבים להמתין כד שזמן ההשהייה יעבור.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'כל ההודעות עד להודעה מספר %1$d נכנסו כעת למאגר, מתוך %2$d הודעות אשר בתוך שלב זה.<br />הרמה הנוכחית של האגירה היא בקירוב %3$.1f הודעות לשניה.<br />אגירה בביצוע…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'כל ההודעות עד להודעה מספר %1$d הוסרו ממאגר החיפוש.<br />מחיקה בביצוע…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		2	=> 'All posts up to post id %2$d have now been indexed, of which %1$d posts were within this step.<br />',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		2	=> 'The current rate of indexing is approximately %1$.1f posts per second.<br />Indexing in progress…',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'All posts up to post id %2$d have been removed from the search index.<br />Deleting in progress…',
+	),
 	'SEARCH_INDEX_CREATED'					=> 'כל ההודעות נכנסו למאגר בבסיס הנתונים של המערכת בהצלחה.',
 	'SEARCH_INDEX_REMOVED'					=> 'מאגר החיפוש לשיטה זו נמחק בהצלחה.',
 	'SEARCH_INTERVAL'						=> 'השהיית הצפת חיפושי משתמש',
@@ -106,5 +137,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'הפעל עדכון טקסט מלא',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'מעדכן את מאגרי הטקסט המלא בזמן שליחה, מתבצע גם אם החיפוש כבוי.',
 ));
-
-?>

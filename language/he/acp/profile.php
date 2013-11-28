@@ -4,10 +4,9 @@
 * acp_profile [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -67,6 +66,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'המשתמש יוכל לשנות את שדה הפרופיל מתוך לוח הבקרה למשתמש.',
 	'DISPLAY_AT_REGISTER'			=> 'הצג במסך ההרשמה',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'אם אפשרות זו מאופשרת, השדה יוצג בהרשמה.',
+	'DISPLAY_ON_PM'					=> 'Display on view pm screen',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.',
 	'DISPLAY_ON_VT'					=> 'הצג מסך תצוגת נושא',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'אם אפשרות זו מאופשרת, השדה יוצג במיני-פרופיל במסך הנושא.',
 	'DISPLAY_PROFILE_FIELD'			=> 'הצג שדה פרופיל בגלוי',
@@ -155,5 +156,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'אפשרויות תצוגה',
 ));
-
-?>

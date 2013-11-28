@@ -4,10 +4,9 @@
 * install [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -75,14 +74,13 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'		=> 'קובץ ההגדרות נכתב. תוכל להמשיך כעת לשלב הבא של ההתקנה.',
 	'CONFIG_PHPBB_EMPTY'		=> 'משתנה ההגדרות של phpBB3 לערך “%s” ריק.',
 	'CONFIG_RETRY'				=> 'נסה שנית',
-	'CONTACT_EMAIL_CONFIRM'		=> 'אישור כתובת הדואר האלקטרוני ליצירת קשר',
 	'CONTINUE_CONVERT'			=> 'המשך המרה',
 	'CONTINUE_CONVERT_BODY'		=> 'ניסיון המרה קודם התגלה. תוכל לבחור כעת בין להתחיל המרה חדשה או להמשיך בהמרה הקודמת.',
 	'CONTINUE_LAST'				=> 'ממשיך משפטים אחרונים',
 	'CONTINUE_OLD_CONVERSION'	=> 'המשך המרה שהותחלה מקודם',
 	'CONVERT'					=> 'המרה',
 	'CONVERT_COMPLETE'			=> 'ההמרה הושלמה',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'המרת בהצלחה את המערכת שלך ל־phpBB3 תוכל להתחבר כעת ו־<a href="../">לגשת למערכת שלך</a>. אנא וודא שההגדרות הומרו כראוי לפני הפעלת המערכת שלך על־ידי מחיקת התיקייה install. זכור שעזרה לגבי השימוש ב־phpBB3 זמינה דרך <a href="http://www.phpbb.co.il/">התיעוד</a> ו־<a href="http://www.phpbb.co.il/">פורומי התמיכה</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.1. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/documentation/3.0/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=46">support forums</a>.',
 	'CONVERT_INTRO'				=> 'ברוך הבא אל ממשק ההמרה הייחודי של phpBB3',
 	'CONVERT_INTRO_BODY'		=> 'מכאן, אתה יכול לייבא נתונים מתוכנות מערכת אחרות (מותקנות). הרשימה הבאה מציגה את כל אפשרויות ההמרה הזמינות הנוכחיות. אם אין המרה מוצגת ברשימה זו לתוכנת המערכת ממנה אתה מעוניין להמיר, בדוק באתר שלנו בו יכולות להיות זמינות אפשרויות המרה נוספות להורדה.',
 	'CONVERT_NEW_CONVERSION'	=> 'המרה חדשה',
@@ -187,7 +185,7 @@ $lang = array_merge($lang, array(
 	'GPL'						=> 'הסכם שימוש ציבורי כללי',
 	
 	'INITIAL_CONFIG'			=> 'הגדרות בסיסיות',
-	'INITIAL_CONFIG_EXPLAIN'	=> 'כעת לאחר שההתקנת phpBB3 הסתיימה, אתה צריך לספק כמה פרטים. אם אינך יודע כיצד להתחבר לבסיס הנתונים שלך, צור קשר עם ספק האחסון שלך (בשלב הראשון) או השתמש בפורומי התמיכה של phpBB. בעת הזנת הפרטים וודא שאתה בודק אותם ביסודיות לפני שתמשיך.',
+	'INITIAL_CONFIG_EXPLAIN'	=> 'כעת לאחר שההתקנת phpBB3.1 הסתיימה, אתה צריך לספק כמה פרטים. אם אינך יודע כיצד להתחבר לבסיס הנתונים שלך, צור קשר עם ספק האחסון שלך (בשלב הראשון) או השתמש בפורומי התמיכה של phpBB. בעת הזנת הפרטים וודא שאתה בודק אותם ביסודיות לפני שתמשיך.',
 	'INSTALL_CONGRATS'			=> 'ברכותינו!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		התקנת בהצלחה את phpBB %1$s. אנא המשך בבחירה באחת מהאפשרויות הבאות:</p>
@@ -212,7 +210,7 @@ $lang = array_merge($lang, array(
 	<p>phpBB3 תומך בבסיסי הנתונים הבאים:</p>
 	<ul>
 		<li>MySQL 3.23 או מעל (MySQLi נתמך)</li>
-		<li>PostgreSQL 7.3+</li>
+		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 או מעל (ישירות או דרך ODBC)</li>
@@ -292,6 +290,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>לא</strong> תפעל אם התקן ה־PHP שלך אינו מותאם לתמיכה ב־UTF-8 בסיומת PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'פונקציית ה־PHP getimagesize() זמינה',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>נדרש</strong> - כדי ש־phpBB3 תעבוד כראוי, הפונקציה getimagesize צריכה להיות זמינה.',
+	'PHP_JSON_SUPPORT'        		=> 'PHP JSON support',
+	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
 	'PHP_OPTIONAL_MODULE'			=> 'אפשרויות נוספות',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>לא נדרש</strong> - אפשרויות או יישומים אלו אינם נדרשים, אך זמינותם תאפשר לך מאפיינים נוספים.',
 	'PHP_SUPPORTED_DB'				=> 'בסיסי נתונים נתמכים',
@@ -300,10 +300,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB3 עדיין תפעל אם ההגדרה פעילה, אבל אם אפשרי, מומלץ ש־register_globals תהיה כבויה בהתקן ה־PHP שלך מטעמי ביטחון.',
 	'PHP_SAFE_MODE'					=> 'מצב בטוח',
 	'PHP_SETTINGS'					=> 'גרסת PHP והגדרות',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>נדרש</strong> - אתה חייב להריץ את גרסה 4.3.3 של PHP או גבוהה יותר כדי להתקין את phpBB3. אם <var>safe mode</var> (מצב בטוח) מוצג להלן, התקן ה־PHP פועל במצב זה. המצב יגרום להגבלות על הניהול מרחוק ומאפיינים דומים.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>נדרש</strong> - אתה חייב להריץ את גרסה 5.3.3 של PHP או גבוהה יותר כדי להתקין את phpBB3. אם <var>safe mode</var> (מצב בטוח) מוצג להלן, התקן ה־PHP פועל במצב זה. המצב יגרום להגבלות על הניהול מרחוק ומאפיינים דומים.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'הגדרת ה־PHP <var>allow_url_fopen</var> פעילה',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>לא נדרש</strong> - ההגדרה אינה נדרשת, אך פונקציות מסוימות של phpBB3 כמו הסמלים האישיים של האתר הכבוי לא יעבדו כראוי בלעדיה.',
-	'PHP_VERSION_REQD'				=> 'גרסת PHP >= 4.3.3',
+	'PHP_VERSION_REQD'				=> 'גרסת PHP >= 5.3.3',
 	'POST_ID'						=> 'מספר הודעה',
 	'PREFIX_FOUND'					=> 'סריקת הטבלאות שלך הציגה התקנה חוקית המשתמשת ב־<strong>%s</strong> בתור הקידומת לטבלאות.',
 	'PREPROCESS_STEP'				=> 'מבצע פונקציות/שאילתות מקדימות לתהליך',
@@ -323,6 +323,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'הגדרות שרת',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'טבלאות חיפוש לא הומרו',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'טבלאות החיפוש הישנות לא הומרו. החיפוש תמיד יניב תוצאה ריקה. כדי ליצור טבלאות חיפוש חדשות עבור ללוח הבקרה למנהלים ראשיים, בחר תחזוקה ולאחר מכן בחר טבלאות חיפוש מהתפריט המשני.',
+	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):',
 	'SOFTWARE'					=> 'תוכנת מערכת',
 	'SPECIFY_OPTIONS'			=> 'ציון אפשרויות המרה',
 	'STAGE_ADMINISTRATOR'		=> 'פרטי מנהל ראשי',
@@ -330,7 +331,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'	=> 'ההגדרות בעמוד זה הכרחיות כדי לקבוע אם אתה יודע שאתה מעוניין בהגדרה השונה מברירת המחדל. אם אינך בטוח, פשוט המשך לשלב הבא, שכן ניתן לשנות הגדרות אלו מלוח הבקרה למנהלים ראשיים מאוחר יותר.',
 	'STAGE_CONFIG_FILE'			=> 'קובץ הגדרות',
 	'STAGE_CREATE_TABLE'		=> 'צור טבלאות בסיס נתונים',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'טבלאות בסיס הנתונים שבשימוש על־ידי phpBB3.0 נוצרו וקיבלו כמה נתונים פנימיים. המשך למסך הבא כדי לסיים את התקנת phpBB3.',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'טבלאות בסיס הנתונים שבשימוש על־ידי phpBB3.1 נוצרו וקיבלו כמה נתונים פנימיים. המשך למסך הבא כדי לסיים את התקנת phpBB3.',
 	'STAGE_DATABASE'			=> 'הגדרות בסיס נתונים',
 	'STAGE_FINAL'				=> 'שלב אחרון',
 	'STAGE_INTRO'				=> 'הקדמה',
@@ -343,7 +344,8 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'הסכם שימוש',
 	'SUB_SUPPORT'				=> 'תמיכה',
 	'SUCCESSFUL_CONNECT'		=> 'החיבור נוצר',
-	'SUPPORT_BODY'				=> 'תמיכה מלאה תינתן לגרסה היציבה הנוכחית של phpBB3, ללא שום עלות. זה כולל:</p><ul><li>התקנה</li><li>הגדרות</li><li>שאלות טכניות</li><li>בעיות הקשורות לשגיאות אפשריות בתרגום</li><li>עדכון מגרסאות המועמדות לשחרור (RC) לגרסה היציבה האחרונה</li><li>המרה ממערכת phpBB2.0.x ל־phpBB3</li><li>המרה ממערכות פורומים אחרות ל־phpBB3</li></ul><p>אנו ממליצים למשתמשים אשר מריצים עדיין את הגרסאות הנסיוניות של phpBB3 להחליף את המערכת עם עותק חדש של הגרסה האחרונה.</p><h2>מודים / עיצובים</h2><p>לעניינים הקשורים למודים, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=23">בפורום המודים</a>.<br />לעניינים הקשורים לעיצובים, תבניות וערכות תמונות, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=24">בפורום העיצובים</a>.<br /><br />אם יש לך שאלה הקשורה לחבילה מסוימת, אנא כתוב את ההודעה בנושא המיועד לאותה חבילה.</p><h2>קבלת תמיכה</h2><p><a href="http://www.phpbb.co.il/">אתר התמיכה הרשמי של פרויקט phpBB הישראלי</a><br /><br />',
+	'SUPPORT_BODY'				=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>MODs / Styles</h2><p>For issues relating to MODs, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=81">Modifications Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=80">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	//'SUPPORT_BODY'				=> 'תמיכה מלאה תינתן לגרסה היציבה הנוכחית של phpBB3, ללא שום עלות. זה כולל:</p><ul><li>התקנה</li><li>הגדרות</li><li>שאלות טכניות</li><li>בעיות הקשורות לשגיאות אפשריות בתרגום</li><li>עדכון מגרסאות המועמדות לשחרור (RC) לגרסה היציבה האחרונה</li><li>המרה ממערכת phpBB2.0.x ל־phpBB3</li><li>המרה ממערכות פורומים אחרות ל־phpBB3</li></ul><p>אנו ממליצים למשתמשים אשר מריצים עדיין את הגרסאות הנסיוניות של phpBB3 להחליף את המערכת עם עותק חדש של הגרסה האחרונה.</p><h2>מודים / עיצובים</h2><p>לעניינים הקשורים למודים, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=23">בפורום המודים</a>.<br />לעניינים הקשורים לעיצובים, תבניות וערכות תמונות, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=24">בפורום העיצובים</a>.<br /><br />אם יש לך שאלה הקשורה לחבילה מסוימת, אנא כתוב את ההודעה בנושא המיועד לאותה חבילה.</p><h2>קבלת תמיכה</h2><p><a href="http://www.phpbb.co.il/">אתר התמיכה הרשמי של פרויקט phpBB הישראלי</a><br /><br />',
 	'SYNC_FORUMS'				=> 'מתחיל לסנכרן פורומים',
 	'SYNC_POST_COUNT'			=> 'מסנכרן post_counts',
 	'SYNC_POST_COUNT_ID'		=> 'מסנכרן post_counts מ־<var>entry</var> %1$s ל־%2$s.',
@@ -371,7 +373,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'כל הקבצים מעודכנים לגרסה האחרונה של phpBB. אתה צריך כעת <a href="../ucp.php?mode=login">להתחבר לפורום שלך</a> ולבדוק אם הכול עובד כשורה. אל תשכח למחוק, לשנות שם או להעביר את תיקיית ההתקנה! אנא שלח לנו מידע מעודכן על הגדרות השרת והמערכת מעמוד <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">מידע סטטיסטי</a> בלוח הבקרה למנהלים ראשיים.',
+	'ALL_FILES_UP_TO_DATE'		=> 'כל הקבצים מעודכנים לגרסה האחרונה של phpBB.',
 	'ARCHIVE_FILE'				=> 'קובץ מקור בתוך ארכיון',
 
 	'BACK'				=> 'חזרה',
@@ -394,7 +396,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'גרסה נוכחית',
 
 	'DATABASE_TYPE'						=> 'סוג בסיס נתונים',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'קובץ עדכון בסיס הנתונים אשר בתיקיית ההתקנה אינו מעודכן. וודא שהעלת את הגרסה הנכונה של הקובץ.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.',
 	'DELETE_USER_REMOVE'				=> 'מחק משתמש והסר הודעות',
 	'DELETE_USER_RETAIN'				=> 'מחק משתמש אבל שמור הודעות',
 	'DESTINATION'						=> 'קובץ מטרה',
@@ -413,8 +418,9 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'הורד ארכיון קבצים ששונו',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'לאחר סיום ההורדה אתה צריך לחלץ את קובץ הארכיון. אתה תמצא את הקבצים ששונו אשר אתה צריך להעלות לתיקיית המערכת של phpBB3. העלה את הקבצים למיקומים שלהם בהתאמה. לאחר שהעלת את כל הקבצים, בדוק את הקבצים שנית עם הכפתור האחר שלהלן.',
 
-	'ERROR'		=> 'שגיאה',
 	'EDIT_USERNAME'	=> 'ערוך שם משתמש',
+	'ERROR'			=> 'שגיאה',
+	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'הקובץ כבר מעודכן.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'הקובץ לא ניתן לשינוי.',
@@ -564,6 +570,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_METHOD'					=> 'שיטת העלאה',
 
 	'UPDATE_DB_SUCCESS'				=> 'עדכון בסיס הנתונים הושלם בהצלחה.',
+	'UPDATE_FILE_SUCCESS'			=> 'הקובץ עודכן בהצלחה.',
 	'USER_ACTIVE'					=> 'משתמש פעיל',
 	'USER_INACTIVE'					=> 'משתמש לא פעיל',
 
@@ -625,5 +632,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_TOPIC_TITLE'			=> 'ברוך הבא ל־phpBB3',
 ));
-
-?>

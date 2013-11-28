@@ -4,10 +4,9 @@
 * acp_groups [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -38,6 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'בדף זה תוכל לערוך את כל קבוצות המשתמשים הקיימות בפורום שלך, אתה יכול למחוק, ליצור ולערוך קבוצות קיימות. בנוסף, אתה יכול לבחור ראש קבוצה, לשנות את מצב הקבוצה בין פתוח/מוסתר/סגור ולקבוע את שם ותיאור הקבוצה.',
+	'ADD_GROUP_CATEGORY'			=> 'הוסף קטגוריה',
 	'ADD_USERS'						=> 'הוסף משתמשים',
 	'ADD_USERS_EXPLAIN'				=> 'כאן אתה יכול להוסיף משתמשים חדשים לקבוצה. אתה יכול לבחור אם קבוצה זו תהפוך לברירת המחדל החדשה של המשתמשים שיבחרו. בנוסף באפשרותך להפוך אותם לראשי קבוצה. אנא הכנס כל שם משתמש עם רווח בין שם לשם.',
 
@@ -52,11 +52,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'חברים מאושרים',
 	'GROUP_AVATAR'					=> 'הסמל האישי של הקבוצה',
 	'GROUP_AVATAR_EXPLAIN'			=> 'תמונה זו תופיע בלוח הבקרה של ניהול הקבוצה.',
-	'GROUP_CLOSED'					=> 'נעול',
+	'GROUP_CATEGORY_NAME'			=> 'שם הקטגוריה',
+	'GROUP_CLOSED'					=> 'סגור',
 	'GROUP_COLOR'					=> 'צבע הקבוצה',
-	'GROUP_COLOR_EXPLAIN'			=> 'הגדר את צבע הכינויים של חברי הקבוצה, השאר ריק להגדרות הרגילות.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'האם אתה בטוח שאתה רוצה להוסיף את המשתמש %1$s לקבוצה?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'האם אתה בטוח שאתה רוצה להוסיף את המשתמשים %1$s לקבוצה?',
+	'GROUP_COLOR_EXPLAIN'			=> 'הגדר את צבע שמות המשתמש של חברי הקבוצה, השאר ריק להגדרות הרגילות.',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'האם אתה בטוח שאתה רוצה להוסיף את המשתמש %2$s לקבוצה?',
+		2	=> 'האם אתה בטוח שאתה רוצה להוסיף את המשתמשים %2$s לקבוצה?',
+	),
 	'GROUP_CREATED'					=> 'הקבוצה נוצרה בהצלחה.',
 	'GROUP_DEFAULT'					=> 'צור קבוצת ברירת מחדל לחבר',
 	'GROUP_DEFS_UPDATED'			=> 'קבוצת ברירת המחדל מוגדרת לכל המשתמשים שנבחרו.',
@@ -98,6 +101,8 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'הגדרות גודל הקבוצה',
 	'GROUP_SKIP_AUTH'				=> 'שחרר את ראש הקבוצה מהרשאות',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'אם מאופשר ראש קבוצה לא יקבל הרשאות מהקבוצה.',
+	'GROUP_SPECIAL'					=> 'Pre-defined',
+	'GROUP_TEAMPAGE'				=> 'Display group on teampage',
 	'GROUP_TYPE'					=> 'סוג הקבוצה',
 	'GROUP_TYPE_EXPLAIN'			=> 'יחליט מי יכול להיכנס לקבוצה או לראותה.',
 	'GROUP_UPDATED'					=> 'אפשרויות הקבוצה עודכנה בהצלחה.',
@@ -106,19 +111,38 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'המשתמשים שנבחרו כבר חברים בקבוצה.',
 	'GROUP_USERS_REMOVE'			=> 'המשתמשים הוסרו מהקבוצה והגדרות ברירת המחדל החדשות הוגדרו בהצלחה.',
 
+	'LEGEND_EXPLAIN'				=> 'These are the groups which are displayed in the group legend:',
+	'LEGEND_SETTINGS'				=> 'Legend settings',
+	'LEGEND_SORT_GROUPNAME'			=> 'Sort legend by group name',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'The order below is ignored when this option is enabled.',
+
+	'MANAGE_LEGEND'			=> 'Manage group legend',
+	'MANAGE_TEAMPAGE'		=> 'Manage teampage',
+	
 	'MAKE_DEFAULT_FOR_ALL'	=> 'עשה קבוצת ברירת מחדל לכל המשתמשים',
 	'MEMBERS'				=> 'משתמשים',
 
 	'NO_GROUP'					=> 'לא נבחרה קבוצה.',
+	'NO_GROUPS_ADDED'			=> 'לא נוספו קבוצות עדיין.',
 	'NO_GROUPS_CREATED'			=> 'לא נוצרו כרגע קבוצות.',
 	'NO_PERMISSIONS'			=> 'אל תעתיק הרשאות',
 	'NO_USERS'					=> 'לא הכנסת אף משתמש.',
 	'NO_USERS_ADDED'			=> 'לא נוספו משתמשים לקבוצה.',
 	'NO_VALID_USERS'			=> 'לא הזנת משתמשים מתאימים לפעולה זו.',
 
+	'SELECT_GROUP'				=> 'בחר קבוצה',
 	'SPECIAL_GROUPS'			=> 'קבוצות מוגדרות מראש',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות.',
-
+	
+	'TEAMPAGE'					=> 'Teampage',
+	'TEAMPAGE_DISP_ALL'			=> 'All memberships',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'User’s default group only',
+	'TEAMPAGE_DISP_FIRST'		=> 'First membership only',
+	'TEAMPAGE_EXPLAIN'			=> 'These are the groups which are displayed on the teampage:',
+	'TEAMPAGE_FORUMS'			=> 'Display moderated forums',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Display user memberships',
+	'TEAMPAGE_SETTINGS'			=> 'Teampage settings',
 	'TOTAL_MEMBERS'				=> 'משתמשים',
 
 	'USERS_APPROVED'				=> 'המשתמשים אושרו בהצלחה.',
@@ -129,5 +153,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'להגיד כן כאן תגדיר את קבוצה זו כברירת המחדל למשתמשים שנוספו.',
 	'USER_GROUP_LEADER'				=> 'הגדר כראש הקבוצה',
 ));
-
-?>

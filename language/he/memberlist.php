@@ -4,10 +4,9 @@
 * memberlist [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -80,9 +79,9 @@ $lang = array_merge($lang, array(
 	'IM_JABBER'				=> 'אנא שים לב שיש משתמשים שבחרו שלא לקבל הודעות ללא הזמנה.',
 	'IM_JABBER_SUBJECT'		=> 'זוהי הודעה אוטומטית, אנא אל תגיב לה! הודעה מהמשתמש %1$s בשעה %2$s.',
 	'IM_MESSAGE'			=> 'הודעתך',
-	'IM_MSNM'				=> 'שים לב שהנך זקוק לWindows Massanger מותקן על מנת להשתמש בזה.',
+	'IM_MSNM'				=> 'שים לב שהנך זקוק ל־Windows Live Messenger מותקן על מנת להשתמש בזה.',
 	'IM_MSNM_BROWSER'		=> 'דפדפן האינטרנט שלך אינו תומך בזה.',
-	'IM_MSNM_CONNECT'		=> 'MSNM לא מחובר\nהנך חייב להתחבר ל־MSNM על מנת להמשיך.',		
+	'IM_MSNM_CONNECT'		=> 'WLM לא מחובר.\nהנך חייב להתחבר ל־WLM על מנת להמשיך.',	
 	'IM_NAME'				=> 'שמך',
 	'IM_NO_DATA'			=> 'אין פרטי תוכן מתאימים למשתמש זה.',
 	'IM_NO_JABBER'			=> 'סליחה, שליחת הודעה באופן ישיר למשתמש Jabber אינה נתמכת במערכת זו, אתה צריך שתוכנת הJabber תהיה מותקנת אצלך במחשב כדי לשלוח הודעה למשתמש זה.',
@@ -94,8 +93,10 @@ $lang = array_merge($lang, array(
 	
 	'LAST_ACTIVE'				=> 'פעיל לאחרונה',
 	'LESS_THAN'					=> 'פחות מ',
-	'LIST_USER'					=> 'משתמש אחד',
-	'LIST_USERS'				=> '%d משתמשים',
+	'LIST_USERS'				=> array(
+		1	=> 'משתמש %d',
+		2	=> '%d משתמשים',
+	),
 	'LOGIN_EXPLAIN_LEADERS'		=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות ברשימות הצוות.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לגשת לרשימת משתמשים.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לחפש משתמשים.',
@@ -123,7 +124,7 @@ $lang = array_merge($lang, array(
 	'SEND_IM'				=> 'הודעה מיידית',
 	'SEND_JABBER_MESSAGE'	=> 'שלח הודעת Jabber',
 	'SEND_MESSAGE'			=> 'הודעה',
-	'SEND_MSNM_MESSAGE'		=> 'שלח הודעת MSNM\WLM.',
+	'SEND_MSNM_MESSAGE'		=> 'שלח הודעת WLM.',
 	'SEND_YIM_MESSAGE'		=> 'שלח הודעת YIM',
 	'SORT_EMAIL'			=> 'דואר אלקטרוני',
 	'SORT_LAST_ACTIVE'		=> 'פעיל לאחרונה',
@@ -136,6 +137,7 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'לא נשלחו תזכורות בזמן זה',
 		1		=> '%1$d נשלחה תזכורת<br />» %2$s',
+		2		=> '%1$d נשלחה תזכורת<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'מחובר',
 	'USER_PRESENCE'			=> 'נוכחות בפורום',
@@ -145,5 +147,3 @@ $lang = array_merge($lang, array(
 
 	'WWW'					=> 'אתר אינטרנט',
 ));
-
-?>

@@ -4,10 +4,9 @@
 * acp_board [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -39,6 +38,8 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול לקבוע את הגדרות המערכת הבסיסיות, לתת לה שם ותיאור מתאימים, ובין היתר ערכי ברירת מחדל לאזור זמן ושפה.',
+	'BOARD_INDEX_TEXT'				=> 'Board index text', //translate this
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'This text is displayed as the board index in the board’s breadcrumbs. If not specified, it will default to “Board index”.', //translate this
 	'CUSTOM_DATEFORMAT'				=> 'מותאם אישית…',
 	'DEFAULT_DATE_FORMAT'			=> 'תבנית תאריך',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'תבנית התאריך זהה לפונקציית התאריך <code>date</code> של PHP.',
@@ -46,11 +47,16 @@ $lang = array_merge($lang, array(
 	'DEFAULT_STYLE'					=> 'עיצוב ברירת מחדל',
 	'DISABLE_BOARD'					=> 'כבה מערכת',
 	'DISABLE_BOARD_EXPLAIN'			=> 'המערכת תהיה לא זמינה למשתמשים. תוכל גם להזין הודעה קצרה (255 תווים) התוצג אם תרצה.',
+	'DISPLAY_LAST_SUBJECT'			=> 'Display subject of last added post on forum list', //translate this
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'The subject of the last added post will be displayed in the forum list with a hyperlink to the post. Subjects from password protected forums and forums in which user doesn’t have read access are not shown.', //translate this
 	'OVERRIDE_STYLE'				=> 'עבור על עיצוב המשתמש',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'מחליף את עיצוב המערכת לברירת המחדל.',
 	'SITE_DESC'						=> 'תיאור האתר',
+	'SITE_HOME_TEXT'				=> 'Main website text', //translate this
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'This text will be displayed as a link to your website homepage in the board’s breadcrumbs. If not specified, it will default to “Home”.', //translate this
+	'SITE_HOME_URL'					=> 'Main website URL', //translate this
+	'SITE_HOME_URL_EXPLAIN'			=> 'If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.', //translate this
 	'SITE_NAME'						=> 'שם האתר',
-	'SYSTEM_DST'					=> 'הפעל שעון קיץ',
 	'SYSTEM_TIMEZONE'				=> 'אזור זמן המערכת',
 	'SYSTEM_TIMEZONE'				=> 'אזור זמן לאורחים',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'אזור זמן המוצג למשתמשים לא מחוברים (אורחים, בוטים). משתמשים מחוברים מגדירים את אזור הזמן שלהם במהלך ההרשמה ויכולים לשנות אותו מלוח הבקרה למשתמש.',
@@ -97,6 +103,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'אפשר סמל אישי',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'אפשר שימוש בסמלים אישיים;<br />אם מבוטל סמלים אישיים לא יוצגו יותר במערכת, אבל משתמשים עדיין יכולו להוריד את הסמל האישי שלהם מהלוח בקרה למשתמש.',
+	'ALLOW_GRAVATAR'				=> 'Enable gravatar avatars', //translate this
 	'ALLOW_LOCAL'					=> 'אפשר גלריית סמלים אישיים',
 	'ALLOW_REMOTE'					=> 'אפשר סמלים אישיים מרחוק',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'סמלים אישיים המקושרים מאתר אחר.',
@@ -349,16 +356,21 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול להפעיל או לכבות אפשרויות מערכת מסוימות כדי להקטין את זמן הטעינה הנדרש. ברוב השרתים אין צורך לכבות אף אפשרות, אך במערכות מסוימות או בסביבות אחסון משותפות כיבוי האפשרויות שאינך באמת צריך יכולה להיות מועיל. תוכל גם לציין הגבלות לטעינת המערכת וחיבורים פעילים שמעבר המערכת תכבה.',
 
+	'ALLOW_CDN'						=> 'Allow usage of third party content delivery networks', //translate this
+	'ALLOW_CDN_EXPLAIN'				=> 'If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators.', //translate this
 	'CUSTOM_PROFILE_FIELDS'			=> 'שדות פרופיל מותאמים אישית',
 	'LIMIT_LOAD'					=> 'הגבל טעינת מערכת',
 	'LIMIT_LOAD_EXPLAIN'			=> 'אם ממוצע הטעינה של המערכת בדקה עובר ערך זה המערכת תכובה אוטומטית. הערך 1.0 שווה לניצול של ~100% של מבצע אחד. אפשרויות אלו חלות רק על UNIX מבוסס שרתים והיכן שהמידע נגיש. הערך מתאפס ל־0 אם phpBB לא יכלה לקבל את הגבלת הטעינה.',
 	'LIMIT_SESSIONS'				=> 'הגבל חיבורים',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'אם מספר החיבורים חורג את ערך זה במשך תקופת זמן של דקה המערכת תכובה. הגדר ל0 לחיבורים בלתי מוגבלים.',
 	'LOAD_CPF_MEMBERLIST'			=> 'אפשר לעיצובים להציג שדות פרופיל מותאמים אישית ברשימת המשתמשים',
+	'LOAD_CPF_PM'					=> 'הצג שדות פרופיל מותאמים אישית בהודעות פרטיות',
 	'LOAD_CPF_VIEWPROFILE'			=> 'הצג שדות פרופיל מותאמים אישית בפרופילי המשתמשים',
 	'LOAD_CPF_VIEWTOPIC'			=> 'הצג שדות פרופיל מותאמים אישית בעמודי הנושאים',
 	'LOAD_USER_ACTIVITY'			=> 'הצג פעילות משתמש',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'הצג נושא/פורום פעיל בפרופילי המשתמשים ולוח הבקרה למשתמש. מומלץ לכבות במערכות עם יותר ממליון הודעות.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Read Notification Expiration', //translate this
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Number of days that will elapse before a read notification will automatically be deleted. Set this value to 0 to make notifications permanent.', //translate this
 	'RECOMPILE_STYLES'				=> 'ערוך מחדש רכיבי עיצוב ישנים',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'בדוק לרכיבי עיצוב מעודכנים במערכת הקבצים וערוך מחדש.',
 	'YES_ANON_READ_MARKING'			=> 'הפעל סימון נושאים לאורחים',
@@ -382,9 +394,15 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB3 תומכת בתוספות אימות, או מודולים. הן מאפשרות לך לקבוע כיצד משתמשים מאומתים כאשר הם מתחברים למערכת. כברירת מחדל שלושה תוספות מסופקות; DB, LDAP ו־Apache. לא כל התוספות דורשות מידע נוסף כך שהשלם רק את השדות אשר קשורות לשיטה הנבחרת.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB3 תומכת בתוספות אימות, או מודולים. הן מאפשרות לך לקבוע כיצד משתמשים מאומתים כאשר הם מתחברים למערכת. כברירת מחדל ארבעה תוספות מסופקות: DB, LDAP, Apache ו־OAuth. לא כל התוספות דורשות מידע נוסף כך שהשלם רק את השדות אשר קשורות לשיטה הנבחרת.',
 
 	'AUTH_METHOD'				=> 'בחר שיטת אימות',
+
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'אתה צריך להתקין אימות apache לפני שתחליף את phpBB3 לשיטת אימות זו. זכור ששם המשתמש שלך לאימות apache חייב להיות זהה לשם המשתמש שלך ב־phpBB3. אימות Apache ניתן לשימוש רק עם mod_php (לא עם גרסת CGI) ו־safe_mode כבויים.',
 
@@ -419,6 +437,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'אם נקבע לכן הגדרות השרת המוגדרות כאן יקבלו עדיפות על הערכים אשר נקבעו אוטומטית.',
 	'ICONS_PATH'				=> 'נתיב אחסון האייקונים להודעות',
 	'ICONS_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/icons</samp>.',
+	'MOD_REWRITE_ENABLE'		=> 'Enable URL Rewriting',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'When enabled, URLs containing ’app.php’ will be rewritten to remove the filename (i.e. app.php/foo will become /foo). <strong>Apache server’s mod_rewrite module is required for this functionality to work; if this option is enabled without mod_rewrite support, URLs on your board may be broken.</strong>',
+	'MOD_REWRITE_DISABLED'		=> 'The <strong>mod_rewrite</strong> module on your Apache web server is disabled. Enable the module or contact your web hosting provider if you wish to enable this feature.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'We are unable to determine whether or not this server supports URL rewriting. This setting may be enabled but if URL rewriting is not available, paths generated by this board (such as for use in links) may be broken. Contact your web hosting provider if you are unsure whether or not you can safely enable this feature.',
 	'PATH_SETTINGS'				=> 'הגדרות נתיב',
 	'RANKS_PATH'				=> 'נתיב אחסון תמונות הדירוג',
 	'RANKS_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/ranks</samp>.',
@@ -435,6 +457,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'נתיב אחסון קבוצת הסיומות לאייקונים',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>.',
+	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).',
 ));
 
 // Security Settings
@@ -442,10 +466,12 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'כאן אתה יכול להגדיר הגדרות הקשורות לחיבורים והתחברויות.',
 
 	'ALL'							=> 'הכל',
-	'ALLOW_AUTOLOGIN'				=> 'אפשר חיבורים תמידיים',
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'קובע אם המשתמשים יכולים להתחבר אוטומטית כאשר הם מבקרים במערכת.',
-	'AUTOLOGIN_LENGTH'				=> 'אורך החיבור התמידי (בימים)',
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'מספר ימים אשר אחריהם החיבור התמידי נמחק או אפס כדי לכבות.',
+	'ALLOW_AUTOLOGIN'				=> 'Allow "Remember Me" logins',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Determines whether users are given "Remember Me" option when they visit the board.',
+	'ALLOW_PASSWORD_RESET'			=> 'Allow password reset ("Forgot Password")',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Determines whether or not users are able to use the "I forgot my password" link on the login page to recover their account. If you use an external authentication mechanism you may wish to disable this feature.',
+	'AUTOLOGIN_LENGTH'				=> '"Remember Me" login key expiration length (in days)',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Number of days after which "Remember Me" login keys are removed or zero to disable.',
 	'BROWSER_VALID'					=> 'אשר דפדפן',
 	'BROWSER_VALID_EXPLAIN'			=> 'מפעיל אישור דפדפן לכל חיבור לשיפור האבטחה.',
 	'CHECK_DNSBL'					=> 'בדוק IP כנגד רשימת ה־DNS השחורה',
@@ -548,5 +574,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'שם משתמש ל־Jabber או JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
 ));
-
-?>

@@ -1,27 +1,28 @@
 <?php
 /**
 *
-* acp_extensions [English]
+* acp_extensions [Hebrew]
 *
 * @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
+
 /**
+* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
-/**
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -35,69 +36,61 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'EXTENSION'					=> 'Extension',
-	'EXTENSIONS'				=> 'Extensions',
-	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
-	'EXTENSIONS_EXPLAIN'		=> 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> 'The "%s" extension is not valid.<br /><p>%s</p>',
+	'EXTENSION'					=> 'תוסף',
+	'EXTENSIONS'				=> 'תוספות',
+	'EXTENSIONS_ADMIN'			=> 'מנהל התוספות',
+	'EXTENSIONS_EXPLAIN'		=> 'מנהלים התוספות הוא כלי במערכת הphpBB שלך שמאפשרת לך למנהל את כל התוספות שלך, מצבם וצפיה במידע אודותם.',
+		'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
 
 	'DETAILS'				=> 'Details',
 
-	'AVAILABLE'				=> 'Available',
-	'ENABLED'				=> 'Enabled',
-	'DISABLED'				=> 'Disabled',
-	'PURGED'				=> 'Purged',
-	'UPLOADED'				=> 'Uploaded',
+	'EXTENSIONS_DISABLED'	=> 'Disabled Extensions',
+	'EXTENSIONS_ENABLED'	=> 'Enabled Extensions',
 
-	'ENABLE'				=> 'Enable',
-	'DISABLE'				=> 'Disable',
-	'PURGE'					=> 'Purge',
+	'EXTENSION_DELETE_DATA'	=> 'Delete data',
+	'EXTENSION_DISABLE'		=> 'Disable',
+	'EXTENSION_ENABLE'		=> 'Enable',
 
-	'ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
-	'DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files and settings but removes any functionality added by the extension.',
-	'PURGE_EXPLAIN'			=> 'Purging an extension clears an extensions data while retaining its files.',
-	'DELETE_EXPLAIN'		=> 'Deleting an extension removes all of its files and settings. Log entries will remain, although any language variables added by the extension will not be available.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
 
-	'DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled, please do not leave this page or refresh until it is completed.',
-	'ENABLE_IN_PROGRESS'	=> 'The extension is currently being installed, please do not leave this page or refresh until it is completed.',
-	'PURGE_IN_PROGRESS'		=> 'The extension is currently being purged, please do not leave this page or refresh until it is completed.',
-	'ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
-	'DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'PURGE_SUCCESS'			=> 'The extension was purged successfully',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
 
-	'ENABLE_FAIL'			=> 'The extension could not be enabled',
-	'DISABLE_FAIL'			=> 'The extension could not be disabled',
-	'PURGE_FAIL'			=> 'The extension could not be purged',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
 
 	'EXTENSION_NAME'		=> 'Extension Name',
 	'EXTENSION_ACTIONS'		=> 'Actions',
 	'EXTENSION_OPTIONS'		=> 'Options',
 
-	'ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable this extension?',
-	'DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable this extension?',
-	'PURGE_CONFIRM'			=> 'Are you sure that you wish to purge this extension&#39;s data? This will remove all settings stored for this extension and cannot be undone!',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
 
-	'WARNING'				=> 'Warning',
-	'RETURN'				=> 'Return',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
 
-	'EXT_DETAILS'			=> 'Extension Details',
-	'DISPLAY_NAME'			=> 'Display Name',
-	'CLEAN_NAME'			=> 'Clean Name',
-	'TYPE'					=> 'Type',
-	'DESCRIPTION'			=> 'Description',
-	'VERSION'				=> 'Version',
-	'HOMEPAGE'				=> 'Homepage',
+	'EXT_DETAILS'			=> 'פרטי התוספת',
+	'DISPLAY_NAME'			=> 'שם מוצג',
+	'CLEAN_NAME'			=> 'שם נקי',
+	'TYPE'					=> 'סוג',
+	'DESCRIPTION'			=> 'תיאור',
+	'VERSION'				=> 'גרסא',
+	'HOMEPAGE'				=> 'דף הבית',
 	'PATH'					=> 'File Path',
-	'TIME'					=> 'Release Time',
-	'LICENCE'				=> 'Licence',
+	'TIME'					=> 'זמן שחרור',
+	'LICENCE'				=> 'רשיון',
 
-	'REQUIREMENTS'			=> 'Requirements',
-	'PHPBB_VERSION'			=> 'phpBB Version',
-	'PHP_VERSION'			=> 'PHP Version',
-	'AUTHOR_INFORMATION'	=> 'Author Information',
-	'AUTHOR_NAME'			=> 'Name',
-	'AUTHOR_EMAIL'			=> 'Email',
-	'AUTHOR_HOMEPAGE'		=> 'Homepage',
-	'AUTHOR_ROLE'			=> 'Role',
+	'REQUIREMENTS'			=> 'דרישות',
+	'PHPBB_VERSION'			=> 'גרסת phpBB',
+	'PHP_VERSION'			=> 'גרסת PHP',
+	'AUTHOR_INFORMATION'	=> 'מידע אודות היוצר',
+	'AUTHOR_NAME'			=> 'שם',
+	'AUTHOR_EMAIL'			=> 'דואר אלקטורני',
+	'AUTHOR_HOMEPAGE'		=> 'דף הבית',
+	'AUTHOR_ROLE'			=> 'תפקיד',
 ));

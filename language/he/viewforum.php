@@ -4,10 +4,9 @@
 * viewforum [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -65,8 +64,8 @@ $lang = array_merge($lang, array(
 	'TOPICS_MARKED'			=> 'הנושאים בפורום זה סומנו כנקראו.',
 
 	'VIEW_FORUM'			=> 'צפה בפורום',
-	'VIEW_FORUM_TOPIC'		=> 'נושא אחד',
-	'VIEW_FORUM_TOPICS'		=> '%d נושאים',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> 'נושא %d',
+		2	=> '%d נושאים',
+	),
 ));
-
-?>

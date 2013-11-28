@@ -4,10 +4,9 @@
 * help_bbcode [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -114,5 +113,3 @@ $help = array(
 		1 => 'אם אתה מנהל ראשי במערכת זו ובעל הגישות המתאימות, אתה יכול להוסיף תגי BBCode נוספים דרך החלק תגי BBCode מותאמים אישית.'
 	)
 );
-
-?>

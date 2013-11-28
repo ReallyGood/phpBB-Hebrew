@@ -4,10 +4,9 @@
 * mcp [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -54,6 +53,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'האם אתה בטוח שברצונך לאשר הודעה זו?',
 	'APPROVE_POSTS'			=> 'אשר הודעות',
 	'APPROVE_POSTS_CONFIRM'	=> 'האם אתה בטוח שברצונך לאשר הודעות אלה?',
+	'APPROVE_TOPIC'			=> 'Approve topic',
+	'APPROVE_TOPIC_CONFIRM'	=> 'Are you sure you want to approve this topic?',
+	'APPROVE_TOPICS'		=> 'Approve topics',
+	'APPROVE_TOPICS_CONFIRM'=> 'Are you sure you want to approve the selected topics?',
 
 	'CANNOT_MOVE_SAME_FORUM'=> 'אתה לא יכול להעביר נושא לפורום בו הוא כבר נמצא.',
 	'CANNOT_WARN_ANONYMOUS'	=> 'אינך יכול להזהיר משתמש שאינו רשום למערכת.',
@@ -74,16 +77,12 @@ $lang = array_merge($lang, array(
 	'DELETE_PM_REPORTS'			=> 'מחק דיווחי הודעות פרטיות',
 	'DELETE_PM_REPORTS_CONFIRM'	=> 'האם אתה בטוח שברצונך למחוק את דיווחי ההודעות הפרטיות שבחרת?',
 	'DELETE_POSTS'				=> 'מחק הודעות',
-	'DELETE_POSTS_CONFIRM'		=> 'אתה בטוח שברצונך למחוק הודעות אלו?',
-	'DELETE_POST_CONFIRM'		=> 'אתה בטוח שברצונך למחוק הודעה זו?',
 	'DELETE_REPORT'				=> 'מחק דיווחים',
 	'DELETE_REPORT_CONFIRM'		=> 'האם אתה בטוח שברצונך למחוק את הדיווח שבחרת?',
 	'DELETE_REPORTS'			=> 'מחק דיווחים',
 	'DELETE_REPORTS_CONFIRM'	=> 'האם אתה בטוח שברצונך למחוק את הדיווחים שבחרת?',
 	'DELETE_SHADOW_TOPIC'		=> 'מחק את צל ההודעה',
 	'DELETE_TOPICS'				=> 'מחק נושאים שנבחרו',
-	'DELETE_TOPICS_CONFIRM'		=> 'אתה בטוח שברצונך למחוק את הנושאים שנבחרו?',
-	'DELETE_TOPIC_CONFIRM'		=> 'אתה בטוח שברצונך למחוק את הנושא שנבחר?',
 	'DISAPPROVE'				=> 'לא מאשר',
 	'DISAPPROVE_REASON'			=> 'הסיבה לאי האישור',
 	'DISAPPROVE_POST'			=> 'אל תאשר הודעה זו',
@@ -121,8 +120,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'אזהרה אחרונה',
 	'LATEST_WARNINGS'			=> '5 אזהרות אחרונות',
 	'LEAVE_SHADOW'				=> 'השאר העתק מנושא זה',
-	'LIST_REPORT'				=> 'דיווח אחד',
-	'LIST_REPORTS'				=> '%d דיווחים',
+	'LIST_REPORTS'				=> array(
+		1	=> 'דיווח %d',
+		2	=> '%d דיווחים',
+	),
 	'LOCK'						=> 'נעל',
 	'LOCK_POST_POST'			=> 'נעל הודעה',
 	'LOCK_POST_POST_CONFIRM'	=> 'אתה בטוח שברצונך למנוע מעריכת הודעה זו?',
@@ -201,6 +202,10 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'זוהי רשימת ההודעות שנרשמו על ידי משתמשים אשר ממתינות לקבל אישור לפני פרסום ההודעות לקהל המשתמשים בפורום.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'נושאים הממתינים לאישור',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'זוהי רשימת הנושאים שנרשמו על ידי משתמשים אשר ממתינים לקבל אישור לפני פרסום ההודעות לקהל המשתמשים בפורום.',
+	'MCP_QUEUE_DELETED_POSTS'				=> 'Deleted posts',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'This is a list of all soft deleted posts. You can restore or permanently delete the posts from this screen.',
+	'MCP_QUEUE_DELETED_TOPICS'				=> 'Deleted topics',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'This is a list of all soft deleted topics. You can restore or permanently delete the topics from this screen.',
 
 	'MCP_VIEW_USER'			=> 'ראה אזהרות של משתמשים מסוימים',
 
@@ -239,6 +244,8 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'אתה חייב לבחור הודעה על מנת להזהיר את המשתמש על הודעה.',
 	'NO_POST_REPORT'				=> 'ההודעה לא דווחה.',
 	'NO_POST_SELECTED'				=> 'אתה חייב לבחור לפחות הודעה אחת על מנת לקיים את הפעולה.',
+	'NO_POSTS_DELETED'				=> 'There are no deleted posts.',
+	'NO_POSTS_QUEUE'				=> 'There are no posts waiting for approval.',
 	'NO_REASON_DISAPPROVAL'			=> 'אנא הזן סיבה לדחייה.',
 	'NO_REPORT'						=> 'לא נמצאו דיווחים',
 	'NO_REPORTS'					=> 'אין דיווחים',
@@ -246,19 +253,24 @@ $lang = array_merge($lang, array(
 	'NO_REPORT_SELECTED'			=> 'אתה חייב לבחור לפחות דיווח אחת על מנת לקיים את הפעולה.',
 	'NO_TOPIC_ICON'					=> 'אין',
 	'NO_TOPIC_SELECTED'				=> 'אתה חייב לבחור לפחות נושא אחת על מנת לקיים את הפעולה.',
-	'NO_TOPICS_QUEUE'				=> 'אין נושאים',
+	'NO_TOPICS_DELETED'				=> 'There are no deleted topics.',
+	'NO_TOPICS_QUEUE'				=> 'There are no topics waiting for approval.',
 
-	'ONLY_TOPIC'			=> 'רק הנושא “%s”',
-	'OTHER_USERS'			=> 'משתמשים אחרים שולחים מכתובת ה־IP',
-	
-	'PM_REPORT_CLOSED_SUCCESS'	=> 'דיווח ההודעה הפרטית שנבחרה נסגרה בהצלחה.',
-	'PM_REPORT_DELETED_SUCCESS'	=> 'דיווח ההודעה הפרטית שנבחרה נמחקה בהצלחה.',
-	'PM_REPORTED_SUCCESS'		=> 'ההודעה הפרטית דווחה בהצלחה.',
-	'PM_REPORT_TOTAL'			=> 'בסך הכול יש דיווח הודעה פרטית<strong>1</strong> לצפייה.',
-	'PM_REPORTS_CLOSED_SUCCESS'	=> 'דיווחי ההודעות הפרטיות שנבחרו נסגרו בהצלחה.',
-	'PM_REPORTS_DELETED_SUCCESS'=> 'דיווחי ההודעות הפרטיות שנבחרו נמחקו בהצלחה.',
-	'PM_REPORTS_TOTAL'			=> 'בסך הכול יש <strong>%d</strong> דיווחי הודעות פרטיות לצפייה.',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'אין דיווחי הודעות פרטיות לצפייה.',
+	'ONLY_TOPIC'			=> 'Only topic “%s”',
+	'OTHER_USERS'			=> 'Other users posting from this IP',
+
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod",
+
+	'PM_REPORT_CLOSED_SUCCESS'	=> 'The selected PM report has been closed successfully.',
+	'PM_REPORT_DELETED_SUCCESS'	=> 'The selected PM report has been deleted successfully.',
+	'PM_REPORTED_SUCCESS'		=> 'This private message has been successfully reported.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'The selected PM reports have been closed successfully.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'The selected PM reports have been deleted successfully.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'There are no PM reports to review.',
+		1	=> 'In total there is <strong>1</strong> PM report to review.',
+		2	=> 'In total there are <strong>%d</strong> PM reports to review.',
+	),
 	'PM_REPORT_DETAILS'			=> 'פרטי דיווח הודעה פרטית',
 	'POSTER'					=> 'שולח',
 	'POSTS_APPROVED_SUCCESS'	=> 'ההודעות שנבחרו אושרו בהצלחה.',
@@ -266,15 +278,17 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'ההודעות שנבחרו נדחו בהצלחה.',
 	'POSTS_LOCKED_SUCCESS'		=> 'ההודעות שנבחרו ננעלו בהצלחה.',
 	'POSTS_MERGED_SUCCESS'		=> 'ההודעות שנבחרו אוחדו בהצלחה.',
-	'POSTS_UNLOCKED_SUCCESS'	=> 'ההודעות שנבחרו נפתחו בהצלחה.',
 	'POSTS_PER_PAGE'			=> 'הודעות לעמוד',
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(הגדר 0 כדי לראות את כל ההודעות.)',
+	'POSTS_RESTORED_SUCCESS'	=> 'The selected posts have been restored successfully.',
+	'POSTS_UNLOCKED_SUCCESS'	=> 'The selected posts have been unlocked successfully.',
 	'POST_APPROVED_SUCCESS'		=> 'ההודעות שנבחרו אושרו בהצלחה.',
 	'POST_DELETED_SUCCESS'		=> 'ההודעה שנבחרה הוסרה מבסיס הנתונים בהצלחה.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'ההודעה שנבחרה נדחתה בהצלחה.',
 	'POST_LOCKED_SUCCESS'		=> 'ההודעה ננעלה בהצלחה.',
 	'POST_NOT_EXIST'			=> 'ההודעה שביקשת איננה קיימת.',
 	'POST_REPORTED_SUCCESS'		=> 'ההודעה דווחה בהצלחה.',
+	'POST_RESTORED_SUCCESS'		=> 'This post has been restored successfully.',
 	'POST_UNLOCKED_SUCCESS'		=> 'ההודעה נפתחה בהצלחה',
 
 	'READ_USERNOTES'			=> 'הערות המשתמש',
@@ -285,8 +299,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> 'ב',
 	'REPORTS_CLOSED_SUCCESS'	=> 'הדיווחים שנבחרו נסגרו בהצלחה.',
 	'REPORTS_DELETED_SUCCESS'	=> 'הדיווחים שנבחרו נמחקו בהצלחה.',
-	'REPORTS_TOTAL'				=> 'בסך הכול יש <strong>%d</strong> דיווחים לצפייה.',
-	'REPORTS_ZERO_TOTAL'		=> 'אין דיווחים לצפייה.',
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'There are no reports to review.',
+		1	=> 'In total there is <strong>1</strong> report to review.',
+		2	=> 'In total there are <strong>%d</strong> reports to review.',
+	),
 	'REPORT_CLOSED'				=> 'דיווח זה כבר נסגר.',
 	'REPORT_CLOSED_SUCCESS'		=> 'הדיווח שנבחר נסגר בהצלחה.',
 	'REPORT_DELETED_SUCCESS'	=> 'הדיווח שנבחר נמחק בהצלחה.',
@@ -298,7 +315,15 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'השתמש בדף זה בכדי לדווח למנהל הפורום ולמנהלי המערכת. בדרך כלל יש להשתמש בדיווחים אם ההודעה עברה על חוקי הפורום.',
 	'REPORT_REASON'				=> 'סיבת הדיווח',
 	'REPORT_TIME'				=> 'זה הדיווח',
-	'REPORT_TOTAL'				=> 'בסך הכול יש דיווח <strong>אחד</strong>לצפייה.',
+	'RESTORE'					=> 'Restore',
+	'RESTORE_POST'				=> 'Restore post',
+	'RESTORE_POST_CONFIRM'		=> 'Are you sure you want to restore this post?',
+	'RESTORE_POSTS'				=> 'Restore posts',
+	'RESTORE_POSTS_CONFIRM'		=> 'Are you sure you want to restore the selected posts?',
+	'RESTORE_TOPIC'				=> 'Restore topic',
+	'RESTORE_TOPIC_CONFIRM'		=> 'Are you sure you want to restore this topic?',
+	'RESTORE_TOPICS'			=> 'Restore topics',
+	'RESTORE_TOPICS_CONFIRM'	=> 'Are you sure you want to restore the selected topics?',
 	'RESYNC'					=> 'חדש',
 	'RETURN_MESSAGE'			=> '%sחזור להודעה%s',
 	'RETURN_NEW_FORUM'			=> '%sעבור לפורום החדש%s',
@@ -340,6 +365,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'הנושאים שנבחרו הועתקו בהצלחה.',
 	'TOPICS_LOCKED_SUCCESS'		=> 'הנושאים שנבחרו ננעלו בהצלחה.',
 	'TOPICS_MOVED_SUCCESS'		=> 'הנושאים שנבחרו הועברו בהצלחה.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'The selected topics have been restored successfully.',
 	'TOPICS_RESYNC_SUCCESS'		=> 'הנושאים שנבחרו חודשו בהצלחה.',
 	'TOPICS_TYPE_CHANGED'		=> 'סוג הנושא שונה בהצלחה.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'הנושאים שנבחרו נפתחו בהצלחה.',
@@ -350,6 +376,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'הנושא הנבחר ננעל.',
 	'TOPIC_MOVED_SUCCESS'		=> 'הנושא הנבחר הועבר בהצלחה.',
 	'TOPIC_NOT_EXIST'			=> 'הנושא שבחרת אינו קיים.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'הנושא הנבחר שוחזר בהצלחה.',
 	'TOPIC_RESYNC_SUCCESS'		=> 'הנושא הנבחר חודש בהצלחה.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'הנושא הנבחר פוצל בהצלחה.',
 	'TOPIC_TIME'				=> 'זמן הנושא',
@@ -357,9 +384,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'הנושא שנבחר נפתח.',
 	'TOTAL_WARNINGS'			=> 'סה"כ אזהרות',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'בסך הכול יש <strong>%d</strong> הודעות הממתינות לאישור.',
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'אין הודעות הממתינות לאישור.',
-	'UNAPPROVED_POST_TOTAL'			=> 'בסך הכול יש <strong>הודעה אחת</strong> הממתינה לאישור.',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'אין הודעות הממתינות לאישור.',
+		1	=> 'בסך הכל יש הודעה <strong>אחת</strong> הממתינה לאישור.',
+		2	=> 'בסך הכל יש <strong>%d</strong> הודעות הממתינות לאישור.',
+	),
 	'UNLOCK'						=> 'פתח',
 	'UNLOCK_POST'					=> 'פתח הודעה',
 	'UNLOCK_POST_EXPLAIN'			=> 'אפשר עריכה.',
@@ -385,7 +414,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'רשימת האזהרות הבאה ניתנה ע"י סמכות של מנהלי פורומים ומנהלים ראשים.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'מערכת אזהרות הפורום',
 	'WARNING_POST_DEFAULT'	=> 'אזהרה ניתנה בעיקבות הודעה ששלחת: %s.',
-	'WARNINGS_ZERO_TOTAL'	=> 'לא קיימות אזהרות.',
+	'NO_WARNINGS'	=> 'לא קיימות אזהרות.',
 
 	'YOU_SELECTED_TOPIC'	=> 'בחרת את נושא מספר %d: %s.',
 
@@ -404,5 +433,3 @@ $lang = array_merge($lang, array(
 		)
 	),
 ));
-
-?>

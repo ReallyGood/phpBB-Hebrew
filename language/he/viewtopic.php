@@ -4,10 +4,9 @@
 * viewtopic [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -37,6 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'APPROVE'								=> 'אשר',
 	'ATTACHMENT'						=> 'קובץ מצורף',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'האפשרות לצירוף קבצים בוטלה.',
 
@@ -49,19 +49,21 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'הקפץ נושא',
 
 	'CODE'					=> 'קוד',
-	'COLLAPSE_QR'			=> 'הסתר תגובה מהירה',
-
 	'DELETE_TOPIC'			=> 'מחק נושא',
-	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקובץ המצורף להודעה זאת.',
+	'DELETED_INFORMATION'	=> 'נמחק על ידי %1$s ב %2$s',
+	'DISAPPROVE'					=> 'אל תאשר',
+	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת.',
 
-	'EDITED_TIMES_TOTAL'	=> 'נערך לאחרונה על ידי %1$s בתאריך %2$s, נערך %3$d פעמים בסך הכל.',
-	'EDITED_TIME_TOTAL'		=> 'נערך לאחרונה על ידי %1$s בתאריך %2$s, נערך פעם אחת בסך הכל.', // phpBBHeb Group:: In original english there was ' %3$d', but in hebrew we don't really need to count one time with a number, just say "edited one time" and that`s it.
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> 'נערך לאחרונה על ידי %2$s ב %3$s, נערך פעם %1$d בסך הכל.',
+		2	=> 'נערך לאחרונה על ידי %2$s ב %3$s, נערך %1$d פעמים בסך הכל.',
+	),
 	'EMAIL_TOPIC'			=> 'שלח דואר אלקטרוני לחבר',
 	'ERROR_NO_ATTACHMENT'	=> 'הקובץ המצורף שנבחר לא קיים יותר.',
 
 	'FILE_NOT_FOUND_404'	=> 'הקובץ <strong>%s</strong> לא קיים.',
 	'FORK_TOPIC'			=> 'העתק נושא',
-	'FULL_EDITOR'	=> 'עורך מלא',
+	'FULL_EDITOR'			=> 'עורך מלא &amp; תצוגה מקדימה',
 
 	'LINKAGE_FORBIDDEN'		=> 'אינך מורשה לצפות, להוריד או לתת קישור ל/מאתר זה.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'קיבלת הודעה על נושא זה, אנא התחבר על מנת לצפות בו.',
@@ -71,8 +73,10 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'				=> 'הפוך לגלובלי',
 	'MAKE_NORMAL'				=> 'הפוך לרגיל',
 	'MAKE_STICKY'				=> 'הפוך לדביק',
-	'MAX_OPTIONS_SELECT'		=> 'אתה יכול לבחור עד <strong>%d</strong> אפשרויות',
-	'MAX_OPTION_SELECT'			=> 'אתה יכול לבחור רק אפשרות <strong>אחת</strong>',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> 'אתה יכול לבחור רק אפשרות <strong>%d</strong>',
+		2	=> 'אתה יכול לבחור עד <strong>%d</strong> אפשרויות',
+	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'הקובץ המצורף <strong>%s</strong> לא זמין יותר.',
 	'MOVE_TOPIC'				=> 'העבר נושא',
 
@@ -86,6 +90,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'הסקר נגמר בתאריך %s',
 	'POLL_RUN_TILL'			=> 'הסקר פעיל עד %s',
 	'POLL_VOTED_OPTION'		=> 'הצבעת לאפשרות זאת',
+	'POST_DELETED_RESTORE'	=> 'הודעה זו נמחקה. היא איננה נתנת לשחזור.',
 	'PRINT_TOPIC'			=> 'גרסה להדפסה',
 
 	'QUICK_MOD'				=> 'כלים מהירים',
@@ -93,9 +98,10 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'ציטוט',
 
 	'REPLY_TO_TOPIC'		=> 'הגב לנושא',
+	'RESTORE'				=> 'שחזר',
+	'RESTORE_TOPIC'			=> 'שחזר נושא',
 	'RETURN_POST'			=> '%sחזור להודעה%s',
 
-	'SHOW_QR'				=> 'תגובה מהירה',
 	'SUBMIT_VOTE'			=> 'שלח הצבעתך',
 
 	'TOTAL_VOTES'			=> 'סך הכול הצבעות',
@@ -106,12 +112,12 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> 'הנושא הבא',
 	'VIEW_PREVIOUS_TOPIC'	=> 'הנושא הקודם',
 	'VIEW_RESULTS'			=> 'צפייה בתוצאות',
-	'VIEW_TOPIC_POST'		=> 'הודעה אחת',
-	'VIEW_TOPIC_POSTS'		=> '%d הודעות',
+	'VIEW_TOPIC_POSTS'		=> array(
+		1	=> 'הודעה %d',
+		2	=> '%d הודעות',
+	),
 	'VIEW_UNREAD_POST'		=> 'הודעה ראשונה שלא נקראה',
 	'VISIT_WEBSITE'			=> 'אתר',
 	'VOTE_SUBMITTED'		=> 'הצבעתך נקלטה.',
 	'VOTE_CONVERTED'		=> 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
 ));
-
-?>

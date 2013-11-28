@@ -4,10 +4,9 @@
 * acp_users [Hebrew]
 *
 * @package language
-* @version $Id: $
-* @copyright (c) 2007 phpBB Group 
-* @author 2008-07-16 - phpBB הישראלי - www.phpBB.co.il
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @copyright (c) 2005 phpBB Group
+* @author 2008 - phpBB הישראלי - phpBB.co.il
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -56,7 +55,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_YOURSELF'		=> 'אתה לא יכול להסיר את חשבון המשתמש שלך.',
 	'CANNOT_SET_FOUNDER_IGNORED'		=> 'אתה לא יכול לאפשר למשתמשים מהם אתה מתעלם להיות מייסדים.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'אתה צריך להפעיל את המשתמשים לפני שאתה מאפשר להם להיות מייסדים, רק משתמשים פעילים ניתנים.',
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'אתה צריך לסמן את זה  אם אתה מעוניין לשנות את הדואר אלקטרוני של המשתמש.',
+	'CONFIRM_EMAIL_EXPLAIN'			=> 'אתה נדרש למלא שדה זה רק אם אתה מעוניין לשנות את הדואר האלקטרוני של המתשמש.',
 
 	'DELETE_POSTS'			=> 'מחק הודעות',
 	'DELETE_USER'			=> 'מחק משתמש',
@@ -140,5 +139,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'אין מידע זמין. ככל הנראה יומן המעקב נמחק.',
 	'USER_TOOLS'					=> 'כלים בסיסיים',
 ));
-
-?>
