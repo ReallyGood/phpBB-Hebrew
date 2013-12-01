@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול לקבוע את הגדרות המערכת הבסיסיות, לתת לה שם ותיאור מתאימים, ובין היתר ערכי ברירת מחדל לאזור זמן ושפה.',
-	'BOARD_INDEX_TEXT'				=> 'Board index text', //translate this
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'This text is displayed as the board index in the board’s breadcrumbs. If not specified, it will default to “Board index”.', //translate this
+	'BOARD_INDEX_TEXT'				=> 'שם העמוד הרשאי', //translate this
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'טקסט זה יופיע ככותרת של העמוד הראשי של הפורום. אם שדה זה ריק, ברירת המחדל תיהיה" עמוד ראשי"', //translate this
 	'CUSTOM_DATEFORMAT'				=> 'מותאם אישית…',
 	'DEFAULT_DATE_FORMAT'			=> 'תבנית תאריך',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'תבנית התאריך זהה לפונקציית התאריך <code>date</code> של PHP.',
@@ -52,10 +52,10 @@ $lang = array_merge($lang, array(
 	'OVERRIDE_STYLE'				=> 'עבור על עיצוב המשתמש',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'מחליף את עיצוב המערכת לברירת המחדל.',
 	'SITE_DESC'						=> 'תיאור האתר',
-	'SITE_HOME_TEXT'				=> 'Main website text', //translate this
-	'SITE_HOME_TEXT_EXPLAIN'		=> 'This text will be displayed as a link to your website homepage in the board’s breadcrumbs. If not specified, it will default to “Home”.', //translate this
-	'SITE_HOME_URL'					=> 'Main website URL', //translate this
-	'SITE_HOME_URL_EXPLAIN'			=> 'If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.', //translate this
+	'SITE_HOME_TEXT'				=> 'הטקסט לאתר הראשי', //translate this
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'טקסט זה יוצג כקישור לדף הבית של האתר שלך ליד ה"עמוד ראשי". אם שדה זה ישאר ריק,  ברירת מחדל תיהיה "Home".', //translate this
+	'SITE_HOME_URL'					=> 'קישור לאתר הראשי', //translate this
+	'SITE_HOME_URL_EXPLAIN'			=> 'אם צוין, קישור זה יצורף ל"עמוד הראשי" וללוגו. כתובת URL מלאה נדרשת. לדגומה: <samp>http://www.phpbb.com</samp>.', //translate this
 	'SITE_NAME'						=> 'שם האתר',
 	'SYSTEM_TIMEZONE'				=> 'אזור זמן המערכת',
 	'SYSTEM_TIMEZONE'				=> 'אזור זמן לאורחים',
