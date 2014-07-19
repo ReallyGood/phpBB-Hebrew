@@ -1,10 +1,11 @@
 <?php
 /** 
 *
-* viewforum [Hebrew]
+* plupload [Hebrew]
 *
 * @package language
-* @copyright (c) 2005 phpBB Group
+* @copyright (c) 2010-2013 Moxiecode Systems AB
+* @copyright (c) 2012 phpBB Group
 * @author 2008 - phpBB הישראלי - phpBB.co.il
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -37,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'הוסף קבצים',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'הוסף קבצים ולחץ על לחץ ההפעל..',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'הוסף קבצים ולחץ על לחצן ההפעלה…',
 	'PLUPLOAD_ALREADY_QUEUED'	=> '%s כבר קיים.',
 	'PLUPLOAD_CLOSE'			=> 'סגור',
 	'PLUPLOAD_DRAG'				=> 'גרור את הקבצים לכאן.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Duplicate file error.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> '<BR>הינך יכול לצרף קבצים על ידי גרירה ושחרורם בתיבת ההודעה.',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'שגיאת קובץ כפול',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> '<BR>ניתן לצרף קבצים על ידי גרירה ושחרורם בתיבת ההודעה.',
 	'PLUPLOAD_ERR_INPUT'		=> 'לא הצליח, נכשל.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'נכשל בנסיון העברת הקובץ שהועלה.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'ניסיון העלאת הקובץ נכשל.',
 	'PLUPLOAD_ERR_OUTPUT'		=> 'נכשל בפתיחת זרם הפלט. נסו שוב.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'קובץ גדול מדי:',
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'שגיאת העלאה.',
@@ -61,17 +62,17 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_IMAGE_FORMAT'		=> 'פורט שגוי או אינו נתמך.',
 	'PLUPLOAD_INIT_ERROR'		=> 'שגיאת INIT.',
 	'PLUPLOAD_IO_ERROR'			=> 'שגיאת IO.',
-	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
+	'PLUPLOAD_NOT_APPLICABLE'	=> 'לא זמין',
 	'PLUPLOAD_SECURITY_ERROR'	=> 'שגיאת אבטחה.',
 	'PLUPLOAD_SELECT_FILES'		=> 'בחר קבצים',
 	'PLUPLOAD_SIZE'				=> 'גודל',
 	'PLUPLOAD_SIZE_ERROR'		=> 'שגיאת גודל הקובץ.',
-	'PLUPLOAD_STATUS'			=> 'סטאטוס',
+	'PLUPLOAD_STATUS'			=> 'מצב',
 	'PLUPLOAD_START_UPLOAD'		=> 'התחל בהעלה',
 	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'מעלה לאתר',
 	'PLUPLOAD_STOP_UPLOAD'		=> 'עצירת העלאה',
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'הפסק העלאה נוכחית',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'הועלה %d/%d קבצים',
+	'PLUPLOAD_UPLOADED'			=> 'הועלו %d/%d קבצים',
 ));
