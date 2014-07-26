@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* common [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -62,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'חשבונך הופסק ידנית וניתן להפעלה מחדש על־ידי מנהל ראשי בלבד.',
 	'ACCOUNT_NOT_ACTIVATED'			=> 'חשבונך עדיין לא הופעל.',
 	'ACP'							=> 'לוח בקרה למנהל הראשי',
-	'ACP_SHORT'						=> 'Administer',
+	'ACP_SHORT'						=> 'ACP',
 	'ACTIVE'						=> 'פעיל',
 	'ACTIVE_ERROR'					=> 'שם המשתמש שצוין לא פעיל כרגע. אם אתה נתקל בבעיות בהפעלת חשבונך, צור קשר עם המנהל הראשי של המערכת.',
 	'ADMINISTRATOR'					=> 'מנהל ראשי',
@@ -107,10 +108,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'הקובץ שצוין הועלה חלקית בלבד.',
 	'AVATAR_PHP_SIZE_NA'			=> 'קובץ הסמל האישי גדול מדי.<br />לא ניתן לקבל את גודל הקובץ המרבי אשר מוגדר ב־php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'קובץ הסמל האישי גדול מדי. הגודל המרבי המורשה להעלאה הוא %1$d %2$s.<br />שים לב שהגודל נקבע ב־php.ini ואינו ניתן לשינוי.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'The specified avatar could not be uploaded because the request timed out.',
 	'AVATAR_URL_INVALID'			=> 'הכתובת שציינת אינה חוקית.',
 	'AVATAR_URL_NOT_FOUND'			=> 'הקובץ שצוין לא נמצא.',
-	'AVATAR_WRONG_FILESIZE'			=> 'הסמל האישי חייב להיות בין 0 ו־%1d %2s.',
-//	'AVATAR_WRONG_SIZE'				=> 'הסמל האישי שנשלח הוא ברוחב של %5$d פיקסלים ובגובה של %6$d פיקסלים. הסמל האישי חייב להיות לפחות %1$d פיקסלים ברוחב ו־%2$d פיקסלים בגובה, אבל לא יותר גדול מ־%3$d פיקסלים ברוחב ו־%4$d פיקסלים בגובה.',
+	'AVATAR_WRONG_FILESIZE'			=> 'הסמל האישי חייב להיות בין 0 ו־%1$d %2$s.',
 	'AVATAR_WRONG_SIZE'				=> 'The submitted avatar is %5$s wide and %6$s high. Avatars must be at least %1$s wide and %2$s high, but no larger than %3$s wide and %4$s high.', 
 
 	'BACK_TO_TOP'			=> 'חזור למעלה',
@@ -168,6 +169,9 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'מזל טוב ל',
 	'CONNECTION_FAILED'		=> 'ההתחברות נכשלה.',
 	'CONNECTION_SUCCESS'	=> 'ההתחברות הצליחה!',
+	'CONTACT'				=> 'Contact',
+	'CONTACT_USER'			=> 'Contact %s',
+	'CONTACT_US'			=> 'Contact us',
 	'COOKIES_DELETED'		=> 'כל עוגיות המערכת נמחקו בהצלחה.',
 	'CURRENT_TIME'			=> 'עכשיו %s', // phpBBrew Group:: Original english is 'It is currently %s', but in hebrew we don't really need to say "It is.. bla bla", just showing the date and time is enough.
 
@@ -211,8 +215,6 @@ $lang = array_merge($lang, array(
 	'ERR_CONNECTING_SERVER'				=> 'שגיאה בהתחברות לשרת.',
 	'ERR_JAB_AUTH'						=> 'לא ניתן לאמת בשרת Jabber.',
 	'ERR_JAB_CONNECT'					=> 'לא ניתן להתחבר לשרת Jabber.',
-	'ERR_TEMPLATE_EVENT_LOCATION'		=> 'The specified template event location <em>[%s]</em> is improperly formatted.',
-	'ERR_TEMPLATE_COMPILATION'		=> 'The file could not be compiled: %s',
 	'ERR_UNABLE_TO_LOGIN'				=> 'שם המשתמש או הססמה שצוינו לא נכונים.',
 	'ERR_UNWATCHING'					=> 'שגיאה התרחשה בעת הניסיון לבטל ההרשמה.',
 	'ERR_WATCHING'						=> 'שגיאה התרחשה בעת הניסיון להירשם.',
@@ -220,19 +222,20 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'שגיאה',
 	'EXPAND_VIEW'						=> 'הרחב תצוגה',
 	'EXTENSION'							=> 'סיומת',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'The extension <strong>%s</strong> is missing a controller class and cannot be accessed through the front-end.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'The extension controller class <strong>%s</strong> is not an instance of the phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'The extension <strong>%s</strong> is not enabled.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'הסיומת <strong>%s</strong> נחסמה ואינה ניתנת יותר לתצוגה.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'The extension <strong>%s</strong> does not exist.',
-
+	
+	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'שאלות נפוצות',
 	'FAQ_EXPLAIN'			=> 'שאלות נפוצות',
 	'FILENAME'				=> 'שם הקובץ',
 	'FILESIZE'				=> 'גודל הקובץ',
 	'FILEDATE'				=> 'תאריך קובץ',
 	'FILE_COMMENT'			=> 'הערה לקובץ',
-	'FILE_NOT_FOUND'		=> 'הקובץ המבוקש לא נמצא.',
+	'FILE_CONTENT_ERR'		=> 'לא ניתן לקרוא את תוכן הקוב: %s',
+	'FILE_JSON_DECODE_ERR'	=> 'לא ניתן לפענח קובץ json: %s',
+	'FILE_NOT_FOUND'		=> 'הקובץ המבוקש לא נמצא: %s',
 	'FIND_USERNAME'			=> 'מצא משתמש',
 	'FOLDER'				=> 'תיקייה',
 	'FORGOT_PASS'			=> 'שכחתי את ססמתי',
@@ -281,6 +284,7 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'עבור',
+	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_PAGE'					=> 'עבור לעמוד',
 	'GROUP'						=> 'קבוצה',
 	'GROUPS'					=> 'קבוצות',
@@ -292,7 +296,7 @@ $lang = array_merge($lang, array(
 		1	=> 'יש אורח %d מחובר',
 		2	=> 'יש %d אורחים מחוברים',
 	),
-	'GUEST_USERS_TOTAL'			=>  array(
+	'GUEST_USERS_TOTAL'			=> array(
 		1	=> 'אורח %d',
 		2	=> '%d אורחים',
 	),
@@ -317,7 +321,6 @@ $lang = array_merge($lang, array(
 	'HOME'						=> 'בית',
 
 	'ICQ'						=> 'ICQ',
-	'ICQ_STATUS'				=> 'מצב ICQ',	
 	'IF'						=> 'אם',
 	'IMAGE'						=> 'תמונה',
 	'IMAGE_FILETYPE_INVALID'	=> 'סוג קובץ התמונה %d לסוג mime %s אינו נתמך.',
@@ -337,7 +340,8 @@ $lang = array_merge($lang, array(
 	'JOINED'				=> 'הצטרף',
 	'JUMP_PAGE'				=> 'הכנס את מספר העמוד שאליו ברצונך לעבור',
 	'JUMP_TO'				=> 'עבור ל',
-	'JUMP_TO_PAGE'			=> 'לחץ כאן כדי לקפוץ לעמוד אחר…',
+	'JUMP_TO_PAGE'			=> 'קפוץ לעמוד',
+	'JUMP_TO_PAGE_CLICK'			=> 'לחץ כאן כדי לקפוץ לעמוד אחר…',
 
 	'KB'					=> 'KB',
 	'KIB'					=> 'KiB',
@@ -349,6 +353,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'לא ניתן להתחבר לשרת LDAP.',
 	'LDAP_SEARCH_FAILED'				=> 'שגיאה התרחשה בזמן החיפוש בתיקיית LDAP.',
 	'LEGEND'							=> 'מקרא',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Live searches are not allowed.',
 	'LOADING'							=> 'טוען',
 	'LOCATION'							=> 'מיקום',
 	'LOCK_POST'							=> 'נעל הודעה',
@@ -382,7 +387,7 @@ $lang = array_merge($lang, array(
 	'MB'					=> 'MB',
 	'MIB'					=> 'MiB',
 	'MCP'					=> 'לוח בקרה למנהל',
-	'MCP_SHORT'				=> 'Moderate',
+	'MCP_SHORT'				=> 'MCP',
 	'MEMBERLIST'			=> 'משתמשים',
 	'MEMBERLIST_EXPLAIN'	=> 'צפה ברשימת המשתמשים המלאה',
 	'MERGE'					=> 'מיזוג',
@@ -390,14 +395,20 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC'			=> 'מזג נושאים',
 	'MESSAGE'				=> 'הודעה',
 	'MESSAGES'				=> 'הודעות',
+	'MESSAGES_COUNT'		=> array(
+		1	=> 'הודעה %d',
+		2	=> '%d הודעות',
+	),
 	'MESSAGE_BODY'			=> 'גוף ההודעה',
 	'MINUTES'				=> 'דקות',
 	'MODERATE'				=> 'נהל',
 	'MODERATOR'				=> 'מנהל',
 	'MODERATORS'			=> 'המנהלים',
+	'MODULE_NOT_ACCESS'		=> 'Module not accessible',
+	'MODULE_NOT_FIND'		=> 'Cannot find module %s',
+	'MODULE_FILE_INCORRECT_CLASS'	=> 'Module file %s does not contain correct class [%s]',
 	'MONTH'					=> 'חודש',
 	'MOVE'					=> 'העבר',
-	'MSNM'					=> 'WLM',	
 
 	'NA'						=> 'לא זמין',
 	'NEWEST_USER'				=> 'המשתמש החדש ביותר <strong>%s</strong>',
@@ -415,24 +426,46 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'אינך רשום יותר לקבלת עדכונים עבור פורום זה.',
 	'NOT_WATCHING_TOPIC'		=> 'אינך רשום יותר לקבלת עדכונים עבור נושא זה.',
 	'NOTIFICATIONS'				=> 'Notifications',
-	'NOTIFICATION_BOOKMARK'				=> '%1$s replied to the topic "%2$s" you have bookmarked.',
-	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s is requesting to join the group %2$s.',
-	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Your request to join the group %1$s has been approved.',
-	'NOTIFICATION_PM'					=> '%1$s sent you a Private Message "%2$s".',
-	'NOTIFICATION_POST'					=> '%1$s replied to the topic "%2$s".',
-	'NOTIFICATION_POST_APPROVED'		=> 'Your post was approved "%2$s".',
-	'NOTIFICATION_POST_DISAPPROVED'		=> 'Your post "%1$s" was disapproved for reason: "%2$s".',
-	'NOTIFICATION_POST_IN_QUEUE'		=> 'A new post titled "%2$s" was posted by %1$s and needs approval.',
-	'NOTIFICATION_QUOTE'				=> '%1$s quoted you in the post "%2$s".',
-	'NOTIFICATION_REPORT_PM'			=> '%1$s reported a Private Message "%2$s" for reason: "%3$s".',
-	'NOTIFICATION_REPORT_POST'			=> '%1$s reported a post "%2$s" for reason: "%3$s".',
-	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s closed the report you made for "%2$s".',
-	'NOTIFICATION_TOPIC'				=> '%1$s posted a new topic "%2$s" in the forum "%3$s".',
-	'NOTIFICATION_TOPIC_APPROVED'		=> 'Your topic "%2$s" in the forum "%3$s" was approved.',
-	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Your topic "%1$s" was disapproved for reason: "%2$s".',
-	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'A new topic titled "%2$s" was posted by %1$s and needs approval.',
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+	//  Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
+	// Examples:
+	// A replied...
+	// A and B replied...
+	// A, B and C replied...
+	// A, B, C and others replied...
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1	=> '<strong>Reply</strong> from %1$s in bookmarked topic:',
+	),
+	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s',
+	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Group request</strong> from %1$s to join the group %2$s.',
+	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Group request approved</strong> to join the group %1$s.',
+	'NOTIFICATION_PM'					=> '<strong>Private Message</strong> from %1$s:',
+	'NOTIFICATION_POST'					=> array(
+		1	=> '<strong>Reply</strong> from %1$s in topic:',
+	),
+	'NOTIFICATION_POST_APPROVED'		=> '<strong>Post approved</strong>:',
+	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Post disapproved</strong>:',
+	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Post approval</strong> request by %1$s:',
+	'NOTIFICATION_QUOTE'				=> array(
+		1	=> '<strong>Quoted</strong> by %1$s in:',
+	),
+	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
+	'NOTIFICATION_REASON'				=> '<em>Reason:</em> %1$s.',
+	'NOTIFICATION_REPORT_PM'			=> '<strong>Private Message reported</strong> by %1$s:',
+	'NOTIFICATION_REPORT_POST'			=> '<strong>Post reported</strong> by %1$s:',
+	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Report closed</strong> by %1$s for:',
+	'NOTIFICATION_TOPIC'				=> '<strong>New topic</strong> by %1$s:',
+	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Topic approved</strong>:',
+	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Topic disapproved</strong>:',
+	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Topic approval</strong> request by %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'The notification type "%s" is missing from the file system.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'The user “%1$s” is newly registered and requires activation.',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activation required</strong> for newly registered user: “%1$s”',
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'others',
+	'NOTIFICATION_X_OTHERS'				=> array(
+		2	=> '%d others',
+	)
 	'NOTIFY_ADMIN'				=> 'אנא הודע למנהל הראשי של המערכת או למנהל האתר.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'אנא הודע למנהל הראשי של המערכת או למנהל האתר: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'אינך מורשה לגשת לקובץ זה.',
@@ -522,11 +555,13 @@ $lang = array_merge($lang, array(
 	'POSTED_ON_DATE'		=> 'ב',
 	'POSTS'					=> 'הודעות',
 	'POSTS_UNAPPROVED'		=> 'לפחות הודעה אחת בנושא זה לא אושרה.',
+	'POSTS_UNAPPROVED_FORUM'=> 'לפחות הודעה אחת בפורום זה לא אושרה.',
 	'POST_BY_AUTHOR'		=> 'על ידי',
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, who is currently on your ignore list, made this post.',
 	'POST_DISPLAY'			=> '%1$sDisplay this post%2$s.',
 	'POST_DAY'				=> '%.2f posts per day',
-	'POST_DELETED'			=> 'Deleted post:',
+	'POST_DELETED_ACTION'			=> 'Deleted post:',
+	'POST_DELETED'			=> 'ההודעה נמחקה.',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s for the following reason: %4$s',
 	'POST_DETAILS'			=> 'פרטי ההודעה',
@@ -539,7 +574,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'נושא ההודעה',
 	'POST_TIME'				=> 'זמן ההודעה',
 	'POST_TOPIC'			=> 'פרסם נושא חדש',
-	'POST_UNAPPROVED'		=> 'הודעה ממתינה לאישור:',
+	'POST_UNAPPROVED_ACTION'		=> 'הודעה ממתינה לאישור:',
+	'POST_UNAPPROVED'		=> 'הודעה זו לא אושרה.',
 	'POWERED_BY'			=> 'מופעל על־ידי %s',
 	'PREVIEW'				=> 'תצוגה מקדימה',
 	'PREVIOUS'				=> 'הקודם',		// Used in pagination
@@ -549,6 +585,8 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'הודעות פרטיות',
 	'PRIVATE_MESSAGING'		=> 'התכתבות פרטית',
 	'PROFILE'				=> 'לוח בקרה למשתמש',
+
+	'QUICK_LINKS'			=> 'קישורים מהירים',
 
 	'RANK'						=> 'דרגה',
 	'READING_FORUM'				=> 'צופה בנושאים ב%s',
@@ -587,7 +625,8 @@ $lang = array_merge($lang, array(
 	'RETURN_FORUM'				=> '%sחזור לפורום בו ביקרת לאחרונה%s',
 	'RETURN_PAGE'				=> '%sחזור לעמוד הקודם%s',
 	'RETURN_TOPIC'				=> '%sחזור לנושא שבו צפית%s',
-	'RETURN_TO'					=> 'חזור אל',
+	'RETURN_TO'					=> 'חזור אל “%s”',
+	'RETURN_TO_INDEX'			=> 'חזור לעמוד הראשי של הפורום',
 	'FEED'						=> 'הזנות',
 	'FEED_NEWS'					=> 'חדשות',
 	'FEED_TOPICS_ACTIVE'		=> 'נושאים פעילים',
@@ -615,15 +654,15 @@ $lang = array_merge($lang, array(
 	'SEARCH_ADV_EXPLAIN'		=> 'צפה באפשרויות החיפוש המתקדם',
 	'SEARCH_KEYWORDS'			=> 'חיפוש מילות מפתח',
 	'SEARCHING_FORUMS'			=> 'מחפש בפורומים',
-	'SEARCH_ACTIVE_TOPICS'		=> 'הצג נושאים פעילים',
+	'SEARCH_ACTIVE_TOPICS'		=> 'נושאים פעילים',
 	'SEARCH_FOR'				=> 'חפש',
 	'SEARCH_FORUM'				=> 'חפש בפורום הזה…',	
-	'SEARCH_NEW'				=> 'הצג הודעות חדשות',
+	'SEARCH_NEW'				=> 'הודעות חדשות',
 	'SEARCH_POSTS_BY'			=> 'חפש הודעות שנכתבו ע"י',
-	'SEARCH_SELF'				=> 'הצג את הודעותיך',
+	'SEARCH_SELF'				=> 'הודעותיך',
 	'SEARCH_TOPIC'				=> 'חפש בתוך הנושא הזה…',
-	'SEARCH_UNANSWERED'			=> 'הצג נושאים ללא תגובות',
-	'SEARCH_UNREAD'				=> 'הצג הודעות שלא נקראו',
+	'SEARCH_UNANSWERED'			=> 'נושאים ללא תגובות',
+	'SEARCH_UNREAD'				=> 'הודעות שלא נקראו',
 	'SEARCH_USER_POSTS'			=> 'חפש את הודעות המשתמש',
 	'SECONDS'					=> 'שניות',
 	'SEE_ALL'					=> 'הצג הכל',
@@ -631,12 +670,13 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'			=> 'בחר הכל',
 	'SELECT_DESTINATION_FORUM'	=> 'אנא בחר פורום יעד',
 	'SELECT_FORUM'				=> 'בחר פורום',
-	'SEND_EMAIL'				=> 'דואר אלקטרוני',				// Used for submit buttons
-	'SEND_EMAIL_USER'			=> 'דואר אלקטרוני',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> Email UserX
+	'SEND_EMAIL'				=> 'שלח דואר אלקטרוני',				// Used for submit buttons
+	'SEND_EMAIL_USER'			=> 'שלח דואר אלקטרוני אל %s',
 	'SEND_PRIVATE_MESSAGE'		=> 'שלח הודעה פרטית',
 	'SETTINGS'					=> 'הגדרות',
 	'SIGNATURE'					=> 'חתימה',
 	'SKIP'						=> 'דלג לתוכן',
+	'SKYPE'						=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'		=> 'שרת ה־SMTP אינו תומך באימות.',
 	'SORRY_AUTH_READ'			=> 'אינך מורשה לקרוא בפורום זה.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'אינך מורשה להוריד קובץ מצורף זה.',
@@ -654,6 +694,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'הרשם לקבלת עדכונים מנושא זה',
 	'STOP_WATCHING_FORUM'		=> 'בטל הרשמתך מפורום זה',
 	'STOP_WATCHING_TOPIC'		=> 'בטל הרשמתך מנושא זה',
+	'STRING_LIST_MULTI'			=> '%1$s, and %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s and %2$s',
 	'SUBFORUM'					=> 'תת פורום',
 	'SUBFORUMS'					=> 'תת פורומים',
 	'SUBJECT'					=> 'נושא',
@@ -670,42 +712,27 @@ $lang = array_merge($lang, array(
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מדי.',
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
-	'TOO_LONG_AIM'					=> 'שם המסך שהזנת ארוך מדי.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'קוד האישור שהזנת ארוך מדי.',
 	'TOO_LONG_DATEFORMAT'			=> 'תבנית התאריך שהזנת ארוכה מדי.',
-	'TOO_LONG_ICQ'					=> 'מספר ה־ICQ שהזנת ארוך מדי.',
-	'TOO_LONG_INTERESTS'			=> 'תחומי העניין שהזנת ארוכים מדי.',
 	'TOO_LONG_JABBER'				=> 'שם חשבון ה־Jabber שהזנת ארוך מדי.',
-	'TOO_LONG_LOCATION'				=> 'המיקום שהזנת ארוך מדי.',
-	'TOO_LONG_MSN'					=> 'שם ה־WLM שהזנת ארוך מדי.',
 	'TOO_LONG_NEW_PASSWORD'			=> 'הססמה שהזנת ארוכה מדי.',
-	'TOO_LONG_OCCUPATION'			=> 'העיסוק שהזנת ארוך מדי.',
 	'TOO_LONG_PASSWORD_CONFIRM'		=> 'ססמת האישור שהזנת ארוכה מדי.',
 	'TOO_LONG_USER_PASSWORD'		=> 'הססמה שהזנת ארוכה מדי.',
 	'TOO_LONG_USERNAME'				=> 'שם המשתמש שהזנת ארוך מדי.',
 	'TOO_LONG_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוך מדי.',
-	'TOO_LONG_WEBSITE'				=> 'כתובת אתר הבית ארוך מדי.',
-	'TOO_LONG_YIM'					=> 'שם ה־Yahoo! Messenger שהזנת ארוך מדי.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מדי אפשרויות.',
 	'TOO_SHORT'						=> 'הערך שהזנת קצר מדי.',
 
-	'TOO_SHORT_AIM'					=> 'שם התצוגה שהזנת קצר מדי.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'קוד האישור שהזנת קצר מדי.',
 	'TOO_SHORT_DATEFORMAT'			=> 'תבנית התאריך שהזנת קצרה מדי.',
-	'TOO_SHORT_ICQ'					=> 'מספר ה־ICQ שהזנת קצר מדי.',
-	'TOO_SHORT_INTERESTS'			=> 'תחומי העניין שהזנת קצרים מדי.',
 	'TOO_SHORT_JABBER'				=> 'שם חשבון ה־Jabber שהזנת קצר מדי.',
-	'TOO_SHORT_LOCATION'			=> 'המיקום שהזנת קצר מדי.',
-	'TOO_SHORT_MSN'					=> 'שם ה־WLM שהזנת קצר מדי.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'הססמה שהזנת קצרה מדי.',
-	'TOO_SHORT_OCCUPATION'			=> 'העיסוק שהזנת קצר מדי.',
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'ססמת האישור שהזנת קצרה מדי.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'הססמה שהזנת קצרה מדי.',
 	'TOO_SHORT_USERNAME'			=> 'שם המשתמש שהזנת קצר מדי.',
 	'TOO_SHORT_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוכה מדי.',
-	'TOO_SHORT_WEBSITE'				=> 'כתובת אתר הבית שהזנת קצר מדי.',
-	'TOO_SHORT_YIM'					=> 'שם ה־Yahoo! Messenger שהזנת קצר מדי.',
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'כתובת הדואר האלקטרוני שהזנת קצרה מידי.',
 	'TOO_SMALL'						=> 'הערך שהזנת קטן מדי.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> קטן מדי.',
 
@@ -718,7 +745,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_MOVED'		=> 'נושא הועבר',
 	'TOPIC_REVIEW'		=> 'תקציר הנושא',
 	'TOPIC_TITLE'		=> 'כותרת הנושא',
-	'TOPIC_UNAPPROVED'	=> 'נושא זה לא אושר',
+	'TOPIC_UNAPPROVED'	=> 'נושא זה לא אושר.',
+	'TOPIC_DELETED'		=> 'נושא זה נמחק.',
 	'TOTAL_ATTACHMENTS'	=> 'קבצים מצורפים',
 	'TOTAL_LOGS'		=> array(
 		1	=> 'פעולה %d',
@@ -728,6 +756,7 @@ $lang = array_merge($lang, array(
 		1	=> 'הודעה פרטית %d בסך הכל',
 		2	=> '%d הודעות פרטיות סך הכל',
 	),
+	'TOPIC_POLL'		=> 'לנושא זה יש סקר.',
 	'TOTAL_POSTS'		=> 'הודעות בסך הכל',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> '<strong>%d</strong> הודעות בסך הכל',
@@ -740,8 +769,9 @@ $lang = array_merge($lang, array(
 		2	=> '<strong>%d</strong> משתמשים בסך הכל',
 	),
 	'TRACKED_PHP_ERROR'	=> 'שגיאות PHP מעוקבות: %s',
+	'TWITTER'			=> 'Twitter',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'לא ניתן לקבוע את ממדי התמונה.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'It was not possible to determine the dimensions of the image. Please verify that the URL you entered is correct.',
 	'UNABLE_TO_DELIVER_FILE'=> 'לא ניתן למסור קובץ.',
 	'UNKNOWN_BROWSER'		=> 'דפדפן לא ידוע',
 	'UNMARK_ALL'			=> 'בטל סימון',
@@ -816,19 +846,19 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'אתר בית',
 	'WHOIS'				=> 'מי זה',
 	'WHO_IS_ONLINE'		=> 'מי מחובר',
+	'WLM'				=> 'WLM',
 	'WRONG_PASSWORD'	=> 'הזנת ססמה שגויה.',
-	'WRONG_DATA_COLOUR'			=> 'ערך הצבע שהזנת שגוי.',
 
-	'WRONG_DATA_ICQ'			=> 'המספר שהזנת אינו מספר ICQ חוקי.',
+	'WRONG_DATA_COLOUR'			=> 'ערך הצבע שהזנת שגוי.',
 	'WRONG_DATA_JABBER'			=> 'השם שהזנת אינו שם חשבון Jabber חוקי.',
 	'WRONG_DATA_LANG'			=> 'השפה שציינת אינה חוקית.',
-	'WRONG_DATA_WEBSITE'		=> 'כתובת אתר האינטרנט חייבת להיות כתובת חוקית, כולל הפרוטוקול. לדוגמה http://www.example.com/.',
 	'WROTE'						=> 'כתב',
 
+	'YAHOO'				=> 'Yahoo Messenger',
+	'YOUTUBE'			=> 'YouTube',
 	'YEAR'				=> 'שנה',
 	'YEAR_MONTH_DAY'	=> '(YYYY-MM-DD)',
 	'YES'				=> 'כן',
-	'YIM'				=> 'YIM',	
 	'YOU_LAST_VISIT'	=> 'ביקורך האחרון היה ב: %s',
 	'YOU_NEW_PM'		=> 'הודעה פרטית חדשה מחכה לך בתיבת הדואר הנכנס שלך.',
 	'YOU_NEW_PMS'		=> 'הודעות פרטיות מחכות שלך בתיבת הדואר הנכנס שלך.',
@@ -916,7 +946,7 @@ $lang = array_merge($lang, array(
 		'Etc/GMT+10'	=> 'GMT-10',
 		'Etc/GMT+11'	=> 'GMT-11',
 		'Etc/GMT+12'	=> 'GMT-12',
-			'Africa/Abidjan'	=> 'Africa/Abidjan',
+		'Africa/Abidjan'	=> 'Africa/Abidjan',
 		'Africa/Accra'		=> 'Africa/Accra',
 		'Africa/Addis_Ababa'	=> 'Africa/Addis Ababa',
 		'Africa/Algiers'	=> 'Africa/Algiers',
@@ -1355,7 +1385,7 @@ $lang = array_merge($lang, array(
 		'D M d, Y g:i a'		=> 'Mon Jan 01, 2007 1:37 pm',
 		'F jS, Y, g:i a'		=> 'January 1st, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Today, 13:37 / 01 Jan 2007, 13:37',
-		'|F jS, Y|, g:i a'		=> 'Today, 1:37 pm / January 1st, 2007, 1:37 pm'
+		'|F jS, Y|, g:i a'		=> 'Today, 1:37 pm / January 1st, 2007, 1:37 pm',
 	),
 
 	// The default dateformat which will be used on new installs in this language

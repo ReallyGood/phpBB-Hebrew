@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* posting [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -71,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'סליחה אבל אתה לא יכול לשלוח הכרזות.',
 	'CANNOT_POST_STICKY'		=> 'סליחה אבל אתה לא יכול לשלוח נושאים דביקים.',
 	'CHANGE_TOPIC_TO'			=> 'שנה את סוג נושא ל',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Your message contains %1$d character.',
+		2	=> 'Your message contains %1$d characters.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Your signature contains %1$d character.',
+		2	=> 'Your signature contains %1$d characters.',
+	),
 	'CLOSE_TAGS'				=> 'סגור תגים',
 	'CURRENT_TOPIC'				=> 'נושא נוכחי',
 
@@ -214,7 +223,9 @@ $lang = array_merge($lang, array(
 		1	=> 'You may embed only %d quote within each other.',
 		2	=> 'You may embed only %d quotes within each other.',
 	),
+	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'The specified file could not be uploaded because the request timed out.',
 	'SAVE'						=> 'שמור',
 	'SAVE_DATE'					=> 'נשמר ב',
 	'SAVE_DRAFT'				=> 'שמור טיוטה',
@@ -229,18 +240,15 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Your message contains too few characters.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Your message contains %1$d character. The minimum number of characters you need to enter is %2$d.',
-		2	=> 'Your message contains %1$d characters. The minimum number of characters you need to enter is %2$d.',
+		1	=> 'You need to enter at least %1$d character.',
+		2	=> 'You need to enter at least %1$d characters.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'You must enter at least two poll options.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Cannot add another attachment, %d is the maximum.',
 	'TOO_MANY_CHARS'			=> 'Your message contains too many characters.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Your signature contains %1$d characters. The maximum number of allowed characters is %2$d.',
-	),
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'The maximum number of allowed characters is %1$d.',
+ 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'ניסית להזין יותר מדי אפשרויות סקר.',
 	'TOO_MANY_SMILIES'			=> 'ההודעה שלך מכילה יותר מדי סמיילים. המספר המרבי של סמיילים המורשה הוא %d.',
 	'TOO_MANY_URLS'				=> 'ההודעה שלך מכילה יותר מדי כתובות. המספר המרבי של כתובות המורשה הוא %d.',
@@ -249,6 +257,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'אתה לא יכול להשתמש בתגי ה־BBCode הבאים: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'כדי להחליף את מצב הנושא מגלובלי לרגיל, אתה צריך לבחור את הפורום אשר אתה רוצה שבו הנושא יוצג.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Your message contains the following unsupported characters:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Your subject contains the following unsupported characters:<br />%s',
 	'UPDATE_COMMENT'			=> 'עדכן תיאור',
 	'URL_INVALID'				=> 'הכתובת שציינת אינה חוקית.',
 	'URL_NOT_FOUND'				=> 'הקובץ שצוין לא נמצא.',
@@ -263,6 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sצפה בהודעה ששלחת זה עתה%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sצפה בהודעה הפרטית ששלחת זה עתה%s',
 
-	'WRONG_FILESIZE'			=> 'הקובץ גדול מדי, הגודל המרבי המורשה הוא %1d %2s.',
+	'WRONG_FILESIZE'			=> 'הקובץ גדול מדי, הגודל המרבי המורשה הוא %1$d %2$s.',
 	'WRONG_SIZE'				=> 'The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
 ));

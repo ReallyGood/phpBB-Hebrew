@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* groups [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -83,7 +84,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך ראש הקבוצה.',
 	'NOT_MEMBER_OF_GROUP'			=> 'הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך חבר בקבוצה הנבחרת או שחברותך עדיין לא אושרה.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'אינך רשאי לבטל את חברותך מקבוצת ברירת המחדל שלך.',
-	
+
 	'PRIMARY_GROUP'		=> 'קבוצה ראשית',
 
 	'REMOVE_SELECTED'		=> 'הסר נבחרים',

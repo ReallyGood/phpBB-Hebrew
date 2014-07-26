@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_profile [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,8 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'שדה פרופיל מותאם נוסף בהצלחה.',
+	'ALPHA_DOTS'			=> 'Alphanumeric and dots (periods)',
 	'ALPHA_ONLY'			=> 'אותיות וספרות בלבד.',
 	'ALPHA_SPACERS'			=> 'אותיות, ספרות ורווחים',
+	'ALPHA_UNDERSCORE'		=> 'Alphanumeric and underscores',
+	'ALPHA_PUNCTUATION'		=> 'Alphanumeric with comma, dots, underscore and dashes beginning with a letter',
 	'ALWAYS_TODAY'			=> 'התאריך הנוכחי תמיד',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'רשום את האפשרות עכשיו',
@@ -66,8 +70,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'המשתמש יוכל לשנות את שדה הפרופיל מתוך לוח הבקרה למשתמש.',
 	'DISPLAY_AT_REGISTER'			=> 'הצג במסך ההרשמה',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'אם אפשרות זו מאופשרת, השדה יוצג בהרשמה.',
-	'DISPLAY_ON_PM'					=> 'Display on view pm screen',
-	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Display on memberlist screen',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'If this option is enabled, the field will be displayed in the user rows on the memberlist screen.',
+	'DISPLAY_ON_PM'					=> 'Display on view private message screen',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the private message screen.',
 	'DISPLAY_ON_VT'					=> 'הצג מסך תצוגת נושא',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'אם אפשרות זו מאופשרת, השדה יוצג במיני-פרופיל במסך הנושא.',
 	'DISPLAY_PROFILE_FIELD'			=> 'הצג שדה פרופיל בגלוי',
@@ -81,20 +87,26 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'הכול בסדר',
 
 	'FIELD_BOOL'				=> 'בוליאני (כן/לא)',
+	'FIELD_CONTACT_DESC'		=> 'Contact description',
+	'FIELD_CONTACT_URL'			=> 'Contact link',
 	'FIELD_DATE'				=> 'תאריך',
 	'FIELD_DESCRIPTION'			=> 'תיאור השדה',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'ההסבר לשדה זה יוצג למשתמש',
 	'FIELD_DROPDOWN'			=> 'תיבת גלילה',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'זיהוי שדה',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'שם השדה הנוכחי קיים. בחר שם חדש.',
 	'FIELD_IDENT_EXPLAIN'		=> 'זיהוי השדה הנו בשביל לזהות את התחום של הפרופיל בתוך מאגר הנתונים והעיצובים.',
 	'FIELD_INT'					=> 'מספרים',
+	'FIELD_IS_CONTACT'			=> 'Display field as a contact field',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contact fields are displayed with in the contact section of the user profile and are displayed differently in the mini profile next to posts and private messages.',
 	'FIELD_LENGTH'				=> 'אורך התיבה',
 	'FIELD_NOT_FOUND'			=> 'שדה הפרופיל לא נמצא.',
 	'FIELD_STRING'				=> 'טקסט שדה יחיד',
 	'FIELD_TEXT'				=> 'אזור טקסט',
 	'FIELD_TYPE'				=> 'סוג שדה',
 	'FIELD_TYPE_EXPLAIN'		=> 'אתה לא תאופשר לשנות את סוג השדה מאוחר יותר.',
+	'FIELD_URL'					=> 'URL (Link)',
 	'FIELD_VALIDATION'			=> 'תוקף השדה',
 	'FIRST_OPTION'				=> 'אפשרות ראשונה',
 

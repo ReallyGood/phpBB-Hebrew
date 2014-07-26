@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* install [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -142,7 +143,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'לא צוין ערך למשתנה test_file בהמרה. אם אתה משתמש של המרה זו, אינך אמור להיתקל בשגיאה זו, דווח על הודעה זו ליוצר ההמרה. אם אתה יוצר ההמרה, אתה חייב לציין את שם הקובץ הקיים במערכת המקורית כדי לאפשר לנתיב אליו להיות חוקי.',
 	'DIRECTORIES_AND_FILES'		=> 'התקן תיקיות וקבצים',
 	'DISABLE_KEYS'				=> 'מכבה מפתחות',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'תמיכה ב־FTP מרחוק [ התקנה ]',
 	'DLL_GD'					=> 'תמיכה בגראפיקות ספריה גראפית [ אימות חזותי ]',
 	'DLL_MBSTRING'				=> 'תמיכה בתווים מרובי בייטים',
@@ -153,7 +153,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL עם סיומת MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'תמיכה ב־XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'תמיכה בדחיסת zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'הורד קובץ הגדרות',
@@ -169,7 +170,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>נדרש</strong> - כדי להפעיל את phpBB3 כראוי, הקבצים או התיקיות הבאים חייבים להיות ניתנים לכתיבה. אם אתה רואה “לא נמצא”, אתה צריך ליצור את הקובץ או התיקייה המיוחסים. אם אתה רואה “לא ניתן לכתיבה”, אתה צריך לשנות את הגדרות הקובץ או התיקייה כדי ש־phpBB3 תוכל לכתוב אליהם.',
 	'FILLING_TABLE'				=> 'ממלא טבלה <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'ממלא טבלאות',
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB כבר לא תומכת ב־Firebird/Interbase הקודמות לגרסה 2.1. אנא שדרג את ה־Firebird שלך לפחות ל2.1.0 לפני שתמשיך בשדרוג.',
+
 	'FINAL_STEP'				=> 'ממשיך לשלב הסופי',
 	'FORUM_ADDRESS'				=> 'כתובת המערכת',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'זוהי הכתובת למערכת הקודמת שלך, למשל <samp>http://www.example.com/phpBB/</samp>. אם כתובת הוזנה כאן והשדה לא נשאר ריק, כל דוגמה של כתובת זו תוחלף בכתובת המערכת החדשה בהודעות, הודעות פרטיות וחתימות.',
@@ -212,7 +213,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 או מעל (MySQLi נתמך)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.1+</li>
+		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 או מעל (ישירות או דרך ODBC)</li>
 		<li>MS SQL Server 2005 או מעל (מקומי)</li>
 		<li>Oracle</li>
@@ -235,9 +236,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'לא ניתנה הודעת שגיאה.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'הגרסה של MySQL המותקנת על שרת זה אינה מותאמת לאפשרות “MySQL עם סיומת MySQLi” אשר בחרת. נסה את האפשרות “MySQL” במקום זאת.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'הגרסה של סיומת SQLite אשר התקנת ישנה מדי, אתה חייב לשדרג אותה לפחות לגרסה 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'הגרסה של סיומת SQLite אשר התקנת ישנה מדי, אתה חייב לשדרג אותה לפחות לגרסה 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'הגרסה של Oracle המותקנת על שרת זה דורשת ממך לקבוע את הפרמטר <var>NLS_CHARACTERSET</var> ל־<var>UTF8</var>. שדרג את ההתקנה לגרסה 9.2+ או שנה את הפרמטר.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'הגרסה של Firebird המותקנת על שרת זה ישנה יותר מגרסה 2.1, שדרג לגרסה חדשה יותר.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'בסיס הנתונים אשר בחרת ל־Firebird בעל גודל עמוד הפחות מ־8192, הגודל חייב להיות לפחות 8192.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'בסיס הנתונים שבחרת לא נוצר בקידוד <var>UNICODE</var> או <var>UTF8</var>. נסה להתקין עם בסיס נתונים בקידוד <var>UNICODE</var> או <var>UTF8</var>.',
 	'INST_ERR_DB_NO_NAME'		=> 'לא צוין שם בסיס הנתונים.',
 	'INST_ERR_EMAIL_INVALID'	=> 'כתובת הדואר האלקטרוני שהזנת אינה חוקית.',
@@ -290,8 +290,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>לא</strong> תפעל אם התקן ה־PHP שלך אינו מותאם לתמיכה ב־UTF-8 בסיומת PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'פונקציית ה־PHP getimagesize() זמינה',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>נדרש</strong> - כדי ש־phpBB3 תעבוד כראוי, הפונקציה getimagesize צריכה להיות זמינה.',
-	'PHP_JSON_SUPPORT'        		=> 'PHP JSON support',
-	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
+	'PHP_JSON_SUPPORT'				=> 'PHP JSON support',
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
 	'PHP_OPTIONAL_MODULE'			=> 'אפשרויות נוספות',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>לא נדרש</strong> - אפשרויות או יישומים אלו אינם נדרשים, אך זמינותם תאפשר לך מאפיינים נוספים.',
 	'PHP_SUPPORTED_DB'				=> 'בסיסי נתונים נתמכים',
@@ -344,8 +344,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'הסכם שימוש',
 	'SUB_SUPPORT'				=> 'תמיכה',
 	'SUCCESSFUL_CONNECT'		=> 'החיבור נוצר',
-	'SUPPORT_BODY'				=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=65">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>MODs / Styles</h2><p>For issues relating to MODs, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=81">Modifications Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=80">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
-	//'SUPPORT_BODY'				=> 'תמיכה מלאה תינתן לגרסה היציבה הנוכחית של phpBB3, ללא שום עלות. זה כולל:</p><ul><li>התקנה</li><li>הגדרות</li><li>שאלות טכניות</li><li>בעיות הקשורות לשגיאות אפשריות בתרגום</li><li>עדכון מגרסאות המועמדות לשחרור (RC) לגרסה היציבה האחרונה</li><li>המרה ממערכת phpBB2.0.x ל־phpBB3</li><li>המרה ממערכות פורומים אחרות ל־phpBB3</li></ul><p>אנו ממליצים למשתמשים אשר מריצים עדיין את הגרסאות הנסיוניות של phpBB3 להחליף את המערכת עם עותק חדש של הגרסה האחרונה.</p><h2>מודים / עיצובים</h2><p>לעניינים הקשורים למודים, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=23">בפורום המודים</a>.<br />לעניינים הקשורים לעיצובים, תבניות וערכות תמונות, שלח את ההודעה <a href="http://www.phpbb.co.il/viewforum.php?f=24">בפורום העיצובים</a>.<br /><br />אם יש לך שאלה הקשורה לחבילה מסוימת, אנא כתוב את ההודעה בנושא המיועד לאותה חבילה.</p><h2>קבלת תמיכה</h2><p><a href="http://www.phpbb.co.il/">אתר התמיכה הרשמי של פרויקט phpBB הישראלי</a><br /><br />',
+	'SUPPORT_BODY'				=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/documentation/3.1/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
 	'SYNC_FORUMS'				=> 'מתחיל לסנכרן פורומים',
 	'SYNC_POST_COUNT'			=> 'מסנכרן post_counts',
 	'SYNC_POST_COUNT_ID'		=> 'מסנכרן post_counts מ־<var>entry</var> %1$s ל־%2$s.',
@@ -427,6 +426,8 @@ $lang = array_merge($lang, array(
 	'FILE_USED'						=> 'מידע בשימוש מ',			// Single file
 	'FILES_CONFLICT'				=> 'התנגשות קבצים',
 	'FILES_CONFLICT_EXPLAIN'		=> 'הקבצים הבאים שונו ואינם מיצגים את הקבצים המקוריים מהגרסה הישנה. phpBB גילה כי קבצים אלו ייצרו התנגשויות אם  ננסה למזג אותם. בדוק את ההתנגשויות ונסה לפתור אותן בעצמך או המשך בעדכון על־ידי בחירת שיטת המיזוג המועדפת. אם אתה פותר את ההתנגשויות ידנית בדוק את הקבצים שנית לאחר ששינית אותם. תוכל גם לבחור לבחור בין שיטת מיזוג מועדפת לכל קובץ. השיטה הראשונה תביא לקובץ בו השורות המתנגשות מהקובץ הישן שלך ימחקו, השיטה השנייה תגרום למחיקת השינויים מהגרסה החדשה יותר.',
+	'FILES_DELETED'					=> 'Deleted files',
+	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.',
 	'FILES_MODIFIED'				=> 'קבצים ששונו',
 	'FILES_MODIFIED_EXPLAIN'		=> 'הקבצים הבאים שונו ואינם מיצגים את הקבצים המקוריים מהגרסה הישנה. הקובץ המעודכן ימזג בין השינויים שלך והקובץ החדש.',
 	'FILES_NEW'						=> 'קבצים חדשים',
@@ -488,7 +489,8 @@ $lang = array_merge($lang, array(
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'להלן כפתור לעדכון בסיס הנתונים. עדכון בסיס הנתונים עלול להמשך זמן רב, לכן אל תעצור את התהליך גם אם נראה שהוא נעצר. לאחר שעדכון בסיס הנתונים התבצע, עבור להוראות כדי להמשיך בתהליך העדכון.',
 	'PREVIOUS_VERSION'					=> 'גרסה קודמת',
 	'PROGRESS'							=> 'התקדמות',
-
+	
+	'RELEASE_ANNOUNCEMENT'		=> 'הכרזה',
 	'RESULT'					=> 'תוצאה',
 	'RUN_DATABASE_SCRIPT'		=> 'עדכן את בסיס הנתונים שלי עכשיו',
 
@@ -496,6 +498,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'בחר תבנית ארכיון להורדה',
 	'SELECT_FTP_SETTINGS'		=> 'בחר הגדרות FTP',
 	'SHOW_DIFF_CONFLICT'		=> 'הצג הבדלים/התנגשויוית',
+	'SHOW_DIFF_DELETED'			=> 'Show file contents',
 	'SHOW_DIFF_FINAL'			=> 'הצג תוצאת קובץ',
 	'SHOW_DIFF_MODIFIED'		=> 'הצג הבדלים מאוחדים',
 	'SHOW_DIFF_NEW'				=> 'הצג תוכן קובץ',
@@ -509,6 +512,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'עדכון קבצים',
 	'STAGE_VERSION_CHECK'		=> 'בדיקת גרסה',
 	'STATUS_CONFLICT'			=> 'קובץ ששונה היוצר התנגשויות',
+	'STATUS_DELETED'			=> 'Deleted file',
 	'STATUS_MODIFIED'			=> 'קובץ ששונה',
 	'STATUS_NEW'				=> 'קובץ חדש',
 	'STATUS_NEW_CONFLICT'		=> 'קובץ חדש מתנגש',
@@ -531,7 +535,7 @@ $lang = array_merge($lang, array(
 
 		<h1>הכרזת שחרור</h1>
 
-		<p>קרא את <a href="%1$s" title="%1$s"><strong>הכרזת שחרור הגרסה האחרונה</strong></a> לפני שתמשיך בתהליך העדכון, היא יכולה לכלול מידע שימושי. היא תכלול בנוסף קישורים מלאים להורדה וכמו כן את השינויים.</p>
+		<p>קרא את הכרזת שחרור הגרסה האחרונה לפני שתמשיך בתהליך העדכון, היא יכולה לכלול מידע שימושי. היא תכלול בנוסף קישורים מלאים להורדה וכמו כן את השינויים.</p>
 
 		<br />
 
@@ -546,17 +550,12 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>לאחר ההעלה, הפורום יהיה כבוי למשתמשים רגילים מפני שתיקיית ההתקנה שהעלת כעת קיימת.<br /><br />
-		<strong><a href="%2$s" title="%2$s">כעת התחל בתהליך העדכון על־ידי הפניית הדפדפן שלך לתיקייה install</a>.</strong><br />
+		<strong><a href="%1$s" title="%1$s">כעת התחל בתהליך העדכון על־ידי הפניית הדפדפן שלך לתיקייה install</a>.</strong><br />
 		<br />
 		אתה תודרך לאורך תהליך העדכון. תקבל הודעה כאשר העדכון יושלם.
 		</p>
 	',
-	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
-
-		<h1>עדכון לא שלם התגלה</h1>
-
-		<p>phpBB3 גילה עדכון אוטומטי לא שלם. אנא וודא שביצעת כל צעד בכלי העדכון האוטומטי. להלן הקישור שנית, או עבור ישירות אל התיקייה install.</p>
-	',
+	
 	'UPDATE_METHOD'					=> 'שיטת עדכון',
 	'UPDATE_METHOD_EXPLAIN'			=> 'תוכל לבחור את שיטת העדכון המועדפת עליך. בעת שימוש בהעלאת FTP תקבל טופס הדורש ממך להכניס את פרטי חשבון ה־FTP שלך. עם שיטה זו הקבצים יועברו אוטומטית למיקום החדש והגיבויים של הקבצים הישנים יווצרו עם הסיומת .bak לשם הקובץ. אם אתה בוחר להוריד את הקבצים ששונו, תוכל לחלץ ולהעלות אותם למיקומם הנכון בעצמך מאוחר יותר.',
 	'UPDATE_REQUIRES_FILE'			=> 'העדכון דורש שהקובץ הבא יהיה קיים: %s',
@@ -566,7 +565,6 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'מעדכן נתונים',
 	'UPDATING_TO_LATEST_STABLE'		=> 'מעדכן בסיס נתונים לגרסה היציבה האחרונה',
 	'UPDATED_VERSION'				=> 'הגרסה עודכנה',
-	'UPGRADE_INSTRUCTIONS'			=> 'שחרור לתכונה חדשה <strong>%1$s</strong> זמינה. אנא קרא <a href="%2$s" title="%2$s"><strong>את הכרזת השחרור</strong></a> כדי ללמוד אודות מה הוא מציע, וכיצד ולשדרג.',
 	'UPLOAD_METHOD'					=> 'שיטת העלאה',
 
 	'UPDATE_DB_SUCCESS'				=> 'עדכון בסיס הנתונים הושלם בהצלחה.',

@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_attachments [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -107,6 +108,8 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real מדיה',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows מדיה',
 
+	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
+	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
 	'GO_TO_EXTENSIONS'		=> 'עבור למסך ניהול הסיומות',
 	'GROUP_NAME'			=> 'שם הקבוצה',
 
@@ -130,6 +133,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'מאופשר רק בהודעות',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'לא מאופשר',
 	'NOT_ASSIGNED'				=> 'לא נקבע',
+	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'ללא',
 	'NO_EXT_GROUP_NAME'			=> 'לא הוזנה קבוצת משתמשים',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'לא צוינה קבוצת סיומות.',
@@ -145,6 +149,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'		=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>המורשים</em>',
 	'REMOVE_DISALLOWED_IPS'		=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>הלא מורשים</em>',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?',
 
 	'SEARCH_IMAGICK'				=> 'אתר Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'אפשר/דחה רשימה',

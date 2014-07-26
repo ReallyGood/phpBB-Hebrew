@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* ucp [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -117,8 +118,6 @@ $lang = array_merge($lang, array(
 	'BOARD_LANGUAGE'			=> 'השפה שלי',
 	'BOARD_STYLE'				=> 'עיצוב המערכת שלי',
 	'BOARD_TIMEZONE'			=> 'אזור הזמן שלי',
-	'TIMEZONE_DATE_SUGGESTION'	=> 'הצעה: %s',
-	'TIMEZONE_INVALID'			=> 'אזור הזמן שבחרת לא תקין.',
 	'BOOKMARKS'					=> 'מועדפים',
 	'BOOKMARKS_EXPLAIN'			=> 'אתה יכול לסמן נושאים כמועדפים לשימוש עתידי. בחר בתיבת הסימון של כל פריט מועדף אשר אתה מעוניין למחוק, ולחץ על הכפתור <em>הסר פריטי מועדפים מסומנים</em>.',
 	'BOOKMARKS_DISABLED'		=> 'אפשרות המועדפים כבויה במערכת זו.',
@@ -208,10 +207,15 @@ $lang = array_merge($lang, array(
 	),
 	'FIELD_TOO_SMALL'					=> 'הערך של “%2$s” קטן מידי, לפחות %1$d תווים נדרשים.',
 	'FIELD_TOO_LARGE'					=> 'הערך של “%2$s” גדול מידי, ערך מירבי של %1$d תווים מורשים.',
+	'FIELD_INVALID_CHARS_INVALID'		=> 'The field “%s” has invalid characters.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, מספרים בלבד מורשים.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'The field “%s” has invalid characters, only alphanumeric or . characters are allowed.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, תווי אותיות בלבד מורשים.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'השדה “%s” מכיל תווים לא חוקיים, תווי אותיות, רווח או -+_[] בלבד מורשים.',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> 'The field “%s” has invalid characters, only alphanumeric or _,-. characters are allowed and the first character must be alphabetic.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'The field “%s” has invalid characters, only alphanumeric, space or -+_[] characters are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'The field “%s” has invalid characters, only alphanumeric or _ characters are allowed.',
 	'FIELD_INVALID_DATE'				=> 'השדה “%s” מכיל תאריך לא חוקי.',
+	'FIELD_INVALID_URL'					=> 'The field “%s” has an invalid url.',
 	'FIELD_INVALID_VALUE'				=> 'השדה “%s” מכיל ערך לא חוקי.',
 
 	'FOE_MESSAGE'				=> 'הודעה מנודניק',
@@ -219,8 +223,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'רשימת הנודניקים שלך עודכנה בהצלחה.',
 	'FOLDER_ADDED'				=> 'התיקייה נוספה בהצלחה.',
 		'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> 'הודעה %2$d מתוך %1$d אוחסנה',
-		2	=> '%2$d מתוך %1$d הודעות אוחסנו',
+		1	=> '%2$d מתוך %1$d אוחסנה',
+		2	=> '%2$d מתוך %1$d אוחסנו',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'אתה חייב להזין שם לתיקייה זו.',
 	'FOLDER_NAME_EXIST'			=> 'התיקייה <strong>%s</strong> כבר קיימת.',
@@ -228,8 +232,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'שם התיקייה שונה בהצלחה.',
 	'FOLDER_REMOVED'			=> 'התיקייה הוסרה בהצלחה.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'התיקייה %3$d%% מלאה (הודעה %2$d מתוך%1$d אוחסנה)',
-		2	=> 'התיקייה %3$d%% מלאה (%2$d מתוך %1$d הודעות אוחסנו)',
+		1	=> 'התיקייה %3$d%% מלאה %2$d מתוך%1$d אוחסנה)',
+		2	=> 'התיקייה %3$d%% מלאה (%2$d מתוך %1$d אוחסנו)',
 	),
 	'FORWARD_PM'				=> 'העבר הודעה פרטית',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'לפני שתוכל להמשיך לגלוש במערכת אתה נדרש לשנות את ססמתך.',
@@ -299,7 +303,8 @@ $lang = array_merge($lang, array(
 	'MOVE_DOWN'						=> 'העבר למטה',
 	'MOVE_MARKED_TO_FOLDER'			=> 'העבר מסומנים אל %s',
 	'MOVE_PM_ERROR'					=> array(
-		2	=> 'An error occurred while moving the messages to the new folder, only %2d from %1d messages were moved.',
+		1	=> 'An error occurred while moving the messages to the new folder, only %2$d out of %1$s was moved.',
+		2	=> 'An error occurred while moving the messages to the new folder, only %2$d out of %1$s were moved.',
 	),
 	'MOVE_TO_FOLDER'				=> 'העבר לתיקייה',
 	'MOVE_UP'						=> 'העבר למעלה',
@@ -322,12 +327,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Someone replies to a topic you have bookmarked',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Someone requests to join a group you lead',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'A post or topic needs approval',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Your topics/posts are approved or disapproved by a moderator',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Your topics/posts are approved or disapproved by a moderator',
 	'NOTIFICATION_TYPE_PM'								=> 'Someone sends you a private message',
 	'NOTIFICATION_TYPE_POST'							=> 'Someone replies to a topic to which you are subscribed',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Someone quotes you in a post',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Someone reports a post',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Someone creates a topic in a forum to which you are subscribed',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Someone creates a topic in a forum to which you are subscribed',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Newly registered user requiring activation',
 
 	'NOTIFY_METHOD'					=> 'Notification method',
@@ -353,6 +358,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'לא צוינה פעולת הודעה.',
 	'NO_AUTHOR'						=> 'לא מוגדר כותב להודעה זו',
+	'NO_AVATAR'						=> 'No avatar selected',
 	'NO_AVATAR_CATEGORY'			=> 'ללא',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'אינך מורשה למחוק הודעות פרטיות.',
@@ -410,6 +416,8 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'הודעות שנשלחו',
 	'PM_SUBJECT'				=> 'כותרת ההודעה',
 	'PM_TO'						=> 'שלח אל',
+	'PM_TOOLS'					=> 'Message tools',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Some users couldn’t be added as they do not have permission to read private messages.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'כמה מהמשתמשים לא נתנו להוספה מפני שהם כיבו את קבלת ההודעות הפרטיות.',
 	'POPUP_ON_PM'				=> 'הקפץ חלון בעת הודעה פרטית חדשה',
 	'POST_EDIT_PM'				=> 'ערוך הודעה',
@@ -473,14 +481,19 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'גודל קובץ',
 
 	'TIMEZONE'					=> 'אזור זמן',
-	'TO'						=> 'אל',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'הצעה: %s',
+	'TIMEZONE_INVALID'			=> 'אזור הזמן שבחרת לא תקין.',
+	'TO'						=> 'Recipient',
+	'TO_MASS'					=> 'Recipients',
+	'TO_ADD'					=> 'Add recipient',
+	'TO_ADD_MASS'				=> 'Add recipients',
+	'TO_ADD_GROUPS'				=> 'Add groups',
 	'TOO_MANY_RECIPIENTS'		=> 'ניסית לשלוח הודעה פרטית ליותר מדי נמענים.',
 	'TOO_MANY_REGISTERS'		=> 'עברת את המספר המרבי של ניסיונות הרשמה לחיבור זה. נסה שנית מאוחר יותר.',
 
 	'UCP'						=> 'לוח בקרה למשתמש',
 	'UCP_ACTIVATE'				=> 'הפעל חשבון',
 	'UCP_ADMIN_ACTIVATE'		=> 'שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. המנהל הראשי יסקור את חשבונך ואם יאשר, תקבל הודעת דואר אלקטרוני לכתובת שציינת.',
-	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'קבצים מצורפים',
 	'UCP_AUTH_LINK'				=> 'External accounts',
 	'UCP_AUTH_LINK_ASK'			=> 'You currently have no account associated with this external service. Click the button below to link your board account to an account with this external service.',
@@ -493,7 +506,6 @@ $lang = array_merge($lang, array(
 	'UCP_COPPA_BEFORE'			=> 'לפני %s',
 	'UCP_COPPA_ON_AFTER'		=> 'בתאריך או לאחר %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'שים לב שאתה צריך להזין כתובת דואר אלקטרוני חוקית לפני שחשבונך יופעל. תקבל הודעת דואר אלקטרוני לכתובת שציינת אשר מכילה קישור להפעלת החשבון.',
-	'UCP_ICQ'					=> 'מספר ICQ',
 	'UCP_JABBER'				=> 'כתובת Jabber',
 	'UCP_LOGIN_LINK'			=> 'Set up an external account association',
 
@@ -504,7 +516,6 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'עמוד ראשי',
 	'UCP_MAIN_SUBSCRIBED'		=> 'ניהול הרשמות',
 
-	'UCP_MSNM'					=> 'Windows Live Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'לא שלחת קבצים.',
 
 	'UCP_NOTIFICATION_LIST'				=> 'Manage notifications',
@@ -543,7 +554,6 @@ $lang = array_merge($lang, array(
 	'UCP_REMIND'					=> 'שלח ססמה',
 	'UCP_RESEND'					=> 'שלח קישור להפעלה לדואר אלקטרוני',
 	'UCP_WELCOME'					=> 'ברוך הבא ללוח הבקרה למשתמש. מכאן אתה יכול לפקח, לראות ולעדכן את הפרופיל, ההעדפות והנושאים והפורומים אליהם אתה רשום. אתה יכול גם לשלוח הודעות למשתמשים אחרים (אם ניתן). וודא שקראת את כל ההכרזות לפני שתמשיך.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'חברים ונודניקים',
 	'UCP_ZEBRA_FOES'				=> 'ניהול נודניקים',
 	'UCP_ZEBRA_FRIENDS'				=> 'ניהול חברים',
@@ -603,14 +613,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'הכנס לתוך תיקייה',
 		'MARK_AS_READ'		=> 'סמן כנקרא',
 		'MARK_AS_IMPORTANT'	=> 'סמן הודעה',
-		'DELETE_MESSAGE'	=> 'מחק הודעה'
+		'DELETE_MESSAGE'	=> 'מחק הודעה',
 	),
 	'PM_CHECK'	=> array(
 		'SUBJECT'	=> 'כותרת',
 		'SENDER'	=> 'שולח',
 		'MESSAGE'	=> 'הודעה',
 		'STATUS'	=> 'מצב הודעה',
-		'TO'		=> 'נשלח אל'
+		'TO'		=> 'נשלח אל',
 	),
 	'PM_RULE'	=> array(
 		'IS_LIKE'		=> 'דומה',
@@ -626,7 +636,7 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'נענתה',
 		'FORWARDED'		=> 'הועברה',
 		'TO_GROUP'		=> 'אל קבוצת ברירת המחדל שלי',
-		'TO_ME'			=> 'אלי'
+		'TO_ME'			=> 'אלי',
 	),
 
 

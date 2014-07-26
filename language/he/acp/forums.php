@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_forums [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'מספר הימים בין אירועי האיפוס.',
 	'AUTO_PRUNE_VIEWED'			=> 'איפוס הודעות אוטומטי לפי תאריכי הצפיות האחרונות בהודעה',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'מספר הימים שעברו מאז הצפייה באשכול בפעם האחרונה שלאחריה הנושא יוסר.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
 
 	'CONTINUE'						=> 'המשך',
 	'COPY_PERMISSIONS'				=> 'העתק הרשאות מ',
@@ -102,6 +107,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'ססמת הפורום משתמשת בשיטת הצפנה ישנה וצריכה להשתנות.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'הססמאות שהכנסת אינן תואמות.',
 	'FORUM_PRUNE_SETTINGS'				=> 'הגדרות איפוס הפורום',
+	'FORUM_PRUNE_SHADOW'				=> 'Enable auto-pruning of shadow topics',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
 	'FORUM_RESYNCED'					=> 'הפורום “%s” סונכרן בהצלחה',
 	'FORUM_RULES_EXPLAIN'				=> 'חוקי הפורום מוצגים בכל עמוד בתוך הפורום שהזנת.',
 	'FORUM_RULES_LINK'					=> 'קישור לחוקי הפורום',

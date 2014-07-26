@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_permissions (phpBB Permission Set) [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -145,7 +146,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'רשאי לערוך הודעות',
 	'ACL_M_DELETE'		=> 'רשאי למחוק הודעות לצמיתות',
 	'ACL_M_SOFTDELETE'	=> 'רשאי למחוק הודעות מחיקה רכה<br /><em>מנהלים, בעלי ההרשאה לאשר הודעות, יכולים לשחזר שנמחקו מחיקה רכה.</em>',
-	'ACL_M_APPROVE'		=> 'רשאי לאשר הודעות',
+	'ACL_M_APPROVE'		=> 'רשאי לאשר ולשחזר הודעות',
 	'ACL_M_REPORT'		=> 'רשאי לסגור ולמחוק דיווחים',
 	'ACL_M_CHGPOSTER'	=> 'רשאי לשנות את מחבר ההודעה',
 

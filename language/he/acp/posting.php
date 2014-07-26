@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* posting [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -87,7 +88,7 @@ $lang = array_merge($lang, array(
 		'LOCAL_URL'		=> 'קישור מקומי. הקישור מוכרח להיות יחסי לעמוד הנושא ולא יכול להכיל שם שרת או פרוטוקול, מכיוון שהקישורים יתחילו ב “%s”.',
 		'RELATIVE_URL'	=> 'קישור יחסי. אתה יכול להשתמש בזה כדי להתאים חלקים מהקישור, אך שים לב: קישור מלא הוא קישור יחסי חוקי. כשאתה רוצה להשתמש בכתובות יחסיות למערכת שלך, השתמש בתג LOCAL_URL.',
 		'COLOR'			=> 'צבע HTML, יכול להיות בצורת מספר <samp>#FFFF00</samp> או צבע CSS לדוגמה <samp>fuchsia</samp> או <samp>InactiveBorder</samp>'
-	)
+	),
 ));
 
 // Smilies and topic icons

@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* mcp [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -430,6 +431,7 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'ההודעה שדווחה הייתה רק למטרת פרסום אתרים או מוצרים..',
 			'OFF_TOPIC'	=> 'ההודעה שדווחה היא נושא שאינו קשור לפורום.',
 			'OTHER'		=> 'ההודעה שדווחה לא תואמת לאף אחת מהאפשרויות לדיווח, אנא השתמש בשדה המידע נוסף.',
-		)
+		),
+		
 	),
 ));

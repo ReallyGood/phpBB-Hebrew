@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp common [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -50,7 +51,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'חסימה',
 	'ACP_BAN_EMAILS'			=> 'חסימת כתובות דואר אלקטרוני',
 	'ACP_BAN_IPS'				=> 'חסימת כתובות IP',
-	'ACP_BAN_USERNAMES'			=> 'חסימת שמות משתמשים',
+	'ACP_BAN_USERNAMES'			=> 'חסימת משתמשים',
 	'ACP_BBCODES'				=> 'תגי BBCode',
 	'ACP_BOARD_CONFIGURATION'	=> 'הגדרות מערכת',
 	'ACP_BOARD_FEATURES'		=> 'מאפייני מערכת',
@@ -62,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 
 	'ACP_CAT_DATABASE'			=> 'בסיס נתונים',
-	'ACP_CAT_DOT_MODS'			=> 'מודים',
+	'ACP_CAT_DOT_MODS'			=> 'תוספות',
 	'ACP_CAT_FORUMS'			=> 'פורומים',
 	'ACP_CAT_GENERAL'			=> 'כללי',
 	'ACP_CAT_MAINTENANCE'		=> 'תחזוקה',
@@ -74,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'משתמשים',
 	'ACP_CLIENT_COMMUNICATION'	=> 'תקשורת לקוחות',
 	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגייה',
+	'ACP_CONTACT'				=> 'Contact page',
+	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
 	
@@ -83,8 +86,8 @@ $lang = array_merge($lang, array(
 	
 	'ACP_EMAIL_SETTINGS'		=> 'הגדרות דואר אלקטרוני',
 	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
-	'ACP_EXTENSIONS'			=> 'Extensions',
+	'ACP_EXTENSION_MANAGEMENT'	=> 'ניהול תוספות',
+	'ACP_EXTENSIONS'			=> 'נהל תוספות',
 	
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'הרשאות לפי פורומים',
 	'ACP_FORUM_LOGS'				=> 'מעקב אחר פעולות בפורומים',
@@ -218,9 +221,19 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
 
 	'BACK'					=> 'חזור',
+	
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Prints a list of ready and unready cron jobs.',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Runs all ready cron tasks.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name of the task to be run',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Launch the shell.',
 
 	'COLOUR_SWATCH'			=> 'מאגר צבעים לשימוש בטוח ברשת',
 	'CONFIG_UPDATED'		=> 'ההגדרות עודכנו בהצלחה.',
+	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
+	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
+	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
@@ -237,9 +250,6 @@ $lang = array_merge($lang, array(
 	'ENABLE'				=> 'הפעל',
 	'EXPORT_DOWNLOAD'		=> 'הורד',
 	'EXPORT_STORE'			=> 'אחסן',
-
-	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
-	'FILES_STATS_WRONG'		=> 'Your files statistics are probably inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'אפשרויות כלליות',
 	'GENERAL_SETTINGS'		=> 'הגדרות כלליות',
@@ -283,10 +293,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'הזכר',
 	'RESYNC'							=> 'סנכרון מחדש',
-	'RESYNC_FILES_STATS'				=> 'Resynchronise files statistics',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Recalculates the total number and size of files attached to posts and private messages.',
-	'RETURN_TO'							=> 'חזור אל…',
 
+	'RUNNING_TASK'			=> 'Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'בחר משתמש אורח',
 	'SELECT_OPTION'			=> 'בחר אפשרות',
 
@@ -296,6 +304,8 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_SHORT'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קצר מדי. הערך המינימלי המאושר הוא %2$d.',
 	'SHOW_ALL_OPERATIONS'	=> 'הצג את כל הפעולות',
 
+	'TASKS_NOT_READY'			=> 'Not ready tasks:',
+	'TASKS_READY'			=> 'Ready tasks:',
 	'TOTAL_SIZE'      		=> 'Total size',
 
 	'UCP'					=> 'לוח בקרה למשתמש',
@@ -357,6 +367,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'דחיסת GZip',
 
+	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
 	'NOT_AVAILABLE'		=> 'לא זמין',
 	'NUMBER_FILES'		=> 'מספר קבצים מצורפים',
 	'NUMBER_POSTS'		=> 'מספר הודעות',
@@ -383,7 +394,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'איפוס מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית',
 	'RESET_ONLINE_CONFIRM'			=> 'אתה בטוח שאתה רוצה לאפס את מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית?',
 	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise files statistics?',
 	'RESYNC_POSTCOUNTS'				=> 'סנכרון מוני ההודעות מחדש',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'רק הודעות קיימות יילקחו בחשבון. הודעות שאופסו לא יספרו.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את מוני ההודעות?',
@@ -541,9 +551,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>משתמש הקפיץ נושא</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>מחק הודעה “%1$s” שנכתבה על ידי</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>מחק נושא מוצל</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>מחק נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>העתיק נושא</strong><br />» מ%s',
 	'LOG_LOCK'					=> '<strong>נעל נושא</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>נעל הודעה</strong><br />» %s',
@@ -552,20 +562,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>סגר דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>מחק דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>דחה הודעה “%1$s” בגלל הסיבה הבאה</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>ערך הודעה “%1$s” אשר נכתבה על־ידי</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>שיחזר הודעה</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>סגר דיווח</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>מחק דיווח</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>שיחזר נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>מחק מחיקה רכה הודעה “%1$s” שנכתב על ידי</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>מחק מחיקה רכה נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by “%%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>העביר הודעות מפוצלות</strong><br />» אל %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>פיצל הודעות</strong><br />» מ%s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>שיחזר נושא</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>דחה נושא “%1$s” בגלל הסיבה הבאה</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Disapproved topic “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>סינכרן מחדש מוני נושאים</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>שינה סוג נושא</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>פתח נושא</strong><br />» %s',
@@ -669,6 +679,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>פורומים אופסו</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>פרומים אופסו אוטומטית</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-pruned shadow topics</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>משתמשים הופסקו</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>משתמשים אופסו והודעות נמחקו</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>משתמשים אופסו והודעות שוחזרו</strong><br />» %s',
@@ -687,7 +698,7 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 	'LOG_RESET_DATE'			=> '<strong>תאריך התקנת המערכת אופס</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>Files statistics resynchronised</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>מוני הודעות המשתמשים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>נושאים מסומנים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>סטטיסטיקות הודעות, נושאים ומשתמשים סונכרנו מחדש</strong>',
@@ -765,10 +776,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>משתמש ביטל חברות מקבוצה</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>מחק אזהרת משתמש</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמה: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Deleted user warning</strong><br />» %1$s',
+		2 => '<strong>Deleted %2$d user warnings</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>מחק את כל אזהרות המשתמש</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
+	
+	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s',
 ));

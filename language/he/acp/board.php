@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_board [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -46,7 +47,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_LANGUAGE'				=> 'שפת ברירת מחדל',
 	'DEFAULT_STYLE'					=> 'עיצוב ברירת מחדל',
 	'DISABLE_BOARD'					=> 'כבה מערכת',
-	'DISABLE_BOARD_EXPLAIN'			=> 'המערכת תהיה לא זמינה למשתמשים. תוכל גם להזין הודעה קצרה (255 תווים) התוצג אם תרצה.',
+	'DISABLE_BOARD_EXPLAIN'			=> 'המערכת תהיה לא זמינה למשתמשים שאינם מנהלים ראשיים או מנהלים. תוכל גם להזין הודעה קצרה (255 תווים) התוצג אם תרצה.',
 	'DISPLAY_LAST_SUBJECT'			=> 'הצג נושא של הודעה אחרונה ברשימת הפורומים',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'הנושא של ההודעה האחרונה שנוספה תוצג ברשימת הפורומים עם קישור להודעה. נושאים מפורומים שמוגנים עם ססמה ופורומים שלמשתמש אין הראשות לצפות בהם לא יוצגו.',
 	'OVERRIDE_STYLE'				=> 'עבור על עיצוב המשתמש',
@@ -111,9 +112,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'אפשר העלאת סמלים אישיים מאתר אחר.',
 	'ALLOW_UPLOAD'					=> 'אפשר העלאת סמלים אישיים',
 	'AVATAR_GALLERY_PATH'			=> 'נתיב גלריית הסמלים האישיים',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3 לגלריית הסמלים האישיים, למשל <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3 לגלריית הסמלים האישיים, למשל <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.',
 	'AVATAR_STORAGE_PATH'			=> 'נתיב אחסון הסמלים האישיים',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/avatars/upload</samp>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.',
 	'MAX_AVATAR_SIZE'				=> 'ממדי סמל אישי מקסימליים',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'רוחב x גובה בפיקסלים.',
 	'MAX_FILESIZE'					=> 'גודל קובץ לסמל אישי מרבי',
@@ -227,7 +228,6 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'				=> 'כבה הרשמה',
 	'ACC_NONE'					=> 'ללא הפעלה (גישה מיידית)',
 	'ACC_USER'					=> 'על־ידי משתמש (אימות בדואר אלקטרוני)',
-//	'ACC_USER_ADMIN'			=> 'משתמש + מנהל ראשי',
 	'ALLOW_EMAIL_REUSE'			=> 'אפשר שימוש חוזר בכתובת דואר אלקטרוני',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'משתמשים שונים יכולים להירשם עם אותה כתובת דואר אלקטרוני.',
 	'COPPA'						=> 'COPPA',
@@ -352,12 +352,27 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'חיבורים יסתיימו אחרי זמן זה, בשניות.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+
+	'CONTACT_US_ENABLE'				=> 'Enable contact page',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+
+	'CONTACT_US_INFO'				=> 'Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול להפעיל או לכבות אפשרויות מערכת מסוימות כדי להקטין את זמן הטעינה הנדרש. ברוב השרתים אין צורך לכבות אף אפשרות, אך במערכות מסוימות או בסביבות אחסון משותפות כיבוי האפשרויות שאינך באמת צריך יכולה להיות מועיל. תוכל גם לציין הגבלות לטעינת המערכת וחיבורים פעילים שמעבר המערכת תכבה.',
 
 	'ALLOW_CDN'						=> 'Allow usage of third party content delivery networks',
-	'ALLOW_CDN_EXPLAIN'				=> 'If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators.',
+	'ALLOW_CDN_EXPLAIN'				=> 'If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators. In a default phpBB installation, this includes loading “jQuery” and the font “Open Sans” from Google’s content delivery network.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'If this setting is enabled, users are provided with keyword suggestions as they type in certain fields throughout the board.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'שדות פרופיל מותאמים אישית',
 	'LIMIT_LOAD'					=> 'הגבל טעינת מערכת',
 	'LIMIT_LOAD_EXPLAIN'			=> 'אם ממוצע הטעינה של המערכת בדקה עובר ערך זה המערכת תכובה אוטומטית. הערך 1.0 שווה לניצול של ~100% של מבצע אחד. אפשרויות אלו חלות רק על UNIX מבוסס שרתים והיכן שהמידע נגיש. הערך מתאפס ל־0 אם phpBB לא יכלה לקבל את הגבלת הטעינה.',
@@ -399,13 +414,14 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'בחר שיטת אימות',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'אתה צריך להתקין אימות apache לפני שתחליף את phpBB3 לשיטת אימות זו. זכור ששם המשתמש שלך לאימות apache חייב להיות זהה לשם המשתמש שלך ב־phpBB3. אימות Apache ניתן לשימוש רק עם mod_php (לא עם גרסת CGI) ו־safe_mode כבויים.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP מבוסס <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'זהו השם הנבחן, הנמצא בפרטי המשתמש, למשל <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'תכונת דואר אלקטרוני של LDAP',
@@ -458,7 +474,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'נתיב אחסון קבוצת הסיומות לאייקונים',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).',
 ));
 
 // Security Settings
@@ -508,8 +524,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'חייבת להכיל סימנים',
 	'REF_HOST'						=> 'רק שרת בתוקף',
 	'REF_PATH'						=> 'וגם תיקייה בתוקף',
-	'REFERER_VALID'					=> 'בדיקת דף מפנה',
-	'REFERER_VALID_EXPLAIN'			=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
+	'REFERRER_VALID'					=> 'בדיקת דף מפנה',
+	'REFERRER_VALID_EXPLAIN'			=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
 	'TPL_ALLOW_PHP'					=> 'אפשר php בערכות',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו ויבוצעו בערכות.',
 ));
@@ -526,6 +542,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'אפשרות זו שומרת את כל כתובות הדואר האלקטרוני כפרטיות לחלוטין.',
 	'CONTACT_EMAIL'					=> 'כתובת דואר אלקטרוני ליצירת קשר',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'כתובת זו בשימוש אם נקודה מסוימת ליצירת קשר נדרשת, למשל דואר זבל, פלט שגיאה, וכד\'. היא תמיד תהיה כתובת <samp>מאת</samp> ו־<samp>תגובה אל</samp> בהודעות דואר אלקטרוני.',
+	'CONTACT_EMAIL_NAME'			=> 'Contact name',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.',
 	'EMAIL_FUNCTION_NAME'			=> 'שם פונקציית הדואר האלקטרוני',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'פונקציית הדואר האלקטרוני אשר בשימוש לשליחת הודעות דרך PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'גודל חבילת הודעות דואר אלקטרוני',

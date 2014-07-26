@@ -1,16 +1,14 @@
 <?php
-/** 
-*
-* help_faq [Hebrew]
-*
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
-
 /**
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 */
 
 if (!defined('IN_PHPBB'))
@@ -121,7 +119,7 @@ $help = array(
 	),
 	array(
 		0 => 'כיצד אני מוסיף חתימה להודעות שלי?',
-		1 => 'כדי להוסיף חתימה להודעה אתה חייב קודם ליצור אחת דרך לוח הבקרה למשתמש שלך. לאחר שנוצרה, אתה יכול לסמן את התיבה <em>צרף חתימה</em> בטופס השליחה כדי להוסיף את החתימה שלך. אתה יכול גם להוסיף חתימה כברירת מחדל לכל ההודעות שלך על־ידי בחירת האפשרות המתאימה בפרופיל. אם תעשה כך, תוכל עדיין למנוע מהחתימה להתווסף להודעות מסוימות על־ידי ביטול הסימון לתיבת הוספת החתימה בטופס השליחה.'
+		1 => 'כדי להוסיף חתימה להודעה אתה חייב קודם ליצור אחת דרך לוח הבקרה למשתמש שלך. לאחר שנוצרה, אתה יכול לסמן את התיבה <em>צרף חתימה</em> בטופס השליחה כדי להוסיף את החתימה שלך. אתה יכול גם להוסיף חתימה כברירת מחדל לכל ההודעות שלך על־ידי בחירת האפשרות המתאימה בלוח הבקרה למשתמש. אם תעשה כך, תוכל עדיין למנוע מהחתימה להתווסף להודעות מסוימות על־ידי ביטול הסימון לתיבת הוספת החתימה בטופס השליחה.'
 	),
 	array(
 		0 => 'כיצד אני יוצר סקר?',
@@ -254,7 +252,7 @@ $help = array(
 	),
 	array(
 		0 => 'אני ממשיך לקבל הודעות פרטיות לא רצויות!',
-		1 => 'אתה יכול לחסום משתמש משליחת הודעות פרטיות אליך על־ידי שימוש בכללי הודעות בלוח הבקרה למשתמש שלך. אם אתה מקבל הודעות פרטיות פוגעות ממשתמש מסוים, הודע למנהל הראשי. הוא יכול למנוע מהמשתמש משליחת הודעות פרטיות.'
+		1 => 'You can automatically delete private messages from a user by using message rules within your User Control Panel. If you are receiving abusive private messages from a particular user, report the messages to the moderators; they have the power to prevent a user from sending private messages.'
 	),
 	array(
 		0 => 'קיבלתי דואר אלקטרוני לא רצוי ממישהו מהמערכת הזאת!',
@@ -359,5 +357,5 @@ $help = array(
 	array(
 		0 => 'האם ניתן להוריד את הזכויות הנמצאות למטה?',
 		1 => 'לא ולא! הרישיון הוא הנו האומנם רישיון חופשי אך אוסר על הסרת זכויות היוצרים והמתרגמים גם יחד ואין לשנותם. תנו כבוד ליוצרי המערכת ועורכייה.'
-	)
+	),
 );

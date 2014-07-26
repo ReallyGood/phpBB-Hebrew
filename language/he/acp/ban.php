@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_ban [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -74,10 +75,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'תמידית',
 	
 	'UNTIL'						=> 'עד',
-	'USER_BAN'					=> 'חסום שם משתמש אחד או יותר',
+	'USER_BAN'					=> 'חסום משתמש אחד או יותר על ידי שם משתמש',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את המשתמשים שהוזנו מכל החסימות הנוכחיות.',
 	'USER_BAN_EXPLAIN'			=> 'אתה יכול לחסום כמה משתמשים במהלך אחד על־ידי הזנת כל שם בשורה חדשה. השתמש באפשרות <span style="text-decoration: underline;">מצא משתמש</span> כדי למצוא ולהוסיף משתמש אחד או יותר אוטומטית.',
 	'USER_NO_BANNED'			=> 'אין שמות משתמשים חסומים',
-	'USER_UNBAN'				=> 'בטל חסימה או שחרור לשמות משתמשים',
+	'USER_UNBAN'				=> 'בטל חסימה או שחרור למשתמש על ידי שם משתמש',
 	'USER_UNBAN_EXPLAIN'		=> 'אתה יכול לבטל חסימה (או לבטל שחרור) למספר משתמשים במהלך אחד בעזרת השילוב המתאים של עכבר ומקלדת לפי המחשב והדפדפן שלך. משתמשים שמשוחררים מחסימה מודגשים.',
 ));

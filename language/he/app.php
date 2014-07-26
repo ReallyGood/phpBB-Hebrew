@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* app [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,9 +43,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_NOT_FOUND'				=> 'The requested page could not be found.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'The controller "<strong>%s</strong>" must have a service specified in ./config/routing.yml.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller "<strong>%s</strong>" is not defined in ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'The controller object <strong>%s</strong> must return a Symfony\Component\HttpFoundation\Response object.',
 ));
