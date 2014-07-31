@@ -169,9 +169,9 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'מזל טוב ל',
 	'CONNECTION_FAILED'		=> 'ההתחברות נכשלה.',
 	'CONNECTION_SUCCESS'	=> 'ההתחברות הצליחה!',
-	'CONTACT'				=> 'Contact',
-	'CONTACT_USER'			=> 'Contact %s',
-	'CONTACT_US'			=> 'Contact us',
+	'CONTACT'				=> 'צור קשר',
+	'CONTACT_USER'			=> 'צור קשר עם %s',
+	'CONTACT_US'			=> 'צור עמנו קשר',
 	'COOKIES_DELETED'		=> 'כל עוגיות המערכת נמחקו בהצלחה.',
 	'CURRENT_TIME'			=> 'עכשיו %s', // phpBBrew Group:: Original english is 'It is currently %s', but in hebrew we don't really need to say "It is.. bla bla", just showing the date and time is enough.
 
@@ -315,6 +315,7 @@ $lang = array_merge($lang, array(
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> '%d מוסתר',
 		2	=> '%d מוסתרים',
+	),
 	'HIDE_GUESTS'				=> 'הסתר אורחים',
 	'HIDE_ME'					=> 'בהתחברות זו אל תאפשר למשתמשים אחרים לראות אם אני מחובר',
 	'HOURS'						=> 'שעות',
@@ -381,6 +382,7 @@ $lang = array_merge($lang, array(
 	'MAIN'					=> 'ראשי',
 	'MARK'					=> 'סמן',
 	'MARK_ALL'				=> 'סמן הכל',
+	'MARK_ALL_READ'			=> 'Mark all read',
 	'MARK_FORUMS_READ'		=> 'סמן פורומים כנקראו',
 	'MARK_READ'				=> 'סמן שנקרא',
 	'MARK_SUBFORUMS_READ'	=> 'סמן תת-פורומים כנקראו',
@@ -420,19 +422,21 @@ $lang = array_merge($lang, array(
 	'NEXT_STEP'					=> 'הבא',
 	'NEVER'						=> 'לעולם לא',
 	'NO'						=> 'לא',
-	'NO_NOTIFICATIONS'			=> 'You have no notifications',
+	'NO_NOTIFICATIONS'			=> 'אין לך הודעות',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'אינך מורשה לנהל את הקבוצה הזו.',
 	'NOT_AUTHORISED'			=> 'אינך מורשה להיכנס לאזור זה.',
 	'NOT_WATCHING_FORUM'		=> 'אינך רשום יותר לקבלת עדכונים עבור פורום זה.',
 	'NOT_WATCHING_TOPIC'		=> 'אינך רשום יותר לקבלת עדכונים עבור נושא זה.',
-	'NOTIFICATIONS'				=> 'Notifications',
+	'NOTIFICATIONS'				=> 'הודעות',
 	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
-	//  Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
+	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
+	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '<strong>Reply</strong> from %1$s in bookmarked topic:',
@@ -465,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_MANY_OTHERS'			=> 'others',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d others',
-	)
+	),
 	'NOTIFY_ADMIN'				=> 'אנא הודע למנהל הראשי של המערכת או למנהל האתר.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'אנא הודע למנהל הראשי של המערכת או למנהל האתר: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'אינך מורשה לגשת לקובץ זה.',
@@ -510,6 +514,7 @@ $lang = array_merge($lang, array(
 	'NO_USER'					=> 'המשתמש המבוקש לא נמצא.',
 	'NO_USERS'					=> 'המשתמשים המבוקשים לא נמצאו.',
 	'NO_USER_SPECIFIED'			=> 'לא צוין שם משתמש.',
+
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'אין הודעות ממתינות',		// 0
@@ -708,8 +713,10 @@ $lang = array_merge($lang, array(
 	'TIB'				=> 'TiB',
 	'TIME'			=> 'זמן',
 	'TIMEOUT_PROCESSING_REQ'			=> 'Request timed out.',
+	
 	'TOO_LARGE'						=> 'הערך שהזנת גדול מדי.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מדי.',
+	
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
 	'TOO_LONG_CONFIRM_CODE'			=> 'קוד האישור שהזנת ארוך מדי.',
@@ -722,6 +729,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוך מדי.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מדי אפשרויות.',
+	
 	'TOO_SHORT'						=> 'הערך שהזנת קצר מדי.',
 
 	'TOO_SHORT_CONFIRM_CODE'		=> 'קוד האישור שהזנת קצר מדי.',
@@ -799,6 +807,7 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'משתמשים',
 	'USE_PERMISSIONS'		=> 'נסה את הרשאות המשתמש',
+	
 	'USER_NEW_PERMISSION_DISALLOWED'	=> 'אנו מצטערים, אך אינך מורשה להשתמש באפשרות זו. יכול להיות שרק נרשמת לכאן והנך צריך להשתתף יותר כדי להשתמש באפשרות זו.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
@@ -860,15 +869,11 @@ $lang = array_merge($lang, array(
 	'YEAR_MONTH_DAY'	=> '(YYYY-MM-DD)',
 	'YES'				=> 'כן',
 	'YOU_LAST_VISIT'	=> 'ביקורך האחרון היה ב: %s',
-	'YOU_NEW_PM'		=> 'הודעה פרטית חדשה מחכה לך בתיבת הדואר הנכנס שלך.',
-	'YOU_NEW_PMS'		=> 'הודעות פרטיות מחכות שלך בתיבת הדואר הנכנס שלך.',
-	'YOU_NO_NEW_PM'		=> 'אין הודעות פרטיות חדשות בתיבת הדואר הנכנס שלך.',
 
 	'datetime'			=> array(
 		'TODAY'		=> 'היום',
 		'TOMORROW'	=> 'מחר',
 		'YESTERDAY'	=> 'אתמול',
-	
 	'AGO'		=> array(
 			0		=> 'לפני פחות מדקה',
 			1		=> 'לפני דקה',
@@ -922,6 +927,7 @@ $lang = array_merge($lang, array(
 	// because they are named invers to their offset.
 	'timezones'		=> array(
 		'UTC'			=> 'UTC',
+		
 		'Etc/GMT-12'	=> 'GMT+12',
 		'Etc/GMT-11'	=> 'GMT+11',
 		'Etc/GMT-10'	=> 'GMT+10',
