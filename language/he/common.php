@@ -43,7 +43,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. כל הזכויות שמורות &copy; 2008 - phpBB.co.il.',
 	'DIRECTION'			=> 'rtl',
-	'DATE_FORMAT'		=> '|d M Y, H:i|',	// 01 Jan 2007 (with Relative days enabled)
+	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
+	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'he',
 
 	// You can define different rules for the determination of plural forms here.
@@ -112,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'הכתובת שציינת אינה חוקית.',
 	'AVATAR_URL_NOT_FOUND'			=> 'הקובץ שצוין לא נמצא.',
 	'AVATAR_WRONG_FILESIZE'			=> 'הסמל האישי חייב להיות בין 0 ו־%1$d %2$s.',
-	'AVATAR_WRONG_SIZE'				=> 'The submitted avatar is %5$s wide and %6$s high. Avatars must be at least %1$s wide and %2$s high, but no larger than %3$s wide and %4$s high.', 
+	'AVATAR_WRONG_SIZE'				=> 'הסמל האישי שנשלח הוא ברוחב של %5$d פיקסלים ובגובה של %6$d פיקסלים. הסמל האישי חייב להיות לפחות %1$d פיקסלים ברוחב ו־%2$d פיקסלים בגובה, אבל לא יותר גדול מ־%3$d פיקסלים ברוחב ו־%4$d פיקסלים בגובה.', 
 
 	'BACK_TO_TOP'			=> 'חזור למעלה',
 	'BACK_TO_PREV'			=> 'חזרה לעמוד הקודם',
@@ -145,6 +146,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_QUOTE'			=> 'ציטוט',
 	'BUTTON_TOPIC_LOCKED'	=> 'נעול',
 	'BYTES'					=> 'Bytes',
+	'BYTES_SHORT'			=> 'B',
 
 	'CANCEL'				=> 'בטל',
 	'CHANGE'				=> 'שנה',
@@ -155,7 +157,6 @@ $lang = array_merge($lang, array(
 		1	=> '%d character', 
 		2	=> '%d characters', 
 	),
-	'CLICK_VIEW_PRIVMSG'	=> '%sעבור לתיבת הדואר הנכנס%s',
 	'COLLAPSE_VIEW'			=> 'צמצם תצוגה',
 	'CLOSE_WINDOW'			=> 'סגור חלון',
 	'COLOUR_SWATCH'			=> 'מאגר צבעים',
@@ -191,19 +192,19 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTS'			=> 'הצג הודעות החל מה',
 	'DISPLAY_TOPICS'		=> 'הצג נושאים קודמים',
 	'DOWNLOAD_ALL'			=> 'הורד הכל',
-	'DOWNLOAD_ALL_ATTACHMENTS'	=> 'הורד את כל הקבצים המצורפיםDownload all attachments',
+	'DOWNLOAD_ALL_ATTACHMENTS'	=> 'הורד את כל הקבצים המצורפים',
 	'DOWNLOADED'			=> 'הורד',
 	'DOWNLOADING_FILE'		=> 'מוריד קובץ',
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'עדיין לא הורד',
-		1	=> 'הורד פעם %d',
+		1	=> 'הורד פעם אחת', // phpBBrew Group:: Original english is 'Downloaded %d time', but in hebrew we don't really need "%d", just say "Downloaded
 		2	=> 'הורד %d פעמים',
 	),
 
 	'EDIT_POST'							=> 'ערוך הודעה',
 	'ELLIPSIS'							=>	'…',
 	'EMAIL'								=> 'דואר אקלטרוני', // Short form for EMAIL_ADDRESS
-	'EMAIL_ADDRESS'						=> 'כתובת דואר אלקטרוני=',
+	'EMAIL_ADDRESS'						=> 'כתובת דואר אלקטרוני',
 	'EMAIL_INVALID_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת איננה חוקית.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'שגיאה בשליחת הדואר האלקטרוני ב<strong>שורה %1$s</strong>. תגובה: %2$s.',
 	'EMPTY_SUBJECT'						=> 'יש לציין כותרת בעת שליחת נושא חדש.',
@@ -222,9 +223,9 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'שגיאה',
 	'EXPAND_VIEW'						=> 'הרחב תצוגה',
 	'EXTENSION'							=> 'סיומת',
-	'EXTENSION_DISABLED'				=> 'The extension <strong>%s</strong> is not enabled.',
+	'EXTENSION_DISABLED'				=> 'הסיומת <strong>%s</strong> חסומה.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'הסיומת <strong>%s</strong> נחסמה ואינה ניתנת יותר לתצוגה.',
-	'EXTENSION_DOES_NOT_EXIST'			=> 'The extension <strong>%s</strong> does not exist.',
+	'EXTENSION_DOES_NOT_EXIST'			=> 'הסיומת <strong>%s</strong> לא קיימת.',
 	
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'שאלות נפוצות',
@@ -285,6 +286,8 @@ $lang = array_merge($lang, array(
 	'GIB'						=> 'GiB',
 	'GO'						=> 'עבור',
 	'GOOGLEPLUS'				=> 'Google+',
+	'GOTO_FIRST_POST'			=> 'עבור להודעה הראשונה',
+	'GOTO_LAST_POST'			=> 'עבור להודעה האחרונה',
 	'GOTO_PAGE'					=> 'עבור לעמוד',
 	'GROUP'						=> 'קבוצה',
 	'GROUPS'					=> 'קבוצות',
@@ -293,11 +296,13 @@ $lang = array_merge($lang, array(
 	'GROUP_ERR_USER_LONG'		=> 'שם הקבוצה עובר את מגבלת האורך של 60 תווים.',
 	'GUEST'						=> 'אורח',
 	'GUEST_USERS_ONLINE'		=> array(
-		1	=> 'יש אורח %d מחובר',
+		0	=> 'אין אורחים מחוברים',
+		1	=> 'יש אורח אחד מחובר', // was 'There is %d guest user online', but there is no reason to say in hebrew: 'There is one guest...'
 		2	=> 'יש %d אורחים מחוברים',
 	),
 	'GUEST_USERS_TOTAL'			=> array(
-		1	=> 'אורח %d',
+		0	=> 'אין אורחים',
+		1	=> 'אורח אחד',
 		2	=> '%d אורחים',
 	),
 	'G_ADMINISTRATORS'			=> 'מנהלים ראשיים',
@@ -309,11 +314,13 @@ $lang = array_merge($lang, array(
 	'G_NEWLY_REGISTERED'		=> 'משתמשים שנרשמו לאחרונה',
 
 	'HIDDEN_USERS_ONLINE'		=> array(
-		1	=> 'משתמש מוסתר %d',
-		2	=> '%d משתמשים מוסתרים',
+		0	=> 'אין משתמשים מוסתרים מחוברים',
+		1	=> 'משתמש מוסתר אחד מחובר',
+		2	=> '%d משתמשים מוסתרים מחוברים',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
-		1	=> '%d מוסתר',
+		0	=> 'אין מוסתרים',
+		1	=> 'מוסתר אחד',
 		2	=> '%d מוסתרים',
 	),
 	'HIDE_GUESTS'				=> 'הסתר אורחים',
@@ -377,12 +384,12 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'כדי לראות את רשימת המחוברים אתה חייב להיות רשום ומחובר.',
 	'LOGOUT'							=> 'התנתק',
 	'LOGOUT_USER'						=> '[ %s ] התנתק',
-	'LOG_ME_IN'							=> 'הזכר לי',
+	'LOG_ME_IN'							=> 'זכור אותי',
 
 	'MAIN'					=> 'ראשי',
 	'MARK'					=> 'סמן',
 	'MARK_ALL'				=> 'סמן הכל',
-	'MARK_ALL_READ'			=> 'Mark all read',
+	'MARK_ALL_READ'			=> 'סמן הכל כנקרא',
 	'MARK_FORUMS_READ'		=> 'סמן פורומים כנקראו',
 	'MARK_READ'				=> 'סמן שנקרא',
 	'MARK_SUBFORUMS_READ'	=> 'סמן תת-פורומים כנקראו',
@@ -398,7 +405,8 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'הודעה',
 	'MESSAGES'				=> 'הודעות',
 	'MESSAGES_COUNT'		=> array(
-		1	=> 'הודעה %d',
+		0	=> 'אין הודעות',
+		1	=> 'הודעה אחת',
 		2	=> '%d הודעות',
 	),
 	'MESSAGE_BODY'			=> 'גוף ההודעה',
@@ -483,7 +491,7 @@ $lang = array_merge($lang, array(
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'לא ניתן להתחבר לשרת smtp : %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'אף משתמש לא חוגג יום הולדת היום',
 	'NO_EMAIL_MESSAGE'			=> 'הודעת הדואר האלקטרוני ריקה.',
-	'NO_EMAIL_RESPONSE_CODE'	=> 'לא ניתן לקבל את תשובת שרת הדואר..',
+	'NO_EMAIL_RESPONSE_CODE'	=> 'לא ניתן לקבל את תשובת שרת הדואר.',
 	'NO_EMAIL_SUBJECT'			=> 'לא צוינה כותרת הודעת הדואר האלקטרוני.',
 	'NO_FORUM'					=> 'הפורום שבחרת לא קיים.',
 	'NO_FORUMS'					=> 'במערכת זו אין פורומים.',
@@ -528,26 +536,28 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> 'חברים מחוברים',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> 'In total there is <strong>%1$d</strong> user online :: %2$s and %3$s',
-		2	=> 'In total there are <strong>%1$d</strong> users online :: %2$s and %3$s',
+		0 	=> 'אין משתמשים מחוברים :: ',
+		1	=> 'בסך הכול יש <strong>משתמש אחד</strong> המחובר כעת :: %2$s ו־%3$s',
+		2	=> 'בסך הכול יש <strong>%1$d</strong> משתמשים מחוברים :: %2$s ו־%3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> 'In total there is <strong>%1$d</strong> user online :: %2$s, %3$s and %4$s',
-		2	=> 'In total there are <strong>%1$d</strong> users online :: %2$s, %3$s and %4$s',
+		0 	=> 'אין משתמשים מחוברים :: ',
+		1	=> 'בסך הכול יש <strong>משתמש אחד</strong> המחובר כעת :: %2$s, %3$s ו־%4$s',
+		2	=> 'בסך הכול יש <strong>%1$d</strong> משתמשים מחוברים :: %2$s, %3$s ו־%4$s',
 	),
-	'OPTIONS'					=> 'Options',
+	'OPTIONS'					=> 'אפשרויות',
 
-	'PAGE_OF'				=> 'Page <strong>%1$d</strong> of <strong>%2$d</strong>',
-	'PAGE_TITLE_NUMBER'		=> 'Page %s',
-	'PASSWORD'				=> 'Password',
-	'PIXEL'					=> 'px',
+	'PAGE_OF'				=> 'עמוד <strong>%1$d</strong> מתוך <strong>%2$d</strong>',
+	'PAGE_TITLE_NUMBER'		=> 'עמוד %s',
+	'PASSWORD'				=> 'ססמה',
+	'PIXEL'					=> 'פיקסלים',
 	'PIXELS'				=> array(
-		1	=> '%d pixel',
-		2	=> '%d pixels',
+		1	=> 'פיקסל',
+		2	=> '%d פיקסלים',
 	),
 	'PLAY_QUICKTIME_FILE'	=> 'Play Quicktime file',
-	'PLEASE_WAIT'			=> 'Please wait.',
+	'PLEASE_WAIT'			=> 'המתן בבקשה.',
 	'PM'					=> 'הודעה פרטית',
 	'PM_REPORTED'			=> 'לחץ כאן על מנת לצפות בדיווח',
 	'POSTING_MESSAGE'		=> 'מפרסם הודעה ב%s',
@@ -607,12 +617,13 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> 'משתמשים רשומים:',
 		// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
-		1	=> 'There is %1$d registered user and %2$s online',
-		2	=> 'There are %1$d registered users and %2$s online',
+		1	=> 'יש משתמש אחד רשום ו־%2$s מחובר',
+		2	=> 'יש %1$d משתמשים רשומים ו־%2$ מחוברים',
 	),
 	'REG_USERS_TOTAL'			=> array(
-		1	=> '%d registered',
-		2	=> '%d registered',
+		0 	=> 'אין משתמשים רשומים',
+		1	=> 'משתמש רשום אחד',
+		2	=> '%d משתמשים רשומים',
 	),
 	'REMOVE'					=> 'הסר',
 	'REMOVE_INSTALL'			=> 'אנא מחק, העבר או שנה את שם התיקייה install לפני שאתה משתמש במערכת. אם התיקייה עדיין קיימת, לוח הבקרה למנהל הראשי בלבד יהיה נגיש.',
@@ -699,8 +710,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'הרשם לקבלת עדכונים מנושא זה',
 	'STOP_WATCHING_FORUM'		=> 'בטל הרשמתך מפורום זה',
 	'STOP_WATCHING_TOPIC'		=> 'בטל הרשמתך מנושא זה',
-	'STRING_LIST_MULTI'			=> '%1$s, and %2$s',
-	'STRING_LIST_SIMPLE'		=> '%1$s and %2$s',
+	'STRING_LIST_MULTI'			=> '%1$s, ו־ %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s ו־ %2$s',
 	'SUBFORUM'					=> 'תת פורום',
 	'SUBFORUMS'					=> 'תת פורומים',
 	'SUBJECT'					=> 'נושא',
@@ -814,7 +825,7 @@ $lang = array_merge($lang, array(
 	'VIEWED'					=> 'נצפה',
 		'VIEWED_COUNTS'		=> array(
 		0	=> 'לא נצפה עדיין',
-		1	=> 'נצפה פעם %d',
+		1	=> 'נצפה פעם אחת',
 		2	=> 'נצפה %d פעמים',
 	),
 	'VIEWING_FAQ'				=> 'צופה בשאלות נפוצות',
@@ -832,8 +843,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NEWEST_POST'			=> 'צפה בהודעה הראשונה שלא נקראה',
 	'VIEW_NOTES'				=> 'צפה בהערות על המשתמש',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> 'based on users active over the past %d minute',
-		2	=> 'based on users active over the past %d minutes',
+		1	=> 'מבוסס על משתמשים פעילים בדקה האחרונה',
+		2	=> 'מבוסס על משתמשים פעילים ב־%d הדקות האחרונות',
 	),
 	'VIEW_TOPIC'				=> 'צפה בנושא',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'הכרזה: ',
@@ -952,6 +963,7 @@ $lang = array_merge($lang, array(
 		'Etc/GMT+10'	=> 'GMT-10',
 		'Etc/GMT+11'	=> 'GMT-11',
 		'Etc/GMT+12'	=> 'GMT-12',
+
 		'Africa/Abidjan'	=> 'Africa/Abidjan',
 		'Africa/Accra'		=> 'Africa/Accra',
 		'Africa/Addis_Ababa'	=> 'Africa/Addis Ababa',
