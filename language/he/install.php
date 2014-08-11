@@ -64,7 +64,6 @@ $lang = array_merge($lang, array(
 	'CAT_UPDATE'				=> 'עדכון',
 	'CHANGE'					=> 'שנה',
 	'CHECK_TABLE_PREFIX'		=> 'בדוק את קידומת הטבלאות שלך ונסה שנית.',
-	'TABLE_PREFIX_EXPLAIN'		=> 'הקידומת חייבת להתחיל באות, ויכולה להכיל אותיות, מספרים וקו תחתון בלבד.',
 	'CLEAN_VERIFY'				=> 'מנקה ומוודא את המבנה הסופי',
 	'CLEANING_USERNAMES'		=> 'מנקה שמות משתמשים',
 	'COLLIDING_CLEAN_USERNAME'	=> '<strong>%s</strong> הוא שם המשתמש החדש של:',
@@ -285,7 +284,9 @@ $lang = array_merge($lang, array(
 	'NO_CONVERT_SPECIFIED'		=> 'לא צוינה המרה.',
 	'NO_LOCATION'				=> 'לא ניתן לקבוע מיקום. אם אתה בטוח כי Imagemagick מותקן, תוכל לציין את המיקום מאוחר יותר בלוח הבקרה למנהלים ראשיים',
 	'NO_TABLES_FOUND'			=> 'לא נמצאו טבלאות.',
+
 	'OVERVIEW_BODY'					=> 'ברוך הבא ל־phpBB3!<br /><br />"phpBB הישראלי" הנו התרגום העברי הרשמי של phpBB® אשר הינה מערכת הפורומים המבוססת על קוד פתוח אשר בשימוש הרחב ביותר בעולם. phpBB3 הוא ההתקן האחרון בפיתוח הנמשך שבע שנים. כמו קודמיה, phpBB3 עשירה במאפיינים, ידידותית למשתמש, ונתמכת בצורה מלאה על־ידי צוות phpBB הישראלי. phpBB3 משפרת בצורה רבה את מה שקיים כבר ב־phpBB גרסה 2 המצליחה, ומוסיפה מאפיינים בעלי ביקוש רב אשר אינם קיימים בגרסאות הקודמות.אנו מקווים כי היא עוברת את ציפיותיך.<br /><br />מערכת התקנה זו תדריך אותך לאורך התקנת phpBB3, עדכון לגרסה האחרונה של phpBB3 מגרסאות קודמות, וכמו כן המרה ל־phpBB3 ממערכת פורומים שונות (כולל phpBB2). למידע נוסף, אנו ממליצים לך לקרוא את <a href="../docs/INSTALL.html">מדריך ההתקנה</a>.<br /><br />כדי לקרוא את רישיון phpBB3 וללמוד על קבלת תמיכה ועמדתנו לגביה, בחר באפשרויות המתאימות בתפריט הצדדי. להמשך, בחר בתווית המתאימה אשר מעל.',
+
 	'PCRE_UTF_SUPPORT'				=> 'תמיכה ב־PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB <strong>לא</strong> תפעל אם התקן ה־PHP שלך אינו מותאם לתמיכה ב־UTF-8 בסיומת PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'פונקציית ה־PHP getimagesize() זמינה',
@@ -353,6 +354,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'לא ניתן למצוא את הטבלאות הבאות<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'קידומת לטבלאות בבסיס הנתונים',
+	'TABLE_PREFIX_EXPLAIN'		=> 'הקידומת חייבת להתחיל באות, ויכולה להכיל אותיות, מספרים וקו תחתון בלבד.',
 	'TABLE_PREFIX_SAME'			=> 'קידומת הטבלאות צריכה להיות האחת אשר בשימוש על־ידי התוכנה שממנה אתה ממיר.<br />» קידומת הטבלאות שצוינה היא %s.',
 	'TESTS_PASSED'				=> 'הבדיקות עברו',
 	'TESTS_FAILED'				=> 'הבדיקות נכשלו',
@@ -361,7 +363,6 @@ $lang = array_merge($lang, array(
 	'UNAVAILABLE'				=> 'לא זמין',
 	'UNWRITABLE'				=> 'לא ניתן לכתיבה',
 	'UPDATE_TOPICS_POSTED'		=> 'יוצר פרטי נושאים שנשלחו',
-
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'שגיאה התרחשה בעת יצירת פרטי הנושאים שנשלחו. תוכל לנסות שלב זה שנית בלוח הבקרה למנהלים ראשיים לאחר שתהליך ההמרה יושלם.',
 	'VERIFY_OPTIONS'			=> 'מוודא אפשרויות המרה',
 	'VERSION'					=> 'גרסה',
@@ -395,10 +396,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'גרסה נוכחית',
 
 	'DATABASE_TYPE'						=> 'סוג בסיס נתונים',
-	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!',
-	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update',
+	'DATABASE_UPDATE_COMPLETE'			=> 'עדכון בסיס הנתונים הושלם!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'המשך עדכון בסיס נתונים',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'קובץ עדכון בסיס הנתונים אשר בתיקיית ההתקנה אינו מעודכן. וודא שהעלת את הגרסה הנכונה של הקובץ.',
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'עדכון בסיס הנתונים טרם הושלם.',
 	'DELETE_USER_REMOVE'				=> 'מחק משתמש והסר הודעות',
 	'DELETE_USER_RETAIN'				=> 'מחק משתמש אבל שמור הודעות',
 	'DESTINATION'						=> 'קובץ מטרה',
@@ -498,7 +499,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'בחר תבנית ארכיון להורדה',
 	'SELECT_FTP_SETTINGS'		=> 'בחר הגדרות FTP',
 	'SHOW_DIFF_CONFLICT'		=> 'הצג הבדלים/התנגשויוית',
-	'SHOW_DIFF_DELETED'			=> 'Show file contents',
+	'SHOW_DIFF_DELETED'			=> 'הצג את תוכן הקובץ',
 	'SHOW_DIFF_FINAL'			=> 'הצג תוצאת קובץ',
 	'SHOW_DIFF_MODIFIED'		=> 'הצג הבדלים מאוחדים',
 	'SHOW_DIFF_NEW'				=> 'הצג תוכן קובץ',
@@ -512,7 +513,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'עדכון קבצים',
 	'STAGE_VERSION_CHECK'		=> 'בדיקת גרסה',
 	'STATUS_CONFLICT'			=> 'קובץ ששונה היוצר התנגשויות',
-	'STATUS_DELETED'			=> 'Deleted file',
+	'STATUS_DELETED'			=> 'קובץ שנמחק',
 	'STATUS_MODIFIED'			=> 'קובץ ששונה',
 	'STATUS_NEW'				=> 'קובץ חדש',
 	'STATUS_NEW_CONFLICT'		=> 'קובץ חדש מתנגש',
@@ -555,7 +556,6 @@ $lang = array_merge($lang, array(
 		אתה תודרך לאורך תהליך העדכון. תקבל הודעה כאשר העדכון יושלם.
 		</p>
 	',
-	
 	'UPDATE_METHOD'					=> 'שיטת עדכון',
 	'UPDATE_METHOD_EXPLAIN'			=> 'תוכל לבחור את שיטת העדכון המועדפת עליך. בעת שימוש בהעלאת FTP תקבל טופס הדורש ממך להכניס את פרטי חשבון ה־FTP שלך. עם שיטה זו הקבצים יועברו אוטומטית למיקום החדש והגיבויים של הקבצים הישנים יווצרו עם הסיומת .bak לשם הקובץ. אם אתה בוחר להוריד את הקבצים ששונו, תוכל לחלץ ולהעלות אותם למיקומם הנכון בעצמך מאוחר יותר.',
 	'UPDATE_REQUIRES_FILE'			=> 'העדכון דורש שהקובץ הבא יהיה קיים: %s',

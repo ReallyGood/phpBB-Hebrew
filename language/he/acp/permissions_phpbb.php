@@ -197,6 +197,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_ROLES'		=> 'רשאי לנהל כללים',
 	'ACL_A_SWITCHPERM'	=> 'רשאי להשתמש בהרשאות אחרות',
 
+	'ACL_A_STYLES'		=> 'ראשי לנהל עיצובים',
 	'ACL_A_EXTENSIONS'	=> 'רשאי לנהל תוספות',
 	'ACL_A_VIEWLOGS'	=> 'רשאי לראות מעקב פעולות',
 	'ACL_A_CLEARLOGS'	=> 'רשאי למחוק מעקב פעולות',

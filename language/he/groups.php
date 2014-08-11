@@ -74,7 +74,6 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'הוסרת מהקבוצה הנבחרת בהצלחה.',
 	'GROUP_RESIGNED_PENDING'			=> 'חברותך הניסיונית הוסרה מהקבוצה הנבחרת בהצלחה.',
 	'GROUP_TYPE'						=> 'סוג הקבוצה',
-	'GROUP_TYPE'						=> 'סוג הקבוצה',
 	'GROUP_UNDISCLOSED'					=> 'קבוצה מוסתרת',
 	'FORUM_UNDISCLOSED'					=> 'ניהול פורומים מוסתרים',
 

@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* search [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -61,7 +62,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות שלך שלא נקראו.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות חדשות מאז ביקורך האחרון.',	
 	
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'ציינת יותר מדי מילים לחיפוש. אנא אל תציין יותר מ־%1$d מילים.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
+		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+	),
 	
 	'NO_KEYWORDS'			=> 'יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s אותיות ולא יכולה להכין יותר מ־%s אותיות, לא כולל תווים משלימים.',
 	'NO_RECENT_SEARCHES'	=> 'לא בוצעו חיפושים במערכת לאחרונה.',
@@ -109,7 +113,6 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'	=> 'פורום',
 	'SORT_POST_SUBJECT'	=> 'נושא ההודעה',
 	'SORT_TIME'	=> 'תאריך ושעת הכתיבה',
-	
 	'SPHINX_SEARCH_FAILED'		=> 'חיפוש נכשל: %s',
 	'SPHINX_SEARCH_FAILED_LOG'	=> 'סליחה, החיפוש לא ניתן לביצוע. מידע נוסף עבור שגיאה זו תועד ביומן השגיאות.',
 

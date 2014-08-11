@@ -48,6 +48,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'מפתח הreCaptcha האישי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'בניסיון למנוע שליחות אוטומטיות, אנו מבקשים שתכניס את שתי המילים המופיעות בתיבת הטקסט מולך.',
-	
 	'RECAPTCHA_SOCKET_ERROR'		=> 'התרחשה שגיאה בהתחברות לשירות RECAPTCHA: לא ניתן לפתוח חיבור. נא לנסות שוב מאוחר יותר.',
 ));

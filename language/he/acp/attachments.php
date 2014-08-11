@@ -98,6 +98,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUPS'				=> 'קבוצות סיומות',
 	'EXTENSION_GROUP_DELETED'		=> 'קבוצת הסיומות נמחקה בהצלחה.',
 	'EXTENSION_GROUP_EXIST'			=> 'קבוצת הסיומות %s כבר קיימת.',
+
 	'EXT_GROUP_ARCHIVES'			=> 'ארכיונים',
 	'EXT_GROUP_DOCUMENTS'			=> 'מסמכים',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'קבצים הניתנים להורדה',
@@ -110,6 +111,7 @@ $lang = array_merge($lang, array(
 
 	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
 	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
+
 	'GO_TO_EXTENSIONS'		=> 'עבור למסך ניהול הסיומות',
 	'GROUP_NAME'			=> 'שם הקבוצה',
 

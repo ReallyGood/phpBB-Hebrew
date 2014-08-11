@@ -86,7 +86,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'The generated content of the sphinx config file. This data needs to be pasted into the sphinx.conf which is used by sphinx search daemon.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data and config directory paths are not defined. Please define them to generate the config file.',
 
-
 	'GENERAL_SEARCH_SETTINGS'				=> 'הגדרות חיפוש כלליות',
 	'GO_TO_SEARCH_INDEX'					=> 'עבור לעמוד מאגר החיפוש',
 

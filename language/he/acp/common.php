@@ -121,6 +121,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'מתחבר',
 	
 	'ACP_MAIN'					=> 'עמוד ניהול ראשי',
+
 	'ACP_MANAGE_ATTACHMENTS'			=> 'ניהול קבצים מצורפים',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'כאן אתה יכול לנהל ולמחוק קבצים שצורפו להודעות ולהודעות פרטיות.',
 	
@@ -157,6 +158,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS'		=> 'הגדרות רישום משתמש',
 
 	'ACP_RESTORE'				=> 'שחזור',
+
 	'ACP_FEED'					=> 'ניהול הזנות',
 	'ACP_FEED_SETTINGS'			=> 'הגדרת הזנות',
 
@@ -173,7 +175,8 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> 'ניהול עיצובים',
 	'ACP_STYLES'				=> 'עיצובים',
 	'ACP_STYLES_CACHE'			=> 'Purge Cache',
-	'ACP_STYLES_INSTALL'		=> 'Install Styles',
+	'ACP_STYLES_INSTALL'		=> 'התקן עיצובים',
+
 	'ACP_SUBMIT_CHANGES'		=> 'שלח שינויים',
 	
 	'ACP_TEMPLATES'				=> 'תבניות',
@@ -196,7 +199,6 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ROLES'				=> 'תפקידי משתמשים',
 	'ACP_USER_SECURITY'				=> 'אבטחת משתמשים',
 	'ACP_USER_SIG'					=> 'חתימה',
-
 	'ACP_USER_WARNINGS'				=> 'אזהרות',
 
 	'ACP_VC_SETTINGS'					=> 'אמצעים נגד בוטים',
@@ -217,6 +219,7 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'ניהול ראשי',
 	'ADMIN_INDEX'			=> 'עמוד ניהול ראשי',
 	'ADMIN_PANEL'			=> 'לוח בקרה למנהלים ראשיים',
+
 	'ADM_LOGOUT'			=> 'התנתקות מלוח הבקרה',
 	'ADM_LOGGED_OUT'		=> 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
 
@@ -302,6 +305,7 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_BIG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” גבוה מדי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_LONG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” ארוך מדי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_SHORT'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קצר מדי. הערך המינימלי המאושר הוא %2$d.',
+
 	'SHOW_ALL_OPERATIONS'	=> 'הצג את כל הפעולות',
 
 	'TASKS_NOT_READY'			=> 'Not ready tasks:',
@@ -376,6 +380,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_ORPHAN'		=> 'קבצים מצורפים ללא שולח',
 	
 	'PHP_VERSION_OLD'	=> 'גרסת ה־PHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטים%s',
+
 	'POSTS_PER_DAY'		=> 'הודעות ליום',
 
 	'PURGE_CACHE'			=> 'טיהור המטמון',
@@ -413,7 +418,6 @@ $lang = array_merge($lang, array(
 
 	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
 	'TIMEZONE_SELECTED'	=> '(currently selected)',
-
 	'TOPICS_PER_DAY'	=> 'נושאים ליום',
 
 	'UPLOAD_DIR_SIZE'	=> 'גודל הקבצים המצורפים',
@@ -441,6 +445,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_USERS'				=> 'משתמשים לא פעילים',
 	'INACTIVE_USERS_EXPLAIN'		=> 'זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
+
 	'NO_INACTIVE_USERS'	=> 'אין משתמשים לא פעילים',
 
 	'SORT_INACTIVE'		=> 'תאריך ללא פעילות',
@@ -610,6 +615,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>העביר פורום</strong> %1$s <strong>מתחת</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>העביר פורום</strong> %1$s <strong>מעל</strong> %2$s',
 	'LOG_FORUM_SYNC'						=> '<strong>סנכרון פורום מחדש</strong><br />» %s',
+
 	'LOG_GENERAL_ERROR'	=> '<strong>התרחשה שגיאה כללית</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>קבוצת משתמשים חדשה נוצרה</strong><br />» %s',
@@ -671,6 +677,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_REMOVED'	=> '<strong>תפקיד משתמש הוסר</strong><br />» %s',
 
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s',
+
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>שדה פרופיל הופעל</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>שדה פרופיל נוסף</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>שדה פרופיל הופסק</strong><br />» %s',
@@ -722,6 +729,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>יצא ערכה</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>רענן ערכה</strong><br />» %s',
+
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>הוסיף סגנון חדש לבסיס הנתונים</strong><br />» %s',
 	// @deprecated 3.1
@@ -752,6 +760,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה ססמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
+
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ־“%1$s” ל־“%2$s”',
 	'LOG_USER_USER_UPDATE'	=> '<strong>עדכן פרטי משתמש</strong><br />» %s',
