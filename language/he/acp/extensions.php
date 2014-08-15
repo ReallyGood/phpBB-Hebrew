@@ -11,19 +11,18 @@
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
+/**
+* DO NOT CHANGE
+*/
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -42,15 +41,16 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'מנהלים התוספות הוא כלי במערכת הphpBB שלך שמאפשרת לך למנהל את כל התוספות שלך, מצבם וצפיה במידע אודותם.',
 	'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
+	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
 
-	'DETAILS'				=> 'Details',
+	'DETAILS'				=> 'פרטים',
 
-	'EXTENSIONS_DISABLED'	=> 'Disabled Extensions',
-	'EXTENSIONS_ENABLED'	=> 'Enabled Extensions',
+	'EXTENSIONS_DISABLED'	=> 'בטל תוספות',
+	'EXTENSIONS_ENABLED'	=> 'הפעל תוספות',
 
-	'EXTENSION_DELETE_DATA'	=> 'Delete data',
-	'EXTENSION_DISABLE'		=> 'Disable',
-	'EXTENSION_ENABLE'		=> 'Enable',
+	'EXTENSION_DELETE_DATA'	=> 'מחק מידע',
+	'EXTENSION_DISABLE'		=> 'בטל',
+	'EXTENSION_ENABLE'		=> 'הפעל',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
@@ -64,9 +64,22 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
 
-	'EXTENSION_NAME'		=> 'Extension Name',
-	'EXTENSION_ACTIONS'		=> 'Actions',
-	'EXTENSION_OPTIONS'		=> 'Options',
+	'EXTENSION_NAME'		=> 'שם התוסף',
+	'EXTENSION_ACTIONS'		=> 'פעולות',
+	'EXTENSION_OPTIONS'		=> 'אפשרויות',
+		'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
+	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
+			<li>בטל את התוספת</li>
+			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
+			<li>העלה את הקבצים החדשים</li>
+			<li>הפעל את התוספת</li>
+		</ol>',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'מחיקה מלאה של תוספת מהמערכת',
+	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
+			<li>בטל את התוספת</li>
+			<li>מחק את המידע של התוספת</li>
+			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
+		</ol>',
 
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
@@ -101,9 +114,10 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_LATEST'		=> 'Download Version',
 	'NO_VERSIONCHECK'		=> 'No version check information given.',
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Re-Check all versions',
-	'FORCE_UNSTABLE'					=> 'Always check for unstable versions',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Version check settings',
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'בדוק שוב את כל הגרסאות',
+	'FORCE_UNSTABLE'					=> 'תמיד בדוק גרסאות לא יציבות',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'הגדרות בודק הגרסאות',
+
 	'META_FIELD_NOT_SET'	=> 'Required meta field %s has not been set.',
 	'META_FIELD_INVALID'	=> 'Meta field %s is invalid.',
 ));

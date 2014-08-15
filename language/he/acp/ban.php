@@ -72,6 +72,7 @@ $lang = array_merge($lang, array(
 
 	'OPTIONS_BANNED'			=> 'נחסם',
 	'OPTIONS_EXCLUDED'			=> 'שוחרר',
+
 	'PERMANENT'		=> 'תמידית',
 	
 	'UNTIL'						=> 'עד',

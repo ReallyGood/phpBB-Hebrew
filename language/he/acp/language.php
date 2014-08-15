@@ -40,15 +40,15 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'קבצי שפה של לוח הבקרה למנהל הראשי',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'כאן אתה יכול להתקין/להסיר חבילות שפה. חבילת השפה ברירת המחדל מסומנת בכוכבית (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Are you sure you wish to delete “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'האם אתה בטוח שברצונך למחוק את “%s”?',
 	
-	'INSTALLED_LANGUAGE_PACKS'		=> 'Installed language packs',
+	'INSTALLED_LANGUAGE_PACKS'		=> 'חבילות שפה מותקנות',
 	
 	'LANGUAGE_DETAILS_UPDATED'			=> 'פרטי חבילת השפה עודכנו בהצלחה.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'חבילת השפה כבר מותקנת.',
-	'LANGUAGE_PACK_DELETED'				=> 'The language pack “%s” has been removed successfully. All users using this language have been reset to the board’s default language.',
+	'LANGUAGE_PACK_DELETED'				=> 'חבילת השפה “%s” הוסרה בהצלחה. כל המשתמשים שהשתמשו בחבילה זו הועברו לחבילת ברירת המחדל של המערכת.',
 	'LANGUAGE_PACK_DETAILS'				=> 'פרטי חבילת שפה',
-	'LANGUAGE_PACK_INSTALLED'			=> 'The language pack “%s” has been successfully installed.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'חבילת השפה “%s” הותקנה בהצלחה.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'שמות הזיהוי של שדות הפרופיל המותאמים אישית הועתקו משפת ברירת המחדל. אנא שנה אותם אם נדרש.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'שם מקומי',
@@ -58,19 +58,19 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_VARIABLE'					=> 'מחרוזת',
 	'LANG_AUTHOR'						=> 'יוצר חבילת השפה',
 	'LANG_ENGLISH_NAME'					=> 'שם באנגלית',
-	'LANG_ISO_CODE'						=> 'ISO code',
+	'LANG_ISO_CODE'						=> 'קוד ISO',
 	'LANG_LOCAL_NAME'					=> 'שם מקומי',
 
 	'MISSING_LANG_FILES'		=> 'קבצי שפה חסרים',
 	'MISSING_LANG_VARIABLES'	=> 'משתני שפה חסרים',
+
 	'NO_FILE_SELECTED'				=> 'אינך ציינת קובץ שפה.',
 	'NO_LANG_ID'					=> 'אינך ציינת חבילת שפות',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />אם אתה באמת רוצה למחוק את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה.',
-	
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'אין חבילות שפה לא מותקנות.',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'The following language files are missing from the “%s” language folder',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'The following language variables are missing from the “%s” language pack',
+	'THOSE_MISSING_LANG_FILES'			=> 'קבצי השפה הבאים חסרים מתיקית השפה “%s”',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'משתני השפה הבאים חסרים מחבילת השפה “%s”',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'חבילות שפה לא מותקנת',
 ));

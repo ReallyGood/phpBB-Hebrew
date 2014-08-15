@@ -251,6 +251,7 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'אל: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'הכרזה גלובלית',
+	
 	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar email',
 	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Enter the email address you used for registering your account on <a href="http://www.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar dimensions',
@@ -403,7 +404,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'הססמה חייבת להיות בין %1$s לבין %2$s באורך,חייבת להכיל אותיות קטנות וגדולות באנגלית, חייבת להכיל מספרים וחייבת להכיל סימנים.',
 	'PASSWORD'					=> 'ססמה',
 	'PASSWORD_ACTIVATED'		=> 'הססמה החדשה שלך הפועלה.',
-	'PASSWORD_UPDATED'			=> 'ססמה חדשה נשלחה לדואר האלקטרוני של.',
+	'PASSWORD_UPDATED'			=> 'ססמה חדשה נשלחה לדואר האלקטרוני שלך.',
 	'PERMISSIONS_RESTORED'		=> 'ההרשאות המקוריות שוחזרו בהצלחה.',
 	'PERMISSIONS_TRANSFERRED'	=> 'ההרשאות הועברו בהצלחה מ־<strong>%s</strong>, תוכל לגלוש כעת במערכת עם הרשאות משתמש זה.<br />שים לב שהרשאות מנהל ראשי לא הועברו. תוכל לחזור להרשאות אשר נקבעו לך בכל זמן נתון.',
 	'PM_DISABLED'				=> 'אפשרות ההודעות הפרטיות כבויה במערכת זו.',
@@ -420,7 +421,6 @@ $lang = array_merge($lang, array(
 	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Some users couldn’t be added as they do not have permission to read private messages.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'כמה מהמשתמשים לא נתנו להוספה מפני שהם כיבו את קבלת ההודעות הפרטיות.',
 	'POPUP_ON_PM'				=> 'הקפץ חלון בעת הודעה פרטית חדשה',
-	'POST_EDIT_PM'				=> 'ערוך הודעה',
 	'POST_FORWARD_PM'			=> 'העבר הודעה',
 	'POST_NEW_PM'				=> 'שלח הודעה',
 	'POST_PM_LOCKED'			=> 'אפשרות ההודעות הפרטיות נעולה.',
@@ -532,8 +532,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'צור הודעה',
 	'UCP_PM_DRAFTS'				=> 'ניהול טיוטות הודעות פרטיות',
 	'UCP_PM_OPTIONS'			=> 'כללים, תיקיות והגדרות',
-	'UCP_PM_POPUP'				=> 'הודעות פרטיות',
-	'UCP_PM_POPUP_TITLE'		=> 'חלון הודעה פרטית',
 	'UCP_PM_UNREAD'				=> 'הודעות שלא נקראו',
 	'UCP_PM_VIEW'				=> 'צפה בהודעות',
 
@@ -542,7 +540,6 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'ערוך פרופיל',
 	'UCP_PROFILE_REG_DETAILS'	=> 'ערוך הגדרות חשבון',
 	'UCP_PROFILE_SIGNATURE'		=> 'ערוך חתימה',
-
 	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Manage “Remember Me” login keys',
 
 	'UCP_USERGROUPS'			=> 'קבוצות משתמשים',
@@ -557,7 +554,6 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'						=> 'חברים ונודניקים',
 	'UCP_ZEBRA_FOES'				=> 'ניהול נודניקים',
 	'UCP_ZEBRA_FRIENDS'				=> 'ניהול חברים',
-	
 	'UNDISCLOSED_RECIPIENT'			=> 'נמען בלתי מזוהה',
 	'UNKNOWN_FOLDER'				=> 'תיקייה לא ידועה',
 	'UNWATCH_MARKED'				=> 'הפסק לעקוב אחר מסומנים',
@@ -638,7 +634,6 @@ $lang = array_merge($lang, array(
 		'TO_GROUP'		=> 'אל קבוצת ברירת המחדל שלי',
 		'TO_ME'			=> 'אלי',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'קבוצות משתמשים מאפשרות למנהלים ראשיים של המערכת לנהל טוב יותר את המשתמשים במערכת. כברירת מחדל, אתה תכנס לקבוצה מסוימת, קבוצת ברירת המחדל שלך. קבוצה זו מגדירה כיצד תופיע למשתמשים האחרים, למשל צבע שם המשתמש שלך, סמל אישי, דירוג, ועוד. אם המנהל הראשי מאפשר - תוכל לשנות את קבוצת ברירת המחדל שלך, תוכל להצטרף או לבקש להצטרף לקבוצות אחרות אם קיימות כאלה. קבוצות שונות יכולות לתת לך הרשאות נוספות לצפייה בתוכן \ פורומים נוספים ו\או להגדלת ההרשאות שלך באזורים מסוימים.',
 	'GROUP_LEADER'		=> 'מנהל קבוצות',

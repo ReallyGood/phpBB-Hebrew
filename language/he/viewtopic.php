@@ -50,6 +50,7 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'הקפץ נושא',
 
 	'CODE'					=> 'קוד',
+
 	'DELETE_TOPIC'			=> 'מחק נושא',
 	'DELETED_INFORMATION'	=> 'נמחק על ידי %1$s ב %2$s',
 	'DISAPPROVE'					=> 'אל תאשר',
@@ -104,7 +105,8 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'			=> '%sחזור להודעה%s',
 
 	'SUBMIT_VOTE'			=> 'שלח הצבעתך',
-
+	
+	'TOPIC_TOOLS'			=> 'אפשרויות נושא',
 	'TOTAL_VOTES'			=> 'סך הכול הצבעות',
 
 	'UNLOCK_TOPIC'			=> 'פתח נושא',
@@ -120,4 +122,5 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'		=> 'הודעה ראשונה שלא נקראה',
 	'VOTE_SUBMITTED'		=> 'הצבעתך נקלטה.',
 	'VOTE_CONVERTED'		=> 'שינוי הצבעות לא נתמך בסקרים שהומרו.',
+
 ));

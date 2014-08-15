@@ -119,7 +119,6 @@ $lang = array_merge($lang, array(
 
 	'MANAGE_LEGEND'			=> 'Manage group legend',
 	'MANAGE_TEAMPAGE'		=> 'Manage teampage',
-	
 	'MAKE_DEFAULT_FOR_ALL'	=> 'עשה קבוצת ברירת מחדל לכל המשתמשים',
 	'MEMBERS'				=> 'משתמשים',
 
