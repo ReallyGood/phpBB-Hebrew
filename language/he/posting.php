@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'רשימה מסודרת:  לדוגמא [list=1][*]נקודה ראשונה[/list] או [list=a][*]נקודה א[/list]',
 	'BBCODE_P_HELP'				=> 'הוספת תמונה: [img]כתובת התמונה[/img]',
 	'BBCODE_Q_HELP'				=> 'טקסט מצוטט: [quote]טקסט[/quote]',
-	'BBCODE_S_HELP'				=> 'צבע גופן: [color=red]טקסט[/color] עצה: אתה יכול להשתמש גם בcolor=#FF0000',
+	'BBCODE_S_HELP'				=> 'צבע גופן: [color=red]טקסט[/color] או [color=#FF0000]טקסט[/color]',
 	'BBCODE_U_HELP'				=> 'טקסט עם קו תחתון: [u]טקסט[/u]',
 	'BBCODE_W_HELP'				=> 'הוספת כתובת: [url]כתובת[/url] או [url=כתובת]טקסט לקישור[/url]',
 	'BBCODE_Y_HELP'				=> 'רשימה: הוספת פריט רשימה',

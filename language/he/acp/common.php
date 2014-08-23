@@ -224,12 +224,6 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
 
 	'BACK'					=> 'חזור',
-	
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Prints a list of ready and unready cron jobs.',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Runs all ready cron tasks.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name of the task to be run',
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Launch the shell.',
 
 	'COLOUR_SWATCH'			=> 'מאגר צבעים לשימוש בטוח ברשת',
 	'CONFIG_UPDATED'		=> 'ההגדרות עודכנו בהצלחה.',
