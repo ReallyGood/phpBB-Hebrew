@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'אם לא מורשה התג <code>[URL]</code> של BBCode והקישורים האוטומטיים כבויים',
 	'ALLOW_POST_FLASH'					=> 'אפשר שימוש בתג <code>[FLASH]</code> של BBCode בהודעות. ',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'אם לא מורשה התג <code>[FLASH]</code> של BBCode כבוי בהודעות. אחרת מערכת ההרשאות שולטת על המשתמשים אשר יכולים להשתמש בתג <code>[FLASH]</code> של BBCode.',
-	
+
 	'BUMP_INTERVAL'					=> 'השהיית הקפצה',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'מספר דקות, שעות או ימים בין ההודעה האחרונה לנושא והיכולת להקפיץ את הנושא. קביעת ערך זה ל0 מבטלת את האפשרות להקפיץ לגמרי.',
 	'CHAR_LIMIT'					=> 'מספר תווים מרבי לכל הודעה',
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'משתמשים חדשים נמצאים בקבוצת ה<em>משתמשים שנרשמו לאחרונה</em> עד שהם מגיעים למספר הודעות זה. תוכל להשתמש בקבוצה זו על מנת למנוע מהם להשתמש במערכת ההודעות הפרטיות או כדי לעקוב אחר הודעותיהם. <strong>קבע ערך זה ל0 על מנת לכבות אפשרות זו.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'הגדר את קבוצת המשתמשים שנרשמו לאחרונה כברירת מחדל',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'אם תגדיר לכן, וקיימת הגבלת הודעות למשתמש חדש, משתמשים שנרשמו לאחרונה לא רק יוכנסו לקבוצת ה<em>משתמשים שנרשמו לאחרונה</em>, הקבוצה תהפוך לקבוצת ברירת המחדל שלהם. אפשרות זו יכולה להיות יעילה אם אתה רוצה להגדיר לקבוצה דירוג ו/או סמל אישי שהמשתמש יקבל.',
-	
+
 	'ACC_ADMIN'					=> 'על־ידי מנהל ראשי',
 	'ACC_DISABLE'				=> 'כבה הרשמה',
 	'ACC_NONE'					=> 'ללא הפעלה (גישה מיידית)',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_POST_BASED'				=> 'הגדרת הזנות מבוססות הודעה',
 	'ACP_FEED_TOPIC_BASED'				=> 'הגדרת הזנות מבוססות נושא',
 	'ACP_FEED_SETTINGS_OTHER'			=> 'הזנות אחרות והגדרות',
-	
+
 	'ACP_FEED_ENABLE'					=> 'אפשר הזנות',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'מפעיל או מכבה את הזנות הATOM לכל המערכת.<br />כיבוי יכבה את כל ההזנות, ללא קשר לאפשרויות מתחת ולהגדרתם.',
 	'ACP_FEED_LIMIT'					=> 'מספר פריטים להזנה',
@@ -276,17 +276,17 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'הודעות חדשות בפורום מסוים ותת פורומים.',
 	'ACP_FEED_TOPIC'					=> 'אפשר הזנות לפי נושא',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'הודעות חדשות בנושא מסוים.',
-	
+
 	'ACP_FEED_TOPICS_NEW'				=> 'אפשר הזנות לנושאים חדשים',
 	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'מאפשר את הזנות ל”נושאים חדשים“, אשר מציג את הנושאים שנוצרו לאחרונה כולל ההודעה הראשונה.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'אפשר הזנות לנושאים פעילים',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'מאפשר הזנות ל”נושאים פעילים“, אשר מציג את הנושאים את הנושאים הפעילים לאחרונה כולל ההודעה האחרונה.',
 	'ACP_FEED_NEWS'						=> 'הזנות חדשות',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'מושך את ההודעה הראשונה מפורומים אלו. אל תבחר בפורומים בשביל לבטל הזנות חדשות.<br />בחר בכמה פורומים על ידי לחיצה על <samp>CTRL</samp> ולחיצה בעכבר.',
-	
+
 	'ACP_FEED_OVERALL_FORUMS'			=> 'אפשר הזנות פורומים',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'מאפשר הזנות ל”כל הפורומים“, אשר מציג רשימה של פורומים.',
-	
+
 	'ACP_FEED_HTTP_AUTH'				=> 'אפשר אימות HTTP ',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'מאפשר אימות HTTP, אשר מאפשר למשתמשים לקבל תוכן אשר מוסתר מאורחים על ידי הוספת משתנה <samp>auth=http</samp> להזנת הכתובת. אנא שים לב שחלק ממערכי PHP דורשים שינויים נוספים בקובץ .htaccess. הוראות ניתן למצוא באותו הקובץ.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'סטטיסטיקת פרטים',
@@ -298,6 +298,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'כאן אתה יכול לבחור ולהגדיר תוספות, אשר ייעודן לחסום בוטים משלוח טפסים אוטומטית. תוספות אלו בדרך כלל עובדות על ידי כך שהן מאתגרות את המשתמשים עם <em>CAPTCHA</em>, מבחן שנועד להיות מסובך לפתרון של מחשבים.',
+	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'תוספות זמינות',
 	'CAPTCHA_UNAVAILABLE'					=> 'התוספת לא ניתנת לבחירה מכיוון שהדרישות שלה לא נענו.',
 	'CAPTCHA_GD'							=> 'ספריה גראפית',

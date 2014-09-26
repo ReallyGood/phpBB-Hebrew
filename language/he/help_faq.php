@@ -89,7 +89,7 @@ $help = array(
 	),
 	array(
 		0 => 'שינתי את אזור הזמן והוא עדין שונה מהזמן שלי!',
-1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
+		1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
 	),
 	array(
 		0 => 'השפה שלי אינה ברשימה!',

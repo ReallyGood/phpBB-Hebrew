@@ -14,7 +14,6 @@ Subject: ברוך הבא ל־"{SITENAME}"
 
 {U_ACTIVATE}
 
-
 תודה שנרשמת.
 
 {EMAIL_SIG}

@@ -15,5 +15,4 @@ Subject: הפעל מחדש את חשבונך ב־"{SITENAME}"
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_STICKY'				=> 'איפוס דביקים',
 	'PRUNE_OLD_POLLS'			=> 'איפוס סקרים ישנים',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'הסר נושאים עם סקרים ללא הצבעות שעברו את מספר הימים שהוקצב להם.',
-	
+
 	'REDIRECT_ACL'	=> 'כעת באפשרות %sלהגדיר הרשאות%s לפורום זה.',
 
 	'SYNC_IN_PROGRESS'			=> 'מחדש פורום',

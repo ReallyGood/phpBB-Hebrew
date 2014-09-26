@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters you may want to copy&paste: 
+// Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
 
@@ -73,9 +73,9 @@ $lang = array_merge($lang, array(
 	'AIM'							=> 'AIM',
 	'AJAX_ERROR_TITLE'				=> 'שגיאת AJAX',
 	'AJAX_ERROR_TEXT'				=> 'משהו השתבש בזמן עיבוד הבקשה שלך.', 
-	'AJAX_ERROR_TEXT_ABORT'			=> 'User aborted request.', 
-	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Your request timed out; please try again.', 
-	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Something went wrong with the request and the server returned an invalid reply.', 
+	'AJAX_ERROR_TEXT_ABORT'			=> 'User aborted request.',
+	'AJAX_ERROR_TEXT_TIMEOUT'		=> 'Your request timed out; please try again.',
+	'AJAX_ERROR_TEXT_PARSERERROR'	=> 'Something went wrong with the request and the server returned an invalid reply.',
 	'ALLOWED'						=> 'מורשה',
 	'ALL_FILES'						=> 'כל הקבצים',
 	'ALL_FORUMS'					=> 'כל הפורומים',
@@ -91,14 +91,14 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'קובץ התמונה אשר ניסית לצרף אינו חוקי.',
 	'AUTHOR'						=> 'מחבר',
 	'AUTH_NO_PROFILE_CREATED'		=> 'המערכת לא הצליחה ליצור פרופיל משתמש.',
-	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Invalid database entry.', 
-	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Invalid service type provided to OAuth service handler.', 
-	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuth service not created', 
-	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly', 
-	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook', 
-	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google', 
-	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token not stored.', 
-	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token incorrectly stored.', 
+	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Invalid database entry.',
+	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Invalid service type provided to OAuth service handler.',
+	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuth service not created',
+	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
+	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
+	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token not stored.',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token incorrectly stored.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'העלאת הקובץ נדחתה מכיוון שהקובץ זוהה כקובץ חשוד.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'הקובץ אינו ניתן לתצוגה מפני שהסיומת <strong>%s</strong> אינה מורשית.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'הסמל האישי שצוין אינו ניתן להעלאה מפני שהנתונים הרחוקים נראים לא חוקיים או פגומים.',
@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLED'				=> 'הסיומת <strong>%s</strong> חסומה.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'הסיומת <strong>%s</strong> נחסמה ואינה ניתנת יותר לתצוגה.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'הסיומת <strong>%s</strong> לא קיימת.',
-	
+
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'שאלות נפוצות',
 	'FAQ_EXPLAIN'			=> 'שאלות נפוצות',
@@ -253,7 +253,7 @@ $lang = array_merge($lang, array(
 	'FROM'					=> 'מאת',
 	'FSOCK_DISABLED'		=> 'לא ניתן להשלים את הפעולה מפני שהפונקציה <var>fsockopen</var> כבויה או שהשרת שהתבקש לא נמצא.',
 	'FSOCK_TIMEOUT'			=> 'נוצר פסק זמן במהלך הקריאה מהרשת.',
-	
+
 	'FTP_FSOCK_HOST'				=> 'שרת FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'שרת ה־FTP המשמש להתחברות לאתר שלך.',
 	'FTP_FSOCK_PASSWORD'			=> 'ססמה ל־FTP',
@@ -518,12 +518,16 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'לא צוין שם משתמש.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> 'קובץ מצורף אחד',
+		2	=> '%d קבצים מצורפים',
+	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'אין הודעות ממתינות',		// 0
 		1			=> 'הודעה ממתינה אחת',		// 1
 		2			=> '%d הודעות ממתינות',		// 2+
 	),
-	
+
 	'OCCUPATION'				=> 'מקצוע',
 	'OFFLINE'					=> 'מנותק',
 	'ONLINE'					=> 'מחובר',
@@ -567,7 +571,7 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, who is currently on your ignore list, made this post.',
 	'POST_DISPLAY'			=> '%1$sDisplay this post%2$s.',
 	'POST_DAY'				=> '%.2f posts per day',
-	'POST_DELETED_ACTION'			=> 'Deleted post:',
+	'POST_DELETED_ACTION'	=> 'Deleted post:',
 	'POST_DELETED'			=> 'ההודעה נמחקה.',
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s.',
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s for the following reason: %4$s',
@@ -607,7 +611,7 @@ $lang = array_merge($lang, array(
 	'REDIRECTS'					=> 'סך הכול העברות',
 	'REGISTER'					=> 'הרשמה',
 	'REGISTERED_USERS'			=> 'משתמשים רשומים:',
-		// "... and 2 hidden users online"
+	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> 'יש משתמש אחד רשום ו־%2$s מחובר',
 		2	=> 'יש %1$d משתמשים רשומים ו־%2$ מחוברים',
@@ -715,10 +719,10 @@ $lang = array_merge($lang, array(
 	'TIB'				=> 'TiB',
 	'TIME'			=> 'זמן',
 	'TIMEOUT_PROCESSING_REQ'			=> 'Request timed out.',
-	
+
 	'TOO_LARGE'						=> 'הערך שהזנת גדול מדי.',
 	'TOO_LARGE_MAX_RECIPIENTS'		=> 'הערך שהזנת ל<strong>מספר מרבי של נמענים מורשים לכל הודעה פרטית</strong> גדול מדי.',
-	
+
 	'TOO_LONG'						=> 'הערך שהזנת ארוך מדי.',
 
 	'TOO_LONG_CONFIRM_CODE'			=> 'קוד האישור שהזנת ארוך מדי.',
@@ -731,7 +735,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_EMAIL'				=> 'כתובת הדואר האלקטרוני שהזנת ארוך מדי.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'ניסית להצביע ליותר מדי אפשרויות.',
-	
+
 	'TOO_SHORT'						=> 'הערך שהזנת קצר מדי.',
 
 	'TOO_SHORT_CONFIRM_CODE'		=> 'קוד האישור שהזנת קצר מדי.',
@@ -809,12 +813,12 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'משתמשים',
 	'USE_PERMISSIONS'		=> 'נסה את הרשאות המשתמש',
-	
+
 	'USER_NEW_PERMISSION_DISALLOWED'	=> 'אנו מצטערים, אך אינך מורשה להשתמש באפשרות זו. יכול להיות שרק נרשמת לכאן והנך צריך להשתתף יותר כדי להשתמש באפשרות זו.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'נצפה',
-		'VIEWED_COUNTS'		=> array(
+	'VIEWED_COUNTS'		=> array(
 		0	=> 'לא נצפה עדיין',
 		1	=> 'נצפה פעם אחת',
 		2	=> 'נצפה %d פעמים',
@@ -864,6 +868,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'ערך הצבע שהזנת שגוי.',
 	'WRONG_DATA_JABBER'			=> 'השם שהזנת אינו שם חשבון Jabber חוקי.',
 	'WRONG_DATA_LANG'			=> 'השפה שציינת אינה חוקית.',
+	'WRONG_DATA_POST_SD'		=> 'The post sort direction you specified is not valid.',
+	'WRONG_DATA_POST_SK'		=> 'The post sort option you specified is not valid.',
+	'WRONG_DATA_TOPIC_SD'		=> 'The topic sort direction you specified is not valid.',
+	'WRONG_DATA_TOPIC_SK'		=> 'The topic sort option you specified is not valid.',
 	'WROTE'						=> 'כתב',
 
 	'YAHOO'				=> 'Yahoo Messenger',
@@ -877,7 +885,7 @@ $lang = array_merge($lang, array(
 		'TODAY'		=> 'היום',
 		'TOMORROW'	=> 'מחר',
 		'YESTERDAY'	=> 'אתמול',
-	'AGO'		=> array(
+		'AGO'		=> array(
 			0		=> 'לפני פחות מדקה',
 			1		=> 'לפני דקה',
 			2		=> 'לפני %d דקות',
@@ -930,7 +938,7 @@ $lang = array_merge($lang, array(
 	// because they are named invers to their offset.
 	'timezones'		=> array(
 		'UTC'			=> 'UTC',
-		
+
 		'Etc/GMT-12'	=> 'GMT+12',
 		'Etc/GMT-11'	=> 'GMT+11',
 		'Etc/GMT-10'	=> 'GMT+10',

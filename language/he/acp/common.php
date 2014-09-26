@@ -58,10 +58,10 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_MANAGEMENT'		=> 'ניהול מערכת',
 	'ACP_BOARD_SETTINGS'		=> 'הגדרות מערכת',
 	'ACP_BOTS'					=> 'עכבישים/רובוטים',
-	
-	'ACP_CAPTCHA'				=> 'CAPTCHA',
-	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 
+	'ACP_CAPTCHA'				=> 'CAPTCHA',
+
+	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 	'ACP_CAT_DATABASE'			=> 'בסיס נתונים',
 	'ACP_CAT_DOT_MODS'			=> 'תוספות',
 	'ACP_CAT_FORUMS'			=> 'פורומים',
@@ -79,16 +79,16 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
-	
+
 	'ACP_DATABASE'				=> 'ניהול בסיס נתונים',
 	'ACP_DISALLOW'				=> 'לא מורשה',
 	'ACP_DISALLOW_USERNAMES'	=> 'שמות משתמשים לא מורשים',
-	
+
 	'ACP_EMAIL_SETTINGS'		=> 'הגדרות דואר אלקטרוני',
 	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'ניהול תוספות',
 	'ACP_EXTENSIONS'			=> 'נהל תוספות',
-	
+
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'הרשאות לפי פורומים',
 	'ACP_FORUM_LOGS'				=> 'מעקב אחר פעולות בפורומים',
 	'ACP_FORUM_MANAGEMENT'			=> 'ניהול פורומים',
@@ -107,24 +107,24 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'ניהול קבוצה',
 	'ACP_GROUPS_PERMISSIONS'		=> 'הרשאות של קבוצה',
 	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
-	
+
 	'ACP_ICONS'					=> 'סמלי נושאים',
 	'ACP_ICONS_SMILIES'			=> 'סמלי/סמיילים של נושאים',
 	'ACP_INACTIVE_USERS'		=> 'משתמשים לא פעילים',
 	'ACP_INDEX'					=> 'עמוד ניהול ראשי',
-	
+
 	'ACP_JABBER_SETTINGS'		=> 'הגדרות Jabber',
-	
+
 	'ACP_LANGUAGE'				=> 'ניהול שפות',
 	'ACP_LANGUAGE_PACKS'		=> 'חבילות שפה',
 	'ACP_LOAD_SETTINGS'			=> 'הגדרות כלליות',
 	'ACP_LOGGING'				=> 'מתחבר',
-	
+
 	'ACP_MAIN'					=> 'עמוד ניהול ראשי',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'ניהול קבצים מצורפים',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'כאן אתה יכול לנהל ולמחוק קבצים שצורפו להודעות ולהודעות פרטיות.',
-	
+
 	'ACP_MANAGE_EXTENSIONS'		=> 'ניהול סיומות קבצים מצורפים',
 	'ACP_MANAGE_FORUMS'			=> 'ניהול פורומים',
 	'ACP_MANAGE_RANKS'			=> 'ניהול דירוגים',
@@ -136,11 +136,11 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'ניהול מודולים',
 	'ACP_MOD_LOGS'				=> 'מעקב אחר פעולות מנהלים',
 	'ACP_MOD_ROLES'				=> 'תפקידי מנהלים',
-	
+
 	'ACP_NO_ITEMS'				=> 'אין פריטים כרגע.',
-	
+
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'קבצים מצורפים ללא שולח',
-	
+
 	'ACP_PERMISSIONS'			=> 'הרשאות',
 	'ACP_PERMISSION_MASKS'		=> 'משימות הרשאה',
 	'ACP_PERMISSION_ROLES'		=> 'תפקידי הרשאה',
@@ -150,9 +150,9 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS'			=> 'איפוס פורומים',
 	'ACP_PRUNE_USERS'			=> 'איפוס משתמשים',
 	'ACP_PRUNING'				=> 'איפוס',
-	
+
 	'ACP_QUICK_ACCESS'			=> 'הרשאה מהירה',
-	
+
 	'ACP_RANKS'					=> 'דירוגים',
 	'ACP_REASONS'				=> 'סיבות דיווח/חסימה',
 	'ACP_REGISTER_SETTINGS'		=> 'הגדרות רישום משתמש',
@@ -178,10 +178,10 @@ $lang = array_merge($lang, array(
 	'ACP_STYLES_INSTALL'		=> 'התקן עיצובים',
 
 	'ACP_SUBMIT_CHANGES'		=> 'שלח שינויים',
-	
+
 	'ACP_TEMPLATES'				=> 'תבניות',
 	'ACP_THEMES'				=> 'סגנונות',
-	
+
 	'ACP_UPDATE'					=> 'עדכון',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'הרשאות פורום של משתמש',
 	'ACP_USERS_LOGS'				=> 'יומן פעולות משתמש',
@@ -209,7 +209,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'הצגת הרשאות לפי פורום',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול גלובלי',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'הצגת הרשאות לפי משתמש',
-	
+
 	'ACP_WORDS'					=> 'צנזור מילים',
 
 	'ACTION'				=> 'פעולה',
@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'			=> 'Not ready tasks:',
 	'TASKS_READY'			=> 'Ready tasks:',
-	'TOTAL_SIZE'      		=> 'Total size',
+	'TOTAL_SIZE'			=> 'Total size',
 
 	'UCP'					=> 'לוח בקרה למשתמש',
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'מספר נושאים',
 	'NUMBER_USERS'		=> 'מספר משתמשים',
 	'NUMBER_ORPHAN'		=> 'קבצים מצורפים ללא שולח',
-	
+
 	'PHP_VERSION_OLD'	=> 'גרסת ה־PHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטים%s',
 
 	'POSTS_PER_DAY'		=> 'הודעות ליום',
@@ -491,10 +491,10 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>הרשאות הועברו מ</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
-	
+
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>ניסיון התחברות לניהול ראשי נכשל</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>ניסיון התחברות לניהול ראשי הצליח</strong>',
-	
+
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>הסיר קבצים מצורפים של משתמש</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>הוסיף או ערך סיומת קבצים מצורפים</strong><br />» %s',
@@ -593,7 +593,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>שגיאת Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>שגיאת דואר אלקטרוני</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>יצר פורום חדש</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ־%1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>מחק פורום</strong><br />» %s',
@@ -788,7 +788,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
-	
+
 	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s',

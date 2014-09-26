@@ -19,7 +19,6 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -74,7 +73,7 @@ $lang = array_merge($lang, array(
 	'OPTIONS_EXCLUDED'			=> 'שוחרר',
 
 	'PERMANENT'		=> 'תמידית',
-	
+
 	'UNTIL'						=> 'עד',
 	'USER_BAN'					=> 'חסום משתמש אחד או יותר על ידי שם משתמש',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את המשתמשים שהוזנו מכל החסימות הנוכחיות.',

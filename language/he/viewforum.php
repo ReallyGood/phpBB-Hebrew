@@ -56,13 +56,13 @@ $lang = array_merge($lang, array(
 	'NO_READ_ACCESS'		=> 'אין לך את ההרשאות המתאימות על מנת לקרוא הודעות בפורום זה.',
 	'NO_UNREAD_POSTS_HOT'		=> 'אין הודעות שלא נקראו [ הודעות חמות ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'אין הודעות שלא נקראו [ הודעות נעולות ]',
-	
+
 	'POST_FORUM_LOCKED'		=> 'הפורום נעול',
+
+	'TOPICS_MARKED'			=> 'הנושאים בפורום זה סומנו כנקראו.',
 
 	'UNREAD_POSTS_HOT'		=> 'הודעות שלא נקראו [ הודעות חמות ]',
 	'UNREAD_POSTS_LOCKED'	=> 'הודעות שלא נקראו [ הודעות נעולות ]',
-	
-	'TOPICS_MARKED'			=> 'הנושאים בפורום זה סומנו כנקראו.',
 
 	'VIEW_FORUM'			=> 'צפה בפורום',
 	'VIEW_FORUM_TOPICS'		=> array(

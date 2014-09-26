@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'אם נקבע ללא, תמונות מצורפות יוצגו כקישורים.',
 	'DISPLAY_ORDER'					=> 'סדר תצוגת קבצים מצורפים',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'הצג קבצים מצורפים מסודרים לפי זמן.',
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'ערוך קבוצת סיומות',
 	'EXCLUDE_ENTERED_IP'			=> 'הפעל כדי לשחרר את כתובת ה־IP/שם השרת שהוזן.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'שחרר כתובת IP מרשימת כתובות ה־IP/שמות השרתים המורשים',

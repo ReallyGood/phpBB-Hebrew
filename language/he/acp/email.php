@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'SEND_TO_GROUP'			=> 'שלח לקבוצה',
 	'SEND_TO_USERS'			=> 'שלח למשתמשים',
 	'SEND_TO_USERS_EXPLAIN'	=> 'הזנת שמות משתמשים כאן תעבור על כל קבוצה שנבחרה לעיל. הכנס כל שם משתמש בשורה חדשה.',
-	
+
 	'MAIL_BANNED'			=> 'שליחה למשתמשים חסומים',
 	'MAIL_BANNED_EXPLAIN'	=> 'כאשר שולחים דואר אלקטרוני לקבוצה רחבה ניתן לבחור האם משתמשים חסומים יקבלו את הדואר האלקטרוני גם כן.',
 	'MAIL_HIGH_PRIORITY'	=> 'גבוה',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'MAIL_PRIORITY'			=> 'עדיפות דואר',
 	'MASS_MESSAGE'			=> 'ההודעה שלך',
 	'MASS_MESSAGE_EXPLAIN'	=> 'שים לב שאתה יכול להזין טקסט פשוט בלבד. כל התוספות יוסרו לפני השליחה.',
-	
+
 	'NO_EMAIL_MESSAGE'		=> 'אתה חייב להזין הודעה.',
 	'NO_EMAIL_SUBJECT'		=> 'אתה חייב לציין כותרת להודעה שלך.',
 ));

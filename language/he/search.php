@@ -39,9 +39,9 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ALL_AVAILABLE'	=> 'כל התווים',
 	'ALL_RESULTS'	=> 'כל התוצאות',
-	
+
 	'DISPLAY_RESULTS'	=> 'הצג את תוצאות החיפוש כ',
-	
+
 	'FOUND_SEARCH_MATCHES'		=> array(
 		1	=> 'החיפוש הנציב תוצאה %d',
 		2	=> 'החיפוש הניב %d תוצאות',
@@ -50,23 +50,23 @@ $lang = array_merge($lang, array(
 		1	=> 'החיפוש הניב יותר מתוצאה %d',
 		2	=> 'החיפוש הניב יותר מ %d תוצאות',
 	),
-	
+
 	'GLOBAL'	=> 'הכרזה גלובלית',
-	
+
 	'IGNORED_TERMS'	=> 'לא נכלל',
 	'IGNORED_TERMS_EXPLAIN'	=> 'המילים הבאות לא נכללו בחיפוש שלך מפני שהן מילים נפוצות מדי: <strong>%s</strong>.',
-	
+
 	'JUMP_TO_POST'			=> 'עבור להודעה',
-	
+
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות שלך.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות שלך שלא נקראו.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות חדשות מאז ביקורך האחרון.',	
-	
+
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
 		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
 	),
-	
+
 	'NO_KEYWORDS'			=> 'יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s אותיות ולא יכולה להכין יותר מ־%s אותיות, לא כולל תווים משלימים.',
 	'NO_RECENT_SEARCHES'	=> 'לא בוצעו חיפושים במערכת לאחרונה.',
 	'NO_SEARCH'				=> 'אנחנו מתנצלים, אך אינך מורשה להשתמש במערכת החיפוש.',
@@ -78,16 +78,16 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_UNREADS'		=> 'סליחה אך חיפוש הודעות שלא נקראו בוטל בפורום.',
 	'WORD_IN_NO_POST'		=> 'לא נמצאו תוצאות מכיוון והמילה <strong>%s</strong> לא נמצאה כלל בשום הודעה.',
 	'WORDS_IN_NO_POST'		=> 'לא נמצאו תוצאות מכיוון והמילים <strong>%s</strong> לא נמצאו כלל בשום הודעה.',
-	
+
 	'POST_CHARACTERS'	=> 'תווים מההודעה',
 	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
-	
+
 	'RECENT_SEARCHES'	=> 'חיפושים אחרונים שבוצעו',
 	'RESULT_DAYS'	=> 'הגבל תוצאות לפי זמן כתיבה',
 	'RESULT_SORT'	=> 'סדר את התוצאות עפ"י',
 	'RETURN_FIRST'	=> 'מספר התווים אשר יוצגו מכל הודעה שתימצא',
-	'RETURN_TO_SEARCH_ADV'	=> 'חזור לחיפוש מתקדם',
-	
+	'GO_TO_SEARCH_ADV'	=> 'עבור לחיפוש מתקדם',
+
 	'SEARCHED_FOR'	=> 'חפש לפי התנאים',
 	'SEARCHED_TOPIC'	=> 'החיפוש בוצע בנושא',
 	'SEARCHED_QUERY'			=> 'החיפוש בוצע על-פי שאילתה',
