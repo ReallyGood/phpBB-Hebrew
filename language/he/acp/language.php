@@ -41,9 +41,9 @@ $lang = array_merge($lang, array(
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'כאן אתה יכול להתקין/להסיר חבילות שפה. חבילת השפה ברירת המחדל מסומנת בכוכבית (*).',
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'האם אתה בטוח שברצונך למחוק את “%s”?',
-	
+
 	'INSTALLED_LANGUAGE_PACKS'		=> 'חבילות שפה מותקנות',
-	
+
 	'LANGUAGE_DETAILS_UPDATED'			=> 'פרטי חבילת השפה עודכנו בהצלחה.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'חבילת השפה כבר מותקנת.',
 	'LANGUAGE_PACK_DELETED'				=> 'חבילת השפה “%s” הוסרה בהצלחה. כל המשתמשים שהשתמשו בחבילה זו הועברו לחבילת ברירת המחדל של המערכת.',

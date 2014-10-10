@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'שלח הודעה',
 	'IM_SENT_JABBER'		=> 'הודעתך ל־%1$s נשלחה בהצלחה.',
 	'IM_USER'				=> 'שלח הודעה מיידית.',
-	
+
 	'LAST_ACTIVE'				=> 'פעיל לאחרונה',
 	'LESS_THAN'					=> 'פחות מ',
 	'LIST_USERS'				=> array(
@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בפרופילים.',
 
 	'MORE_THAN'				=> 'יותר מ',
-	
+
 	'NO_CONTACT_FORM'		=> 'טופס יצירת הקשר עם המנהל הראשי לא פעיל.',
 	'NO_CONTACT_PAGE'		=> 'עמוד יצירת הקשר עם המנהל הראשי לא פעיל.',
 	'NO_EMAIL'				=> 'אינך מורשה לשלוח דואר אלקטרוני למשתמש זה.',

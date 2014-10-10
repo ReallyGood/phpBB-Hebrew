@@ -79,7 +79,7 @@ $help = array(
 		0 => 'יצירת רשימה מסודרת',
 		1 => 'הסוג השני של רשימה, רשימה מסודרת, מאפשר לך לבחור מה יוצג לפני כל פריט ברשימה. כדי ליצור רשימה מסודרת השתמש ב־<strong>[list=1][/list]</strong> כדי ליצור רשימה ממוספרת או לחלופין השתמש ב־<strong>[list=a][/list]</strong> לרשימה המסודרת לפי אותיות לועזיות. כמו ברשימה לא מסודרת, הרכיבים מצוינים עם <strong>[*]</strong>. לדוגמה:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>לך לחנות<br /><strong>[*]</strong>קנה מחשב חדש<br /><strong>[*]</strong>קלל את המחשב כאשר הוא קורס<br /><strong>[/list]</strong><br /><br />יצור את הרשימה הבאה:<ol style="list-style-type: decimal;"><li>לך לחנות</li><li>קנה מחשב חדש</li><li>קלל את המחשב כאשר הוא קורס</li></ol>ואלו לרשימה המסודרת לפי אותיות לועזיות תוכל להשתמש ב:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>התשובה האפשרית הראשונה<br /><strong>[*]</strong>התשובה האפשרית השנייה<br /><strong>[*]</strong>התשובה האפשרית השלישית<br /><strong>[/list]</strong><br /><br />אשר יציג<ol style="list-style-type: lower-alpha"><li>התשובה האפשרית הראשונה</li><li>התשובה האפשרית השנייה</li><li>התשובה האפשרית השלישית</li></ol>'
 	),
-		// This block will switch the FAQ-Questions to the second template column
+	// This block will switch the FAQ-Questions to the second template column
 	array(
 		0 => '--',
 		1 => '--'

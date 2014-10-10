@@ -7,5 +7,4 @@ Subject: נושא מאושר - "{TOPIC_TITLE}"
 אם תרצה לצפות בנושא, לחץ על הקישור הבא:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}

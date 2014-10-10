@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NO_MEMBERS'				=> 'לקבוצה זו אין חברים',
 	'GROUPS_NO_MODS'				=> 'לא נבחר ראש קבוצה',
-	
+
 	'GROUP_APPROVE'					=> 'אשר חבר',
 	'GROUP_APPROVED'				=> 'חברים מאושרים',
 	'GROUP_AVATAR'					=> 'הסמל האישי של הקבוצה',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'GROUP_TYPE'					=> 'סוג הקבוצה',
 	'GROUP_TYPE_EXPLAIN'			=> 'יחליט מי יכול להיכנס לקבוצה או לראותה.',
 	'GROUP_UPDATED'					=> 'אפשרויות הקבוצה עודכנה בהצלחה.',
-	
+
 	'GROUP_USERS_ADDED'				=> 'משתמשים חדשים נוספו לקבוצה בהצלחה.',
 	'GROUP_USERS_EXIST'				=> 'המשתמשים שנבחרו כבר חברים בקבוצה.',
 	'GROUP_USERS_REMOVE'			=> 'המשתמשים הוסרו מהקבוצה והגדרות ברירת המחדל החדשות הוגדרו בהצלחה.',
@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'SELECT_GROUP'				=> 'בחר קבוצה',
 	'SPECIAL_GROUPS'			=> 'קבוצות מוגדרות מראש',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות.',
-	
+
 	'TEAMPAGE'					=> 'Teampage',
 	'TEAMPAGE_DISP_ALL'			=> 'All memberships',
 	'TEAMPAGE_DISP_DEFAULT'		=> 'User’s default group only',

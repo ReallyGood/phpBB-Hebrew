@@ -8,5 +8,4 @@ Subject: הנושא שלך נדחה - "{TOPIC_TITLE}"
 
 {REASON}
 
-
 {EMAIL_SIG}

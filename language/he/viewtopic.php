@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'			=> '%sחזור להודעה%s',
 
 	'SUBMIT_VOTE'			=> 'שלח הצבעתך',
-	
+
 	'TOPIC_TOOLS'			=> 'אפשרויות נושא',
 	'TOTAL_VOTES'			=> 'סך הכול הצבעות',
 

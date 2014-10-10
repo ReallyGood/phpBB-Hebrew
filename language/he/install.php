@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BOARD_NOT_INSTALLED'			=> 'לא נמצאה התקנה',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'ממשק ההמרה הייחודי של phpBB3 דורש מערכת phpBB3 מותקנת, <a href="%s">המשך בהתקנת phpBB3</a>.',
 	'BACKUP_NOTICE'					=> 'אנא גבה את המערכת שלך לפני השדרוג למקרה ויתעוררו בעיות במהלך תהליך השדרוג.',
-	
+
 	'CATEGORY'					=> 'קטגוריה',
 	'CACHE_STORE'				=> 'סוג זיכרון',
 	'CACHE_STORE_EXPLAIN'		=> 'המיקום הפיזי בו הנתונים מאוחסנים, מערכת קבצים מועדפת.',
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 		<li>MS SQL Server 2005 או מעל (מקומי)</li>
 		<li>Oracle</li>
 	</ul>
-	
+
 	<p>רק בסיסי הנתונים אשר נתמכים בשרת שלך יוצגו.',
 	'INSTALL_INTRO_NEXT'		=> 'כדי להתחיל בהתקנה, לחץ על הכפתור הבא.',
 	'INSTALL_LOGIN'				=> 'התחבר',
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_USER_TOO_LONG'	=> 'שם המשתמש שהזנת ארוך מדי. האורך המרבי הוא 20 תווים.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'שם המשתמש שהזנת קצר מדי. האורך המינימלי הוא 3 תווים.',
 	'INVALID_PRIMARY_KEY'		=> 'מפתח ראשי שגוי : %s',
-	
+
 	'LONG_SCRIPT_EXECUTION'		=> 'שים לב שהפעולה עלולה להמשך זמן רב… אנא אל תעצור את הפעולה.',
 
 	// mbstring
@@ -447,7 +447,7 @@ $lang = array_merge($lang, array(
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'עדכון בסיס הנתונים הושלם בהצלחה. כעת אתה צריך להמשיך בתהליך העדכון.',
 
 	'KEEP_OLD_NAME'		=> 'שמור שם משתמש',
-	
+
 	'LATEST_VERSION'		=> 'גרסה אחרונה',
 	'LINE'					=> 'שורה',
 	'LINE_ADDED'			=> 'נוסף',
@@ -457,9 +457,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'כדי לעדכן את המערכת שלך אתה צריך קודם להתחבר.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'כדי להקל על ההעלאה, להלן מיקומי הקבצים מתוך תיקיית המערכת של phpBB.',
-	
+
 	'MERGE_MODIFICATIONS_OPTION'	=> 'אחד תוספות',
-	
+
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'אל תמזג - השתמש בקובץ החדש',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'אל תמזג - השתמש בקובץ המותקן הנוכחי',
 	'MERGE_MOD_FILE_OPTION'		=> 'מזג שינויים (מסיר קוד phpBB חדש בתוך אזור ההתנגשות)',
@@ -490,7 +490,7 @@ $lang = array_merge($lang, array(
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'להלן כפתור לעדכון בסיס הנתונים. עדכון בסיס הנתונים עלול להמשך זמן רב, לכן אל תעצור את התהליך גם אם נראה שהוא נעצר. לאחר שעדכון בסיס הנתונים התבצע, עבור להוראות כדי להמשיך בתהליך העדכון.',
 	'PREVIOUS_VERSION'					=> 'גרסה קודמת',
 	'PROGRESS'							=> 'התקדמות',
-	
+
 	'RELEASE_ANNOUNCEMENT'		=> 'הכרזה',
 	'RESULT'					=> 'תוצאה',
 	'RUN_DATABASE_SCRIPT'		=> 'עדכן את בסיס הנתונים שלי עכשיו',
@@ -519,7 +519,7 @@ $lang = array_merge($lang, array(
 	'STATUS_NEW_CONFLICT'		=> 'קובץ חדש מתנגש',
 	'STATUS_NOT_MODIFIED'		=> 'קובץ שלא שונה',
 	'STATUS_UP_TO_DATE'			=> 'קובץ שכבר מעודכן',
-	
+
 	'TOGGLE_DISPLAY'			=> 'הצג/הסתר רשימת קבצים',
 	'TRY_DOWNLOAD_METHOD'		=> 'יתכן שתרצה לנסות להשתמש בשיטת הורדת הקבצים ששונו.<br />שיטה זו עובדת תמיד ומומלצת לתהליך העדכון.',
 	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'נסה שיטה זו עכשיו',

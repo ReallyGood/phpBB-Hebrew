@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EXPLAIN'			=> 'כדי להימנע מהרשמות אוטומטיות, המערכת דורשת ממך להזין קוד אישור. הקוד מוצג בתמונה אשר אתה אמור לראות להלן. אם אינך מצליח לקרוא את הקוד מכל סיבה שהיא, צור קשר עם %sהמנהל הראשי%s.',
 	'VC_REFRESH'				=> 'רענן קוד אישור',
 	'VC_REFRESH_EXPLAIN'		=> 'אם אינך מצליח לקרוא את הקוד תוכל לבקש אחד חדש בעזרת לחיצה על הכפתור.',
-	
+
 	'CONFIRM_PASSWORD'			=> 'אישור ססמה',
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'אתה צריך לאשר את ססמתך אם שינית את הקודמת בלבד.',
 	'COPPA_BIRTHDAY'			=> 'כדי להמשיך בתהליך ההרשמה, אנא ספר לנו מתי נולדת.',
@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	),
 	'FOLDER_NAME_EMPTY'			=> 'אתה חייב להזין שם לתיקייה זו.',
 	'FOLDER_NAME_EXIST'			=> 'התיקייה <strong>%s</strong> כבר קיימת.',
-	'FOLDER_OPTIONS'			=> 'אאפשרויות תיקיי',
+	'FOLDER_OPTIONS'			=> 'אפשרויות תיקייה',
 	'FOLDER_RENAMED'			=> 'שם התיקייה שונה בהצלחה.',
 	'FOLDER_REMOVED'			=> 'התיקייה הוסרה בהצלחה.',
 	'FOLDER_STATUS_MSG'			=> array(
@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'אתה לא יכול להוסיף את עצמך לרשימת הנודניקים.',
 	'NOT_AGREE'						=> 'אני לא מסכים לתנאים אלו',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'תיקיית היעד “%s” נראית מלאה. הפעולה המבוקשת לא התבצעה.',
-		'NOT_MOVED_MESSAGES'			=> array(
+	'NOT_MOVED_MESSAGES'			=> array(
 		1	=> 'You have %d private message currently on hold because of full folder.',
 		2	=> 'You have %d private messages currently on hold because of full folder.',
 	),
@@ -605,20 +605,20 @@ $lang = array_merge($lang, array(
 	'YOUR_FRIENDS_EXPLAIN'		=> 'כדי להסיר שמות משתמשים בחר אותם ולחץ על שלח.',
 	'YOUR_WARNINGS'				=> 'רמת האזהרה שלך',
 
-	'PM_ACTION'	=> array(
+	'PM_ACTION' => array(
 		'PLACE_INTO_FOLDER'	=> 'הכנס לתוך תיקייה',
 		'MARK_AS_READ'		=> 'סמן כנקרא',
 		'MARK_AS_IMPORTANT'	=> 'סמן הודעה',
 		'DELETE_MESSAGE'	=> 'מחק הודעה',
 	),
-	'PM_CHECK'	=> array(
+	'PM_CHECK' => array(
 		'SUBJECT'	=> 'כותרת',
 		'SENDER'	=> 'שולח',
 		'MESSAGE'	=> 'הודעה',
 		'STATUS'	=> 'מצב הודעה',
 		'TO'		=> 'נשלח אל',
 	),
-	'PM_RULE'	=> array(
+	'PM_RULE' => array(
 		'IS_LIKE'		=> 'דומה',
 		'IS_NOT_LIKE'	=> 'לא דומה',
 		'IS'			=> 'הוא',

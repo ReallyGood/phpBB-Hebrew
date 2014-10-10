@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'דואר אלקטורני',
 	'AUTHOR_HOMEPAGE'		=> 'דף הבית',
 	'AUTHOR_ROLE'			=> 'תפקיד',
-	
+
 	'NOT_UP_TO_DATE'		=> '%s is not up to date',
 	'UP_TO_DATE'			=> '%s is up to date',
 	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement',

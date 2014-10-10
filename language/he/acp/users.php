@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 
 	'BAN_ALREADY_ENTERED'	=> 'החסימה הופעלה בהצלחה, אך הרשימה לא התעדכנה.',
 	'BAN_SUCCESSFUL'		=> 'החסימה הופעלה בהצלחה.',
-	
+
 	'CANNOT_BAN_ANONYMOUS'			=> 'אינך רשאי לחסום חשבון אנונימי. הרשאות לחשבון אנונימי ניתן להגדיר תחת תגית ההרשאות.',
 	'CANNOT_BAN_FOUNDER'			=> 'אינך מורשה לחסום חשבון של מייסד.',
 	'CANNOT_BAN_YOURSELF'			=> 'אינך מורשה לחסום את עצמך.',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'FORCE_REACTIVATION_SUCCESS'	=> 'ההפעלה מחדש בוצעה בהצלחה.',
 	'FOUNDER'						=> 'מייסד',
 	'FOUNDER_EXPLAIN'				=> 'למייסדים יש את כל ההרשאות המנהליות ואינם יכולים להיחסם, להימחק או להשתנות על ידי משתמשים שאינם מייסדים.',
-	
+
 	'GROUP_APPROVE'					=> 'אשר משתמש',
 	'GROUP_DEFAULT'					=> 'קבע קבוצה זו כברירת מחדל למשתמש',
 	'GROUP_DELETE'					=> 'מחק משתמש מהקבוצה',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'LAST_ACTIVE'			=> 'פעיל לאחרונה',
 
 	'MOVE_POSTS_EXPLAIN'	=> 'בחר את הפורום אליו אתה רוצה להעביר את ההודעות של המשתמש.',
-	
+
 	'NO_SPECIAL_RANK'		=> 'לא צוינה דרגה',
 	'NO_WARNINGS'			=> 'אין אזהרות.',
 	'NOT_MANAGE_FOUNDER'	=> 'ניסית לנהל משתמש בדרגת מייסד, רק מייסדים אחרים לנהל משתמש שהוא מייסד.',
