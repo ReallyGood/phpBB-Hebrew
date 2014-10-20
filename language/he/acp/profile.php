@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_EXPLAIN'		=> 'זיהוי השדה הנו בשביל לזהות את התחום של הפרופיל בתוך מאגר הנתונים והעיצובים.',
 	'FIELD_INT'					=> 'מספרים',
 	'FIELD_IS_CONTACT'			=> 'Display field as a contact field',
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contact fields are displayed within the contact section of the user profile and are displayed differently in the mini profile next to posts and private messages.',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contact fields are displayed within the contact section of the user profile and are displayed differently in the mini profile next to posts and private messages. You can use <samp>%s</samp> as a placeholder variable which will be replaced by a value provided by the user.',
 	'FIELD_LENGTH'				=> 'אורך התיבה',
 	'FIELD_NOT_FOUND'			=> 'שדה הפרופיל לא נמצא.',
 	'FIELD_STRING'				=> 'טקסט שדה יחיד',
@@ -118,6 +118,12 @@ $lang = array_merge($lang, array(
 	'ISO_LANGUAGE'				=> 'שפה [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'אפשרות שפה מסוימת [<strong>%s</strong>]',
+
+	'LETTER_NUM_DOTS'			=> 'Any letters, numbers and dots (periods)',
+	'LETTER_NUM_ONLY'			=> 'Any letters and numbers',
+	'LETTER_NUM_PUNCTUATION'	=> 'Any letters, numbers, comma, dots, underscores and dashes beginning with any letter',
+	'LETTER_NUM_SPACERS'		=> 'Any letters, numbers and spacers',
+	'LETTER_NUM_UNDERSCORE'		=> 'Any letters, numbers and underscores',
 
 	'MAX_FIELD_CHARS'		=> 'מספר תווים מקסימלי',
 	'MAX_FIELD_NUMBER'		=> 'מספר המשתמשים הגבוהה ביותר',
