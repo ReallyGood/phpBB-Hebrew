@@ -77,7 +77,7 @@ $help = array(
 	),
 	array(
 		0 => 'כיצד אני משנה את ההגדרות שלי?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
+		1 => 'אם אתה משתמש רשום, כל הגדרותיך שמורות במסד הנתונים. כדי לשנותם, בקר בלוח הבקרה למשתמש שלך; בדרך כלל ניתן למצוא קישור על ידי לחיצה על שם המשתמש שלך בחלק העליון של דפי מערכת הפורומים. מערכת זו תאפשר לך לשנות את ההגדרות וההעדפות שלך.',
 	),
 	array(
 		0 => 'איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?',
@@ -89,19 +89,19 @@ $help = array(
 	),
 	array(
 		0 => 'שינתי את אזור הזמן והוא עדין שונה מהזמן שלי!',
-		1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
+		1 => 'אם אתה בטוח שהגדרת את אזור הזמן נכון והזמן עדין אינו מכוון כראוי, אז כנראה והשעה המוגדרת בשרת אינה נכונה. אנא יידע מנהל ראשי כדי לתקן את הבעיה'
 	),
 	array(
 		0 => 'השפה שלי אינה ברשימה!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
+		1 => 'או שהמנהל הראשי לא התקין השפה או שאף אחד לא תרגם את המערכת לשפה שלך. נסה לשאול מנהל ראשי האם הוא יכול להתקין את חבילת השפה שאתה צריך. אם חבילת השפה אינה קיימת, תרגיש חופשי ליצור תרגום חדש. ניתן למצוא מידע נוסף באתר <a href="https://www.phpbb.com/">phpBB</a>&reg;.',
 	),
 	array(
-		0 => 'What are the images next to my username?',
-		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually larger, image is known as an avatar and is generally unique or personal to each user.',
+		0 => 'מה הן התמונות לצד שם המשתמש שלי?',
+		1 => 'ישנם שני סוגי תמונות אשר עשויים להופיע יחד עם שם המשתמש כאשר צופים בהודעות. אחד מהם עשוי להיות תמונה הקשורה לדרגה שלך, בדרך כלל בצורה של כוכבים, ריבועים או נקודות, המציין כמה הודעות כתבת או את מעמדך בפורום. תמונה אחרת, בדרך כלל גדולה יותר, ידועה כסמל אישי ובדרך כלל ייחודית או אישית לכל משתמש.',
 	),
 	array(
-		0 => 'How do I display an avatar?',
-		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
+		0 => 'איך אני יכול להציג סמל אישי?',
+		1 => 'בתוך לוח הבקרה למשתמש תחת "פרופיל" אתה יכול להוסיף סמל אישי באמצעות אחת מארבע השיטות הבאות: Gravatar, גלריה, תמונה מרוחקת או העלאה. המנהל הראשי של הפורום יכול להחליט לאפשר סמלים אישיים ולבחור את הדרך שבה ניתן לבחור סמלים אישיים. אם אתה לא מצליח להשתמש בסמל אישי, צור קשר עם מנהל ראשי.',
 	),
 	array(
 		0 => 'מהו הדירוג שלי וכיצד אני משנה אותו?',
@@ -116,8 +116,8 @@ $help = array(
 		1 => 'מערכת השליחה'
 	),
 	array(
-		0 => 'How do I create a new topic or post a reply?',
-		1 => 'To post a new topic in a forum, click "New Topic". To post a reply to a topic, click "Post Reply". You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can post attachments, etc.',
+		0 => 'איך אני יוצר נושא חדש או מפרסם תגובה?',
+		1 => 'כדי לפרסם נושא חדש בפורום, לחץ על "נושא חדש". כדי להגיב לנושא, לחץ על "פרסם תגובה". ייתכן שתצטרך להירשם לפני שתוכל לשלוח הודעה.רשימת ההרשאות שלך בכל פורום זמינה בתחתית מסכי פורום ונושא. לדוגמא: אתה יכול לשלוח נושאים חדשים, אתה יכול לצרף קבצים להודעות, וכן הלאה',
 	),
 	array(
 		0 => 'כיצד אני עורך או מוחק הודעה?',
@@ -298,7 +298,7 @@ $help = array(
 	),
 	array(
 		0 => 'כיצד אני יכול למצוא את ההודעות והנושאים שלי?',
-		1 => 'Your own posts can be retrieved either by clicking the “Show your posts” link within the User Control Panel or by clicking the “Search user’s posts” link via your own profile page or by clicking the “Quick links” menu at the top of the board. To search for your topics, use the Advanced search page and fill in the various options appropriately.',
+		1 => 'ניתן לאחזר את ההודעות שלך על-ידי לחיצה על הקישור "הצג את ההודעות שלך" בתוך לוח הבקרה למשתמש או על ידי לחיצה על הקישור "חפש את הודעות המשתמש" דרך עמוד הפרופיל שלך או על ידי לחיצה על תפריט "קישורים מהירים" בחלק העליון של כל דף.  כדי לחפש את הנושאים שלך, השתמש בעמוד החיפוש המתקדם ומלא את האפשרויות המתאימות. ',
 	),
 	array(
 		0 => '--',
@@ -309,8 +309,8 @@ $help = array(
 		1 => 'ב-phpBB 3.0, שמירה למועדפים של נושאים עבדה בדומה למועדפים בדפדפן - לא היית מקבל התראות על עדכונים בנושאים. החל מגרסה 3.1, שמירה למועדפים דומה יותר להרשמה לנושא. תוכל לקבל התראות כאשר הנושא מתעדכן. הרשמה לפורום, לעומת זאת, תעדכן אותך כאשר ישר עדכונים לנושא או פורום במערכת. ניתן לשנות את אפשרויות ההתראות למועדפים והרשמות בלוח הבקרה למשתמש, תחת ״העדפות מערכת״.',
 	),
 	array(
-    	0 => 'How do I bookmark or subscribe to specific topics?',
-    	1 => 'You can bookmark or subscribe to a specific topic by clicking the appropriate link in the “Topic tools” menu, conveniently located near the top and bottom of a topic discussion.<br />Replying to a topic with the “Notify me when a reply is posted” option checked will also subscribe you to the topic.',
+    	0 => 'כיצד אני יכול להוסיף למועדפים או להירשם לנושאים ספציפיים?',
+    	1 => 'תוכל להוסיף נושא ספציפי למועדפים או להירשם אליו על ידי לחיצה על הקישור המתאים בתפריט "אפשרויות נושא", הממוקם לנוחותך לצד חלקו העליון והתחתון של דיון בנושא.<br /> תגובה לנושא  כאשר התיבה "הודע לי כאשר תגובה נשלחת" מסומנת גם תרשום אותך לקבל עדכונים מהנושא.',
     ),
 	array(
 		0 => 'כיצד אני נרשם לפורום מסוים?',
