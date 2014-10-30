@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Use * as a wildcard for text fields. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'איזור זה מאפשר לך למחוק או לבטל משתמשים במערכת הפורומים שלך. ניתן לסנן חשבונות במגוון דרכים; לפי מספר הודעות, פעילות אחרונה וכדומה. ניתן לשלב קריטריונים כדי לצמצם את התוצאות. לדוגמא, אתה יכול לבחור משתמשים עם פחות מ-10 הודעות, שלא היו פעילים לאחר 01-01-2002. השתמש ב * בתור wildcard בשדות טקסט. לחלופין, אתה יכול לדלג על בחירת הקריטריונים לחלוטין על ידי הזנת רשימת המשתמשים (כל אחד בשורה נפרדת) בשדה הטקסט. שים לב: יש להשתמש באפשרות זו בזהירות רבה! ברגע שמשתמש נמחק, אין דרך לשחזר אותו.',
 
-	'CRITERIA'				=> 'Criteria',
+	'CRITERIA'					=> 'קריטריונים',
 
 	'DEACTIVATE_DELETE'			=> 'הפוך ללא פעיל או מחק',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'בחר אם להפוך משתמשים ללא פעילים או למחוק אותם לחלוטין. אנא שים לב כי מחיקת משתמשים לא ניתנת לשחזור!',
@@ -72,24 +72,24 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'אופציה זו תמחק כל נושא אשר לא נכתבו בו תגובות או שצפו בו בהתאם למספר הימים שהגדרת. אם לא תכניס מספר כל הנושאים ימחקו. כברירת מחדל, לא יוסרו נושאים אשר קיימים בהם סקרים פעילים, כמו כן לא יוסרו נושאים נעוצים והכרזות.',
 
-	'FORUM_PRUNE'		=> 'איפוס פורום',
+	'FORUM_PRUNE'				=> 'איפוס פורום',
 
-	'NO_PRUNE'			=> 'לא אופסו פורומים.',
+	'NO_PRUNE'					=> 'לא אופסו פורומים.',
 
-	'SELECTED_FORUM'	=> 'פורום נבחר',
-	'SELECTED_FORUMS'	=> 'פורומים נבחרים',
+	'SELECTED_FORUM'			=> 'פורום נבחר',
+	'SELECTED_FORUMS'			=> 'פורומים נבחרים',
 
 	'POSTS_PRUNED'					=> 'הודעות שאופסו',
 	'PRUNE_ANNOUNCEMENTS'			=> 'אפס הכרזות',
 	'PRUNE_FINISHED_POLLS'			=> 'אפס סקרים סגורים',
 		'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'מסיר נושאים עם סקרים שנסגרו.',
 	'PRUNE_FORUM_CONFIRM'			=> 'האם אתה בטוח שברצונך לאפס את הפורומים שנבחרו על ידי ההגדרות שצוינו? ברגע שהוסרו, אין דרך לשחזר את ההודעות ונושאים שאופסו.',
-	'PRUNE_NOT_POSTED'			=> 'ימים החל מההודעה האחרונה',
+	'PRUNE_NOT_POSTED'				=> 'ימים החל מההודעה האחרונה',
 	'PRUNE_NOT_VIEWED'				=> 'ימים החל מהצפייה האחרונה',
 	'PRUNE_OLD_POLLS'				=> 'אפס סקרים ישנים',
 	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'מסיר נושאים עם סקרים שלא הצביעו להם במספר הימים הנקוב.',
 	'PRUNE_STICKY'					=> 'אפס דביקים',
 	'PRUNE_SUCCESS'					=> 'איפוס הפורומים התבצע בהצלחה.',
 
-	'TOPICS_PRUNED'		=> 'נושאים אופסו',
+	'TOPICS_PRUNED'					=> 'נושאים אופסו',
 ));
