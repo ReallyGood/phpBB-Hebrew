@@ -37,7 +37,7 @@ $help = array(
 	),
 	array(
 		0 => 'מדוע אני צריך להירשם?',
-		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
+		1 => 'לא בטוח שאתה צריך. המנהל הראשי של המערכת יכול להחליט האם חובה להירשם כדי לפרסם הודעות. בכל אופן, הרשמה תפתח לך גישה לאפשרויות נוספות שלא זמינות לאורחים, כמו למשל הגדרת תמונת פרופיל, שליחת הודעות פרטיות או אימיילים למשתמשים אחרים ועוד. ההרשמה לוקחת כמה רגעים כך שמומלץ להירשם.'
 	),
 	array(
 		0 => 'מהו COPPA?',
@@ -45,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'מדוע אני לא יכול להרשם?',
-		1 => 'It is possible a board administrator has disabled registration to prevent new visitors from signing up. A board administrator could have also banned your IP address or disallowed the username you are attempting to register. Contact a board administrator for assistance.',
+		1 => 'יש אפשרות שמנהל ראשי סגר את ההרשמה כדי למנוע ממבקרים חדשים להירשם. לחילופין ייתכן שמנהל ראשי חסם את כתובת ה-IP שלך או את שם המשתמש שאתה מנסה לרשום. צור קשר עם מנהל ראשי לסיוע.',
 	),
 	array(
 		0 => 'נרשמתי אבל אני לא מצליח להתחבר!',
@@ -53,7 +53,7 @@ $help = array(
 	),
 	array(
 		0 => 'למה אני לא מצליח להתחבר?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact a board administrator to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.',
+		1 => 'יש כמה סיבות אפשריות לכך. קודם כל, ודא ששם המשתמש והססמה שלך נכונים. אם הם נכונים, צור קשר עם מנהל ראשי כדי לוודא שלא נחסמת. לחילופין, יכול להיות שיש שגיאה בהגדרות האתר שהמנהלים שלו יצטרכו לתקן',
 	),
 	array(
 		0 => 'נרשמתי בעבר אבל אני לא מצליח להתחבר יותר?!',
@@ -61,15 +61,15 @@ $help = array(
 	),
 	array(
 		0 => 'איבדתי את הססמה שלי!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
+		1 => 'בלי פאניקה! אי אפשר לשחזר את הססמה שלך, אבל כן אפשר לאפס אותה. בקר בדף ההתחברות ולחץ על <em>שכחתי את ססמתי</em>. עקוב אחר ההוראות ותוכל להתחבר שוב תוך זמן קצר.<br />אם בכל זאת לא תצליח לאפס את הססמה, צור קשר עם מנהל ראשי',
 	),
 	array(
 		0 => 'מדוע אני מתנתק באופן אוטומטי?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
+		1 => 'אם לא תסמן את לבדוק את תיבת הסימון <em>זכור אותי</em> בעת הכניסה, המערכת תשאיר אותך מחובר רק לזמן שנקבע מראש. הדבר מונע שימוש לרעה בחשבונך על ידי מישהו אחר. כדי להישאר מחובר, סמן את התיבה במהלך ההתחברות. הפעולה הזו לא מומלצת כאשר אתה מחובר לפורום במחשב משותף, למשל בספריה, קפה אינטרנט, מחשבי מעבדות באוניברסיטה וכו׳. אם אתה לא רואה את התיבה, כנראה שמנהל המערכת ביטל את האפשרות הזו.'
 	),
 	array(
 		0 => 'מה האפשרות “מחק את כל עוגיות המערכת” עושה?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
+		1 => '"מחק את כל עוגיות המערכת" מוחק את כל העוגיות (cookies) שנוצרו על ידי phpBB ושומרות עליך מחובר למערכת. עוגיות ממלאות תפקידים נוספים כמו מעקב קריאה של נושאים והודעות אם האפשרות הופעלה על ידי מנהל ראשי. אם נתקלת בבעיות של התחברות והתנתקות, מחיקת עוגיות המערכת יכולה לעזור.',
 	),
 	array(
 		0 => '--',
