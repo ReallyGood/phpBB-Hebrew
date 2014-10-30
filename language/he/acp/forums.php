@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_MISMATCH'			=> 'הססמאות שהכנסת אינן תואמות.',
 	'FORUM_PRUNE_SETTINGS'				=> 'הגדרות איפוס הפורום',
 	'FORUM_PRUNE_SHADOW'				=> 'Enable auto-pruning of shadow topics',
-	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
 	'FORUM_RESYNCED'					=> 'הפורום “%s” סונכרן בהצלחה',
 	'FORUM_RULES_EXPLAIN'				=> 'חוקי הפורום מוצגים בכל עמוד בתוך הפורום שהזנת.',
 	'FORUM_RULES_LINK'					=> 'קישור לחוקי הפורום',
@@ -123,16 +123,16 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'						=> 'סוג הפורום',
 	'FORUM_UPDATED'						=> 'מידע הפורום עודכן בהצלחה.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'תוכל לשנות פורום בו ניתן לשלוח הודעות המכיל תתי־פורומים לקישור. אנא העבר את כל תתי־הפורומים מחוץ לפורום זה לפני שתמשיך, מפני שלאחר השינוי לקישור לא תוכל יותר לראות את תתי־הפורומים המקושרים כרגע לפורום זה.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'תוכל לשנות פורום בו ניתן לשלוח הודעות המכיל תתי־פורומים לקישור. אנא העבר את כל תתי־הפורומים מחוץ לפורום זה לפני שתמשיך, מפני שלאחר השינוי לקישור לא תוכל יותר לראות את תתי־הפורומים המקושרים כרגע לפורום זה.',
 
 	'GENERAL_FORUM_SETTINGS'	=> 'הגדרות פורום כלליות',
 
-	'LINK'					=> 'קישור',
-	'LIST_INDEX'			=> 'רשום תת פורום ברשימת הפורומים הראשית',
-	'LIST_INDEX_EXPLAIN'	=> 'הצג את פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור של פורום האב שלו אם פורום האב מוגדר כ”רשום תת פורום ברשימה“ האפשרות מאושרת.',
-	'LIST_SUBFORUMS'		=> 'רשום תת פורום ברשימה',
+	'LINK'						=> 'קישור',
+	'LIST_INDEX'				=> 'רשום תת פורום ברשימת הפורומים הראשית',
+	'LIST_INDEX_EXPLAIN'		=> 'הצג את פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור של פורום האב שלו אם פורום האב מוגדר כ”רשום תת פורום ברשימה“ האפשרות מאושרת.',
+	'LIST_SUBFORUMS'			=> 'רשום תת פורום ברשימה',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'הצג את תת הפורומים של פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור הפורום. אם הפורום מוגדר כ”רשום תת פורום ברשימת הפורומים הראשית“ האפשרות מאושרת.',
-	'LOCKED'				=> 'נעול',
+	'LOCKED'					=> 'נעול',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'הפורום שבחרת להעביר אליו את ההודעות אינו יכול לקבל הודעות נוספות. אנא בחר פורום אחר.',
 	'MOVE_POSTS_TO'					=> 'העבר הודעות ל',
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_OLD_POLLS'			=> 'איפוס סקרים ישנים',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'הסר נושאים עם סקרים ללא הצבעות שעברו את מספר הימים שהוקצב להם.',
 
-	'REDIRECT_ACL'	=> 'כעת באפשרות %sלהגדיר הרשאות%s לפורום זה.',
+	'REDIRECT_ACL'				=> 'כעת באפשרות %sלהגדיר הרשאות%s לפורום זה.',
 
 	'SYNC_IN_PROGRESS'			=> 'מחדש פורום',
 	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'מרחק חידוש הפורום כעת %1$d/%2$d.',

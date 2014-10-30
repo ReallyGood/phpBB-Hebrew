@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> 'Customise',
+	'ACP_CAT_CUSTOMISE'			=> 'התאמה אישית',
 	'ACP_CAT_DATABASE'			=> 'בסיס נתונים',
 	'ACP_CAT_DOT_MODS'			=> 'תוספות',
 	'ACP_CAT_FORUMS'			=> 'פורומים',
@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'משתמשים',
 	'ACP_CLIENT_COMMUNICATION'	=> 'תקשורת לקוחות',
 	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגייה',
-	'ACP_CONTACT'				=> 'Contact page',
-	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings',
+	'ACP_CONTACT'				=> 'עמוד יצירת קשר',
+	'ACP_CONTACT_SETTINGS'		=> 'הגדרות עמוד יצירת קשר',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
 
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_WARNINGS'				=> 'אזהרות',
 
 	'ACP_VC_SETTINGS'					=> 'אמצעים נגד בוטים',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'תצוגה מקדימה לCAPTCHA',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'תצוגה מקדימה ל-CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'בדוק עדכונים',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'הצגת הרשאות ניהול ראשי',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול פורום',
