@@ -37,11 +37,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.',
+	'ACP_STYLES_EXPLAIN'		=> 'Here you can manage the available styles on your board. You may alter existing styles, delete, deactivate, reactivate, install new ones. You can also see what a style will look like using the preview function. Also listed is the total user count for each style, note that overriding user styles will not be reflected here.',
 
-	'CANNOT_BE_INSTALLED'			=> 'Cannot be installed',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Are you sure you wish to uninstall selected styles?',
-	'COPYRIGHT'						=> 'Copyright',
+	'CANNOT_BE_INSTALLED'		=> 'Cannot be installed',
+	'CONFIRM_UNINSTALL_STYLES'	=> 'אתה בטוח שברצונך להסיר את העיצובים שנבחרו?',
+	'COPYRIGHT'					=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'		=> 'אינך יכול להפוך את עיצוב ברירת המחדל ללא לפעיל',
 	'DELETE_FROM_FS'			=> 'מחק מקבצי המערכת',
@@ -55,10 +55,10 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLES_EXPLAIN'	=> 'Here you can install new styles.<br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.',
 	'INVALID_STYLE_ID'			=> 'Invalid style ID.',
 
-	'NO_MATCHING_STYLES_FOUND'	=> 'No styles match your query.',
+	'NO_MATCHING_STYLES_FOUND'	=> 'לא נמצאו עיצובים מתאימים לשאילתה שלך.',
 	'NO_UNINSTALLED_STYLE'		=> 'לא אותרו עיצובים לא מותקנים.',
 
-	'PURGED_CACHE'				=> 'Cache was purged.',
+	'PURGED_CACHE'				=> 'זיכרון המטמון נוקה.',
 
 	'REQUIRES_STYLE'			=> 'This style requires the style "%s" to be installed.',
 
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NAME_EXIST'		=> 'עיצוב עם שם זה כבר קיים.',
 	'STYLE_ERR_STYLE_NAME'		=> 'אתה מוכרח לציין שם לעיצוב זה.',
 	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.',
-	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Return to installed styles list',
-	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Install more styles',
+	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'חזור לרשימת העיצובים המותקנים',
+	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'התקן עוד עיצובים',
 	'STYLE_NAME'				=> 'שם העיצוב',
 	'STYLE_NOT_INSTALLED'		=> 'עיצוב "%s" לא הותקן.',
 	'STYLE_PATH'				=> 'Style path',
@@ -81,5 +81,5 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALLED'			=> 'Style "%s" uninstalled successfully.',
 	'STYLE_USED_BY'				=> 'Used by (including robots)',
 
-	'UNINSTALL_DEFAULT'		=> 'You cannot uninstall the default style.',
+	'UNINSTALL_DEFAULT'			=> 'אין באפשרותך להסיר את עיצוב ברירת המחדל.',
 ));

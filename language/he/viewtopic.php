@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'אשר',
+	'APPROVE'							=> 'אשר',
 	'ATTACHMENT'						=> 'קובץ מצורף',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'האפשרות לצירוף קבצים בוטלה.',
 
@@ -46,14 +46,14 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_REMOVED'		=> 'הנושא הוסר מהמועדפים בהצלחה.',
 	'BOOKMARK_TOPIC'		=> 'הוסף למועדפים',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'הסר ממועדפים',
-	'BUMPED_BY'			=> 'הוקפץ לאחרונה על ידי %1$s בתאריך %2$s.',
+	'BUMPED_BY'				=> 'הוקפץ לאחרונה על ידי %1$s בתאריך %2$s.',
 	'BUMP_TOPIC'			=> 'הקפץ נושא',
 
 	'CODE'					=> 'קוד',
 
 	'DELETE_TOPIC'			=> 'מחק נושא',
 	'DELETED_INFORMATION'	=> 'נמחק על ידי %1$s ב %2$s',
-	'DISAPPROVE'					=> 'אל תאשר',
+	'DISAPPROVE'			=> 'אל תאשר',
 	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
