@@ -306,7 +306,7 @@ $help = array(
 	),
 	array(
 		0 => 'מה ההבדל בין מועדפים והרשמות לקבלת עדכונים?',
-		1 => 'In phpBB 3.0, bookmarking topics worked much like bookmarking in a web browser. You were not alerted when there was an update. As of phpBB 3.1, bookmarking is more like subscribing to a topic. You can be notified when a bookmarked topic is updated. Subscribing, however, will notify you when there is an update to a topic or forum on the board. Notification options for bookmarks and subscriptions can be configured in the User Control Panel, under “Board preferences”.',
+		1 => 'ב-phpBB 3.0, שמירה למועדפים של נושאים עבדה בדומה למועדפים בדפדפן - לא היית מקבל התראות על עדכונים בנושאים. החל מגרסה 3.1, שמירה למועדפים דומה יותר להרשמה לנושא. תוכל לקבל התראות כאשר הנושא מתעדכן. הרשמה לפורום, לעומת זאת, תעדכן אותך כאשר ישר עדכונים לנושא או פורום במערכת. ניתן לשנות את אפשרויות ההתראות למועדפים והרשמות בלוח הבקרה למשתמש, תחת ״העדפות מערכת״.',
 	),
 	array(
     	0 => 'How do I bookmark or subscribe to specific topics?',
