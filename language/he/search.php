@@ -63,8 +63,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בהודעות חדשות מאז ביקורך האחרון.',	
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	=> 'החיפוש שלך כולל יותר מדי מילים. אנא אל תזין יותר ממילה אחת.',
+		2	=> 'החיפוש שלך כולל יותר מדי מילים. אנא אל תזין יותר מ-%1$d מילים.',
 	),
 
 	'NO_KEYWORDS'			=> 'יש לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s אותיות ולא יכולה להכין יותר מ־%s אותיות, לא כולל תווים משלימים.',
