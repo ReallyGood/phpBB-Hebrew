@@ -205,7 +205,6 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'זוהי רשימת הנושאים שנרשמו על ידי משתמשים אשר ממתינים לקבל אישור לפני פרסום ההודעות לקהל המשתמשים בפורום.',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'הודעות שנמחקו',
 	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'This is a list of all soft deleted posts. You can restore or permanently delete the posts from this screen.',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'This is a list of all soft deleted posts. You can restore or permanently delete the posts from this screen.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'נושאים שנמחקו',
 	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'This is a list of all soft deleted topics. You can restore or permanently delete the topics from this screen.',
 
