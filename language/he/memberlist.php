@@ -144,9 +144,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'משתמשים בעמוד',
 
 	'VIEWING_PROFILE'		=> 'צופה בפרופיל - %s',
-	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile',
-	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile',
-	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile',
+	'VIEW_FACEBOOK_PROFILE'	=> 'צפה בפרופיל Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'צפה בפרופיל Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'צפה בפרופיל Twitter',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'צפה בערוץ YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'צפה בפרופיל Google+',
 ));
