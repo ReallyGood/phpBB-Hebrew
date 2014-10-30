@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS'			=> 'אפשר הזנות פורומים',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'מאפשר הזנות ל”כל הפורומים“, אשר מציג רשימה של פורומים.',
 
-	'ACP_FEED_HTTP_AUTH'				=> 'אפשר אימות HTTP ',
+	'ACP_FEED_HTTP_AUTH'				=> 'אפשר אימות HTTP',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'מאפשר אימות HTTP, אשר מאפשר למשתמשים לקבל תוכן אשר מוסתר מאורחים על ידי הוספת משתנה <samp>auth=http</samp> להזנת הכתובת. אנא שים לב שחלק ממערכי PHP דורשים שינויים נוספים בקובץ .htaccess. הוראות ניתן למצוא באותו הקובץ.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'סטטיסטיקת פרטים',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'הצג סטטיסטיקה מתחת לפרטי ההזנות<br />(לדוגמה נשלח על ידי, תאריך וזמן, תגובות, צפיות)',
@@ -478,8 +478,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'נתיב אחסון קבוצת הסיומות לאייקונים',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).',
+	'USE_SYSTEM_CRON'			=> 'Run periodic tasks from system cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).',
 ));
 
 // Security Settings
@@ -529,8 +529,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'חייבת להכיל סימנים',
 	'REF_HOST'						=> 'רק שרת בתוקף',
 	'REF_PATH'						=> 'וגם תיקייה בתוקף',
-	'REFERRER_VALID'					=> 'בדיקת דף מפנה',
-	'REFERRER_VALID_EXPLAIN'			=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
+	'REFERRER_VALID'				=> 'בדיקת דף מפנה',
+	'REFERRER_VALID_EXPLAIN'		=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
 	'TPL_ALLOW_PHP'					=> 'אפשר php בערכות',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו ויבוצעו בערכות.',
 ));

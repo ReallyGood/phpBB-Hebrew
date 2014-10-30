@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. כל הזכויות שמורות &copy; 2008 - phpBB.co.il.',
+	'TRANSLATION_INFO'	=> 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. כל הזכויות שמורות &copy; 2014 - phpBB.co.il.',
 	'DIRECTION'			=> 'rtl',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'הקובץ שצוין הועלה חלקית בלבד.',
 	'AVATAR_PHP_SIZE_NA'			=> 'קובץ הסמל האישי גדול מדי.<br />לא ניתן לקבל את גודל הקובץ המרבי אשר מוגדר ב־php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'קובץ הסמל האישי גדול מדי. הגודל המרבי המורשה להעלאה הוא %1$d %2$s.<br />שים לב שהגודל נקבע ב־php.ini ואינו ניתן לשינוי.',
-	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'The specified avatar could not be uploaded because the request timed out.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'	=> 'The specified avatar could not be uploaded because the request timed out.',
 	'AVATAR_URL_INVALID'			=> 'הכתובת שציינת אינה חוקית.',
 	'AVATAR_URL_NOT_FOUND'			=> 'הקובץ שצוין לא נמצא.',
 	'AVATAR_WRONG_FILESIZE'			=> 'הסמל האישי חייב להיות בין 0 ו־%1$d %2$s.',
@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'ERR_UNWATCHING'					=> 'שגיאה התרחשה בעת הניסיון לבטל ההרשמה.',
 	'ERR_WATCHING'						=> 'שגיאה התרחשה בעת הניסיון להירשם.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'נתיב phpBB שצוין שגוי.',
-	'ERROR'									=> 'שגיאה',
+	'ERROR'								=> 'שגיאה',
 	'EXPAND_VIEW'						=> 'הרחב תצוגה',
 	'EXTENSION'							=> 'סיומת',
 	'EXTENSION_DISABLED'				=> 'הסיומת <strong>%s</strong> חסומה.',
