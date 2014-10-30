@@ -36,44 +36,40 @@ $help = array(
 		1 => 'התחברות והרשמה למערכת'
 	),
 	array(
-		0 => 'למה אני לא מצליח להתחבר?',
-		1 => 'ישנן כמה סיבות אשר יכולות להיות התשובה לבעיה. ראשית, בדוק ששם המשתמש והססמה שהזנת הם אכן נכונים. אם בדקת והם נכונים, צור קשר עם מנהל המערכת וברר אם אינך חסום מגישה למערכת. אפשרות נוספת היא שמנהל המערכת אחראי לבעיה והתקלה היא במערכת ולא בפרטייך, והמנהלים מסדרים אותה.'
-	),
-	array(
-		0 => 'מדוע אני צריך להירשם בכלל?',
-		1 => 'אינך חייב, זה תלוי במנהלי המערכת והרשאותיהם בפורום, יתכן שתהייה חייב להירשם בכדי לשלוח הודעות בפורום. בכל מקרה; הרישום יתן לך גישה לכלים אשר יעזרו וישפרו לך את חווית הגלישה בפורום דבר אשר לא תקבל כאורח, כלים כמו רישום ומעקב אחר נושאים, סמל אישי, חתימה, עריכת פרופיל משתמש ועוד. הרישום הנו לוקח דקות ספורות בלבד, כך שכדאי לך להירשם.'
-	),
-	array(
-		0 => 'מדוע אני מתנתק באופן אוטומטי?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
-	),
-	array(
-		0 => 'איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?',
-		1 => 'בעזרת לוח הבקרה למשתמש, תחת הכותרת “אפשרויות מערכת”,אתה תמצא אפשרות <em>הסתר את מצבי כמחובר</em>. הפעל אפשרות זו <samp>כן</samp>ורק מנהלי המערכת, מנהלי פורומים ואתה עצמך תהיו אלה שיראו אותך מחובר. אתה תספר כמשתמש מוסתר.'
-	),
-	array(
-		0 => 'איבדתי את הססמה שלי!',
-		1 => 'אל תלחץ! כאשר אינך זוכר את הססמה, בקלות תוכל לאפסה. בקר בעמוד ההתחברות ולחץ <em>שכחתי ססמה</em>. עקוב אחר ההוראות ותוכל להתחבר שוב בקרוב.'
-	),
-	array(
-		0 => 'נרשמתי אבל אני לא מצליח להתחבר!',
-		1 => 'ראשית, בדוק את שם המשתמש והססמה שהזנת. אם הם נכונים, אז כנראה ואת מהדברים הבאים קרה. אם מערכת ה־COPPA פועלת במערכת ובהרשמה סימנת שאתה מתחת לגיל 13, תצטרך לעקוב אחר ההוראות שתקבל. בחלק ממערכות הפורומים דורשים את הפעלת החשבון, על ידי דואר אלקטרוני או מנהל המערכת; מידע זה מוצג במהלך ההרשמה. אם האישור להרשמה נשלח לדואר האלקטרוני, עקוב אחר ההוראות. אם לא קיבלת הודעה לדואר האלקטרוני, כנראה ונתת כתובת דואר אלקטרוני שגויה או שמערכת הדואר האלקטרוני העבירה את הודעת האישור בסינון הספאם. אם אתה בטוח שהפרטים שהזנת נכונים ודואר האלקטרוני אכן נכונה, צור קשר עם מנהל המערכת.'
-	),
-	array(
-		0 => 'נרשמתי בעבר אבל אני לא מצליח להתחבר יותר?!',
-		1 => 'קיימת אפשרות שמנהל ראשי כיבה או מחק את חשבונך מסיבה כלשהי. בנוסף, פורומים רבים מוחקים משתמשים אשר לא פירסמו הודעות זמן רב כדי לצמצם בגודל של בסיס הנתונים. אם זה קרה, נסה להירשם שוב ולהיות יותר פעיל בדיונים.'
+		0 => 'מדוע אני צריך להירשם?',
+		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
 	),
 	array(
 		0 => 'מהו COPPA?',
 		1 => 'COPPA, או החוק לפרטיות והגנה המקוונת של הילד של 1998, הוא חוק בארצות הברית הדורש מאתרים ברשת אשר יכולים לאסוף מידע מקטינים מתחת לגיל 13 לדרוש הסכמה מההורים בכתב או כל שיטה אחרת של אישור מאפוטרופוס חוקי, המאפשר את איסוף פרטי הזיהוי האישיים מקטין מתחת לגיל 14 13. אם אינך בטוח אם חוק זה חל לגביך בתור מישהו המנסה להירשם או לאתר אשר אליו אתה מנסה להירשם, צור קשר עם יועץ חוקי להתיעצות. שים לב שקבוצת phpBB אינה יכולה לספק יעוץ חוקי ואינה נקודה ליצירת קשר לענייני חוק מכל סוג, ובפרט הרשום להלן.',
 	),
 	array(
-		0 => 'מדוע אני לא יכול להירשם?',
-		1 => 'יכול להיות שמנהל המערכת חסם את כתובת ה־IP שלך או אסר שימוש בשם משתמש זה. בנוסף מנהל המערכת יכול להפסיק את ההרשמה למערכת ובכך למנוע ממשתמשים חדשים להירשם. צור קשר עם מנהלי המערכת לעזרה.',
+		0 => 'מדוע אני לא יכול להרשם?',
+		1 => 'It is possible a board administrator has disabled registration to prevent new visitors from signing up. A board administrator could have also banned your IP address or disallowed the username you are attempting to register. Contact a board administrator for assistance.',
+	),
+	array(
+		0 => 'נרשמתי אבל אני לא מצליח להתחבר!',
+		1 => 'ראשית, בדוק את שם המשתמש והססמה שהזנת. אם הם נכונים, אז כנראה ואת מהדברים הבאים קרה. אם מערכת ה־COPPA פועלת במערכת ובהרשמה סימנת שאתה מתחת לגיל 13, תצטרך לעקוב אחר ההוראות שתקבל. בחלק ממערכות הפורומים דורשים את הפעלת החשבון, על ידי דואר אלקטרוני או מנהל המערכת; מידע זה מוצג במהלך ההרשמה. אם האישור להרשמה נשלח לדואר האלקטרוני, עקוב אחר ההוראות. אם לא קיבלת הודעה לדואר האלקטרוני, כנראה ונתת כתובת דואר אלקטרוני שגויה או שמערכת הדואר האלקטרוני העבירה את הודעת האישור בסינון הספאם. אם אתה בטוח שהפרטים שהזנת נכונים ודואר האלקטרוני אכן נכונה, צור קשר עם מנהל המערכת.'
+	),
+	array(
+		0 => 'למה אני לא מצליח להתחבר?',
+		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact a board administrator to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.',
+	),
+	array(
+		0 => 'נרשמתי בעבר אבל אני לא מצליח להתחבר יותר?!',
+		1 => 'קיימת אפשרות שמנהל ראשי כיבה או מחק את חשבונך מסיבה כלשהי. בנוסף, פורומים רבים מוחקים משתמשים אשר לא פירסמו הודעות זמן רב כדי לצמצם בגודל של בסיס הנתונים. אם זה קרה, נסה להירשם שוב ולהיות יותר פעיל בדיונים.'
+	),
+	array(
+		0 => 'איבדתי את הססמה שלי!',
+		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
+	),
+	array(
+		0 => 'מדוע אני מתנתק באופן אוטומטי?',
+		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
 	),
 	array(
 		0 => 'מה האפשרות “מחק את כל עוגיות המערכת” עושה?',
-		1 => '“מחק את כל עוגיות המערכת” מוחקת את כל העוגיות שנוצרו על ידי המערכת ומונעת מהמשך ההתחברות האוטומטית לפעול. בנוסף אפשרות זו יכולה לאפשר מעקב אישי במערכת אם אפשרות זו הופעלה על ידי מנהל המערכת. אם יש לך בעיה של התחברות והתנתקות, מחיקת עוגיות המערכת יכולה במקרים מסוימים לעזור.',
+		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
 	),
 	array(
 		0 => '--',
@@ -81,7 +77,11 @@ $help = array(
 	),
 	array(
 		0 => 'כיצד אני משנה את ההגדרות שלי?',
-		1 => 'אם אתה משתמש רשום, כל הגדרותיך שמורות בבסיס הנתונים. בכדי לשנותם, בקר בלוח הבקרה למשתמש; את הקישור לדף זה תוכל למצוא בראש הדף. מערכת זו תאפשר לך לשנות את ההגדרות והאפשרויות האישיות שלך.'
+		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
+	),
+	array(
+		0 => 'איך אני מונע משם המשתמש שלי מלהופיע ברשימת המשתמשים המחוברים?',
+		1 => 'בעזרת לוח הבקרה למשתמש, תחת הכותרת “אפשרויות מערכת”,אתה תמצא אפשרות <em>הסתר את מצבי כמחובר</em>. הפעל אפשרות זו <samp>כן</samp>ורק מנהלי המערכת, מנהלי פורומים ואתה עצמך תהיו אלה שיראו אותך מחובר. אתה תספר כמשתמש מוסתר.'
 	),
 	array(
 		0 => 'הזמנים אינם נכונים!',
@@ -93,11 +93,15 @@ $help = array(
 	),
 	array(
 		0 => 'השפה שלי אינה ברשימה!',
-		1 => 'מנהלי המערכת כנראה ולא העלו את השפה בהתקנת המערכת או שאף אחד לא תרגם את המערכת לשפה שלך. נסה לשאול את מנהלי המערכת אם ביכולתם להתקין את השפה. אם חבילת השפה אינה קיימת, תרגיש חופשי לנסות ולתרגם את השפה בעצמך. יותר מידע אודות תרגום שפה תוכל למצוא באתר הרשמי של PHPBB (ראה קישור בתחתית הפורום).'
+		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
 	),
 	array(
-		0 => 'איך אני מציג תמונה יחד עם שם המשתמש שלי?',
-		1 => 'ישנם שני תמונות אשר יכולות להיות מוצגות יחד עם שם המשתמש כאשר צופים בהודעות. אחת מהן יכולה להיות תמונה הקשורה לדרגה שלך, בדרך כלל בצודה של כוכבים, ריבועים או נקודות, מציינים כמה הודעות כתבת או את מעמדך בפורום. השני, בדרך כלל תמונה גדולה, הידועה כתמונה אישית ובדרך כלל יחודית או אישית לכל משתמש. באחריות המנהל הראשי של הפורום לאפשר תמונות אישיות ולבחור את הדרך שבהם תמונות אישיות יהיו זמינות. אם אינך יכול להשתמש בתמונות אישיות, צור קשר עם המנהל הראשי של הפורום ושאל אותו לסיבה.'
+		0 => 'What are the images next to my username?',
+		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually larger, image is known as an avatar and is generally unique or personal to each user.',
+	),
+	array(
+		0 => 'How do I display an avatar?',
+		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
 	),
 	array(
 		0 => 'מהו הדירוג שלי וכיצד אני משנה אותו?',
@@ -112,8 +116,8 @@ $help = array(
 		1 => 'מערכת השליחה'
 	),
 	array(
-		0 => 'כיצד אני שולח נושא חדש בפורום?',
-		1 => 'כדי לשלוח נושא חדש בפורום, לחץ על הכפתור הדרוש במסכי הפורום או הנושא. יתכן שתצטרך להירשם לפני שתוכל לשלוח הודעה. רשימת ההרשאות שלך בכל פורום זמינה בתחתית מסכי הפורום והנושא. לדוגמה: אתה יכול לשלוח נושאים חדשים, אתה יכול להצביע בסקרים, וכד\'.'
+		0 => 'How do I create a new topic or post a reply?',
+		1 => 'To post a new topic in a forum, click "New Topic". To post a reply to a topic, click "Post Reply". You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can post attachments, etc.',
 	),
 	array(
 		0 => 'כיצד אני עורך או מוחק הודעה?',
@@ -282,7 +286,7 @@ $help = array(
 	),
 	array(
 		0 => 'מדוע החיפוש שלי לא מחזיר תוצאות?',
-		1 => 'החיפוש שלך כנראה כללי מדי ומכיל הרבה תנאים נפוצים אשר לא נכנסו למאגר של phpBB3. הגדר יותר את החיפוש והשתמש באפשרויות הזמינות בחיפוש המתקדם.'
+		1 => 'Your search was probably too vague and included many common terms which are not indexed by phpBB. Be more specific and use the options available within Advanced search.',
 	),
 	array(
 		0 => 'מדוע החיפוש שלי מחזיר עמוד ריק!?',
@@ -294,7 +298,7 @@ $help = array(
 	),
 	array(
 		0 => 'כיצד אני יכול למצוא את ההודעות והנושאים שלי?',
-		1 => 'את ההודעות שלך ניתן לקבל על־ידי לחיצה על “חפש את הודעות המשתמש” בלוח הבקרה למשתמש או דרך עמוד הפרופיל שלך. כדי לחפש את הנושאים שלך, השתמש בעמוד החיפוש המתקדם ומלא את האפשרויות השונות המתקדמות.'
+		1 => 'Your own posts can be retrieved either by clicking the “Show your posts” link within the User Control Panel or by clicking the “Search user’s posts” link via your own profile page or by clicking the “Quick links” menu at the top of the board. To search for your topics, use the Advanced search page and fill in the various options appropriately.',
 	),
 	array(
 		0 => '--',
@@ -302,11 +306,15 @@ $help = array(
 	),
 	array(
 		0 => 'מה ההבדל בין מועדפים והרשמות לקבלת עדכונים?',
-		1 => 'המועדפים ב־phpBB3 דומה למועדפים של דפדפן האינטרנט שלך. אינך מקבל התראה כאשר יש עדכון, אבל אתה יכול לחזור לנושא מאוחר יותר. הרשמה, עם זאת, תודיע לך כאשר יש עדכון לנושא או לפורום במערכת דרך השיטה או השיטות המועדפות עליך.'
+		1 => 'In phpBB 3.0, bookmarking topics worked much like bookmarking in a web browser. You were not alerted when there was an update. As of phpBB 3.1, bookmarking is more like subscribing to a topic. You can be notified when a bookmarked topic is updated. Subscribing, however, will notify you when there is an update to a topic or forum on the board. Notification options for bookmarks and subscriptions can be configured in the User Control Panel, under “Board preferences”.',
 	),
 	array(
-		0 => 'כיצד אני נרשם לנושא או לפורום מסוים?',
-		1 => 'כדי להירשם לפורום מסוים, לחץ על הקישור “הרשם לקבלת עדכונים מפורום זה” לאחר הכניסה לפורום. כדי להירשם לנושא, הגב לנושא עם תיבת הסימון להרשמה מסומנת או לחץ על הקישור “הרשם לקבלת עדכונים מנושא זה” בנושא עצמו.'
+    	0 => 'How do I bookmark or subscribe to specific topics?',
+    	1 => 'You can bookmark or subscribe to a specific topic by clicking the appropriate link in the “Topic tools” menu, conveniently located near the top and bottom of a topic discussion.<br />Replying to a topic with the “Notify me when a reply is posted” option checked will also subscribe you to the topic.',
+    ),
+	array(
+		0 => 'כיצד אני נרשם לפורום מסוים?',
+		1 => 'כדי להרשם לפורום מסוים, לחץ על הקישור “הרשם לקבלת עדכונים מפורום זה” בתחתית העמוד לאחר הכניסה לפורום.',
 	),
 	array(
 		0 => 'כיצד אני מסיר את ההרשמות שלי?',
@@ -326,11 +334,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'מערכת phpBB 3'
+		1 => 'מערכת phpBB'
 	),
 	array(
 		0 => 'מי תכנן וכתב את מערכת הפורומים?',
-		1 => 'תוכנה זו (בצורה הלא ערוכה שלה) נוצרה, שוחררה וזכויותיה הם של <a href="https://www.phpbb.com/">קבוצת phpBB</a>. המערכת נבנתה תחת רישיון חופשי וניתנת לעריכה חופשית ומלאה. ראה את הקישור לפרטים נוספים.'
+		1 => 'תוכנה זו (בצורה הלא ערוכה שלה) נוצרה, שוחררה וזכויותיה הם של <a href="https://www.phpbb.com/">קבוצת phpBB</a>. המערכת נבנתה תחת רישיון חופשי וניתנת לעריכה חופשית ומלאה (GNU-2.0). לפרטים נוספים בקרו בעמוד <a href=“http://phpbb.co.il/about/”>אודות המערכת</a>.’
 	),
 	array(
 		0 => 'מדוע אפשרות X ניתנת?',
@@ -340,6 +348,10 @@ $help = array(
 		0 => 'למי אני פונה במקרים של חוקתיות ואישורים למערכת?',
 		1 => 'לכל מנהל ראשי אשר נמצא בקבוצה הנקראת “הצוות”. הדף יכול לשמש גם עזר להערותיכם. אם אינך מקבל תשובה אתה צריך ליצור קשר עם בעל המתחם (בצע <a href="http://www.google.com/search?q=whois">איתור whois</a>) או, אם המערכת רצה על שירות חינמי (למשל Yahoo!, free.fr, f2s.com, וכד\'), ההנהלה או מחלקת הפגיעות של אותו שירות. שים לב שלקבוצת phpBB <strong>אין לחלוטין סמכות שיפוטית</strong> ואינה יכולה בשום דרך לשאת באחריות לגבי איך, איפה או על־ידי מי מערכת זו בשימוש. אל תצור קשר עם קבוצת phpBB בהקשר לכל חומר לא חוקי אשר <strong>לא קשור באופן ישיר</strong> לאתר phpBB.co.il או המערכת phpBB עצמה בפרט. אם תשלח דואר אלקטרוני לקבוצת phpBB <strong>לגבי כל שימוש בצד שלישי</strong> של מערכת זו, צפה לתשובה מצומצמת או לשום תשובה בכלל.'
 		),
+	array(
+		0 => 'איך אני יוצר קשר עם מנהל הפורומים?',
+		1 => 'כל המשתמשים של הפורומים יכולים להשתמש בטופס “יצירת קשר”, אם מנהל הפורומים הפעיל אפשרות זו.<br />משתמשים רשומים יכולים לצפות גם בעמוד “הצוות”.',
+	),
 	array(
 		0 => '--',
 		1 => 'קבוצת המתרגמים phpBB הישראלי'
