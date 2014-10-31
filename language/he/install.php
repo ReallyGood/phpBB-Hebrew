@@ -420,7 +420,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'	=> 'ערוך שם משתמש',
 	'ERROR'			=> 'שגיאה',
-	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.',
+	'EVERYTHING_UP_TO_DATE'		=> 'הכל מעודכן לגרסת phpBB האחרונה. עכשיו אתה צריך <a href="%1$s">להתחבר למערכת הפורומים שלך</a> ולבדוק אם הכל עובד כשורה. אל תשכח למחוק, לשנות שם או להעביר את התיקיה install! אנא שלח לנו מידע מעודכן על תצורת השרת והמערכת שלך מהמודול <a href="%2$s">שלח מידע סטטיסטי</a> ב-ACP שלך.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'הקובץ כבר מעודכן.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'הקובץ לא ניתן לשינוי.',
