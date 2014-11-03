@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* recaptcha [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -47,6 +48,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'מפתח הreCaptcha האישי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'בניסיון למנוע שליחות אוטומטיות, אנו מבקשים שתכניס את שתי המילים המופיעות בתיבת הטקסט מולך.',
-	
 	'RECAPTCHA_SOCKET_ERROR'		=> 'התרחשה שגיאה בהתחברות לשירות RECAPTCHA: לא ניתן לפתוח חיבור. נא לנסות שוב מאוחר יותר.',
 ));

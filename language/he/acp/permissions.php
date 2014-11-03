@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_permissions [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -50,7 +51,7 @@ $lang = array_merge($lang, array(
 
 		<h2>משימות הרשאה</h2>
 		<p>הן בשימוש לצפייה בהרשאות הפעילות אשר נקבעו למשתמשים, מנהלים (מקומיים וגלובליים), מנהלים ראשיים או פורומים.</p>
-	
+
 		<br />
 
 		<p>למידע נוסף על קביעה וניהול הרשאות במערכת phpBB, קרא את <a href="http://www.phpbb.co.il/viewtopic.php?f=28&t=21412">המדריך לקביעת הרשאות</a> — שתורגם על־ידי Berlo.</p>
@@ -58,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'לעולם לא',
 	'ACL_SET'				=> 'הגדרת הרשאות',
-	'ACL_SET_EXPLAIN'		=> 'ההרשאות מבוססות על מערכת פשוטה של <samp>כן</samp>/<samp>לא</samp>. הגדרת אפשרות ל<samp>לעולם לא</samp> למשתמש או קבוצת משתמשים עוברת על כל הערכים האחרים אשר נקבעו להם. אם אינך מעוניין לקבוע ערך לאפשרות למשתמש או לקבוצה, בחר <samp>לא</samp>. אם ערכים נקבעו לאפשרות במקום אחר הם ישומשו בעדיפות ראשונה, אלא אם כן <samp>לעולם לא</samp> נקבע. כל הפריטים מסומנים (עם תיבת סימון לפניהם) יעתיקו את ההרשאה שהגדרת.',
+	'ACL_SET_EXPLAIN'		=> 'ההרשאות מבוססות על מערכת פשוטה של <strong>כן</strong>/<strong>לא</strong>. הגדרת אפשרות ל<strong>לעולם לא</strong> למשתמש או קבוצת משתמשים עוברת על כל הערכים האחרים אשר נקבעו להם. אם אינך מעוניין לקבוע ערך לאפשרות למשתמש או לקבוצה, בחר <strong>לא</strong>. אם ערכים נקבעו לאפשרות במקום אחר הם ישומשו בעדיפות ראשונה, אלא אם כן <strong>לעולם לא</strong> נקבע. כל הפריטים מסומנים (עם תיבת סימון לפניהם) יעתיקו את ההרשאה שהגדרת.',
 	'ACL_SETTING'			=> 'הגדרה',
 
 	'ACL_TYPE_A_'			=> 'הרשאות ניהול ראשי',
@@ -71,7 +72,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_GLOBAL_M_'	=> 'הרשאות מנהל גלובלי',
 	'ACL_TYPE_LOCAL_M_'		=> 'הרשאות מנהל פורום',
 	'ACL_TYPE_LOCAL_F_'		=> 'הרשאות פורום',
-	
+
 	'ACL_NO'				=> 'לא',
 	'ACL_VIEW'				=> 'צופה בהרשאות',
 	'ACL_VIEW_EXPLAIN'		=> 'כאן אתה יכול לראות את ההרשאות הפעילות למשתמש/לקבוצה. ריבוע אדום מציין כי למשתמש/לקבוצה אין את ההרשאה, ריבוע ירוק מסמן כי למשתמש/לקבוצה יש את ההרשאה.',
@@ -101,10 +102,10 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> 'הוסף משתמשים',
 	'ADVANCED_PERMISSIONS'		=> 'הרשאות מתקדמות',
 	'ALL_GROUPS'				=> 'בחר את כל הקבוצות',
-	'ALL_NEVER'					=> 'הכול <samp>לעולם לא</samp>',
-	'ALL_NO'					=> 'הכול <samp>לא</samp>',
+	'ALL_NEVER'					=> 'הכול <strong>לעולם לא</strong>',
+	'ALL_NO'					=> 'הכול <strong>לא</strong>',
 	'ALL_USERS'					=> 'בחר את כל המשתמשים',
-	'ALL_YES'					=> 'הכול <samp>כן</samp>',
+	'ALL_YES'					=> 'הכול <strong>כן</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'החל את כל ההרשאות',
 	'APPLY_PERMISSIONS'			=> 'החל הרשאות',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'ההרשאות והכלל המוגדרים לפריטי זה יפעלו לפריט זה וכל הפריטים המסומנים בלבד.',
@@ -138,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'הגדרות הרשאה לא הוגדרו.',
 	'NO_ROLE_ASSIGNED'			=> 'אין כלל שנקבע…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'הגדרה לכלל זה לא משנה את ההרשאות. אם אתה רוצה לבטל/להסיר את כל ההרשאות אתה צריך להשתמש בקישור “הכול <samp>לא</samp>”.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'הגדרה לכלל זה לא משנה את ההרשאות. אם אתה רוצה לבטל/להסיר את כל ההרשאות אתה צריך להשתמש בקישור “הכול <strong>לא</strong>”.',
 	'NO_ROLE_AVAILABLE'			=> 'אין כלל זמין',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'הזן לכלל שם.',
 	'NO_ROLE_SELECTED'			=> 'לא ניתן למצוא את הכלל.',
@@ -196,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'כמו הרשאה רגילה אבל יכול גם ליצור סקרים.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'יכול לקרוא בפורום, אבל לא יכול ליצור נושאים חדשים או להגיב להודעות.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'יכול להשתמש ברוב מאפייני הפורום כולל צירוף קבצים ומחיקת הנושאים של עצמו, אבל לא יכול לנעול נושאים של עצמו, ולא יכול ליצור סקרים.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <samp>לעולם לא</samp> כדי לחסום אפשרויות ממשתמשים חדשים.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <strong>לעולם לא</strong> כדי לחסום אפשרויות ממשתמשים חדשים.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'יכול להשתמש בכל מאפייני הניהול, כולל חסימה.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'יכול להשתמש בחצי ניהול כדי לאשר ולערוך הודעות, אבל שום דבר אחר.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'יכול להשתמש בפעולות נושא בסיסיות בלבד. לא יכול לשלוח אזהרות או להשתמש בחצי ניהול.',
@@ -206,8 +207,8 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'בעל מאפיין מוגבל שנקבע ולא מורשה להשתמש במאפיין הסמלים האישיים.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'בעל מאפיין מוגבל שנקבע, ולא מורשה להשתמש בהודעות פרטיות.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'יכול לגשת לרוב אך לא לכל מאפייני המשתמש. לא יכול לשנות שם משתמש או להתעלם מהגבלת ההצפה, למשל.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <samp>לעולם לא</samp> כדי לחסום אפשרויות ממשתמשים חדשים.',
-	
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'כלל למשתמשים מהקבוצה המיוחדת משתמשים שנרשמו לאחרונה; מכיל הרשאות <strong>לעולם לא</strong> כדי לחסום אפשרויות ממשתמשים חדשים.',
+
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'אתה יכול להזין תיאור קצר של מה הכלל עושה או מה הוא אומר. הטקסט שאתה מזין כאן יוצג גם במסכי ההרשאות.',
 	'ROLE_DESCRIPTION_LONG'			=> 'תיאור הכלל אורך מדי, הגבל אותו ל־4000 תווים.',
 	'ROLE_DETAILS'					=> 'פרטי הכלל',
@@ -227,48 +228,48 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'קבע הרשאות משתמש',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'קבע הרשאות פורום של משתמש',
 
-	'TRACE_DEFAULT'					=> 'כברירת מחדל כל הרשאה היא <samp>לא</samp> (מבוטלת). ההרשאה יכולה להשתנות על־ידי הגדרות אחרות.',
+	'TRACE_DEFAULT'					=> 'כברירת מחדל כל הרשאה היא <strong>לא</strong> (מבוטלת). ההרשאה יכולה להשתנות על־ידי הגדרות אחרות.',
 	'TRACE_FOR'						=> 'אתר ל',
 	'TRACE_GLOBAL_SETTING'			=> '%s (גלובלי)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'הרשאת הקבוצה נקבעה ל<samp>לעולם לא</samp> כמו התוצאה הכוללת כך שהתוצאה הקודמת נשמרה.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>לעולם לא</samp> כמו התוצאה הכוללת כך שהתוצאה הקודמת נשמרה.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'הרשאת הקבוצה נקבעה ל<samp>לעולם לא</samp> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<samp>לא</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>לעולם לא</samp> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<samp>לא</samp>).',
-	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'הרשאת הקבוצה נקבעה ל<samp>לעולם לא</samp> אשר משנה את הכוללת <samp>כן</samp> ל<samp>לעולם לא</samp> למשתמש זה.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>לעולם לא</samp> אשר משנה את הכוללת <samp>כן</samp> ל<samp>לעולם לא</samp> למשתמש זה.',
-	'TRACE_GROUP_NO'				=> 'ההרשאה היא <samp>לא</samp> לקבוצה זו כך שהערך הכולל הקודם נשמר.',
-	'TRACE_GROUP_NO_LOCAL'			=> 'ההרשאה היא <samp>לא</samp> לקבוצה זו בתוך פורום זה כך שהערך הכולל הקודם נשמר.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'הרשאת הקבוצה נקבעה ל<samp>כן</samp> אבל הכוללת <samp>לעולם לא</samp> לא ניתנת לשינוי.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>כן</samp> אבל הכוללת <samp>לעולם לא</samp> לא ניתנת לשינוי.',
-	'TRACE_GROUP_YES_TOTAL_NO'		=> 'הרשאת הקבוצה נקבעה ל<samp>כן</samp> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<samp>לא</samp>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>כן</samp> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<samp>לא</samp>).',
-	'TRACE_GROUP_YES_TOTAL_YES'		=> 'הרשאת הקבוצה נקבעה ל<samp>כן</samp> וההרשאה הכוללת כבר נקבעה ל<samp>כן</samp>, כך שהתוצאה הכוללת נשמרה.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<samp>כן</samp> וההרשאה הכוללת כבר נקבעה ל<samp>כן</samp>, כך שהתוצאה הכוללת נשמרה.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> כמו התוצאה הכוללת כך שהתוצאה הקודמת נשמרה.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> כמו התוצאה הכוללת כך שהתוצאה הקודמת נשמרה.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'הרשאת הקבוצה נקבעה ל<strong>לעולם לא</strong> אשר משנה את הכוללת <strong>כן</strong> ל<strong>לעולם לא</strong> למשתמש זה.',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר משנה את הכוללת <strong>כן</strong> ל<strong>לעולם לא</strong> למשתמש זה.',
+	'TRACE_GROUP_NO'				=> 'ההרשאה היא <strong>לא</strong> לקבוצה זו כך שהערך הכולל הקודם נשמר.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'ההרשאה היא <strong>לא</strong> לקבוצה זו בתוך פורום זה כך שהערך הכולל הקודם נשמר.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'הרשאת הקבוצה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> לא ניתנת לשינוי.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> לא ניתנת לשינוי.',
+	'TRACE_GROUP_YES_TOTAL_NO'		=> 'הרשאת הקבוצה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל החדש מפני שהוא עדיין לא נקבע (נקבע ל<strong>לא</strong>).',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> 'הרשאת הקבוצה נקבעה ל<strong>כן</strong> וההרשאה הכוללת כבר נקבעה ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'הרשאת הקבוצה לפורום זה נקבעה ל<strong>כן</strong> וההרשאה הכוללת כבר נקבעה ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה.',
 	'TRACE_PERMISSION'				=> 'אתר הרשאה – %s',
 	'TRACE_RESULT'					=> 'אתר תוצאה',
 	'TRACE_SETTING'					=> 'אתר הגדרה',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<samp>כן</samp> אבל ההרשאה הכוללת כבר נקבעה ל<samp>כן</samp>, כך שהתוצאה הכוללת נשמרה. %sאתר הרשאה גלובלית%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<samp>כן</samp> אשר עוברת על התוצאה המקומית הנוכחית <samp>לעולם לא</samp>. %sאתר הרשאה גלובלית%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<samp>לעולם לא</samp> אשר לא משפיעה על ההרשאה המקומית. %sאתר הרשאה גלובלית%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>כן</strong> אבל ההרשאה הכוללת כבר נקבעה ל<strong>כן</strong>, כך שהתוצאה הכוללת נשמרה. %sאתר הרשאה גלובלית%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>כן</strong> אשר עוברת על התוצאה המקומית הנוכחית <strong>לעולם לא</strong>. %sאתר הרשאה גלובלית%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'הרשאת המשתמש העצמאית של הפורום נקבעה ל<strong>לעולם לא</strong> אשר לא משפיעה על ההרשאה המקומית. %sאתר הרשאה גלובלית%s',
 
-	'TRACE_USER_FOUNDER'					=> 'המשתמש הנו מייסד, לכן תמיד הרשאות המנהל מוגדרות ל<samp>כן</samp>.',
-	'TRACE_USER_KEPT'						=> 'הרשאת המשתמש היא <samp>לא</samp> כך שהערך הכולל הקודם נשמר.',
-	'TRACE_USER_KEPT_LOCAL'					=> 'הרשאת המשתמש לפורום זה היא <samp>לא</samp> כך שהערך הכולל הקודם נשמר.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'הרשאת המשתמש נקבעה ל<samp>לעולם לא</samp> והערך הכולל נקבע ל<samp>לעולם לא</samp>, כך ששום דבר לא השתנה.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>לעולם לא</samp> והערך הכולל נקבע ל<samp>לעולם לא</samp>, כך ששום דבר לא השתנה.',
-	'TRACE_USER_NEVER_TOTAL_NO'				=> 'הרשאת המשתמש נקבעה ל<samp>לעולם לא</samp> אשר הופכת לערך הכולל מפני שהוא נקבע ללא.',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>לעולם לא</samp> אשר הופכת לערך הכולל מפני שהוא נקבע ללא.',
-	'TRACE_USER_NEVER_TOTAL_YES'			=> 'הרשאת המשתמש נקבעה ל<samp>לעולם לא</samp> ומשנה את הקודמת <samp>כן</samp>.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>לעולם לא</samp> ומשנה את הקודמת <samp>כן</samp>.',
-	'TRACE_USER_NO_TOTAL_NO'				=> 'הרשאת המשתמש היא <samp>לא</samp> והערך הכולל נקבע ללא כך שכברירת מחדל הוא <samp>לעולם לא</samp>.',
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'הרשאת המשתמש לפורום זה היא <samp>לא</samp> והערך הכולל נקבע ללא כך שכברירת מחדל הוא <samp>לעולם לא</samp>.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> 'הרשאת המשתמש נקבעה ל<samp>כן</samp> אבל הכוללת <samp>לעולם לא</samp> לא ניתנת לשינוי.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>כן</samp> אבל הכוללת <samp>לעולם לא</samp> לא ניתנת לשינוי.',
-	'TRACE_USER_YES_TOTAL_NO'				=> 'הרשאת המשתמש נקבעה ל<samp>כן</samp> אשר הופכת לערך הכולל מפני שהוא נקבע ל<samp>לא</samp>.',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>כן</samp> אשר הופכת לערך הכולל מפני שהוא נקבע ל<samp>לא</samp>.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'הרשאת המשתמש נקבעה ל<samp>כן</samp> והערך הכולל נקבע ל<samp>כן</samp>, כך ששום דבר לא השתנה.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<samp>כן</samp> והערך הכולל נקבע ל<samp>כן</samp>, כך ששום דבר לא השתנה.',
+	'TRACE_USER_FOUNDER'					=> 'המשתמש הנו מייסד, לכן תמיד הרשאות המנהל מוגדרות ל<strong>כן</strong>.',
+	'TRACE_USER_KEPT'						=> 'הרשאת המשתמש היא <strong>לא</strong> כך שהערך הכולל הקודם נשמר.',
+	'TRACE_USER_KEPT_LOCAL'					=> 'הרשאת המשתמש לפורום זה היא <strong>לא</strong> כך שהערך הכולל הקודם נשמר.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> והערך הכולל נקבע ל<strong>לעולם לא</strong>, כך ששום דבר לא השתנה.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> והערך הכולל נקבע ל<strong>לעולם לא</strong>, כך ששום דבר לא השתנה.',
+	'TRACE_USER_NEVER_TOTAL_NO'				=> 'הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל מפני שהוא נקבע ללא.',
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> אשר הופכת לערך הכולל מפני שהוא נקבע ללא.',
+	'TRACE_USER_NEVER_TOTAL_YES'			=> 'הרשאת המשתמש נקבעה ל<strong>לעולם לא</strong> ומשנה את הקודמת <strong>כן</strong>.',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>לעולם לא</strong> ומשנה את הקודמת <strong>כן</strong>.',
+	'TRACE_USER_NO_TOTAL_NO'				=> 'הרשאת המשתמש היא <strong>לא</strong> והערך הכולל נקבע ללא כך שכברירת מחדל הוא <strong>לעולם לא</strong>.',
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'הרשאת המשתמש לפורום זה היא <strong>לא</strong> והערך הכולל נקבע ללא כך שכברירת מחדל הוא <strong>לעולם לא</strong>.',
+	'TRACE_USER_YES_TOTAL_NEVER'			=> 'הרשאת המשתמש נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> לא ניתנת לשינוי.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> אבל הכוללת <strong>לעולם לא</strong> לא ניתנת לשינוי.',
+	'TRACE_USER_YES_TOTAL_NO'				=> 'הרשאת המשתמש נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל מפני שהוא נקבע ל<strong>לא</strong>.',
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> אשר הופכת לערך הכולל מפני שהוא נקבע ל<strong>לא</strong>.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'הרשאת המשתמש נקבעה ל<strong>כן</strong> והערך הכולל נקבע ל<strong>כן</strong>, כך ששום דבר לא השתנה.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'הרשאת המשתמש לפורום זה נקבעה ל<strong>כן</strong> והערך הכולל נקבע ל<strong>כן</strong>, כך ששום דבר לא השתנה.',
 	'TRACE_WHO'								=> 'מי',
 	'TRACE_TOTAL'							=> 'סך הכל',
 

@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* posting [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -35,15 +36,15 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// BBCodes 
+// BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode -פונקציה מיוחדת של HTML, המאפשרת לצור שליטה על הצורה בה משהו מוצג. מעמוד זה אתה יכול להוסיף, למחוק וערוך BBCode מותאם אישית.',
 	'ADD_BBCODE'				=> 'הוסף BBCode חדש',
-	
+
 	'BBCODE_DANGER'				=> 'ככל הנראה ה־BBCode אותו אתה מנסה להוסיף משתמש בתג {TEXT} בתוך תכונת HTML. קיימת אפשרות לאירוע אבטחה מסוג XSS. נסה להשתמש באפשרויות מגבילות יותר כמו {SIMPLETEXT} או {INTTEXT} במקום. המשך רק אם אתה מבין את הסיכון הקיים ואתה מבין שהשימוש ב־{TEXT} הוא בלתי נמנע.',
 	'BBCODE_DANGER_PROCEED'		=> 'המשך', //'אני מבין את הסיכון',
-	
+
 	'BBCODE_ADDED'				=> 'BBCode נוסף בהצלחה.',
 	'BBCODE_EDITED'				=> 'BBCode נערך בהצלחה.',
 	'BBCODE_DELETED'			=> 'BBCode הוסר בהצלחה.',
@@ -62,12 +63,12 @@ $lang = array_merge($lang, array(
 	'BBCODE_USAGE'				=> 'שימוש BBCode',
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'כאן אתה יכול להגדיר איך להשתמש בBBCode. תחליף כל משנה על ידי הסימן המתאים (%sראה מתחת%s).',
-	
+
 	'EXAMPLE'						=> 'דוגמה:',
 	'EXAMPLES'						=> 'דוגמאות:',
 
 	'HTML_REPLACEMENT'				=> 'HTML תחליף',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color:{COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family:{SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'כאן הנך מגדיר את התחלופה בHTML למוגדר למעלה. אל תשכח להשתמש באותם הסימנים.',
 
 	'TOKEN'					=> 'טוקן',
@@ -87,7 +88,7 @@ $lang = array_merge($lang, array(
 		'LOCAL_URL'		=> 'קישור מקומי. הקישור מוכרח להיות יחסי לעמוד הנושא ולא יכול להכיל שם שרת או פרוטוקול, מכיוון שהקישורים יתחילו ב “%s”.',
 		'RELATIVE_URL'	=> 'קישור יחסי. אתה יכול להשתמש בזה כדי להתאים חלקים מהקישור, אך שים לב: קישור מלא הוא קישור יחסי חוקי. כשאתה רוצה להשתמש בכתובות יחסיות למערכת שלך, השתמש בתג LOCAL_URL.',
 		'COLOR'			=> 'צבע HTML, יכול להיות בצורת מספר <samp>#FFFF00</samp> או צבע CSS לדוגמה <samp>fuchsia</samp> או <samp>InactiveBorder</samp>'
-	)
+	),
 ));
 
 // Smilies and topic icons
@@ -192,13 +193,13 @@ $lang = array_merge($lang, array(
 	'SMILIES_ORDER'				=> 'סדר הסמיילי',
 	'SMILIES_URL'				=> 'קובץ תמונה של הסמיילי',
 	'SMILIES_WIDTH'				=> 'רוחב הסמיילי',
-	
+
 	'TOO_MANY_SMILIES'			=> array(
 		1	=> 'ההגבלה של סמיילי %d הושגה.',
 		2	=> 'ההגבלה של %d סמיילים הושגה.',
 	),
 
-	'WRONG_PAK_TYPE'	=> 'החבילה שצוינה לא מכילה את הסוג הדרוש.',
+	'WRONG_PAK_TYPE'		=> 'החבילה שצוינה לא מכילה את הסוג הדרוש.',
 ));
 
 // Word censors
@@ -206,19 +207,19 @@ $lang = array_merge($lang, array(
 	'ACP_WORDS_EXPLAIN'		=> 'מלוח בקרה זה אתה יכול להוסיף, לערוך, ולהסיר מילים אשר יצונזרו אוטומטית בפורומים. אנשים עדיין יכולים להירשם עם שמות משתמשים המכילים מילים אלו. סימנים כוללים (*) מתקבלים בשדה המילה.',
 	'ADD_WORD'				=> 'הוסף מילה חדשה',
 
-	'EDIT_WORD'		=> 'ערוך צנזור מילים.',
-	'ENTER_WORD'	=> 'אתה מוכרח לכתוב מילה ואת התחליף שלה.',
+	'EDIT_WORD'				=> 'ערוך צנזור מילים.',
+	'ENTER_WORD'			=> 'אתה מוכרח לכתוב מילה ואת התחליף שלה.',
 
-	'NO_WORD'	=> 'לא נבחרה מילה לשינוי.',
+	'NO_WORD'				=> 'לא נבחרה מילה לשינוי.',
 
-	'REPLACEMENT'	=> 'תחליף',
+	'REPLACEMENT'			=> 'תחליף',
 
-	'UPDATE_WORD'	=> 'עדכן צנזור מילים',
+	'UPDATE_WORD'			=> 'עדכן צנזור מילים',
 
-	'WORD'				=> 'מילה',
-	'WORD_ADDED'		=> 'מילת הצנזור נוספה בהצלחה.',
-	'WORD_REMOVED'		=> 'המילה שנבחרה הוסרה בהצלחה.',
-	'WORD_UPDATED'		=> 'המילה עודכנה בהצלחה.',
+	'WORD'					=> 'מילה',
+	'WORD_ADDED'			=> 'מילת הצנזור נוספה בהצלחה.',
+	'WORD_REMOVED'			=> 'המילה שנבחרה הוסרה בהצלחה.',
+	'WORD_UPDATED'			=> 'המילה עודכנה בהצלחה.',
 ));
 
 // Ranks
@@ -227,7 +228,7 @@ $lang = array_merge($lang, array(
 	'ADD_RANK'				=> 'הוסף דרגה חדשה',
 
 	'MUST_SELECT_RANK'		=> 'אתה מוכרח לבחור דרגה',
-	
+
 	'NO_ASSIGNED_RANK'		=> 'לא צוינה דרגה מיוחדת.',
 	'NO_RANK_TITLE'			=> 'לא ציינת כותרת לדרגה.',
 	'NO_UPDATE_RANKS'		=> 'הדרגה נמחקה בהצלחה. אך חשבונות המשתמש אשר משתמשים בדרגה זאת לא עודכנו. אתה תיאלץ לעדכן להם את הדרגה באופן ידני.',
@@ -245,9 +246,9 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'כאן אתה יכול לנהל את שמות המשתמשים אשר לא ניתנים לשימוש. שמות משתמשים לא מורשים יכולים לקבל את הסימן הכולל *.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'אתה יכול לחסום שם משתמש בעזרת הסימן הכולל * כדי להתאים לכל תו.',
-	'ADD_DISALLOW_TITLE'	=> 'הוסף שם משתמש לא מורשה',
+	'ACP_DISALLOW_EXPLAIN'		=> 'כאן אתה יכול לנהל את שמות המשתמשים אשר לא ניתנים לשימוש. שמות משתמשים לא מורשים יכולים לקבל את הסימן הכולל *.',
+	'ADD_DISALLOW_EXPLAIN'		=> 'אתה יכול לחסום שם משתמש בעזרת הסימן הכולל * כדי להתאים לכל תו.',
+	'ADD_DISALLOW_TITLE'		=> 'הוסף שם משתמש לא מורשה',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'אתה יכול למחוק שם משתמש לא מורשה על ידי בחירתו מהרשימה ולחיצה על שלח.',
 	'DELETE_DISALLOW_TITLE'		=> 'מחק שם משתמש לא מורשה',
@@ -261,15 +262,15 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'מעמוד זה תוכל לנהל את הסיבות עבור הדיווחים ולהבחין בין הודעות כאשר אתה לא מאשר אותן. ישנה סיבת ברירת מחדל אחת, המסומנת ב־* (כוכבית), שאינך יכול למחוק. סיבה זאת נמצאת בשימוש עבור דיווח מותאם אישית, אם אין סיבה מתאימה.',
-	'ADD_NEW_REASON'		=> 'הוסף סיבה חדשה',
-	'AVAILABLE_TITLES'		=> 'פנוי למיקום כותרות הסיבות',
-	
+	'ACP_REASONS_EXPLAIN'		=> 'מעמוד זה תוכל לנהל את הסיבות עבור הדיווחים ולהבחין בין הודעות כאשר אתה לא מאשר אותן. ישנה סיבת ברירת מחדל אחת, המסומנת ב־* (כוכבית), שאינך יכול למחוק. סיבה זאת נמצאת בשימוש עבור דיווח מותאם אישית, אם אין סיבה מתאימה.',
+	'ADD_NEW_REASON'			=> 'הוסף סיבה חדשה',
+	'AVAILABLE_TITLES'			=> 'פנוי למיקום כותרות הסיבות',
+
 	'IS_NOT_TRANSLATED'			=> 'מוקמה <strong>לא</strong> הסיבה',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'מוקמה. אם אתה רוצה לספק את טופס המיקום, ציין את המפתח העדכני מקובץ השפות תחת סיבות לדיווח. <strong>לא</strong> הסיבה',
 	'IS_TRANSLATED'				=> 'הסיבה מוקמה.',
 	'IS_TRANSLATED_EXPLAIN'		=> 'הסיבה מוקמה. אם הכותרת שציינת כאן מופיעה בקבצי השפות, הטופס המקומי של הכותרת והתיאור יהיו בשימוש.',
-	
+
 	'NO_REASON'					=> 'הסיבה לא נמצאה.',
 	'NO_REASON_INFO'			=> 'אתה מוכרח לציין את הכותרת ואת התיאור של סיבה זאת.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'אינך יכול למחוק את הסיבה ברירת מחדל ”אחר“.',
@@ -286,5 +287,5 @@ $lang = array_merge($lang, array(
 	'REASON_TITLE_TRANSLATED'	=> 'כותרת הסיבה המוצגת',
 	'REASON_UPDATED'			=> 'הסיבה עודכנה בהצלחה.',
 
-	'USED_IN_REPORTS'		=> 'בשימוש בדיווחים',
+	'USED_IN_REPORTS'			=> 'בשימוש בדיווחים',
 ));

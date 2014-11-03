@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* search_synonyms [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -77,7 +78,7 @@ $synonyms = array(
 	'foriegn'		=> 'foreign',
 	'fourty'		=> 'forty',
 
-	'gage'			=> 'guage',
+	'gage'			=> 'gauge',
 	'geneology'		=> 'genealogy',
 	'grammer'		=> 'grammar',
 	'gray'			=> 'grey',
@@ -98,7 +99,7 @@ $synonyms = array(
 	'irrevelant'	=> 'irrelevant',
 
 	'jeweler'	=> 'jeweller',
-	'judgement'	=> 'judgment',
+	'judgment'	=> 'judgement',
 
 	'labeled'	=> 'labelled',
 	'labor'		=> 'labour',

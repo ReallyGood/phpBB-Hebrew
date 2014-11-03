@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* posting [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -59,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'רשימה מסודרת:  לדוגמא [list=1][*]נקודה ראשונה[/list] או [list=a][*]נקודה א[/list]',
 	'BBCODE_P_HELP'				=> 'הוספת תמונה: [img]כתובת התמונה[/img]',
 	'BBCODE_Q_HELP'				=> 'טקסט מצוטט: [quote]טקסט[/quote]',
-	'BBCODE_S_HELP'				=> 'צבע גופן: [color=red]טקסט[/color] עצה: אתה יכול להשתמש גם בcolor=#FF0000',
+	'BBCODE_S_HELP'				=> 'צבע גופן: [color=red]טקסט[/color] או [color=#FF0000]טקסט[/color]',
 	'BBCODE_U_HELP'				=> 'טקסט עם קו תחתון: [u]טקסט[/u]',
 	'BBCODE_W_HELP'				=> 'הוספת כתובת: [url]כתובת[/url] או [url=כתובת]טקסט לקישור[/url]',
 	'BBCODE_Y_HELP'				=> 'רשימה: הוספת פריט רשימה',
@@ -71,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'סליחה אבל אתה לא יכול לשלוח הכרזות.',
 	'CANNOT_POST_STICKY'		=> 'סליחה אבל אתה לא יכול לשלוח נושאים דביקים.',
 	'CHANGE_TOPIC_TO'			=> 'שנה את סוג נושא ל',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'ההודעה שלך מכילה תו אחד.',
+		2	=> 'ההודעה שלך מכילה %1$d תווים.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'החתימה שלך מכילה תו אחד.',
+		2	=> 'החתימה שלך מכילה %1$d תווים.',
+	),
 	'CLOSE_TAGS'				=> 'סגור תגים',
 	'CURRENT_TOPIC'				=> 'נושא נוכחי',
 
@@ -78,20 +87,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'מחק הודעה',
 	'DELETE_MESSAGE_CONFIRM'	=> 'האם אתה בטוח שאתה רוצה למחוק את הודעה זו?',
 	'DELETE_OWN_POSTS'			=> 'סליחה אבל אתה יכול למחוק רק את ההודעות שלך.',
-	'DELETE_PERMANENTLY'		=> 'Delete permanently',
-	'DELETE_POST_CONFIRM'		=> 'Are you sure you want to delete this post?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?',
-	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered',
-	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?',
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?',
-	'DELETE_REASON'				=> 'Soft delete reason',
-	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.',
-	'DELETE_POST_WARN'			=> 'Delete this post',
-	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?',
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered',
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?',
-	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?',
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?',
+	'DELETE_PERMANENTLY'		=> 'מחק לצמיתות',
+	'DELETE_POST_CONFIRM'		=> 'האם אתה בטוח שאתה רוצה למחוק את ההודעה הזאת?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את ההודעה הזאת?',
+	'DELETE_POST_PERMANENTLY'	=> 'מחק את ההודעה הזו לצמיתות כך שלא יהיה ניתן לשחזר אותה',
+	'DELETE_POSTS_CONFIRM'		=> 'אתה בטוח שאתה רוצה למחוק את הודעות אלו?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את הודעות אלו?',
+	'DELETE_REASON'				=> 'סיבה להעברה לסל המחזור',
+	'DELETE_REASON_EXPLAIN'		=> 'הסיבה המוגדרת תוצג למנהלים',
+	'DELETE_POST_WARN'			=> 'מחק את הודעה זו',
+	'DELETE_TOPIC_CONFIRM'		=> 'האם אתה בטוח שאתה רוצה למחוק את נושא זה?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'מחק את הנושא הזה לצמיתות כך שלא יהיה ניתן לשחזר אותו',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את הנושא הזה?',
+	'DELETE_TOPICS_CONFIRM'		=> 'אתה בטוח שאתה רוצה למחוק את נושאים אלו?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'האם אתה בטוח שאתה רוצה למחוק <strong>לצמיתות</strong> את נושאים אלו?',
 	'DISABLE_BBCODE'			=> 'כבה BBCode',
 	'DISABLE_MAGIC_URL'			=> 'אל תהפוך קישורים ללחיצים',
 	'DISABLE_SMILIES'			=> 'כבה סמיילים',
@@ -134,28 +143,28 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'אתה צריך להתחבר כדי לצטט הודעות בפורום זה.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'אתה צריך להתחבר כדי להגיב לנושאים בפורום זה.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %d.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'אפשר להשתמש בפונט עד לגודל %d',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
-		1	=> 'Your flash files may only be up to %d pixel high.',
-		2	=> 'Your flash files may only be up to %d pixels high.',
+		1	=> 'קבצי הפלאש שלך יכולים להיות עד גובה של פיקסל אחד.',
+		2	=> 'קבצי הפלאש שלך יכולים להיות עד גובה של %d פיקסלים.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
-		1	=> 'Your flash files may only be up to %d pixel wide.',
-		2	=> 'Your flash files may only be up to %d pixels wide.',
+		1	=> 'קבצי הפלאש שלך יכולים להיות עד רוחב של פיקסל אחד.',
+		2	=> 'קבצי הפלאש שלך יכולים להיות עד רוחב של %d פיקסלים.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
-		1	=> 'Your images may only be up to %1$d pixel high.',
-		2	=> 'Your images may only be up to %1$d pixels high.',
+		1	=> 'התמונות שלך יכולות להיות עד גובה של פיקסל אחד.',
+		2	=> 'התמונות שלך יכולות להיות עד גובה של %d פיקסלים.',
 	),
 	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
-		1	=> 'Your images may only be up to %d pixel wide.',
-		2	=> 'Your images may only be up to %d pixels wide.',
+		1	=> 'התמונות שלך יכולות להיות עד רוחב של פיקסל אחד.',
+		2	=> 'התמונות שלך יכולות להיות עד רוחב של %d פיקסלים.',
 	),
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
 		0	=> '', // zero means no limit, so we don't view a message here.
-		1	=> 'Enter your message here, it may contain no more than <strong>%d</strong> character.',
-		2	=> 'Enter your message here, it may contain no more than <strong>%d</strong> characters.',
+		1	=> 'הכנס את ההודעה שלך כאן, היא יכולה לכלול לא יותר מ<strong>תו אחד</strong>.',
+		2	=> '.הכנס את ההודעה שלך כאן, היא יכולה לכלול לא יותר מ<strong>%d</strong> תווים',
 	),
 	'MESSAGE_DELETED'			=> 'ההודעה נמחקה בהצלחה.',
 	'MORE_SMILIES'				=> 'צפה בסמיילים נוספים',
@@ -174,17 +183,17 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'הכנס בשורה',
 	'POLL_DELETE'				=> 'מחק סקר',
 	'POLL_FOR'					=> 'הרץ סקר למשך',
-	'POLL_FOR_EXPLAIN'			=> 'Enter 0 for a never ending poll.',
-	'POLL_MAX_OPTIONS'			=> 'Options per user',
-	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'This is the number of options each user may select when voting.',
-	'POLL_OPTIONS'				=> 'Poll options',
+	'POLL_FOR_EXPLAIN'			=> 'הכנס 0 לסקר ללא הגבלת תוקף.',
+	'POLL_MAX_OPTIONS'			=> 'אפשרויות למשתמש',
+	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'זהו מספר האפשרויות שכל משתמש יוכל לבחור בזמן הצבעה.',
+	'POLL_OPTIONS'				=> 'אפשרויות סקר',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
-		1	=> 'Place each option on a new line. You may enter <strong>%d</strong> option.',
-		2	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options.',
+		1	=> 'מקם כל אפשרות בשורה חדשה. אתה יכול להזין אפשרות <strong>אחת</strong>.',
+		2	=> 'מקם כל אפשרות בשורה חדשה. אתה יכול להזין עד <strong>%d</strong> אפשרויות.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
-		1	=> 'Place each option on a new line. You may enter <strong>%d</strong> option. If you remove or add options all previous votes will be reset.',
-		2	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+		1	=> 'מקם כל אפשרות בשורה חדשה. אתה יכול להזין אפשרות <strong>אחת</strong>. אם תסיר או תוסיף אפשרויות חדשות כל ההצבעות הקודמות יתאפסו.',
+		2	=> 'מקם כל אפשרות בשורה חדשה. אתה יכול להזין עד <strong>%d</strong> אפשרויות. אם תסיר או תוסיף אפשרויות חדשות כל ההצבעות הקודמות יתאפסו.',
 	),
 	'POLL_QUESTION'				=> 'שאלת הסקר',
 	'POLL_TITLE_TOO_LONG'		=> 'כותרת הסקר חייבת להכיל פחות מ־100 תווים.',
@@ -202,19 +211,21 @@ $lang = array_merge($lang, array(
 	'POST_ICON'					=> 'סמל ההודעה',
 	'POST_NORMAL'				=> 'רגיל',
 	'POST_REVIEW'				=> 'תקציר ההודעה',
-	'POST_REVIEW_EXPLAIN'		=> 'לפחות הודעה אחת נשלחה בנושא זה. תוכל לסקור את ההודעה בתמציתיות.',
 	'POST_REVIEW_EDIT'			=> 'סקירת הודעה',
 	'POST_REVIEW_EDIT_EXPLAIN'	=> 'ההודעה שונתה על ידי משתמש אחר בזמן שערכת אותה. יכול להיות שתרצה לסקור את ההודעה בגרסה הנוכחית שלה ולתקן את העריכה שלך.',
+	'POST_REVIEW_EXPLAIN'		=> 'לפחות הודעה אחת נשלחה בנושא זה. תוכל לסקור את ההודעה בתמציתיות.',
 	'POST_STORED'				=> 'ההודעה נשלחה בהצלחה.',
 	'POST_STORED_MOD'			=> 'ההודעה נשלחה בהצלחה, אך היא צריכה לקבל אישור ממנהל לפני שתוצג לקהילה.',
 	'POST_TOPIC_AS'				=> 'שלח נושא בתור',
 	'PROGRESS_BAR'				=> 'פס התקדמות',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'You may embed only %d quote within each other.',
-		2	=> 'You may embed only %d quotes within each other.',
+		1	=> 'ניתן להטמיע עד ציטוט אחד בתוך ציטוט אחר.',
+		2	=> 'ניתן להטמיע עד %d ציטוטים אחד בתוך השני.',
 	),
+	'QUOTE_NO_NESTING'			=> 'לא ניתן להטמיע ציטוטים בתוך ציטוטים אחרים.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'הקובץ הנבחר לא הועלה בהצלחה בגלל שהבקשה לקחה יותר מדי זמן.',
 	'SAVE'						=> 'שמור',
 	'SAVE_DATE'					=> 'נשמר ב',
 	'SAVE_DRAFT'				=> 'שמור טיוטה',
@@ -224,22 +235,19 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'סמיילים <em>פעילים</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'זמן הגבלה להכרזה/דביק',
 	'STICK_TOPIC_FOR'			=> 'נושא מודבק למשך',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Enter 0 for a never ending Sticky/Announcement. Please note that this number is relative to the date of the post.',
-	'STYLES_TIP'				=> 'Tip: Styles can be applied quickly to selected text.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'הזן 0 לנושא דביק/הכרזה ללא הגבלת תוקף. אנא שים לב כי מספר זה הוא יחסי לתאריך פרסום ההודעה.',
+	'STYLES_TIP'				=> 'טיפ: ניתן להחיל סגנונות בקלות על טקסט שנבחר.',
 
-	'TOO_FEW_CHARS'				=> 'Your message contains too few characters.',
+	'TOO_FEW_CHARS'				=> 'ההודעה שלך מכילה מעט מדי תווים. ',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Your message contains %1$d character. The minimum number of characters you need to enter is %2$d.',
-		2	=> 'Your message contains %1$d characters. The minimum number of characters you need to enter is %2$d.',
+		1	=> 'אתה צריך להזין לפחות תו אחד.',
+		2	=> 'אתה צריך להזין לפחות %d תווים.',
 	),
-	'TOO_FEW_POLL_OPTIONS'		=> 'You must enter at least two poll options.',
-	'TOO_MANY_ATTACHMENTS'		=> 'Cannot add another attachment, %d is the maximum.',
-	'TOO_MANY_CHARS'			=> 'Your message contains too many characters.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Your signature contains %1$d characters. The maximum number of allowed characters is %2$d.',
+	'TOO_FEW_POLL_OPTIONS'		=> 'עליך להזין לפחות שתי אפשרויות בסקר. ',
+	'TOO_MANY_ATTACHMENTS'		=> 'לא ניתן להוסיף עוד קובץ מצורף, המקסימום הוא %d.',
+	'TOO_MANY_CHARS'			=> 'ההודעה שלך מכילה יותר מדי תווים. ',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'מספר התווים המקסימלי שמאופשר הנו %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'ניסית להזין יותר מדי אפשרויות סקר.',
 	'TOO_MANY_SMILIES'			=> 'ההודעה שלך מכילה יותר מדי סמיילים. המספר המרבי של סמיילים המורשה הוא %d.',
@@ -249,6 +257,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'אתה לא יכול להשתמש בתגי ה־BBCode הבאים: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'כדי להחליף את מצב הנושא מגלובלי לרגיל, אתה צריך לבחור את הפורום אשר אתה רוצה שבו הנושא יוצג.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'ההודעה שלך מכילה את התווים הלא נתמכים הבאים:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'הנושא שלך מכיל את התווים הלא נתמכים הבאים:<br />%s',
 	'UPDATE_COMMENT'			=> 'עדכן תיאור',
 	'URL_INVALID'				=> 'הכתובת שציינת אינה חוקית.',
 	'URL_NOT_FOUND'				=> 'הקובץ שצוין לא נמצא.',
@@ -263,6 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sצפה בהודעה ששלחת זה עתה%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sצפה בהודעה הפרטית ששלחת זה עתה%s',
 
-	'WRONG_FILESIZE'			=> 'הקובץ גדול מדי, הגודל המרבי המורשה הוא %1d %2s.',
-	'WRONG_SIZE'				=> 'The image must be at least %1$s wide, %2$s high and at most %3$s wide and %4$s high. The submitted image is %5$s wide and %6$s high.',
+	'WRONG_FILESIZE'			=> 'הקובץ גדול מדי, הגודל המרבי המורשה הוא %1$d %2$s.',
+	'WRONG_SIZE'				=> 'התמונה חייבת להיות לפחות ברוחב של %1$s,בגובה של %2$s ולכל היותר ברוחב של %3$s ובגובה של %4$s. התמונה שנשלחה ברוחב של %5$s ובגובה של %6$s.',
 ));

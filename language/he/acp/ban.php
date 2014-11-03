@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_ban [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -17,7 +18,6 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
-
 
 if (empty($lang) || !is_array($lang))
 {
@@ -38,19 +38,19 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> 'שעה',
-	'30_MINS'		=> 'חצי שעה',
-	'6_HOURS'		=> '6 שעות',
+	'1_HOUR'					=> 'שעה',
+	'30_MINS'					=> 'חצי שעה',
+	'6_HOURS'					=> '6 שעות',
 
-	'ACP_BAN_EXPLAIN'	=> 'כאן תוכל לנהל את חסימת המשתמשים לפי שם, IP או כתובת דואר אלקטרוני. שיטות אלו מונעות ממשתמש להיכנס לכל חלק של המערכת. תוכל לתת סיבה קצרה (מקסימום 3000 תווים) לחסימה אם תרצה. הסיבה תוצג ביומן המנהלים הראשיים. ניתן לציין גם את אורך הזמן של החסימה. אם אתה רוצה שהחסימה תסתיים בתאריך מסוים במקום לאחר תקופת זמן שנקבעה בחר ב<span style="text-decoration: underline;">עד -&gt;</span> לאורך החסימה והזן תאריך בתבנית <kbd>YYYY-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'			=> 'כאן תוכל לנהל את חסימת המשתמשים לפי שם, IP או כתובת דואר אלקטרוני. שיטות אלו מונעות ממשתמש להיכנס לכל חלק של המערכת. תוכל לתת סיבה קצרה (מקסימום 3000 תווים) לחסימה אם תרצה. הסיבה תוצג ביומן המנהלים הראשיים. ניתן לציין גם את אורך הזמן של החסימה. אם אתה רוצה שהחסימה תסתיים בתאריך מסוים במקום לאחר תקופת זמן שנקבעה בחר ב<span style="text-decoration: underline;">עד -&gt;</span> לאורך החסימה והזן תאריך בתבנית <kbd>YYYY-MM-DD</kbd>.',
 
-	'BAN_EXCLUDE'			=> 'שחרר מחסימה',
-	'BAN_LENGTH'			=> 'אורך החסימה',
-	'BAN_REASON'			=> 'סיבה לחסימה',
-	'BAN_GIVE_REASON'		=> 'הסיבה המוצגת לחסום',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'רשימת החסומים עודכנה בהצלחה.',
-	'BANNED_UNTIL_DATE'		=> 'עד %s', // לדוגמה: "עד ב' 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'	=> '%1$s (עד %2$s)', // לדוגמה: "7 ימים (עד ג' 14.Jul.2009, 14:44)"
+	'BAN_EXCLUDE'				=> 'שחרר מחסימה',
+	'BAN_LENGTH'				=> 'אורך החסימה',
+	'BAN_REASON'				=> 'סיבה לחסימה',
+	'BAN_GIVE_REASON'			=> 'הסיבה המוצגת לחסום',
+	'BAN_UPDATE_SUCCESSFUL'		=> 'רשימת החסומים עודכנה בהצלחה.',
+	'BANNED_UNTIL_DATE'			=> 'עד %s', // לדוגמה: "עד ב' 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'		=> '%1$s (עד %2$s)', // לדוגמה: "7 ימים (עד ג' 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'חסום כתובת דואר אלקטרוני אחת או יותר',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את כתובות הדואר האלקטרוני שהוזנו מכל החסימות הנוכחיות.',
@@ -71,13 +71,14 @@ $lang = array_merge($lang, array(
 
 	'OPTIONS_BANNED'			=> 'נחסם',
 	'OPTIONS_EXCLUDED'			=> 'שוחרר',
-	'PERMANENT'		=> 'תמידית',
-	
+
+	'PERMANENT'					=> 'תמידית',
+
 	'UNTIL'						=> 'עד',
-	'USER_BAN'					=> 'חסום שם משתמש אחד או יותר',
+	'USER_BAN'					=> 'חסום משתמש אחד או יותר על ידי שם משתמש',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את המשתמשים שהוזנו מכל החסימות הנוכחיות.',
 	'USER_BAN_EXPLAIN'			=> 'אתה יכול לחסום כמה משתמשים במהלך אחד על־ידי הזנת כל שם בשורה חדשה. השתמש באפשרות <span style="text-decoration: underline;">מצא משתמש</span> כדי למצוא ולהוסיף משתמש אחד או יותר אוטומטית.',
 	'USER_NO_BANNED'			=> 'אין שמות משתמשים חסומים',
-	'USER_UNBAN'				=> 'בטל חסימה או שחרור לשמות משתמשים',
+	'USER_UNBAN'				=> 'בטל חסימה או שחרור למשתמש על ידי שם משתמש',
 	'USER_UNBAN_EXPLAIN'		=> 'אתה יכול לבטל חסימה (או לבטל שחרור) למספר משתמשים במהלך אחד בעזרת השילוב המתאים של עכבר ומקלדת לפי המחשב והדפדפן שלך. משתמשים שמשוחררים מחסימה מודגשים.',
 ));

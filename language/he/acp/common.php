@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp common [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -50,19 +51,19 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'חסימה',
 	'ACP_BAN_EMAILS'			=> 'חסימת כתובות דואר אלקטרוני',
 	'ACP_BAN_IPS'				=> 'חסימת כתובות IP',
-	'ACP_BAN_USERNAMES'			=> 'חסימת שמות משתמשים',
+	'ACP_BAN_USERNAMES'			=> 'חסימת משתמשים',
 	'ACP_BBCODES'				=> 'תגי BBCode',
 	'ACP_BOARD_CONFIGURATION'	=> 'הגדרות מערכת',
 	'ACP_BOARD_FEATURES'		=> 'מאפייני מערכת',
 	'ACP_BOARD_MANAGEMENT'		=> 'ניהול מערכת',
 	'ACP_BOARD_SETTINGS'		=> 'הגדרות מערכת',
 	'ACP_BOTS'					=> 'עכבישים/רובוטים',
-	
-	'ACP_CAPTCHA'				=> 'CAPTCHA',
-	'ACP_CAT_CUSTOMISE'			=> 'Customise',
 
+	'ACP_CAPTCHA'				=> 'CAPTCHA',
+
+	'ACP_CAT_CUSTOMISE'			=> 'התאמה אישית',
 	'ACP_CAT_DATABASE'			=> 'בסיס נתונים',
-	'ACP_CAT_DOT_MODS'			=> 'מודים',
+	'ACP_CAT_DOT_MODS'			=> 'תוספות',
 	'ACP_CAT_FORUMS'			=> 'פורומים',
 	'ACP_CAT_GENERAL'			=> 'כללי',
 	'ACP_CAT_MAINTENANCE'		=> 'תחזוקה',
@@ -74,18 +75,20 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'משתמשים',
 	'ACP_CLIENT_COMMUNICATION'	=> 'תקשורת לקוחות',
 	'ACP_COOKIE_SETTINGS'		=> 'הגדרות עוגייה',
+	'ACP_CONTACT'				=> 'עמוד יצירת קשר',
+	'ACP_CONTACT_SETTINGS'		=> 'הגדרות עמוד יצירת קשר',
 	'ACP_CRITICAL_LOGS'			=> 'מעקב אחר שגיאות',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'שדות פרופיל מותאמים אישית',
-	
+
 	'ACP_DATABASE'				=> 'ניהול בסיס נתונים',
 	'ACP_DISALLOW'				=> 'לא מורשה',
 	'ACP_DISALLOW_USERNAMES'	=> 'שמות משתמשים לא מורשים',
-	
+
 	'ACP_EMAIL_SETTINGS'		=> 'הגדרות דואר אלקטרוני',
 	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
-	'ACP_EXTENSIONS'			=> 'Extensions',
-	
+	'ACP_EXTENSION_MANAGEMENT'	=> 'ניהול תוספות',
+	'ACP_EXTENSIONS'			=> 'נהל תוספות',
+
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'הרשאות לפי פורומים',
 	'ACP_FORUM_LOGS'				=> 'מעקב אחר פעולות בפורומים',
 	'ACP_FORUM_MANAGEMENT'			=> 'ניהול פורומים',
@@ -104,23 +107,24 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'ניהול קבוצה',
 	'ACP_GROUPS_PERMISSIONS'		=> 'הרשאות של קבוצה',
 	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
-	
+
 	'ACP_ICONS'					=> 'סמלי נושאים',
 	'ACP_ICONS_SMILIES'			=> 'סמלי/סמיילים של נושאים',
 	'ACP_INACTIVE_USERS'		=> 'משתמשים לא פעילים',
 	'ACP_INDEX'					=> 'עמוד ניהול ראשי',
-	
+
 	'ACP_JABBER_SETTINGS'		=> 'הגדרות Jabber',
-	
+
 	'ACP_LANGUAGE'				=> 'ניהול שפות',
 	'ACP_LANGUAGE_PACKS'		=> 'חבילות שפה',
 	'ACP_LOAD_SETTINGS'			=> 'הגדרות כלליות',
 	'ACP_LOGGING'				=> 'מתחבר',
-	
+
 	'ACP_MAIN'					=> 'עמוד ניהול ראשי',
+
 	'ACP_MANAGE_ATTACHMENTS'			=> 'ניהול קבצים מצורפים',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'כאן אתה יכול לנהל ולמחוק קבצים שצורפו להודעות ולהודעות פרטיות.',
-	
+
 	'ACP_MANAGE_EXTENSIONS'		=> 'ניהול סיומות קבצים מצורפים',
 	'ACP_MANAGE_FORUMS'			=> 'ניהול פורומים',
 	'ACP_MANAGE_RANKS'			=> 'ניהול דירוגים',
@@ -132,11 +136,11 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'ניהול מודולים',
 	'ACP_MOD_LOGS'				=> 'מעקב אחר פעולות מנהלים',
 	'ACP_MOD_ROLES'				=> 'תפקידי מנהלים',
-	
+
 	'ACP_NO_ITEMS'				=> 'אין פריטים כרגע.',
-	
+
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'קבצים מצורפים ללא שולח',
-	
+
 	'ACP_PERMISSIONS'			=> 'הרשאות',
 	'ACP_PERMISSION_MASKS'		=> 'משימות הרשאה',
 	'ACP_PERMISSION_ROLES'		=> 'תפקידי הרשאה',
@@ -146,14 +150,15 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS'			=> 'איפוס פורומים',
 	'ACP_PRUNE_USERS'			=> 'איפוס משתמשים',
 	'ACP_PRUNING'				=> 'איפוס',
-	
+
 	'ACP_QUICK_ACCESS'			=> 'הרשאה מהירה',
-	
+
 	'ACP_RANKS'					=> 'דירוגים',
 	'ACP_REASONS'				=> 'סיבות דיווח/חסימה',
 	'ACP_REGISTER_SETTINGS'		=> 'הגדרות רישום משתמש',
 
 	'ACP_RESTORE'				=> 'שחזור',
+
 	'ACP_FEED'					=> 'ניהול הזנות',
 	'ACP_FEED_SETTINGS'			=> 'הגדרת הזנות',
 
@@ -170,12 +175,13 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> 'ניהול עיצובים',
 	'ACP_STYLES'				=> 'עיצובים',
 	'ACP_STYLES_CACHE'			=> 'Purge Cache',
-	'ACP_STYLES_INSTALL'		=> 'Install Styles',
+	'ACP_STYLES_INSTALL'		=> 'התקן עיצובים',
+
 	'ACP_SUBMIT_CHANGES'		=> 'שלח שינויים',
-	
+
 	'ACP_TEMPLATES'				=> 'תבניות',
 	'ACP_THEMES'				=> 'סגנונות',
-	
+
 	'ACP_UPDATE'					=> 'עדכון',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'הרשאות פורום של משתמש',
 	'ACP_USERS_LOGS'				=> 'יומן פעולות משתמש',
@@ -193,18 +199,17 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ROLES'				=> 'תפקידי משתמשים',
 	'ACP_USER_SECURITY'				=> 'אבטחת משתמשים',
 	'ACP_USER_SIG'					=> 'חתימה',
-
 	'ACP_USER_WARNINGS'				=> 'אזהרות',
 
 	'ACP_VC_SETTINGS'					=> 'אמצעים נגד בוטים',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'תצוגה מקדימה לCAPTCHA',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'תצוגה מקדימה ל-CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'בדוק עדכונים',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'הצגת הרשאות ניהול ראשי',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול פורום',
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'הצגת הרשאות לפי פורום',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'הצגת הרשאות ניהול גלובלי',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'הצגת הרשאות לפי משתמש',
-	
+
 	'ACP_WORDS'					=> 'צנזור מילים',
 
 	'ACTION'				=> 'פעולה',
@@ -214,6 +219,7 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'ניהול ראשי',
 	'ADMIN_INDEX'			=> 'עמוד ניהול ראשי',
 	'ADMIN_PANEL'			=> 'לוח בקרה למנהלים ראשיים',
+
 	'ADM_LOGOUT'			=> 'התנתקות מלוח הבקרה',
 	'ADM_LOGGED_OUT'		=> 'התנתקת בהצלחה מלוח הבקרה למנהלים ראשיים',
 
@@ -221,6 +227,10 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'מאגר צבעים לשימוש בטוח ברשת',
 	'CONFIG_UPDATED'		=> 'ההגדרות עודכנו בהצלחה.',
+	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
+	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
+	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
@@ -237,9 +247,6 @@ $lang = array_merge($lang, array(
 	'ENABLE'				=> 'הפעל',
 	'EXPORT_DOWNLOAD'		=> 'הורד',
 	'EXPORT_STORE'			=> 'אחסן',
-
-	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
-	'FILES_STATS_WRONG'		=> 'Your files statistics are probably inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'אפשרויות כלליות',
 	'GENERAL_SETTINGS'		=> 'הגדרות כלליות',
@@ -283,10 +290,8 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'הזכר',
 	'RESYNC'							=> 'סנכרון מחדש',
-	'RESYNC_FILES_STATS'				=> 'Resynchronise files statistics',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Recalculates the total number and size of files attached to posts and private messages.',
-	'RETURN_TO'							=> 'חזור אל…',
 
+	'RUNNING_TASK'			=> 'Running task: %s.',
 	'SELECT_ANONYMOUS'		=> 'בחר משתמש אורח',
 	'SELECT_OPTION'			=> 'בחר אפשרות',
 
@@ -294,9 +299,12 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_BIG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” גבוה מדי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_LONG'		=> 'הערך שהוזן עבור ההגדרה “%1$s” ארוך מדי. הערך המקסימלי המאושר הוא %2$d.',
 	'SETTING_TOO_SHORT'		=> 'הערך שהוזן עבור ההגדרה “%1$s” קצר מדי. הערך המינימלי המאושר הוא %2$d.',
+
 	'SHOW_ALL_OPERATIONS'	=> 'הצג את כל הפעולות',
 
-	'TOTAL_SIZE'      		=> 'Total size',
+	'TASKS_NOT_READY'			=> 'Not ready tasks:',
+	'TASKS_READY'			=> 'Ready tasks:',
+	'TOTAL_SIZE'			=> 'Total size',
 
 	'UCP'					=> 'לוח בקרה למשתמש',
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
@@ -357,14 +365,16 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'דחיסת GZip',
 
+	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
 	'NOT_AVAILABLE'		=> 'לא זמין',
 	'NUMBER_FILES'		=> 'מספר קבצים מצורפים',
 	'NUMBER_POSTS'		=> 'מספר הודעות',
 	'NUMBER_TOPICS'		=> 'מספר נושאים',
 	'NUMBER_USERS'		=> 'מספר משתמשים',
 	'NUMBER_ORPHAN'		=> 'קבצים מצורפים ללא שולח',
-	
+
 	'PHP_VERSION_OLD'	=> 'גרסת ה־PHP שבשרת זה לא תתמך על ידי גרסאות עתידיות של phpBB. %sפרטים%s',
+
 	'POSTS_PER_DAY'		=> 'הודעות ליום',
 
 	'PURGE_CACHE'			=> 'טיהור המטמון',
@@ -383,7 +393,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'איפוס מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית',
 	'RESET_ONLINE_CONFIRM'			=> 'אתה בטוח שאתה רוצה לאפס את מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית?',
 	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise files statistics?',
 	'RESYNC_POSTCOUNTS'				=> 'סנכרון מוני ההודעות מחדש',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'רק הודעות קיימות יילקחו בחשבון. הודעות שאופסו לא יספרו.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'אתה בטוח שאתה רוצה לסנכרן מחדש את מוני ההודעות?',
@@ -403,7 +412,6 @@ $lang = array_merge($lang, array(
 
 	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
 	'TIMEZONE_SELECTED'	=> '(currently selected)',
-
 	'TOPICS_PER_DAY'	=> 'נושאים ליום',
 
 	'UPLOAD_DIR_SIZE'	=> 'גודל הקבצים המצורפים',
@@ -431,6 +439,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_USERS'				=> 'משתמשים לא פעילים',
 	'INACTIVE_USERS_EXPLAIN'		=> 'זוהי רשימת המשתמשים הרשומים אשר חשבונם אינו פעיל. אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'זוהי רשימת 10 המשתמשים האחרונים שנרשמו אשר חשבונם אינו פעיל. חשבונות לא פעילים או בגלל שהפעלת חשבון הופעלה בהגדרות רישום משתמש וחשבונות משתמשים אלו טרם הופעלו, או בגלל שחשבונות אלו בוטלו. רשימה מלאה זמינה על ידי לחיצה על הקישור שמופיע מטה, משם אתה יכול להפעיל, למחוק או להזכיר (על־ידי שליחת דואר אלקטרוני) למשתמשים אלו אם תרצה.',
+
 	'NO_INACTIVE_USERS'	=> 'אין משתמשים לא פעילים',
 
 	'SORT_INACTIVE'		=> 'תאריך ללא פעילות',
@@ -482,10 +491,10 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>הרשאות הועברו מ</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>שיחזר הרשאות לאחר שימוש בהרשאות של המשתמש</strong><br />» %s',
-	
+
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>ניסיון התחברות לניהול ראשי נכשל</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>ניסיון התחברות לניהול ראשי הצליח</strong>',
-	
+
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>הסיר קבצים מצורפים של משתמש</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>הוסיף או ערך סיומת קבצים מצורפים</strong><br />» %s',
@@ -541,9 +550,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>משתמש הקפיץ נושא</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>מחק הודעה “%1$s” שנכתבה על ידי</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>מחק נושא מוצל</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>מחק נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>העתיק נושא</strong><br />» מ%s',
 	'LOG_LOCK'					=> '<strong>נעל נושא</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>נעל הודעה</strong><br />» %s',
@@ -552,20 +561,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>סגר דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>מחק דיווח הודעה פרטית</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>דחה הודעה “%1$s” בגלל הסיבה הבאה</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>ערך הודעה “%1$s” אשר נכתבה על־ידי</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>שיחזר הודעה</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>סגר דיווח</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>מחק דיווח</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>שיחזר נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>מחק מחיקה רכה הודעה “%1$s” שנכתב על ידי</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>מחק מחיקה רכה נושא “%1$s” שנכתב על ידי</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by “%%2$s” for the following reason</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>העביר הודעות מפוצלות</strong><br />» אל %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>פיצל הודעות</strong><br />» מ%s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>אישר נושא</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>שיחזר נושא</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>דחה נושא “%1$s” בגלל הסיבה הבאה</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Disapproved topic “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>סינכרן מחדש מוני נושאים</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>שינה סוג נושא</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>פתח נושא</strong><br />» %s',
@@ -584,7 +593,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>שגיאת Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>שגיאת דואר אלקטרוני</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>יצר פורום חדש</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>העתיק הרשאות פורום</strong> מ־%1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>מחק פורום</strong><br />» %s',
@@ -600,6 +609,7 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>העביר פורום</strong> %1$s <strong>מתחת</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>העביר פורום</strong> %1$s <strong>מעל</strong> %2$s',
 	'LOG_FORUM_SYNC'						=> '<strong>סנכרון פורום מחדש</strong><br />» %s',
+
 	'LOG_GENERAL_ERROR'	=> '<strong>התרחשה שגיאה כללית</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>קבוצת משתמשים חדשה נוצרה</strong><br />» %s',
@@ -661,6 +671,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_REMOVED'	=> '<strong>תפקיד משתמש הוסר</strong><br />» %s',
 
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s',
+
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>שדה פרופיל הופעל</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>שדה פרופיל נוסף</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>שדה פרופיל הופסק</strong><br />» %s',
@@ -669,6 +680,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>פורומים אופסו</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>פרומים אופסו אוטומטית</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-pruned shadow topics</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>משתמשים הופסקו</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>משתמשים אופסו והודעות נמחקו</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>משתמשים אופסו והודעות שוחזרו</strong><br />» %s',
@@ -687,7 +699,7 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 	'LOG_RESET_DATE'			=> '<strong>תאריך התקנת המערכת אופס</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>Files statistics resynchronised</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>מוני הודעות המשתמשים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>נושאים מסומנים סונכרנו מחדש</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>סטטיסטיקות הודעות, נושאים ומשתמשים סונכרנו מחדש</strong>',
@@ -711,6 +723,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>יצא ערכה</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>רענן ערכה</strong><br />» %s',
+
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>הוסיף סגנון חדש לבסיס הנתונים</strong><br />» %s',
 	// @deprecated 3.1
@@ -741,6 +754,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>שינה ססמת משתמש</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>דרש הפעלת חשבון משתמש מחדש</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>הסיר סימון משתמש שנרשם לאחרונה מהמשתמש</strong><br />» %s',
+
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>המשתמש “%1$s” שינה דואר אלקטרוני</strong><br />» מ־“%2$s” ל־“%3$s”',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>שינה שם משתמש</strong><br />» מ־“%1$s” ל־“%2$s”',
 	'LOG_USER_USER_UPDATE'	=> '<strong>עדכן פרטי משתמש</strong><br />» %s',
@@ -765,10 +779,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>משתמש ביטל חברות מקבוצה</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>מחק אזהרת משתמש</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>מחק %2$s אזהרות משתמש</strong><br />» %1$s', // לדוגמה: '<strong>מחק 2 אזהרות משתמש</strong><br />» שם משתמש'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Deleted user warning</strong><br />» %1$s',
+		2 => '<strong>Deleted %2$d user warnings</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>מחק את כל אזהרות המשתמש</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
+
+	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s',
 ));

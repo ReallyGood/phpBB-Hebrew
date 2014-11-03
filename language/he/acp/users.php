@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_users [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,8 +42,8 @@ $lang = array_merge($lang, array(
 
 	'BAN_ALREADY_ENTERED'	=> 'החסימה הופעלה בהצלחה, אך הרשימה לא התעדכנה.',
 	'BAN_SUCCESSFUL'		=> 'החסימה הופעלה בהצלחה.',
-	'CANNOT_BAN_ANONYMOUS'			=> 'אינך רשאי לחסום חשבון אנונימי. הרשאות לחשבון אנונימי ניתן להגדיר תחת תגית ההרשאות.',
 
+	'CANNOT_BAN_ANONYMOUS'			=> 'אינך רשאי לחסום חשבון אנונימי. הרשאות לחשבון אנונימי ניתן להגדיר תחת תגית ההרשאות.',
 	'CANNOT_BAN_FOUNDER'			=> 'אינך מורשה לחסום חשבון של מייסד.',
 	'CANNOT_BAN_YOURSELF'			=> 'אינך מורשה לחסום את עצמך.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'אינך מורשה לבטל חשבונות רובוטים. אנא בטל את הרובוט מעמוד הרובוטים במקום.',
@@ -52,7 +53,8 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'אינך מורשה לדרוש הפעלה מחדש לחשבונות מייסדים.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'אינך מורשה לדרוש הפעלה מחדש לחשבון שלך.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'אתה לא יכול להסיר את חשבון משתמש האורח.',
-	'CANNOT_REMOVE_YOURSELF'		=> 'אתה לא יכול להסיר את חשבון המשתמש שלך.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'אינך מורשה להסיר חשבונות של מייסדים'.,
+	'CANNOT_REMOVE_YOURSELF'		=> 'אינך מורשה להסיר חשבון של עצמך.',
 	'CANNOT_SET_FOUNDER_IGNORED'		=> 'אתה לא יכול לאפשר למשתמשים מהם אתה מתעלם להיות מייסדים.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'אתה צריך להפעיל את המשתמשים לפני שאתה מאפשר להם להיות מייסדים, רק משתמשים פעילים ניתנים.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'אתה נדרש למלא שדה זה רק אם אתה מעוניין לשנות את הדואר האלקטרוני של המתשמש.',
@@ -64,7 +66,7 @@ $lang = array_merge($lang, array(
 	'FORCE_REACTIVATION_SUCCESS'	=> 'ההפעלה מחדש בוצעה בהצלחה.',
 	'FOUNDER'						=> 'מייסד',
 	'FOUNDER_EXPLAIN'				=> 'למייסדים יש את כל ההרשאות המנהליות ואינם יכולים להיחסם, להימחק או להשתנות על ידי משתמשים שאינם מייסדים.',
-	
+
 	'GROUP_APPROVE'					=> 'אשר משתמש',
 	'GROUP_DEFAULT'					=> 'קבע קבוצה זו כברירת מחדל למשתמש',
 	'GROUP_DELETE'					=> 'מחק משתמש מהקבוצה',
@@ -76,7 +78,7 @@ $lang = array_merge($lang, array(
 	'LAST_ACTIVE'			=> 'פעיל לאחרונה',
 
 	'MOVE_POSTS_EXPLAIN'	=> 'בחר את הפורום אליו אתה רוצה להעביר את ההודעות של המשתמש.',
-	
+
 	'NO_SPECIAL_RANK'		=> 'לא צוינה דרגה',
 	'NO_WARNINGS'			=> 'אין אזהרות.',
 	'NOT_MANAGE_FOUNDER'	=> 'ניסית לנהל משתמש בדרגת מייסד, רק מייסדים אחרים לנהל משתמש שהוא מייסד.',

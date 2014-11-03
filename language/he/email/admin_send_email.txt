@@ -10,5 +10,4 @@
 
 {MESSAGE}
 
-
 {EMAIL_SIG}

@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* captcha_qa [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -47,17 +48,17 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'תשובה',
 	'EDIT_QUESTION'				=> 'ערוך שאלה',
 	'QUESTIONS'					=> 'שאלות',
-	'QUESTIONS_EXPLAIN'			=> 'בכל טופס שליחה שבו אפשרת את התוספת שאלות ותשובות, משתמשים ישאלו אחת מן השאלות המצוינות כאן. כדי להשתמש בתוסף, לפחות אחת מן השאלות צריכה להיות מוגדרת לשפת ברירת המחדל. שאלות אלו צריכות להיות קלות למענה על ידי קהל היעד שלך, אבל מעבר ליכולת של רובוט המסוגל להריץ חיפוש בגוגל™. שימוש במאגר גדול של שאלות שמשתנה בקביעות יפיק את התוצאות הטובות ביותר. אפשר את אפשרות האימות הנוקשה אם התשובה שלך מסתמכת על אפשרויות משולבות, סימני או רוווחים.',
+	'QUESTIONS_EXPLAIN'			=> 'בכל טופס שליחה שבו אפשרת את התוספת שאלות ותשובות, משתמשים ישאלו אחת מן השאלות המצוינות כאן. כדי להשתמש בתוסף, לפחות אחת מן השאלות צריכה להיות מוגדרת לשפת ברירת המחדל. שאלות אלו צריכות להיות קלות למענה על ידי קהל היעד שלך, אבל מעבר ליכולת של רובוט המסוגל להריץ חיפוש בגוגל™. שימוש במאגר גדול של שאלות שמשתנה בקביעות יפיק את התוצאות הטובות ביותר. אפשר את אפשרות האימות הנוקשה אם התשובה שלך דורשת הקפדה על אותיות רישיות/קטנות, סימני פיסוק או רוווחים.',
 	'QUESTION_DELETED'			=> 'השאלה נמחקה',
 	'QUESTION_LANG'				=> 'שפה',
 	'QUESTION_LANG_EXPLAIN'		=> 'השפה שבהן השאלה והתשובה כתובות.',
 	'QUESTION_STRICT'			=> 'אימות נוקשה',
-	'QUESTION_STRICT_EXPLAIN'	=> 'אפשר בכדי לבדוק אפשרויות משולבות, סימני פיסוק ורווחים.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'אפשר בכדי לפסול שינויים באותיות רישיות/גדולות, סימני פיסוק ורווחים.',
 
 	'QUESTION_TEXT'				=> 'שאלה',
 	'QUESTION_TEXT_EXPLAIN'		=> 'השאלה שתוצג למשתמש.',
 
 	'QA_ERROR_MSG'				=> 'אנא מלא את כל השדות והכנס לפחות תשובה אחת.',
-	
 	'QA_LAST_QUESTION'			=> 'אתה לא יכול למחוק את כל השאלות בזמן שהרכיב פעיל.',
+
 ));

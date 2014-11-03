@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* memberlist [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -48,10 +49,11 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'לפני',
 
 	'CC_EMAIL'				=> 'שלח העתק של הדואר האלקטרוני לעצמך.',
-	'CONTACT_USER'			=> 'צור קשר עם',
+	'CONTACT_ADMIN'			=> 'צור קשר עם מנהל ראשי',
 
 	'DEST_LANG'				=> 'שפה',
 	'DEST_LANG_EXPLAIN'		=> 'בחר בשפה המתאימה (אם קיימת) עבור הבן אדם שמקבל הודעה זאת.',
+	'EDIT_PROFILE'			=> 'ערוך פרופיל',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'הודעה זו תשלח כטקסט נקי, אל תכלול כאו קוד HTML או BBCode. הכתובת לחזרה תיקבע על פי כתובת הדואר אלקטרוני שלך.',
 	'EMAIL_DISABLED'		=> 'פונקציית הדואר האלקטרוני איננה פעילה.',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'אתה מוכרח לכתוב את ההודעה שהנך רוצה לשלוח בדואר אלקטרוני.',
 	'EMPTY_MESSAGE_IM'		=> 'אתה חייב להזין הודעה לשליחה.',
 	'EMPTY_NAME_EMAIL'		=> 'אתה מוכרח לציין שם אמיתי של הנמען.',
+	'EMPTY_SENDER_EMAIL'	=> 'אתה מוכרח לציין כתובת דואר אלקטרוני תקינה.',
+	'EMPTY_SENDER_NAME'		=> 'אתה מוכרח לציין שם.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'אתה מוכרח לציין נושא להודעה.',
 	'EQUAL_TO'				=> 'שווה ל',
 
@@ -72,16 +76,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'הסתר טופס חיפוש משתמש',
 
 	'IM_ADD_CONTACT'		=> 'הוסף איש קשר',
-	'IM_AIM'				=> 'שים לב שהנך צריך שתוכנת המסרים AOL תהיה מותקנת אצלך.',
-	'IM_AIM_EXPRESS'		=> 'AIM אקספרס',
 	'IM_DOWNLOAD_APP'		=> 'הורדת היישום',
-	'IM_ICQ'				=> 'אנא שים לב שיש משתמשים שבחרו שלא לקבל הודעות ללא הזמנה.',
 	'IM_JABBER'				=> 'אנא שים לב שיש משתמשים שבחרו שלא לקבל הודעות ללא הזמנה.',
 	'IM_JABBER_SUBJECT'		=> 'זוהי הודעה אוטומטית, אנא אל תגיב לה! הודעה מהמשתמש %1$s בשעה %2$s.',
 	'IM_MESSAGE'			=> 'הודעתך',
-	'IM_MSNM'				=> 'שים לב שהנך זקוק ל־Windows Live Messenger מותקן על מנת להשתמש בזה.',
-	'IM_MSNM_BROWSER'		=> 'דפדפן האינטרנט שלך אינו תומך בזה.',
-	'IM_MSNM_CONNECT'		=> 'WLM לא מחובר.\nהנך חייב להתחבר ל־WLM על מנת להמשיך.',	
 	'IM_NAME'				=> 'שמך',
 	'IM_NO_DATA'			=> 'אין פרטי תוכן מתאימים למשתמש זה.',
 	'IM_NO_JABBER'			=> 'סליחה, שליחת הודעה באופן ישיר למשתמש Jabber אינה נתמכת במערכת זו, אתה צריך שתוכנת הJabber תהיה מותקנת אצלך במחשב כדי לשלוח הודעה למשתמש זה.',
@@ -90,20 +88,22 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'שלח הודעה',
 	'IM_SENT_JABBER'		=> 'הודעתך ל־%1$s נשלחה בהצלחה.',
 	'IM_USER'				=> 'שלח הודעה מיידית.',
-	
+
 	'LAST_ACTIVE'				=> 'פעיל לאחרונה',
 	'LESS_THAN'					=> 'פחות מ',
 	'LIST_USERS'				=> array(
 		1	=> 'משתמש %d',
 		2	=> '%d משתמשים',
 	),
-	'LOGIN_EXPLAIN_LEADERS'		=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות ברשימות הצוות.',
+	'LOGIN_EXPLAIN_TEAM'		=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות ברשימות הצוות.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לגשת לרשימת משתמשים.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לחפש משתמשים.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בפרופילים.',
 
 	'MORE_THAN'				=> 'יותר מ',
 
+	'NO_CONTACT_FORM'		=> 'טופס יצירת הקשר עם המנהל הראשי לא פעיל.',
+	'NO_CONTACT_PAGE'		=> 'עמוד יצירת הקשר עם המנהל הראשי לא פעיל.',
 	'NO_EMAIL'				=> 'אינך מורשה לשלוח דואר אלקטרוני למשתמש זה.',
 	'NO_VIEW_USERS'			=> 'אין לך הרשאה לצפות ברשימות משתמשים או בפרופילים.',
 
@@ -119,12 +119,12 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'בחר מסומנים',
 	'SELECT_SORT_METHOD'	=> 'בחר שיטת מיון',
-	'SEND_AIM_MESSAGE'		=> 'שלח הודעת AIM',
+	'SENDER_EMAIL_ADDRESS'	=> 'כתובת הדואר האלקטרוני שלך',
+	'SENDER_NAME'			=> 'השם שלך',
 	'SEND_ICQ_MESSAGE'		=> 'שלח הודעת ICQ',
 	'SEND_IM'				=> 'הודעה מיידית',
 	'SEND_JABBER_MESSAGE'	=> 'שלח הודעת Jabber',
 	'SEND_MESSAGE'			=> 'הודעה',
-	'SEND_MSNM_MESSAGE'		=> 'שלח הודעת WLM.',
 	'SEND_YIM_MESSAGE'		=> 'שלח הודעת YIM',
 	'SORT_EMAIL'			=> 'דואר אלקטרוני',
 	'SORT_LAST_ACTIVE'		=> 'פעיל לאחרונה',
@@ -141,9 +141,12 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'מחובר',
 	'USER_PRESENCE'			=> 'נוכחות בפורום',
+	'USERS_PER_PAGE'		=> 'משתמשים בעמוד',
 
 	'VIEWING_PROFILE'		=> 'צופה בפרופיל - %s',
-	'VISITED'				=> 'ביקר לאחרונה',
-
-	'WWW'					=> 'אתר אינטרנט',
+	'VIEW_FACEBOOK_PROFILE'	=> 'צפה בפרופיל Facebook',
+	'VIEW_SKYPE_PROFILE'	=> 'צפה בפרופיל Skype',
+	'VIEW_TWITTER_PROFILE'	=> 'צפה בפרופיל Twitter',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'צפה בערוץ YouTube',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'צפה בפרופיל Google+',
 ));

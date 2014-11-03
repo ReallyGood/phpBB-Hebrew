@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* groups [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,7 +44,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_JOIN_GROUP'			=> 'אינך מורשה להוסיף קבוצה זו. אתה יכול רק להוסיף קבוצות פתוחות.',
 	'CANNOT_RESIGN_GROUP'		=> 'אינך יכול להסיר מקבוצה זו. אתה יכול רק להסיר מקבוצות פתוחות .',
 	'CHANGED_DEFAULT_GROUP'		=> 'קבוצת ברירת המחדל שונתה בהצלחה.',
-	
+
 	'GROUP_AVATAR'						=> 'סמל אישי לקבוצה',
 	'GROUP_CHANGE_DEFAULT'				=> 'האם אתה בטוח שאתה רוצה לשנות את חברות ברירת המחדל שלך לקבוצה “%s”?',
 	'GROUP_CLOSED'						=> 'סגורה',
@@ -73,7 +74,6 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'הוסרת מהקבוצה הנבחרת בהצלחה.',
 	'GROUP_RESIGNED_PENDING'			=> 'חברותך הניסיונית הוסרה מהקבוצה הנבחרת בהצלחה.',
 	'GROUP_TYPE'						=> 'סוג הקבוצה',
-	'GROUP_TYPE'						=> 'סוג הקבוצה',
 	'GROUP_UNDISCLOSED'					=> 'קבוצה מוסתרת',
 	'FORUM_UNDISCLOSED'					=> 'ניהול פורומים מוסתרים',
 
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך ראש הקבוצה.',
 	'NOT_MEMBER_OF_GROUP'			=> 'הפעולה המבוקשת אינה יכולה להתבצע מפני שאינך חבר בקבוצה הנבחרת או שחברותך עדיין לא אושרה.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'אינך רשאי לבטל את חברותך מקבוצת ברירת המחדל שלך.',
-	
+
 	'PRIMARY_GROUP'		=> 'קבוצה ראשית',
 
 	'REMOVE_SELECTED'		=> 'הסר נבחרים',

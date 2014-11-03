@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_database [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -40,22 +41,22 @@ $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'	=> 'מעמוד זה ניתן לגבות את בסיס הנתונים של phpBB. תוכל לאחסן את הגיבוי בתיקייה <samp>store/</samp> או להוריד אותה ישירות. לפי הגדרות השרת שלך, תוכל לדחוס את הקובץ במספר שיטות דחיסה.',
 	'ACP_RESTORE_EXPLAIN'	=> 'כאן תוכל לבצע שחזור מלא של כל טבלאות ה־phpBB מקובץ שמור. אם השרת שלך תומך, תוכל להשתמש בקובץ טקסט הדחוס ב־gzip או ב־bzip2 והוא יחולץ אוטומטית. <strong>אזהרה</strong> הפעולה תעבור על כל הנתונים הקיימים. תהליך השחזור יכול להמשך זמן רב, אנא אל תעבור מעמוד זה עד שהוא יושלם. גיבויים מאוחסנים בתיקייה <samp>store/</samp> ונוצרו בדרך כלל על־ידי אפשרות הגיבוי של phpBB. שחזור גיבויים אשר לא נוצרו על־ידי האפשרות המובנית במערכת עלול לא לעבוד.',
 
-	'BACKUP_DELETE'		=> 'קובץ הגיבוי נמחק בהצלחה.',
-	'BACKUP_INVALID'	=> 'הקובץ הנבחר לגיבוי לא חוקי.',
-	'BACKUP_OPTIONS'	=> 'אפשרויות גיבוי',
-	'BACKUP_SUCCESS'	=> 'קובץ הגיבוי נוצר בהצלחה.',
-	'BACKUP_TYPE'		=> 'סוג גיבוי',
+	'BACKUP_DELETE'			=> 'קובץ הגיבוי נמחק בהצלחה.',
+	'BACKUP_INVALID'		=> 'הקובץ הנבחר לגיבוי לא חוקי.',
+	'BACKUP_OPTIONS'		=> 'אפשרויות גיבוי',
+	'BACKUP_SUCCESS'		=> 'קובץ הגיבוי נוצר בהצלחה.',
+	'BACKUP_TYPE'			=> 'סוג גיבוי',
 
-	'DATABASE'			=> 'שירותי בסיס נתונים',
-	'DATA_ONLY'			=> 'נתונים בלבד',
-	'DELETE_BACKUP'		=> 'מחק גיבוי',
+	'DATABASE'				=> 'שירותי בסיס נתונים',
+	'DATA_ONLY'				=> 'נתונים בלבד',
+	'DELETE_BACKUP'			=> 'מחק גיבוי',
 	'DELETE_SELECTED_BACKUP'	=> 'אתה בטוח שאתה רוצה למחוק את הגיבוי הנבחר?',
-	'DESELECT_ALL'		=> 'בטל בחירה להכל',
-	'DOWNLOAD_BACKUP'	=> 'הורד גיבוי',
+	'DESELECT_ALL'			=> 'בטל בחירה להכל',
+	'DOWNLOAD_BACKUP'		=> 'הורד גיבוי',
 
-	'FILE_TYPE'			=> 'סוג קובץ',
-	'FILE_WRITE_FAIL'	=> 'לא ניתן לכתוב קובץ לתיקיית האחסון.',
-	'FULL_BACKUP'		=> 'מלא',
+	'FILE_TYPE'				=> 'סוג קובץ',
+	'FILE_WRITE_FAIL'		=> 'לא ניתן לכתוב קובץ לתיקיית האחסון.',
+	'FULL_BACKUP'			=> 'מלא',
 
 	'RESTORE_FAILURE'		=> 'קובץ הגיבוי פגום.',
 	'RESTORE_OPTIONS'		=> 'אפשרויות שחזור',
@@ -70,6 +71,6 @@ $lang = array_merge($lang, array(
 	'STORE_LOCAL'			=> 'אחסן קובץ באופן מקומי',
 	'STRUCTURE_ONLY'		=> 'מבנה בלבד',
 
-	'TABLE_SELECT'		=> 'בחירת טבלאות',
-	'TABLE_SELECT_ERROR'=> 'אתה חייב לבחור לפחות טבלה אחת.',
+	'TABLE_SELECT'			=> 'בחירת טבלאות',
+	'TABLE_SELECT_ERROR'	=> 'אתה חייב לבחור לפחות טבלה אחת.',
 ));

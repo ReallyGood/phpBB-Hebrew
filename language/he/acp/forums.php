@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_forums [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -43,6 +44,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'מספר הימים בין אירועי האיפוס.',
 	'AUTO_PRUNE_VIEWED'			=> 'איפוס הודעות אוטומטי לפי תאריכי הצפיות האחרונות בהודעה',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'מספר הימים שעברו מאז הצפייה באשכול בפעם האחרונה שלאחריה הנושא יוסר.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.',
 
 	'CONTINUE'						=> 'המשך',
 	'COPY_PERMISSIONS'				=> 'העתק הרשאות מ',
@@ -102,6 +107,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'ססמת הפורום משתמשת בשיטת הצפנה ישנה וצריכה להשתנות.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'הססמאות שהכנסת אינן תואמות.',
 	'FORUM_PRUNE_SETTINGS'				=> 'הגדרות איפוס הפורום',
+	'FORUM_PRUNE_SHADOW'				=> 'Enable auto-pruning of shadow topics',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Prunes the forum of shadow topics, set the frequency/age parameters below.',
 	'FORUM_RESYNCED'					=> 'הפורום “%s” סונכרן בהצלחה',
 	'FORUM_RULES_EXPLAIN'				=> 'חוקי הפורום מוצגים בכל עמוד בתוך הפורום שהזנת.',
 	'FORUM_RULES_LINK'					=> 'קישור לחוקי הפורום',
@@ -116,16 +123,16 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'						=> 'סוג הפורום',
 	'FORUM_UPDATED'						=> 'מידע הפורום עודכן בהצלחה.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'תוכל לשנות פורום בו ניתן לשלוח הודעות המכיל תתי־פורומים לקישור. אנא העבר את כל תתי־הפורומים מחוץ לפורום זה לפני שתמשיך, מפני שלאחר השינוי לקישור לא תוכל יותר לראות את תתי־הפורומים המקושרים כרגע לפורום זה.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'תוכל לשנות פורום בו ניתן לשלוח הודעות המכיל תתי־פורומים לקישור. אנא העבר את כל תתי־הפורומים מחוץ לפורום זה לפני שתמשיך, מפני שלאחר השינוי לקישור לא תוכל יותר לראות את תתי־הפורומים המקושרים כרגע לפורום זה.',
 
 	'GENERAL_FORUM_SETTINGS'	=> 'הגדרות פורום כלליות',
 
-	'LINK'					=> 'קישור',
-	'LIST_INDEX'			=> 'רשום תת פורום ברשימת הפורומים הראשית',
-	'LIST_INDEX_EXPLAIN'	=> 'הצג את פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור של פורום האב שלו אם פורום האב מוגדר כ”רשום תת פורום ברשימה“ האפשרות מאושרת.',
-	'LIST_SUBFORUMS'		=> 'רשום תת פורום ברשימה',
+	'LINK'						=> 'קישור',
+	'LIST_INDEX'				=> 'רשום תת פורום ברשימת הפורומים הראשית',
+	'LIST_INDEX_EXPLAIN'		=> 'הצג את פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור של פורום האב שלו אם פורום האב מוגדר כ”רשום תת פורום ברשימה“ האפשרות מאושרת.',
+	'LIST_SUBFORUMS'			=> 'רשום תת פורום ברשימה',
 	'LIST_SUBFORUMS_EXPLAIN'	=> 'הצג את תת הפורומים של פורום זה בעמוד הראשי ובכל מקום אחר כקישור באזור הפורום. אם הפורום מוגדר כ”רשום תת פורום ברשימת הפורומים הראשית“ האפשרות מאושרת.',
-	'LOCKED'				=> 'נעול',
+	'LOCKED'					=> 'נעול',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'הפורום שבחרת להעביר אליו את ההודעות אינו יכול לקבל הודעות נוספות. אנא בחר פורום אחר.',
 	'MOVE_POSTS_TO'					=> 'העבר הודעות ל',
@@ -144,8 +151,8 @@ $lang = array_merge($lang, array(
 	'PRUNE_STICKY'				=> 'איפוס דביקים',
 	'PRUNE_OLD_POLLS'			=> 'איפוס סקרים ישנים',
 	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'הסר נושאים עם סקרים ללא הצבעות שעברו את מספר הימים שהוקצב להם.',
-	
-	'REDIRECT_ACL'	=> 'כעת באפשרות %sלהגדיר הרשאות%s לפורום זה.',
+
+	'REDIRECT_ACL'				=> 'כעת באפשרות %sלהגדיר הרשאות%s לפורום זה.',
 
 	'SYNC_IN_PROGRESS'			=> 'מחדש פורום',
 	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'מרחק חידוש הפורום כעת %1$d/%2$d.',

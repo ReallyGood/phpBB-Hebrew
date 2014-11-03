@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_profile [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,8 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'שדה פרופיל מותאם נוסף בהצלחה.',
+	'ALPHA_DOTS'			=> 'אלפאנומרי ונקודות',
 	'ALPHA_ONLY'			=> 'אותיות וספרות בלבד.',
 	'ALPHA_SPACERS'			=> 'אותיות, ספרות ורווחים',
+	'ALPHA_UNDERSCORE'		=> 'אלפאנומרי ומקף תחתון',
+	'ALPHA_PUNCTUATION'		=> 'אלפאנומרי עם פסיק, נקודות, מקף תחתון ומקפים, שמתחילים באות',
 	'ALWAYS_TODAY'			=> 'התאריך הנוכחי תמיד',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'רשום את האפשרות עכשיו',
@@ -58,7 +62,7 @@ $lang = array_merge($lang, array(
 	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'לפחות אחד משדות הפרופיל המותאמים עדיין לא תורגם. נא הכנס את המידע הדרוש על ידי לחיצה על "תרגם".',
 
 	'DEFAULT_ISO_LANGUAGE'			=> 'שפה מועדפת [%s]',
-	'DEFAULT_LANGUAGE_NOT_FILLED'	=> 'הכניסות של השפה עבור שפת בררת מחדל לא ממולאת לשדה הפרופיל הזה. ',
+	'DEFAULT_LANGUAGE_NOT_FILLED'	=> 'הכניסות של השפה עבור שפת ברירת מחדל לא ממולאת לשדה הפרופיל הזה.',
 	'DEFAULT_VALUE'					=> 'ערך בררת מחדל',
 	'DELETE_PROFILE_FIELD'			=> 'הסר שדה פרופיל',
 	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'אתה בטוח שאתה רוצה למחוק את שדה הפרופיל?',
@@ -66,8 +70,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'המשתמש יוכל לשנות את שדה הפרופיל מתוך לוח הבקרה למשתמש.',
 	'DISPLAY_AT_REGISTER'			=> 'הצג במסך ההרשמה',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'אם אפשרות זו מאופשרת, השדה יוצג בהרשמה.',
-	'DISPLAY_ON_PM'					=> 'Display on view pm screen',
-	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'הצג ברשימת המשתמשים',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'אם אפשרות זו מופעלת, השדה יוצג ברשימת המשתמשים.',
+	'DISPLAY_ON_PM'					=> 'הצג במסך ההודעות הפרטיות',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'אם אפשרות זו מופעלת, השדה יוצג בפרופיל המוקטן שבמסך ההודעות הפרטיות.',
 	'DISPLAY_ON_VT'					=> 'הצג מסך תצוגת נושא',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'אם אפשרות זו מאופשרת, השדה יוצג במיני-פרופיל במסך הנושא.',
 	'DISPLAY_PROFILE_FIELD'			=> 'הצג שדה פרופיל בגלוי',
@@ -81,20 +87,26 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'הכול בסדר',
 
 	'FIELD_BOOL'				=> 'בוליאני (כן/לא)',
+	'FIELD_CONTACT_DESC'		=> 'Contact description',
+	'FIELD_CONTACT_URL'			=> 'Contact link',
 	'FIELD_DATE'				=> 'תאריך',
 	'FIELD_DESCRIPTION'			=> 'תיאור השדה',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'ההסבר לשדה זה יוצג למשתמש',
 	'FIELD_DROPDOWN'			=> 'תיבת גלילה',
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'זיהוי שדה',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'שם השדה הנוכחי קיים. בחר שם חדש.',
 	'FIELD_IDENT_EXPLAIN'		=> 'זיהוי השדה הנו בשביל לזהות את התחום של הפרופיל בתוך מאגר הנתונים והעיצובים.',
 	'FIELD_INT'					=> 'מספרים',
+	'FIELD_IS_CONTACT'			=> 'הצג שדה כשדה יצירת קשר',
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'שדות יצירת קשר מוצגים באיזור יצירת הקשר בפרופיל המשתמש ומוצגים באופן שונה בפרופיל המוקטן ליד הודעות והודעות פרטיות. אתה יכול להשתמש ב-<samp>%s</samp> כמשתנה מחליף מקום אשר יוחלף על ידי ערך היוזן על ידי המשתמש.',
 	'FIELD_LENGTH'				=> 'אורך התיבה',
 	'FIELD_NOT_FOUND'			=> 'שדה הפרופיל לא נמצא.',
 	'FIELD_STRING'				=> 'טקסט שדה יחיד',
 	'FIELD_TEXT'				=> 'אזור טקסט',
 	'FIELD_TYPE'				=> 'סוג שדה',
 	'FIELD_TYPE_EXPLAIN'		=> 'אתה לא תאופשר לשנות את סוג השדה מאוחר יותר.',
+	'FIELD_URL'					=> 'URL (קישור)',
 	'FIELD_VALIDATION'			=> 'תוקף השדה',
 	'FIRST_OPTION'				=> 'אפשרות ראשונה',
 
@@ -107,10 +119,16 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'אפשרות שפה מסוימת [<strong>%s</strong>]',
 
-	'MAX_FIELD_CHARS'		=> 'מספר תווים מקסימלי',
-	'MAX_FIELD_NUMBER'		=> 'מספר המשתמשים הגבוהה ביותר',
-	'MIN_FIELD_CHARS'		=> 'מספר תווים מינימלי',
-	'MIN_FIELD_NUMBER'		=> 'מספר המשתמשים הנמוך ביותר',
+	'LETTER_NUM_DOTS'			=> 'כל אות, ספרות ונקודות',
+	'LETTER_NUM_ONLY'			=> 'כל אות וספרות',
+	'LETTER_NUM_PUNCTUATION'	=> 'כל אות, ספרות, פסיק, נקודות, מקפים תחתונים ומקפים, שמתחילים בכל אות',
+	'LETTER_NUM_SPACERS'		=> 'כל אות, ספרות ורווחים',
+	'LETTER_NUM_UNDERSCORE'		=> 'כל אות, ספרות ומקפים תחתונים',
+
+	'MAX_FIELD_CHARS'			=> 'מספר תווים מקסימלי',
+	'MAX_FIELD_NUMBER'			=> 'מספר המשתמשים הגבוהה ביותר',
+	'MIN_FIELD_CHARS'			=> 'מספר תווים מינימלי',
+	'MIN_FIELD_NUMBER'			=> 'מספר המשתמשים הנמוך ביותר',
 
 	'NO_FIELD_ENTRIES'			=> 'אין כניסות מוגדרות',
 	'NO_FIELD_ID'				=> 'אין שדה מזוהה מסוים.',
@@ -152,7 +170,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'הכנס טקסט ברירית מחדל שיוצג, ערך ברירת מחדל. השאר ריק אם אתה רוצה שזה יוצג ריק מלכתחילה.',
 	'TRANSLATE'						=> 'תרגם',
 
-	'USER_FIELD_NAME'	=> 'שם/כותרת שדה שתוצג למשתמש',
+	'USER_FIELD_NAME'				=> 'שם/כותרת שדה שתוצג למשתמש',
 
 	'VISIBILITY_OPTION'				=> 'אפשרויות תצוגה',
 ));

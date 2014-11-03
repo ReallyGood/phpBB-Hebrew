@@ -1,18 +1,18 @@
 <?php
-/** 
+/**
 *
-* help_bbcode [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
 /**
 */
-
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -79,7 +79,7 @@ $help = array(
 		0 => 'יצירת רשימה מסודרת',
 		1 => 'הסוג השני של רשימה, רשימה מסודרת, מאפשר לך לבחור מה יוצג לפני כל פריט ברשימה. כדי ליצור רשימה מסודרת השתמש ב־<strong>[list=1][/list]</strong> כדי ליצור רשימה ממוספרת או לחלופין השתמש ב־<strong>[list=a][/list]</strong> לרשימה המסודרת לפי אותיות לועזיות. כמו ברשימה לא מסודרת, הרכיבים מצוינים עם <strong>[*]</strong>. לדוגמה:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>לך לחנות<br /><strong>[*]</strong>קנה מחשב חדש<br /><strong>[*]</strong>קלל את המחשב כאשר הוא קורס<br /><strong>[/list]</strong><br /><br />יצור את הרשימה הבאה:<ol style="list-style-type: decimal;"><li>לך לחנות</li><li>קנה מחשב חדש</li><li>קלל את המחשב כאשר הוא קורס</li></ol>ואלו לרשימה המסודרת לפי אותיות לועזיות תוכל להשתמש ב:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>התשובה האפשרית הראשונה<br /><strong>[*]</strong>התשובה האפשרית השנייה<br /><strong>[*]</strong>התשובה האפשרית השלישית<br /><strong>[/list]</strong><br /><br />אשר יציג<ol style="list-style-type: lower-alpha"><li>התשובה האפשרית הראשונה</li><li>התשובה האפשרית השנייה</li><li>התשובה האפשרית השלישית</li></ol>'
 	),
-		// This block will switch the FAQ-Questions to the second template column
+	// This block will switch the FAQ-Questions to the second template column
 	array(
 		0 => '--',
 		1 => '--'
@@ -90,7 +90,7 @@ $help = array(
 	),
 	array(
 		0 => 'קישור לאתר אחר',
-		1 => 'phpBB BBCode תומך במספר דרכים ליצירת קישורים.<ul><li>האפשרות הראשונה משתמשת בתגים <strong>[url=][/url]</strong>, מה שאתה מזין לאחר הסימן = ישמש בתור הכתובת. לדוגמה כדי לקשר לאתר phpBB.co.il תוכל להשתמש:<br /><br /><strong>[url=http://www.phpbb.co.il/]</strong>בקר ב־phpBB!<strong>[/url]</strong><br /><br />הקוד יצור את הקישור הבא, <a href="http://www.phpbb.co.il/">בקר ב־phpBB!</a> שים לב שהחלון יפתח באותו חלון או בחלון חדש לפי העדפות דפדפן המשתמש.</li><li>אם אתה רוצה שהכתובת עצמה תוצג כקישור תוכל לעשות זאת כך:<br /><br /><strong>[url]</strong>http://www.phpbb.co.il/<strong>[/url]</strong><br /><br />הקוד יצור את הקישור הבא, <a href="http://www.phpbb.co.il/">http://www.phpbb.co.il/</a></li><li>בנוסף phpBB מאופיינית במשהו הנקרא <i>קישורי קסם</i>, אשר יהפוך כל כתובת בעלת תחביר נכון לקישור ללא הצורך לציין אף תג או אפילו את http:// המוביל. לדוגמה הקלדת www.phpbb.co.il בהודעה שלך יהפוך אוטומטית אל <a href="http://www.phpbb.co.il/">www.phpbb.co.il</a> כאשר אתה צופה בהודעה.</li><li>אותו הדבר מתייחס במידה שווה לכתובות דואר אלקטרוני, אתה יכול לציין כתובת מפורשות למשל:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />יציג <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> או שאתה פשוט יכול להקליד no.one@domain.adr בהודעה שלך והכתובת תומר אוטומטית כאשר תצפה בה.</li></ul>יחד עם כל תגי ה־BBCode תוכל לתחום כתובות סביב כל אחד מהתגים האחרים כמו <strong>[img][/img]</strong> (ראה רישום הבא), <strong>[b][/b]</strong>, וכד\'. כמו בתגי העיצוב אתה חייב לוודא שסדר הפתיחה והסגירה של התגים נכון, למשל:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br /><span style="text-decoration: underline">אינו</span> נכון וכך תוכל לגרום להודעה שלך להימחק.'
+		1 => 'phpBB BBCode תומך במספר דרכים ליצירת קישורים.<ul><li>האפשרות הראשונה משתמשת בתגים <strong>[url=][/url]</strong>, מה שאתה מזין לאחר הסימן = ישמש בתור הכתובת. לדוגמה כדי לקשר לאתר phpBB.co.il תוכל להשתמש:<br /><br /><strong>[url=http://www.phpbb.co.il/]</strong>בקר ב־phpBB!<strong>[/url]</strong><br /><br />הקוד יצור את הקישור הבא, <a href="http://www.phpbb.co.il/">בקר ב־phpBB!</a> שים לב שהחלון יפתח באותו חלון או בחלון חדש לפי העדפות דפדפן המשתמש.</li><li>אם אתה רוצה שהכתובת עצמה תוצג כקישור תוכל לעשות זאת כך:<br /><br /><strong>[url]</strong>http://www.phpbb.co.il/<strong>[/url]</strong><br /><br />הקוד יצור את הקישור הבא, <a href="http://www.phpbb.co.il/">http://www.phpbb.co.il/</a></li><li>בנוסף phpBB מאופיינית במשהו הנקרא <i>קישורי קסם</i>, אשר יהפוך כל כתובת בעלת תחביר נכון לקישור ללא הצורך לציין אף תג או אפילו את http:// המוביל. לדוגמה הקלדת www.phpbb.co.il בהודעה שלך יהפוך אוטומטית אל <a href="http://www.phpbb.co.il/">www.phpbb.co.il</a> כאשר אתה צופה בהודעה.</li><li>אותו הדבר מתייחס במידה שווה לכתובות דואר אלקטרוני, אתה יכול לציין כתובת מפורשות למשל:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />יציג <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> או שאתה פשוט יכול להקליד no.one@domain.adr בהודעה שלך והכתובת תומר אוטומטית כאשר תצפה בה.</li></ul>יחד עם כל תגי ה־BBCode תוכל לתחום כתובות סביב כל אחד מהתגים האחרים כמו <strong>[img][/img]</strong> (ראה רישום הבא), <strong>[b][/b]</strong>, וכד\'. כמו בתגי העיצוב אתה חייב לוודא שסדר הפתיחה והסגירה של התגים נכון, למשל:<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br /><span style="text-decoration: underline">אינו</span> נכון וכך תוכל לגרום להודעה שלך להימחק.'
 	),
 	array(
 		0 => '--',
@@ -98,7 +98,7 @@ $help = array(
 	),
 	array(
 		0 => 'הוספת תמונה להודעה',
-		1 => 'phpBB BBCode כולל תג להוספת תמונות להודעות. אתה חייב לזכור שני דברים חשובים בזמן השימוש בתג. הרבה משתמשים לא אוהבים תמונות רבות המוצגות בהודעות והדבר השני הוא שהתמונה חייבת להיות זמינה ברשת (היא לא יכול להיות על המחשב שלך למשל, אלא אם כן אתה מריץ שרת!). כדי להציג תמונה אתה חייב לתחום את הכתובת המצביע לתמונה עם התגים <strong>[img][/img]</strong>. לדוגמה:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />כפי שצוין בחלק הכתובות מעל אתה יכול לתחום תמונה בתגים <strong>[url][/url]</strong> אם אתה רוצה, למשל<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />יצור:<br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+		1 => 'phpBB BBCode כולל תג להוספת תמונות להודעות. אתה חייב לזכור שני דברים חשובים בזמן השימוש בתג. הרבה משתמשים לא אוהבים תמונות רבות המוצגות בהודעות והדבר השני הוא שהתמונה חייבת להיות זמינה ברשת (היא לא יכול להיות על המחשב שלך למשל, אלא אם כן אתה מריץ שרת!). כדי להציג תמונה אתה חייב לתחום את הכתובת המצביע לתמונה עם התגים <strong>[img][/img]</strong>. לדוגמה:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img]</strong><br /><br />כפי שצוין בחלק הכתובות מעל אתה יכול לתחום תמונה בתגים <strong>[url][/url]</strong> אם אתה רוצה, למשל<br /><br /><strong>[url=http://www.phpbb.com/][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />יצור:<br /><br /><a href="http://www.phpbb.com/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
 	),
 	array(
 		0 => 'הוספת קבצים מצורפים להודעה',
@@ -111,5 +111,5 @@ $help = array(
 	array(
 		0 => 'האם אני יכול להוסיף תגים משלי?',
 		1 => 'אם אתה מנהל ראשי במערכת זו ובעל הגישות המתאימות, אתה יכול להוסיף תגי BBCode נוספים דרך החלק תגי BBCode מותאמים אישית.'
-	)
+	),
 );

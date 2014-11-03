@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_groups [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -47,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'GROUPS_NO_MEMBERS'				=> 'לקבוצה זו אין חברים',
 	'GROUPS_NO_MODS'				=> 'לא נבחר ראש קבוצה',
-	
+
 	'GROUP_APPROVE'					=> 'אשר חבר',
 	'GROUP_APPROVED'				=> 'חברים מאושרים',
 	'GROUP_AVATAR'					=> 'הסמל האישי של הקבוצה',
@@ -101,49 +102,48 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'הגדרות גודל הקבוצה',
 	'GROUP_SKIP_AUTH'				=> 'שחרר את ראש הקבוצה מהרשאות',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'אם מאופשר ראש קבוצה לא יקבל הרשאות מהקבוצה.',
-	'GROUP_SPECIAL'					=> 'Pre-defined',
-	'GROUP_TEAMPAGE'				=> 'Display group on teampage',
+	'GROUP_SPECIAL'					=> 'מוגדר מראש',
+	'GROUP_TEAMPAGE'				=> 'הצג קבוצה בעמוד הקבוצות',
 	'GROUP_TYPE'					=> 'סוג הקבוצה',
 	'GROUP_TYPE_EXPLAIN'			=> 'יחליט מי יכול להיכנס לקבוצה או לראותה.',
 	'GROUP_UPDATED'					=> 'אפשרויות הקבוצה עודכנה בהצלחה.',
-	
+
 	'GROUP_USERS_ADDED'				=> 'משתמשים חדשים נוספו לקבוצה בהצלחה.',
 	'GROUP_USERS_EXIST'				=> 'המשתמשים שנבחרו כבר חברים בקבוצה.',
 	'GROUP_USERS_REMOVE'			=> 'המשתמשים הוסרו מהקבוצה והגדרות ברירת המחדל החדשות הוגדרו בהצלחה.',
 
-	'LEGEND_EXPLAIN'				=> 'These are the groups which are displayed in the group legend:',
-	'LEGEND_SETTINGS'				=> 'Legend settings',
-	'LEGEND_SORT_GROUPNAME'			=> 'Sort legend by group name',
-	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'The order below is ignored when this option is enabled.',
+	'LEGEND_EXPLAIN'				=> 'אלה הקבוצות אשר מוצגות במקרא הקבוצות:',
+	'LEGEND_SETTINGS'				=> 'הגדרות מקרא',
+	'LEGEND_SORT_GROUPNAME'			=> 'מיין מקרא לפי שם קבוצה',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'הסדר שלהלן מבוטל כאשר אפשרות זו מופעלת.',
 
-	'MANAGE_LEGEND'			=> 'Manage group legend',
-	'MANAGE_TEAMPAGE'		=> 'Manage teampage',
-	
-	'MAKE_DEFAULT_FOR_ALL'	=> 'עשה קבוצת ברירת מחדל לכל המשתמשים',
-	'MEMBERS'				=> 'משתמשים',
+	'MANAGE_LEGEND'					=> 'Manage group legend',
+	'MANAGE_TEAMPAGE'				=> 'Manage teampage',
+	'MAKE_DEFAULT_FOR_ALL'			=> 'עשה קבוצת ברירת מחדל לכל המשתמשים',
+	'MEMBERS'						=> 'משתמשים',
 
-	'NO_GROUP'					=> 'לא נבחרה קבוצה.',
-	'NO_GROUPS_ADDED'			=> 'לא נוספו קבוצות עדיין.',
-	'NO_GROUPS_CREATED'			=> 'לא נוצרו כרגע קבוצות.',
-	'NO_PERMISSIONS'			=> 'אל תעתיק הרשאות',
-	'NO_USERS'					=> 'לא הכנסת אף משתמש.',
-	'NO_USERS_ADDED'			=> 'לא נוספו משתמשים לקבוצה.',
-	'NO_VALID_USERS'			=> 'לא הזנת משתמשים מתאימים לפעולה זו.',
+	'NO_GROUP'						=> 'לא נבחרה קבוצה.',
+	'NO_GROUPS_ADDED'				=> 'לא נוספו קבוצות עדיין.',
+	'NO_GROUPS_CREATED'				=> 'לא נוצרו כרגע קבוצות.',
+	'NO_PERMISSIONS'				=> 'אל תעתיק הרשאות',
+	'NO_USERS'						=> 'לא הכנסת אף משתמש.',
+	'NO_USERS_ADDED'				=> 'לא נוספו משתמשים לקבוצה.',
+	'NO_VALID_USERS'				=> 'לא הזנת משתמשים מתאימים לפעולה זו.',
 
-	'SELECT_GROUP'				=> 'בחר קבוצה',
-	'SPECIAL_GROUPS'			=> 'קבוצות מוגדרות מראש',
-	'SPECIAL_GROUPS_EXPLAIN'	=> 'קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות.',
-	
-	'TEAMPAGE'					=> 'Teampage',
-	'TEAMPAGE_DISP_ALL'			=> 'All memberships',
-	'TEAMPAGE_DISP_DEFAULT'		=> 'User’s default group only',
-	'TEAMPAGE_DISP_FIRST'		=> 'First membership only',
-	'TEAMPAGE_EXPLAIN'			=> 'These are the groups which are displayed on the teampage:',
-	'TEAMPAGE_FORUMS'			=> 'Display moderated forums',
-	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.',
-	'TEAMPAGE_MEMBERSHIPS'		=> 'Display user memberships',
-	'TEAMPAGE_SETTINGS'			=> 'Teampage settings',
-	'TOTAL_MEMBERS'				=> 'משתמשים',
+	'SELECT_GROUP'					=> 'בחר קבוצה',
+	'SPECIAL_GROUPS'				=> 'קבוצות מוגדרות מראש',
+	'SPECIAL_GROUPS_EXPLAIN'		=> 'קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות.',
+
+	'TEAMPAGE'						=> 'Teampage',
+	'TEAMPAGE_DISP_ALL'				=> 'All memberships',
+	'TEAMPAGE_DISP_DEFAULT'			=> 'User’s default group only',
+	'TEAMPAGE_DISP_FIRST'			=> 'First membership only',
+	'TEAMPAGE_EXPLAIN'				=> 'These are the groups which are displayed on the teampage:',
+	'TEAMPAGE_FORUMS'				=> 'Display moderated forums',
+	'TEAMPAGE_FORUMS_EXPLAIN'		=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.',
+	'TEAMPAGE_MEMBERSHIPS'			=> 'Display user memberships',
+	'TEAMPAGE_SETTINGS'				=> 'Teampage settings',
+	'TOTAL_MEMBERS'					=> 'משתמשים',
 
 	'USERS_APPROVED'				=> 'המשתמשים אושרו בהצלחה.',
 	'USER_DEFAULT'					=> 'משתמש ברירת מחדל',

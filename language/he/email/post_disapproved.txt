@@ -8,5 +8,4 @@ Subject: ההודעה נדחתה - "{POST_SUBJECT}"
 
 {REASON}
 
-
 {EMAIL_SIG}

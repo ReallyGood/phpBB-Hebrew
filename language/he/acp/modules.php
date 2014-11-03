@@ -1,12 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_modules [Hebrew]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @author 2008 - phpBB הישראלי - phpBB.co.il
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,42 +42,42 @@ $lang = array_merge($lang, array(
 	'ADD_MODULE_CONFIRM'			=> 'אתה בטוח שברצונך להוסיף את המודול הנבחר עם המצב הנוכחי?',
 	'ADD_MODULE_TITLE'				=> 'הוסף מודול',
 
-	'CANNOT_REMOVE_MODULE'	=> 'לא מצליח להסיר את המודול, יש לו ילדים רשומים. אנא הסר או העבר את כל הילדים לפני שאתה מבצע פעולה זו.',
-	'CATEGORY'				=> 'קטגוריה',
-	'CHOOSE_MODE'			=> 'בחר את מצב המודול',
-	'CHOOSE_MODE_EXPLAIN'	=> 'בחר את המצב בו המודול יתחיל לפעול.',
-	'CHOOSE_MODULE'			=> 'בחר מודול',
-	'CHOOSE_MODULE_EXPLAIN'	=> 'בחר את הקובץ הנקרא על ידי מודול זה.',
-	'CREATE_MODULE'			=> 'צור מודול חדש',
+	'CANNOT_REMOVE_MODULE'			=> 'לא מצליח להסיר את המודול, יש לו ילדים רשומים. אנא הסר או העבר את כל הילדים לפני שאתה מבצע פעולה זו.',
+	'CATEGORY'						=> 'קטגוריה',
+	'CHOOSE_MODE'					=> 'בחר את מצב המודול',
+	'CHOOSE_MODE_EXPLAIN'			=> 'בחר את המצב בו המודול יתחיל לפעול.',
+	'CHOOSE_MODULE'					=> 'בחר מודול',
+	'CHOOSE_MODULE_EXPLAIN'			=> 'בחר את הקובץ הנקרא על ידי מודול זה.',
+	'CREATE_MODULE'					=> 'צור מודול חדש',
 
-	'DEACTIVATED_MODULE'	=> 'הפסק את פעילות המודול',
-	'DELETE_MODULE'			=> 'מחק מודול',
-	'DELETE_MODULE_CONFIRM'	=> 'אתה בטוח שברצונך להסיר מודול זה?',
+	'DEACTIVATED_MODULE'			=> 'הפסק את פעילות המודול',
+	'DELETE_MODULE'					=> 'מחק מודול',
+	'DELETE_MODULE_CONFIRM'			=> 'אתה בטוח שברצונך להסיר מודול זה?',
 
-	'EDIT_MODULE'			=> 'ערוך מודול',
-	'EDIT_MODULE_EXPLAIN'	=> 'כאן אתה יכול להגדיר הגדרות ספציפיות למודול.',
+	'EDIT_MODULE'					=> 'ערוך מודול',
+	'EDIT_MODULE_EXPLAIN'			=> 'כאן אתה יכול להגדיר הגדרות ספציפיות למודול.',
 
-	'HIDDEN_MODULE'			=> 'מודול מוסתר',
+	'HIDDEN_MODULE'					=> 'מודול מוסתר',
 
-	'MODULE'					=> 'מודול',
-	'MODULE_ADDED'				=> 'המודול נוסף בהצלחה.',
-	'MODULE_DELETED'			=> 'המודול הוסר בהצלחה.',
-	'MODULE_DISPLAYED'			=> 'המודול מוצג',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'אם אין ברצונך להציג מודול זה, אך ברצונך להשתמש בו, הגדר אפשרות זאת לפעילה.',
-	'MODULE_EDITED'				=> 'המודול נערך בהצלחה.',
-	'MODULE_ENABLED'			=> 'הפעל מודול',
-	'MODULE_LANGNAME'			=> 'שפת המודול',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'הכנס את שם המודול המוצג. השתמש בשפה מדויקת אם השם מקושר לקובץ שפה.',
-	'MODULE_TYPE'				=> 'סוג המודול',
+	'MODULE'						=> 'מודול',
+	'MODULE_ADDED'					=> 'המודול נוסף בהצלחה.',
+	'MODULE_DELETED'				=> 'המודול הוסר בהצלחה.',
+	'MODULE_DISPLAYED'				=> 'המודול מוצג',
+	'MODULE_DISPLAYED_EXPLAIN'		=> 'אם אין ברצונך להציג מודול זה, אך ברצונך להשתמש בו, הגדר אפשרות זאת לפעילה.',
+	'MODULE_EDITED'					=> 'המודול נערך בהצלחה.',
+	'MODULE_ENABLED'				=> 'הפעל מודול',
+	'MODULE_LANGNAME'				=> 'שפת המודול',
+	'MODULE_LANGNAME_EXPLAIN'		=> 'הכנס את שם המודול המוצג. השתמש בשפה מדויקת אם השם מקושר לקובץ שפה.',
+	'MODULE_TYPE'					=> 'סוג המודול',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'לא מצליח להעביר את הקטגוריה למודול. אנא הסר/העבר את כל הפורומים לפני עשיית פעולה זו.',
-	'NO_MODULE'				=> 'לא נמצא מודול.',
-	'NO_MODULE_ID'			=> 'לא נבחר מספר זיהוי למודול.',
-	'NO_MODULE_LANGNAME'	=> 'לא נבחר למודול שפה.',
-	'NO_PARENT'				=> 'אין הורה',
+	'NO_CATEGORY_TO_MODULE'			=> 'לא מצליח להעביר את הקטגוריה למודול. אנא הסר/העבר את כל הפורומים לפני עשיית פעולה זו.',
+	'NO_MODULE'						=> 'לא נמצא מודול.',
+	'NO_MODULE_ID'					=> 'לא נבחר מספר זיהוי למודול.',
+	'NO_MODULE_LANGNAME'			=> 'לא נבחר למודול שפה.',
+	'NO_PARENT'						=> 'אין הורה',
 
-	'PARENT'				=> 'הורה',
-	'PARENT_NO_EXIST'		=> 'ההורה אינו קיים.',
+	'PARENT'						=> 'הורה',
+	'PARENT_NO_EXIST'				=> 'ההורה אינו קיים.',
 
-	'SELECT_MODULE'			=> 'בחר מודול',
+	'SELECT_MODULE'					=> 'בחר מודול',
 ));
