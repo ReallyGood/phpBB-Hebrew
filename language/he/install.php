@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>עבור אל <a href="http://www.phpbb.co.il/downloads/" title="http://www.phpbb.co.il/downloads/">עמוד ההורדות של phpBB.co.il</a> והורד את קובץ הארכיון "חבילת עדכון אוטומטית".<br /><br /></li>
 			<li>חלץ את הארכיון.<br /><br /></li>
-			<li>העלה את התיקייה install השלמה הלא דחוסה לתיקיית המערכת של phpBB3 (היכן שנמצא הקובץ config.php).<br /><br /></li>
+			<li>העלה את התיקיות "install" ו-"vendor" השלמות הלא דחוסות לתיקיית המערכת של phpBB3 (היכן שנמצא הקובץ config.php).<br /><br /></li>
 		</ul>
 
 		<p>לאחר ההעלה, הפורום יהיה כבוי למשתמשים רגילים מפני שתיקיית ההתקנה שהעלת כעת קיימת.<br /><br />
