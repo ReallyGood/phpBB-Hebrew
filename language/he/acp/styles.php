@@ -74,6 +74,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'חזור לרשימת העיצובים המותקנים',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'התקן עוד עיצובים',
 	'STYLE_NAME'				=> 'שם העיצוב',
+	'STYLE_NAME_RESERVED'		=> 'העיצוב "%s" לא ניתן להתקנה, מכיוון ששם העיצוב שמור.',
 	'STYLE_NOT_INSTALLED'		=> 'עיצוב "%s" לא הותקן.',
 	'STYLE_PATH'				=> 'נתיב העיצוב',
 	'STYLE_UNINSTALL'			=> 'הסר',

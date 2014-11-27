@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'לפני',
 
-	'CC_EMAIL'				=> 'שלח העתק של הדואר האלקטרוני לעצמך.',
+	'CC_SENDER'				=> 'שלח העתק של הדואר האלקטרוני לעצמך.',
 	'CONTACT_ADMIN'			=> 'צור קשר עם מנהל ראשי',
 
 	'DEST_LANG'				=> 'שפה',
