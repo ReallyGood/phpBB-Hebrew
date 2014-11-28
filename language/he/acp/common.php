@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'ניהול קבוצות',
 	'ACP_GROUPS_MANAGEMENT'			=> 'ניהול קבוצה',
 	'ACP_GROUPS_PERMISSIONS'		=> 'הרשאות של קבוצה',
-	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
+	'ACP_GROUPS_POSITION'			=> 'נהל סדר קבוצות',
 
 	'ACP_ICONS'					=> 'סמלי נושאים',
 	'ACP_ICONS_SMILIES'			=> 'סמלי/סמיילים של נושאים',

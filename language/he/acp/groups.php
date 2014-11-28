@@ -117,8 +117,8 @@ $lang = array_merge($lang, array(
 	'LEGEND_SORT_GROUPNAME'			=> 'מיין מקרא לפי שם קבוצה',
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'הסדר שלהלן מבוטל כאשר אפשרות זו מופעלת.',
 
-	'MANAGE_LEGEND'					=> 'Manage group legend',
-	'MANAGE_TEAMPAGE'				=> 'Manage teampage',
+	'MANAGE_LEGEND'					=> 'ניהול עמוד הצוות',
+	'MANAGE_TEAMPAGE'				=> 'נהל עמוד צוות',
 	'MAKE_DEFAULT_FOR_ALL'			=> 'עשה קבוצת ברירת מחדל לכל המשתמשים',
 	'MEMBERS'						=> 'משתמשים',
 
@@ -134,10 +134,10 @@ $lang = array_merge($lang, array(
 	'SPECIAL_GROUPS'				=> 'קבוצות מוגדרות מראש',
 	'SPECIAL_GROUPS_EXPLAIN'		=> 'קבוצות מוגדרות מראש הינם קבוצות מיוחדות, לא ניתן למחוק אותם או לשנות באופן ישיר. למרות זאת עדיין תוכל להוסיף משתמשים ולערוך את ההגדרות הבסיסיות.',
 
-	'TEAMPAGE'						=> 'Teampage',
-	'TEAMPAGE_DISP_ALL'				=> 'All memberships',
-	'TEAMPAGE_DISP_DEFAULT'			=> 'User’s default group only',
-	'TEAMPAGE_DISP_FIRST'			=> 'First membership only',
+	'TEAMPAGE'						=> 'עמוד הצוות',
+	'TEAMPAGE_DISP_ALL'				=> 'כל החברויות',
+	'TEAMPAGE_DISP_DEFAULT'			=> 'קבוצת ברירת המחדל של המשתמש בלבד',
+	'TEAMPAGE_DISP_FIRST'			=> 'הקבוצה הראשונה של המשתמש בלבד',
 	'TEAMPAGE_EXPLAIN'				=> 'These are the groups which are displayed on the teampage:',
 	'TEAMPAGE_FORUMS'				=> 'Display moderated forums',
 	'TEAMPAGE_FORUMS_EXPLAIN'		=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.',
