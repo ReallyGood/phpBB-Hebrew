@@ -615,7 +615,7 @@ $lang = array_merge($lang, array(
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> 'יש משתמש אחד רשום ו־%2$s מחובר',
-		2	=> 'יש %1$d משתמשים רשומים ו־%2$ מחוברים',
+		2	=> 'יש $1%d משתמשים רשומים ו-%2$s מחוברים',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> 'משתמש רשום אחד',
