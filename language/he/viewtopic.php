@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'הקובץ <strong>%s</strong> לא קיים.',
 	'FORK_TOPIC'			=> 'העתק נושא',
-	'FULL_EDITOR'			=> 'עורך מלא &amp; תצוגה מקדימה',
+	'FULL_EDITOR'			=> 'עורך מלא ותצוגה מקדימה',
 
 	'LINKAGE_FORBIDDEN'		=> 'אינך מורשה לצפות, להוריד או לתת קישור ל/מאתר זה.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'קיבלת הודעה על נושא זה, אנא התחבר על מנת לצפות בו.',
