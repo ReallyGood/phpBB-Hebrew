@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	),
 	'FOLDER_NAME_EMPTY'			=> 'אתה חייב להזין שם לתיקייה זו.',
 	'FOLDER_NAME_EXIST'			=> 'התיקייה <strong>%s</strong> כבר קיימת.',
-	'FOLDER_OPTIONS'			=> 'אאפשרויות תיקיי',
+	'FOLDER_OPTIONS'			=> 'אפשרויות תיקייה',
 	'FOLDER_RENAMED'			=> 'שם התיקייה שונה בהצלחה.',
 	'FOLDER_REMOVED'			=> 'התיקייה הוסרה בהצלחה.',
 	'FOLDER_STATUS_MSG'			=> array(
