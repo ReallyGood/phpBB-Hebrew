@@ -618,7 +618,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>הפעיל משתמשים לא פעילים</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>מחק משתמשים לא פעילים</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזוכרת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>שלח תזכורת בדואר אלקטרוני למשתמשים לא פעילים</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>המיר מ־%1$s ל־phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>התקין את phpBB %s</strong>',
 
