@@ -574,7 +574,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PM_INFO'				=> 'פרטי ההודעה',
 	'VIEW_PM_MESSAGES'			=> array(
 		1	=> 'הודעה %d',
-		2	=> '%d הןדעות',
+		2	=> '%d הודעות',
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'הודעה פרטית קודמת בהיסטוריה',
 	'VIEW_PREVIOUS_PM'			=> 'הודעה פרטית קודמת',
