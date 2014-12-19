@@ -172,9 +172,9 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'מזל טוב ל',
 	'CONNECTION_FAILED'		=> 'ההתחברות נכשלה.',
 	'CONNECTION_SUCCESS'	=> 'ההתחברות הצליחה!',
-	'CONTACT'				=> 'צור קשר',
-	'CONTACT_USER'			=> 'צור קשר עם %s',
-	'CONTACT_US'			=> 'צור עמנו קשר',
+	'CONTACT'				=> 'יצירת קשר',
+	'CONTACT_USER'			=> 'יצירת קשר עם %s',
+	'CONTACT_US'			=> 'יצירת קשר',
 	'COOKIES_DELETED'		=> 'כל עוגיות המערכת נמחקו בהצלחה.',
 	'CURRENT_TIME'			=> 'עכשיו %s', // phpBBrew Group:: Original english is 'It is currently %s', but in hebrew we don't really need to say "It is.. bla bla", just showing the date and time is enough.
 
