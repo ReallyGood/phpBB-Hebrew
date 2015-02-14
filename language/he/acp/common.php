@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
     'ACP_DISALLOW_USERNAMES'	=> 'שמות משתמשים לא מורשים',
 
     'ACP_EMAIL_SETTINGS'		=> 'הגדרות דואר אלקטרוני',
-    'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
+    'ACP_EXTENSION_GROUPS'		=> 'נהל סוגי סיומות של קבצים מצורפים',
     'ACP_EXTENSION_MANAGEMENT'	=> 'ניהול תוספות',
     'ACP_EXTENSIONS'			=> 'נהל תוספות',
 
