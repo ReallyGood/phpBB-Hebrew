@@ -366,7 +366,7 @@ $lang = array_merge($lang, array(
     'GZIP_COMPRESSION'	=> 'דחיסת GZip',
 
     'NO_SEARCH_INDEX'	=> 'לחיפוש זה אין אינדס חיפוש.
-<br />אנא צור אינדקס עבור  “%1$s”ב-e %2$sאינדקס חיפוש של%3$ המדור
+<br />אנא צור אינדקס עבור  “%1$s”ב-e %2$sאינדקס חיפוש של%3$ המדור'
     'NOT_AVAILABLE'		=> 'לא זמין',
     'NUMBER_FILES'		=> 'מספר קבצים מצורפים',
     'NUMBER_POSTS'		=> 'מספר הודעות',
