@@ -108,8 +108,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_MISMATCH'			=> 'הססמאות שהכנסת אינן תואמות.',
 	'FORUM_PRUNE_SETTINGS'				=> 'הגדרות איפוס הפורום',
 	'FORUM_PRUNE_SHADOW'				=> 'אפשר איפוס אוטומטי של נושאי צללים',
-	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'מחק מהפורום נושאי צללים
-, הכנס את פרמטרי הגיל\ התדירות מטה.',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'מחק מהפורום נושאי צללים , הכנס את פרמטרי הגיל\ התדירות מטה.',
 	'FORUM_RESYNCED'					=> 'הפורום “%s” סונכרן בהצלחה',
 	'FORUM_RULES_EXPLAIN'				=> 'חוקי הפורום מוצגים בכל עמוד בתוך הפורום שהזנת.',
 	'FORUM_RULES_LINK'					=> 'קישור לחוקי הפורום',

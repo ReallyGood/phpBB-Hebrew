@@ -59,41 +59,32 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'מילים המכילות לפחות את כמות האותיות המצוינת יכנסו לאינדקס החיפוש. אתה או הספק שלך יכולים לשנות את הגדרה זו רק על ידי שינוי הגדרות ה־mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'מילים המכילות לא יותר מכמות האותיות המצוינת יכנסו לאינדקס החיפוש. אתה או הספק שלך יכולים לשנות את הגדרה זו רק על ידי שינוי הגדרות ה־mysql.',
 
-	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> '  שיטת הקצה הקדמי של הטקסט המלא של PostgreSQL   אפשרית לשימוש רק עםPostgreSQL.',
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> '  שיטת הקצה הקדמי של הטקסט המלא של PostgreSQL אפשרית לשימוש רק עםPostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'				=> 'מספר כולל של הודעות באינדקס',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'			=> 'PostgreSQL גרסת',
 
-'FULLTEXT_POSTGRES_TS_NAME'					=> 'פרופיל הגדרות חיפוש טקסט:',
+	'FULLTEXT_POSTGRES_TS_NAME'					=> 'פרופיל הגדרות חיפוש טקסט:',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'אורך מילה מינימאלי עבור מילות מפתח',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'אורך מילה מקסימאלי עבור מילות מפתח',
 	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'לחיפוש קצה קדמי עם PostgreSQL דרושה גרסת 8.3  ומעלה.',
-
-'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'ניתן להשתמש בפרופיל הגדרות החיפוש על מנת לקבוע את המפרש ואת מילון .',
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'			=> 'ניתן להשתמש בפרופיל הגדרות החיפוש על מנת לקבוע את המפרש ואת מילון .',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'מילים בעלות מספר התווים המינימלי הזה, יכנסו למאגר הנתונים.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'מילים אשר מכילות יותר תווים, לא יכנסו למאגר.',
 
 	'FULLTEXT_SPHINX_CONFIGURE'				=> 'קבע את ההגדרות הבאות כדי ליצור קובץ הגדרות של sphinx',
 	'FULLTEXT_SPHINX_DATA_PATH'				=> 'נתיב אל ספריית הנתונים',
-	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'הוא ישמש על מנת לאחסן את האינדקסים ואת קבצי המעקב
-. כדאי שתנתב מעבר לתיקיות שניתנות לגישה דרך האינטרנט. (שימוש בסלשים מדלים מומלץ))',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'הוא ישמש על מנת לאחסן את האינדקסים ואת קבצי המעקב. כדאי שתנתב מעבר לתיקיות שניתנות לגישה דרך האינטרנט. (שימוש בסלשים מדלים מומלץ)',
 	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'מספר ההודעות בתדירות שמעדכנות את אינדקס הדלתא',
 	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx אחסון ה-daemon של חיפוש  ',
-	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Host on which the sphinx search daemon (searchd) listens. Leave empty to use the default localhost',
-	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'השרת שבו חיפוש ה-sphinx מחפש daemon (חיפש) מחובר.
-השאר ריק על מנת להשתמש בשרת ברירת המחדל localhost',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'השרת שבו חיפוש ה-sphinx מחפש daemon (חיפש) מחובר. השאר ריק על מנת להשתמש בשרת ברירת המחדל localhost',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'מגבלת הזיכרון של יוצר האינדקסים',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'המספר הזה לעולם יהיה קטן מה-RAM שיש בשרת שלך
-.אם אתה נתקל בבעיות מחזוריות יתכן שזה נובע מכך שיוצר האינדיקסים צורך יותר מדי משאבים. יתכן שזה יעזור להוריד את כמות המשאבים העומדים ברשות יוצר האינדקסים.',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'המספר הזה לעולם יהיה קטן מה-RAM שיש בשרת שלך. אם אתה נתקל בבעיות מחזוריות יתכן שזה נובע מכך שיוצר האינדיקסים צורך יותר מדי משאבים. יתכן שזה יעזור להוריד את כמות המשאבים העומדים ברשות יוצר האינדקסים.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'מספר ההודעות בעמוד הראשי',
 	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx חיפוש daemon יציאת',
-
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'היציאה שבה חיפוש ה-sphinx deamon (חיפש) מאזין. השאר ריק על מנת להשתמש בברית המחדל sphinx API יציאה 9312',
-
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'חיפוש ה-sphinx ב-phpBB תומך ב-MySQL ו-PostgreSQLבלבד.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx קובץ ההגדרות של ה-',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'התוכן שנוצר מקובץ ההגדרות של ה-sphinx
-. המידע צריך להיות מודבק ב- sphinx.conf  שבשימוש sphinx חיפוש ה-daemon.
- החלף את [dbuser] ו-[dbpassword] שומרי המקום,עם פרטי המאגר.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'התוכן שנוצר מקובץ ההגדרות של ה-sphinx. המידע צריך להיות מודבק ב- sphinx.conf  שבשימוש sphinx חיפוש ה-daemon. החלף את [dbuser] ו-[dbpassword] שומרי המקום,עם פרטי המאגר.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data directory path is not defined. Please define the path and submit to generate the config file.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'הגדרות חיפוש כלליות',

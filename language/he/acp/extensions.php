@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'		=> 'שם התוסף',
 	'EXTENSION_ACTIONS'		=> 'פעולות',
 	'EXTENSION_OPTIONS'		=> 'אפשרויות',
-		'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>בטל את התוספת</li>
 			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>

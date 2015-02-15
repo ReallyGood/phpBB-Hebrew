@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_ALLOWED_IPS'			=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>המורשים</em>',
 	'REMOVE_DISALLOWED_IPS'			=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>הלא מורשים</em>',
 
-        'RESYNC_FILES_STATS_CONFIRM'	=> 'האם אתה בטוח כי ברצונך לאפס את סטטיסטיקות הקובץ?,
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'האם אתה בטוח כי ברצונך לאפס את סטטיסטיקות הקובץ?',
 	'SEARCH_IMAGICK'				=> 'אתר Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'אפשר/דחה רשימה',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'שנה את התנהגות ברירת המחדל כאשר אבטחת ההורדות פעילה של האפשר/דחה רשימה לזו של <strong>רשימה לבנה</strong> (אפשר) או <strong>רשימה שחורה</strong> (דחה).',
