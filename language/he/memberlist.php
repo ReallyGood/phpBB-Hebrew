@@ -139,6 +139,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'מחובר',
 	'USER_PRESENCE'			=> 'נוכחות בפורום',
+	'USERS_PER_PAGE'		=> 'משתמשים בעמוד',
 
 	'VIEWING_PROFILE'		=> 'צופה בפרופיל - %s',
 	'VISITED'				=> 'ביקר לאחרונה',
