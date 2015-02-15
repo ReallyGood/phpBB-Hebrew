@@ -365,8 +365,7 @@ $lang = array_merge($lang, array(
 
     'GZIP_COMPRESSION'	=> 'דחיסת GZip',
 
-    'NO_SEARCH_INDEX'	=> 'לחיפוש זה אין אינדס חיפוש.
-<br />אנא צור אינדקס עבור  “%1$s”ב-e %2$sאינדקס חיפוש של%3$ המדור
+    'NO_SEARCH_INDEX'	=> 'לחיפוש זה אין אינדס חיפוש. <br />אנא צור אינדקס עבור  “%1$s”ב-e %2$sאינדקס חיפוש של%3$ המדור',
     'NOT_AVAILABLE'		=> 'לא זמין',
     'NUMBER_FILES'		=> 'מספר קבצים מצורפים',
     'NUMBER_POSTS'		=> 'מספר הודעות',
@@ -559,6 +558,7 @@ $lang = array_merge($lang, array(
     'LOG_LOCK_POST'				=> '<strong>נעל הודעה</strong><br />» %s',
     'LOG_MERGE'					=> '<strong>מיזג הודעות</strong> לתוך נושא<br />» %s',
     'LOG_MOVE'					=> '<strong>העביר נושא</strong><br />» מ%1$s ל%2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>העביר נושא</strong><br />» %s',
     'LOG_PM_REPORT_CLOSED'		=> '<strong>סגר דיווח הודעה פרטית</strong><br />» %s',
     'LOG_PM_REPORT_DELETED'		=> '<strong>מחק דיווח הודעה פרטית</strong><br />» %s',
     'LOG_POST_APPROVED'			=> '<strong>אישר הודעה</strong><br />» %s',
