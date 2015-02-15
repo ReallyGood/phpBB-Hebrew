@@ -1,12 +1,12 @@
-Subject: New topic notification - "{FORUM_NAME}"
+Subject: נושא חדש בפורום - "{FORUM_NAME}"
 
-Hello {USERNAME},
+שלום {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+קיבלת הודעה זו מפני שאתה עוקב אחר הפורום "{FORUM_NAME}" ב־"{SITENAME}". לפורום זה נשלח נושא חדש<!-- IF AUTHOR_NAME !== '' --> על ידי{AUTHOR_NAME}<!-- ENDIF --> מאז ביקורך האחרון, "{TOPIC_TITLE}". תוכל להשתמש בקישור הבא על מנת לצפות בפורום, לא ישלחו התראות נוספות עד שתבקר בפורום.
 
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+אם אינך מעוניין יותר לעקוב אחר הפורום, לחץ על הקישור "בטל הרשמתך מפורום זה" הנמצא מעל הפורום, או לחץ על הקישור הבא:
 
 {U_STOP_WATCHING_FORUM}
 
