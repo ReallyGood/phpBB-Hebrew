@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: תלונה כנגד הודעה - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+היי {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+אתה מקבל את ההתראה הזו, בגלל שהוגשה תלונה כנגד "{POST_SUBJECT}" ב-"{SITENAME}".
 
-If you want to view the report, click the following link:
+אם אתה רוצה לראות את התלונה, לחץ כאן:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+אם אתה רוצה לראות את ההודעה לחץ כאן:
 {U_VIEW_POST}
 
 {EMAIL_SIG}
