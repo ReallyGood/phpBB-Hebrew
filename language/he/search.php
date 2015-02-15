@@ -71,6 +71,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'לא בוצעו חיפושים במערכת לאחרונה.',
 	'NO_SEARCH'				=> 'אנחנו מתנצלים, אך אינך מורשה להשתמש במערכת החיפוש.',
 	'NO_SEARCH_RESULTS'		=> 'לא נמצאו תוצאות מתאימות.',
+	'NO_SEARCH_LOAD'		=> 'Sorry but you cannot use search at this time. The server has high load. Please try again later.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'אנו מתנצלים אך אין אפשרות להשתמש בחיפוש בזמן זה. אנא נסה שנית בעוד כשניה.',
 		2	=> 'אנו מתנצלים אך אין אפשרות להשתמש בחיפוש בזמן זה. אנא נסה שנית בעוד %d שניות.',

@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'התוכן שנוצר מקובץ ההגדרות של ה-sphinx
 . המידע צריך להיות מודבק ב- sphinx.conf  שבשימוש sphinx חיפוש ה-daemon.
  החלף את [dbuser] ו-[dbpassword] שומרי המקום,עם פרטי המאגר.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'קבצי ההגדרות והנתונים של ה-sphinx לא מוגדרים. אנא הגדר אותם, על מנת ליצור את קובץ ההגדרות של ה-sphinx.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data directory path is not defined. Please define the path and submit to generate the config file.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'הגדרות חיפוש כלליות',
 	'GO_TO_SEARCH_INDEX'					=> 'עבור לעמוד מאגר החיפוש',
