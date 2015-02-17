@@ -336,8 +336,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'תחומי עניין',
 	'INVALID_DIGEST_CHALLENGE'	=> 'טעות באתגר התקציר.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> ייתכן שזוהי כתובת דואר אלקטרוני לא תקנית?',
-	'INVALID_PLURAL_RULE'		=> 'The chosen plural rule is invalid. Valid values are integers between 0 and 15.',
-		'INVALID_PLURAL_RULE'		=> 'כלל הריבוי לא תקין. כללי ריבוי תקינים הם מספרים טבעיים בין 0 ל-15.',
+	'INVALID_PLURAL_RULE'		=> 'כלל הריבוי לא תקין. כללי ריבוי תקינים הם מספרים טבעיים בין 0 ל-15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'ה IPשלך %1$s נחסם מפני שהוא רשום ברשימה השחורה. לפרטים: <a href="%2$s">%2$s</a>.',
 
