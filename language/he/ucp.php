@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
