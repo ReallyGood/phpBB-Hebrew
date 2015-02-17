@@ -360,25 +360,25 @@ $lang = array_merge($lang, array(
 
 // Contact Settings
 $lang = array_merge($lang, array(
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'כאן אתה יכול להפעיל או לכבות את עמוד יצירת הקשר וכן להוסיף טקסט שיוצג בעמוד.',
 
-	'CONTACT_US_ENABLE'				=> 'Enable contact page',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
-
-	'CONTACT_US_INFO'				=> 'Contact information',
-	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
-	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
-	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+	'CONTACT_US_ENABLE'				=> 'הפעל את עמוד יצירת הקשר',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'העמוד הזה מאפשר למשתמשים לשלוח דואר אלקטרוני למנהלים הראשיים של המערכת',
+	'CONTACT_US_INFO'				=> 'פרטי יצירת קשר',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'ההודעה מוצגת בעמוד יצירת הקשר',
+	'CONTACT_US_INFO_PREVIEW'		=> 'תצוגה מקדימה למידע שבעמוד יצירת הקשר',
+	'CONTACT_US_INFO_UPDATED'		=> 'עמוד יצירת הקשר עודכן.',
 ));
 
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול להפעיל או לכבות אפשרויות מערכת מסוימות כדי להקטין את זמן הטעינה הנדרש. ברוב השרתים אין צורך לכבות אף אפשרות, אך במערכות מסוימות או בסביבות אחסון משותפות כיבוי האפשרויות שאינך באמת צריך יכולה להיות מועיל. תוכל גם לציין הגבלות לטעינת המערכת וחיבורים פעילים שמעבר המערכת תכבה.',
 
-	'ALLOW_CDN'						=> 'Allow usage of third party content delivery networks',
-	'ALLOW_CDN_EXPLAIN'				=> 'If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators. In a default phpBB installation, this includes loading “jQuery” and the font “Open Sans” from Google’s content delivery network.',
-	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches',
-	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'If this setting is enabled, users are provided with keyword suggestions as they type in certain fields throughout the board.',
+	'ALLOW_CDN'						=> 'אפשר שימוש של רשתות ספקי תוכן של צד שלישי',
+	'ALLOW_CDN_EXPLAIN'				=> 'אם הגדרה זו פעילה חלק מהקבצים ישלחו משרתי צד שלישי חיצוניים במקום השרת שלך זה מפחית את תעבורת הרשת אשר נצרכת משרתך, אבל עלול להוות בעיית פרטיות עבור מנהלי קהילות מסוימים. בהתקנת PHPBB רגילה, זה כולל טעינת "JQUERY" וכן הפונט "open sans" מרשת התוכן של גוגל.',
+
+	'ALLOW_LIVE_SEARCHES'			=> 'אפשר חיפוש בזמן אמת',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'אם אפשרות זו פעילה, המשתמשים יקבלו הצעות השלמה במהלך מילוי חלקים מהשדות בפורום.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'שדות פרופיל מותאמים אישית',
 	'LIMIT_LOAD'					=> 'הגבל טעינת מערכת',
 	'LIMIT_LOAD_EXPLAIN'			=> 'אם ממוצע הטעינה של המערכת בדקה עובר ערך זה המערכת תכובה אוטומטית. הערך 1.0 שווה לניצול של ~100% של מבצע אחד. אפשרויות אלו חלות רק על UNIX מבוסס שרתים והיכן שהמידע נגיש. הערך מתאפס ל־0 אם phpBB לא יכלה לקבל את הגבלת הטעינה.',
@@ -390,8 +390,9 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'הצג שדות פרופיל מותאמים אישית בעמודי הנושאים',
 	'LOAD_USER_ACTIVITY'			=> 'הצג פעילות משתמש',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'הצג נושא/פורום פעיל בפרופילי המשתמשים ולוח הבקרה למשתמש. מומלץ לכבות במערכות עם יותר ממליון הודעות.',
-	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Read Notification Expiration',
-	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Number of days that will elapse before a read notification will automatically be deleted. Set this value to 0 to make notifications permanent.',
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'זמן תצוגה להתראות',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'מספר הימים שלאחרם ההתראה תמחק. כתוב 0 אם ברצונך שהתראות לא ימחקו.',
+
 	'RECOMPILE_STYLES'				=> 'ערוך מחדש רכיבי עיצוב ישנים',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'בדוק לרכיבי עיצוב מעודכנים במערכת הקבצים וערוך מחדש.',
 	'YES_ANON_READ_MARKING'			=> 'הפעל סימון נושאים לאורחים',
@@ -419,11 +420,11 @@ $lang = array_merge($lang, array(
 
 	'AUTH_METHOD'				=> 'בחר שיטת אימות',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.',
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'הן המפתח והסוד של כל שירות OAuth פעיל חייב להיות מוזן. רק אחד סופק עבור שירות התוכן OAUTH.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'על מנת לבצע אימות עם שרת חיצוני, כל ספק OAuth דורש מפתח וסוד. זה אמור להיות מספק על ידי ספק ה-OAuth כאשר אתה נרשם לאתרך איתם, ואמור להיות מוזן בדיוק כפי שניתן.<br />כל שירות שאין לו את המפתח והסוד לא יוכל להיות בשימוש על ידי משתמשי הפורום. כמו כן שים לב, שהמשתמשים עדיין יכולים להירשם ולהתחבר באמצעות תוסף ה-DB שלהם.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'מפתח',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'סוד',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'אתה צריך להתקין אימות apache לפני שתחליף את phpBB3 לשיטת אימות זו. זכור ששם המשתמש שלך לאימות apache חייב להיות זהה לשם המשתמש שלך ב־phpBB3. אימות Apache ניתן לשימוש רק עם mod_php (לא עם גרסת CGI) ו־safe_mode כבויים.',
 
@@ -459,10 +460,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'אם נקבע לכן הגדרות השרת המוגדרות כאן יקבלו עדיפות על הערכים אשר נקבעו אוטומטית.',
 	'ICONS_PATH'				=> 'נתיב אחסון האייקונים להודעות',
 	'ICONS_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/icons</samp>.',
-	'MOD_REWRITE_ENABLE'		=> 'Enable URL Rewriting',
-	'MOD_REWRITE_ENABLE_EXPLAIN' => 'When enabled, URLs containing ’app.php’ will be rewritten to remove the filename (i.e. app.php/foo will become /foo). <strong>Apache server’s mod_rewrite module is required for this functionality to work; if this option is enabled without mod_rewrite support, URLs on your board may be broken.</strong>',
-	'MOD_REWRITE_DISABLED'		=> 'The <strong>mod_rewrite</strong> module on your Apache web server is disabled. Enable the module or contact your web hosting provider if you wish to enable this feature.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'We are unable to determine whether or not this server supports URL rewriting. This setting may be enabled but if URL rewriting is not available, paths generated by this board (such as for use in links) may be broken. Contact your web hosting provider if you are unsure whether or not you can safely enable this feature.',
+	'MOD_REWRITE_ENABLE'		=> 'אפשר שינוי URL',
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'כאשר מופעל, כתובות URL אשר מכילות "app.php" ישונו כך ששם הקובץ ימחק .(לדוגמא app.php/foo יהפוך ל /foo). <strong>מודל mod_rewrite של שרת אפאצ\'י חייב לעבוד על מנת שההגדרה תעבוד; אם ההגדרה תופעל בלעדיו, קישורים באתרך עלולים לא לעבוד.</strong>',
+	'MOD_REWRITE_DISABLED'		=> 'מודל ה-mod_rewrite בשרת האפצ\' שלך לא פעיל. הפעל אותו, או צור קשר עם בעל האחסון אם ברצונך להפעיל את אפשרות זו.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'אין באפשרותנו לקבוע האם השרת תומך בשינוי כתובת URL. אתה יכול להפעיל את ההגדרה, אך במידה ואפשרות זה לא נתמכת, נתיבים שיוספקו על ידי המערכת (וכן השימוש בלינקים) לא יעבוד. צור קשר עם בעל האחסון, אם אתה לא בטוח האם אתה יכול להשתמש באפשרות זו בביטחון.',
 	'PATH_SETTINGS'				=> 'הגדרות נתיב',
 	'RANKS_PATH'				=> 'נתיב אחסון תמונות הדירוג',
 	'RANKS_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/ranks</samp>.',
@@ -479,8 +480,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'נתיב אחסון קבוצת הסיומות לאייקונים',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Run periodic tasks from system cron',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).',
+	'USE_SYSTEM_CRON'=> 'השתמש במריצה משימות מתוזמנות על ידי מריץ המשימות האוטומטי.',
+	'USE_SYSTEM_CRON_EXPLAIN'=> 'כאשר מכובה phpBB תארגן כך שמשימות מחזוריות יורצו אוטמטית. כאשר דלוקה, phpBB לא תארגן שום משימה שתרוץ בצורה עצמאית מנהל המערכת יהיה חייב להגדיר ש-<code>bin/phpbbcli.php cron:run</code> יופעל על ידי המערכת בהפרשי זמנים סבירים באמצעות מערכת cron (לדוגמה כל 5 דקות).',
 ));
 
 // Security Settings
@@ -488,12 +489,13 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'כאן אתה יכול להגדיר הגדרות הקשורות לחיבורים והתחברויות.',
 
 	'ALL'							=> 'הכל',
-	'ALLOW_AUTOLOGIN'				=> 'Allow "Remember Me" logins',
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Determines whether users are given "Remember Me" option when they visit the board.',
-	'ALLOW_PASSWORD_RESET'			=> 'Allow password reset ("Forgot Password")',
-	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Determines whether or not users are able to use the "I forgot my password" link on the login page to recover their account. If you use an external authentication mechanism you may wish to disable this feature.',
-	'AUTOLOGIN_LENGTH'				=> '"Remember Me" login key expiration length (in days)',
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Number of days after which "Remember Me" login keys are removed or zero to disable.',
+	'ALLOW_AUTOLOGIN'				=> 'אפשר התחברויות "זכור אותי"',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'קובע האם משתמשים יזכו לאפשרות "זכור אותי" בביקורם בפורום.',
+	'ALLOW_PASSWORD_RESET'			=> 'אפשר איפוס סיסמה ("שכחתי את הסיסמה")',
+
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'קובע האם משתמשים יוכלו להשתמש באפשרות "שכחתי את סיסמתי" הנמצאת בקישור בעמוד ההתחברות, על מנת לקבל גישה מחודשת לחשבונם. אם אתה משתמש בשיטת אימות חיצונית, יתכן שתרצה לבטל את האפשרות הזאת.',
+	'AUTOLOGIN_LENGTH'				=> 'זמן עד שהתחברות "זכור אותי" פגה (בימים)',
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'מספר הימים שלאחרן התחברויות "זכור אותי" נמחקו. הכנס 0 אם אין ברצונך שהן תפוגנה.',
 	'BROWSER_VALID'					=> 'אשר דפדפן',
 	'BROWSER_VALID_EXPLAIN'			=> 'מפעיל אישור דפדפן לכל חיבור לשיפור האבטחה.',
 	'CHECK_DNSBL'					=> 'בדוק IP כנגד רשימת ה־DNS השחורה',

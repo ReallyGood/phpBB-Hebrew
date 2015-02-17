@@ -39,10 +39,10 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'תוספות',
 	'EXTENSIONS_ADMIN'			=> 'מנהל התוספות',
 	'EXTENSIONS_EXPLAIN'		=> 'מנהלים התוספות הוא כלי במערכת הphpBB שלך שמאפשרת לך למנהל את כל התוספות שלך, מצבם וצפיה במידע אודותם.',
-	'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'The selected extension cannot be enabled, please verify the extension’s requirements.',
+	'EXTENSION_INVALID_LIST'	=> 'ה “%s” תוספת שבורה.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'התוספת לא מתאימה למערכת, אנא ודא כי גרסת ה-PHP וה-PHPBB תואמות (ראה בעמוד הפירוט של התוספת).',
+	'EXTENSION_DIR_INVALID'		=> 'לתוספת מבנה תיקייה שגוי, ועל כן לא ניתן להתקינה.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'לא ניתן להתקין את התוספת, אנא בדוק את דרישות התוספת.',
 
 	'DETAILS'				=> 'פרטים',
 
@@ -53,22 +53,22 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE'		=> 'בטל',
 	'EXTENSION_ENABLE'		=> 'הפעל',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'מחיקת נתוני התוספת ימחק את כל נתוניה והגדרותיה. קבצי התוספת נשמרים כך שניתן להתקינה מחדש.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'כיבוי תוספת שומר על קבציה ונתוניה והגדרותיה, אך מוריד כל פונקציונליות שנוספת על ידי התוספת.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'הפעלת התוספת מאפשר לך להשתמש בה במערכת שלך.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'נתוני התוספת נמחקים. אנא אל תעזוב או תרענן את העמוד עד שהתהליך מסתיים.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'התוספת עוברת כיבוי. אנא אל תעזוב את העמוד או תרענן אותו עד שהתהליך מושלם.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'התוספת נדלקת, אנא אל תעזוב או תרענן את העמוד עד אשר התהליך יושלם.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'נתוני התוספת נמחקו בהצלחה',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'התוספת כובתה בהצלחה',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'התוספת הודלקה בהצלחה',
 
 	'EXTENSION_NAME'		=> 'שם התוסף',
 	'EXTENSION_ACTIONS'		=> 'פעולות',
 	'EXTENSION_OPTIONS'		=> 'אפשרויות',
-		'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>בטל את התוספת</li>
 			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
@@ -82,12 +82,12 @@ $lang = array_merge($lang, array(
 			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Are you sure that you wish to force the use of unstable version?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'אתה בטוח שברצונך למחוק את המידע המשתייך ל-“%s”?<br /><br />התהליך ישמיד את כל הנתונים וההגדרות של התוספת ולא ניתן יהיה לביטול!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'אתה בטוח שברצונך לכבות את התוספת“%s” ?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'אתה בטוח שאתה רוצה להדליק את התוספת“%s” ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'אתה בטוח שברצונך להשתמש בגרסה לא יציבה (בטא)?',
 
-	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
+	'RETURN_TO_EXTENSION_LIST'	=> 'חזור אל רשימת התוספות',
 
 	'EXT_DETAILS'			=> 'פרטי התוספת',
 	'DISPLAY_NAME'			=> 'שם מוצג',
@@ -109,16 +109,16 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'דף הבית',
 	'AUTHOR_ROLE'			=> 'תפקיד',
 
-	'NOT_UP_TO_DATE'		=> '%s is not up to date',
-	'UP_TO_DATE'			=> '%s is up to date',
-	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement',
-	'DOWNLOAD_LATEST'		=> 'Download Version',
-	'NO_VERSIONCHECK'		=> 'No version check information given.',
+	'NOT_UP_TO_DATE'		=> '%s לא מעודכן ,' 
+	'UP_TO_DATE'			=> '%s מעודכן',
+	'ANNOUNCEMENT_TOPIC'	=> 'הודעת שחרור',
+	'DOWNLOAD_LATEST'		=> 'הורד גרסה',
+	'NO_VERSIONCHECK'		=> 'לא ניתן מידע לאימות גרסה.',
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'בדוק שוב את כל הגרסאות',
 	'FORCE_UNSTABLE'					=> 'תמיד בדוק גרסאות לא יציבות',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'הגדרות בודק הגרסאות',
 
-	'META_FIELD_NOT_SET'	=> 'Required meta field %s has not been set.',
-	'META_FIELD_INVALID'	=> 'Meta field %s is invalid.',
+	'META_FIELD_NOT_SET'	=> 'פרטי מטא חיוניים של%s לא נתנו.',
+	'META_FIELD_INVALID'	=> 'פרטי המטא של %s שבורים.',
 ));

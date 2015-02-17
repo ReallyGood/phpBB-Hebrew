@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: הודעה אושרה - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+שלום {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+קיבלת הודעה זו מפני שהודעתך "{POST_SUBJECT}" ב־"{SITENAME}" אושרה על־ידי מנהל או מנהל ראשי.
 
-If you want to view the post, click the following link:
+אם אתה מעוניין לצפות בהודעה, לחץ על הקישור הבא:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+אם אתה מעוניין לצפות בנושא, לחץ על הקישור הבא:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

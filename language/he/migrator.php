@@ -37,26 +37,26 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
+	'CONFIG_NOT_EXIST'					=> 'פריט ההגדרה "%s" לא קיים בצורה חריגה',
 
-	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',
+	'GROUP_NOT_EXIST'					=> 'הקבוצה "%s" לא קיימת בצורה חריגה',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Apply dependencies of %s.',
-	'MIGRATION_DATA_DONE'				=> 'Installed Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installing Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_DATA_RUNNING'			=> 'Installing Data: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration already effectively installed (skipped): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Something went wrong during the request and an exception was thrown. The changes made before the error occurred were reversed to the best of our abilities, but you should check the board for errors.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'The migration "%1$s" is not fulfillable, missing migration "%2$s".',
-	'MIGRATION_NOT_VALID'				=> '%s is not a valid migration.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Installed Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installing Schema: %s.',
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'אשר את התלויות של %s.',
+	'MIGRATION_DATA_DONE'				=> 'מידע מותקן %1$s; זמן: %2$.2f שניות',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'מתקין מידע: %1$s; זמן: %2$.2f שניות',
+	'MIGRATION_DATA_RUNNING'			=> 'מתקין מידע: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'ההגירה כבר התקינה בצורה אפקטיבית (דולג) את: %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'משהו לא עלה יפה במהלך הבקשה, וחריגה הוגשה..השינויים שבוצעו לפני השגיאה שוחזרו כמיטב יכולתנו,אבל כדאי שתבדוק את המערכת עבור שגיאות.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'ההגירה של "%1$s" לא אפשרית, חסרה ההגירה "%2$s".',
+	'MIGRATION_NOT_VALID'				=> '%s היא לא הגירה תקינה.',
+	'MIGRATION_SCHEMA_DONE'				=> 'תכנון התקנה: %1$s; זמן: %2$.2f שניות',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'תכנון התקנה: %s.',
 
-	'MODULE_ERROR'						=> 'An error occurred while creating a module: %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'A required module info file is missing: %2$s',
-	'MODULE_NOT_EXIST'					=> 'A required module does not exist: %s',
+	'MODULE_ERROR'						=> 'התרחשה שגיאה בעת יצירת המודול: %s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'קובץ מידע חשוב  של מודול חסר: %2$s',
+	'MODULE_NOT_EXIST'					=> 'מודול חיוני לא קיים: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'The permission setting "%s" unexpectedly does not exist.',
+	'PERMISSION_NOT_EXIST'				=> 'הגדרות ההרשאה "%s" לא קיימות בצורה חריגה.',
 
-	'ROLE_NOT_EXIST'					=> 'The permission role "%s" unexpectedly does not exist.',
+	'ROLE_NOT_EXIST'					=> 'תפקיד ההרשאות "%s" לא קיים בצורה חריגה.',
 ));
