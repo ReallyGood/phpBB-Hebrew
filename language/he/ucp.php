@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
 *
 * This file is part of the phpBB Forum Software package.
@@ -213,12 +213,14 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'				=> 'השדה “%s” מכיל תווים לא חוקיים, תווי אותיות בלבד מורשים.',
 	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'			=> 'השדה "%s" מכיל תווים לא חוקיים, רק תווים אלפאנומריים או _,-. מותרים והתו הראשון חייב להיות אלפביתי.',
 	'FIELD_INVALID_CHARS_ALPHA_SPACERS'				=> 'השדה "%s" מכיל תווים לא חוקיים, רק תווים אלפאנומריים, רווחים או -+_[] מותרים.',
-	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'			=> 'The field “%s” has invalid characters, only alphanumeric or _ characters are allowed.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'			=> 'The field “%s” has invalid characters, only letter, number or . characters are allowed.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'			=> 'The field “%s” has invalid characters, only letter and number characters are allowed.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'The field “%s” has invalid characters, only letter, number or _,-. characters are allowed and the first character must be alphabetic.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'The field “%s” has invalid characters, only letter, number, space or -+_[] characters are allowed.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'The field “%s” has invalid characters, only letter, number or _ characters are allowed.',
+
+	
+		'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'			=> 'השדה “%s” מכיל תווים לא מותרים, רק תווים אותיות ו_ מותרים לשימוש.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'			=> 'השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ו. מותרים לשימוש.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'			=> 'השדה “%s” מכיל תווים לא מותרים,רק אותיות ומספרים מותרים לשימוש.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'השדה “%s”מכיל תווים לא חוקיים,רק אותיות מספרים ו _,-. הם תווים חוקיים, והאות הראשונה חייבת להיות אלפביתית.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ורווחים ו -+_[] הם תווים מותרים.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'השדה “%s” מכיל תווים לא מותרים, רק אותיות מספרים ו _ מותרים בשימוש.',
 	'FIELD_INVALID_DATE'							=> 'השדה “%s” מכיל תאריך לא חוקי.',
 	'FIELD_INVALID_URL'								=> 'השדה "%s" מכיל כתובת אתר לא חוקית.',
 	'FIELD_INVALID_VALUE'							=> 'השדה “%s” מכיל ערך לא חוקי.',
