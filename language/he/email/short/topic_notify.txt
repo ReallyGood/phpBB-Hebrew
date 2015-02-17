@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: קבלת עדכונים מנושא - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+שלום {USERNAME},
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+קיבלת הודעה זו מפני שאתה עוקב אחר הנושא "{TOPIC_TITLE}" ב־"{SITENAME}". הנושא קיבל תגובה<!-- IF AUTHOR_NAME !== '' --> על ידי - {AUTHOR_NAME}<!-- ENDIF --> מאז ביקורך האחרון. תוכל להשתמש בקישור הבא על מנת לצפות בתגובות שנעשו, לא ישלחו התראות נוספות עד שלא תבקר בנושא.
 
-If you want to view the newest post made since your last visit, click the following link:
+אם אתה רוצה לצפות בתגובה האחרונה שנשלחה מאז ביקורך האחרון, לחץ על הקישור הבא:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+אם אתה רוצה לצפות בנושא, לחץ על הקישור הבא:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+אם אתה רוצה לצפות בפורום, לחץ על הקישור הבא:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
-
+אם אינך מעוניין יותר לעקוב אחר הנושא, לחץ על הקישור "בטל הרשמתך מנושא זה" הנמצא בתחתית הנושא, או לחץ על הקישור הבא:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}
