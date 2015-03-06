@@ -1,3 +1,4 @@
+
 Subject: נושא מאושר - "{TOPIC_TITLE}"
 
 שלום {USERNAME},
