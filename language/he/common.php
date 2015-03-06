@@ -312,8 +312,8 @@ $lang = array_merge($lang, array(
 	'G_NEWLY_REGISTERED'		=> 'משתמשים שנרשמו לאחרונה',
 
 	'HIDDEN_USERS_ONLINE'		=> array(
-		1	=> 'משתמש מוסתר אחד מחובר',
-		2	=> '%d משתמשים מוסתרים מחוברים',
+		1	=> 'משתמש מוסתר אחד',
+		2	=> '%d משתמשים מוסתרים',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
 		1	=> 'מוסתר אחד',
@@ -615,7 +615,7 @@ $lang = array_merge($lang, array(
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
 		1	=> 'יש משתמש אחד רשום ו־%2$s מחובר',
-		2	=> 'יש %1$d משתמשים רשומים ו־%2$ מחוברים',
+		2	=> 'יש %1$d משתמשים רשומים ו־%2$s מחוברים',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> 'משתמש רשום אחד',

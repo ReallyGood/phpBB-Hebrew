@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'דף הבית',
 	'AUTHOR_ROLE'			=> 'תפקיד',
 
-	'NOT_UP_TO_DATE'		=> '%s לא מעודכן ,' 
+	'NOT_UP_TO_DATE'		=> '%s לא מעודכן',
 	'UP_TO_DATE'			=> '%s מעודכן',
 	'ANNOUNCEMENT_TOPIC'	=> 'הודעת שחרור',
 	'DOWNLOAD_LATEST'		=> 'הורד גרסה',
