@@ -1,4 +1,4 @@
-Subject:התראה בנושא כתיבת תגובה - "{TOPIC_TITLE}"
+Subject: התראה בנושא כתיבת תגובה - "{TOPIC_TITLE}"
 
 שלום {USERNAME},
 

@@ -1,12 +1,8 @@
-
 Subject: דיווח בנוגע להודעה פרטית- "{TOPIC_TITLE}"
 
-היי {USERNAME},
+שלום {USERNAME},
 
-You are receiving this notification because a Private Message titled "{SUBJECT}" by "{AUTHOR_NAME}" at "{SITENAME}" was reported.
-
-
-אתה מקבל את ההתראה הזו, בגלל שהוגשה תלונה כנגד הודעה פרטית שכותרתה  "{SUBJECT}" שנכתבה על ידי  "{AUTHOR_NAME}" ב-"{SITENAME}" .
+אתה מקבל התראה זו, מכיוון שהודעה פרטית המכילה את הכותרת "{SUBJECT}" מ־ "{AUTHOR_NAME}" ב־ "{SITENAME}" דווחה.
 
 אם ברצונך לראות את הדיווח, לחץ על הקישור הבא:
 {U_VIEW_REPORT}
