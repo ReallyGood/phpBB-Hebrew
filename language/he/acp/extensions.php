@@ -46,38 +46,38 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'פרטים',
 
-	'EXTENSIONS_DISABLED'	=> 'בטל תוספות',
+	'EXTENSIONS_DISABLED'	=> 'הפסק תוספות',
 	'EXTENSIONS_ENABLED'	=> 'הפעל תוספות',
 
 	'EXTENSION_DELETE_DATA'	=> 'מחק מידע',
-	'EXTENSION_DISABLE'		=> 'בטל',
+	'EXTENSION_DISABLE'		=> 'הפסק',
 	'EXTENSION_ENABLE'		=> 'הפעל',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'מחיקת נתוני התוספת ימחק את כל נתוניה והגדרותיה. קבצי התוספת נשמרים כך שניתן להתקינה מחדש.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'כיבוי תוספת שומר על קבציה ונתוניה והגדרותיה, אך מוריד כל פונקציונליות שנוספת על ידי התוספת.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'הפסקת תוספת שומר על קבציה ונתוניה והגדרותיה, אך מוריד כל פונקציונליות שנוספת על ידי התוספת.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'הפעלת התוספת מאפשר לך להשתמש בה במערכת שלך.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'נתוני התוספת נמחקים. אנא אל תעזוב או תרענן את העמוד עד שהתהליך מסתיים.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'התוספת עוברת כיבוי. אנא אל תעזוב את העמוד או תרענן אותו עד שהתהליך מושלם.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'התוספת עוברת כיבוי. אנא אל תעזוב או תרענן את העמוד עד שהתהליך מסתיים.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'התוספת נדלקת, אנא אל תעזוב או תרענן את העמוד עד אשר התהליך יושלם.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'נתוני התוספת נמחקו בהצלחה',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'התוספת כובתה בהצלחה',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'התוספת הודלקה בהצלחה',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'התוספת הופסקה בהצלחה',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'התוספת הופעלה בהצלחה',
 
 	'EXTENSION_NAME'		=> 'שם התוסף',
 	'EXTENSION_ACTIONS'		=> 'פעולות',
 	'EXTENSION_OPTIONS'		=> 'אפשרויות',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>בטל את התוספת</li>
+			<li>הפסק את התוספת</li>
 			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
 			<li>העלה את הקבצים החדשים</li>
 			<li>הפעל את התוספת</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'מחיקה מלאה של תוספת מהמערכת',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>בטל את התוספת</li>
+			<li>הפסק את התוספת</li>
 			<li>מחק את המידע של התוספת</li>
 			<li>מחק את הקבצים של התוספת מקבצי המערכת</li>
 		</ol>',
