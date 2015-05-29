@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'כאן אתה יכול לבחור ולהגדיר תוספות, אשר ייעודן לחסום בוטים משלוח טפסים אוטומטית. תוספות אלו בדרך כלל עובדות על ידי כך שהן מאתגרות את המשתמשים עם <em>CAPTCHA</em>, מבחן שנועד להיות מסובך לפתרון של מחשבים.',
-	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'לאמצעים נגד בוטים נוספים (וייתכן גם טובים יותר), בקר <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>במאגר התוספות העולמי</strong></a>. למידע נוסף אודות כיצד למנוע ספאם במערכת שלך, בקר <a href="https://www.phpbb.com/go/anti-spam"><strong>במאגר הידע העולמי</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'תוספות זמינות',
 	'CAPTCHA_UNAVAILABLE'					=> 'התוספת לא ניתנת לבחירה מכיוון שהדרישות שלה לא נענו.',
 	'CAPTCHA_GD'							=> 'ספריה גראפית',
@@ -550,8 +550,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'אפשרות זו שומרת את כל כתובות הדואר האלקטרוני כפרטיות לחלוטין.',
 	'CONTACT_EMAIL'					=> 'כתובת דואר אלקטרוני ליצירת קשר',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'כתובת זו בשימוש אם נקודה מסוימת ליצירת קשר נדרשת, למשל דואר זבל, פלט שגיאה, וכד\'. היא תמיד תהיה כתובת <samp>מאת</samp> ו־<samp>תגובה אל</samp> בהודעות דואר אלקטרוני.',
-	'CONTACT_EMAIL_NAME'			=> 'Contact name',
-	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.',
+	'CONTACT_EMAIL_NAME'			=> 'שם איש קשר',
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'זה השם שיופיע לנמענים. אם אינך מעוניין שיופיע שם איש קשר, השאר שדה זה ריק.',
 	'EMAIL_FUNCTION_NAME'			=> 'שם פונקציית הדואר האלקטרוני',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'פונקציית הדואר האלקטרוני אשר בשימוש לשליחת הודעות דרך PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'גודל חבילת הודעות דואר אלקטרוני',
