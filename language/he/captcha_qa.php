@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'שאלות ותשובות',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'שאלת אימות זו היא אמצעי למניעת שליחה אוטומטית של טפסים על ידי בוטים.',
 	'CONFIRM_QUESTION_WRONG'	=> 'התשובה שסיפקת לשאלת האימות איננה נכונה.',
+	'CONFIRM_QUESTION_MISSING'	=> 'שאלות עבור שאלת האימות לא התקבלו. אנא צור קשר עם מנהל המערכת.',
 
 	'QUESTION_ANSWERS'			=> 'תשובות',
 	'ANSWERS_EXPLAIN'			=> 'אנא הכנס תשובות נכונות לשאלה, אחת בכל שורה.',
@@ -60,5 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'אנא מלא את כל השדות והכנס לפחות תשובה אחת.',
 	'QA_LAST_QUESTION'			=> 'אתה לא יכול למחוק את כל השאלות בזמן שהרכיב פעיל.',
-
 ));
