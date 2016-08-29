@@ -51,6 +51,13 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_VALID'				=> '%s היא לא הגירה תקינה.',
 	'MIGRATION_SCHEMA_DONE'				=> 'תכנון התקנה: %1$s; זמן: %2$.2f שניות',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'תכנון התקנה: %s.',
+	
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migration is invalid. An if statement helper is missing a condition.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migration is invalid. An if statement helper is missing a valid call to a migration step.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migration is invalid. A custom callable function could not be called.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migration is invalid. An unknown migration tool type was encountered.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migration is invalid. An undefined migration tool was encountered.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migration is invalid. An undefined migration tool method was encountered.',
 
 	'MODULE_ERROR'						=> 'התרחשה שגיאה בעת יצירת המודול: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'קובץ מידע חשוב  של מודול חסר: %2$s',
