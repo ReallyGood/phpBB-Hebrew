@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'משתני השפה הבאים חסרים מחבילת השפה “%s”',
 
 	'UNINSTALLED_LANGUAGE_PACKS'		=> 'חבילות שפה לא מותקנת',
+	
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'צפה במאגר השפות',
 ));

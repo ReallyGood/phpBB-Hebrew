@@ -68,6 +68,12 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'		=> 'שם התוסף',
 	'EXTENSION_ACTIONS'		=> 'פעולות',
 	'EXTENSION_OPTIONS'		=> 'אפשרויות',
+	'EXTENSION_INSTALL_HEADLINE'=> 'מתקין תוסף',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>הורד תוסף ממאגר התוספות של phpBB</li>
+			<li>חלץ את התוסף והעלה אותו אל תיקית <samp>ext/</samp> של מערכת הפורומים שלך</li>
+			<li>אפשר את התוסף, כאן במנהל התוספות</li>
+		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'עדכון תוספת',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>הפסק את התוספת</li>
@@ -118,6 +124,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'בדוק שוב את כל הגרסאות',
 	'FORCE_UNSTABLE'					=> 'תמיד בדוק גרסאות לא יציבות',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'הגדרות בודק הגרסאות',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'צפה במאגר התוספות',
 
 	'META_FIELD_NOT_SET'	=> 'פרטי מטא חיוניים של%s לא נתנו.',
 	'META_FIELD_INVALID'	=> 'פרטי המטא של %s שבורים.',

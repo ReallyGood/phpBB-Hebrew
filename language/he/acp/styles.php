@@ -83,4 +83,6 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'בשימוש על ידי (כולל רובוטים)',
 
 	'UNINSTALL_DEFAULT'			=> 'אין באפשרותך להסיר את עיצוב ברירת המחדל.',
+	
+	'BROWSE_STYLES_DATABASE'	=> 'צפה במאגר העיצובים',
 ));
