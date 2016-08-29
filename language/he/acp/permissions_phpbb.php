@@ -155,8 +155,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'רשאי לפצל נושאים',
 	'ACL_M_MERGE'	=> 'רשאי למזג נושאים',
 
-	'ACL_M_INFO'	=> 'רשאי לראות פרטי הודעה',
+	'ACL_M_INFO'		=> 'רשאי לראות פרטי הודעה',
 	'ACL_M_WARN'	=> 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'רשאי לסגור ולמחוק דיווחים של הודעות פרטיות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'		=> 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
 ));
 

@@ -330,6 +330,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'סוג קובץ התמונה %d לסוג mime %s אינו נתמך.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'סוג קובץ התמונה אינו מתאים: הסיומת הצפויה היא %1$s אבל הסיומת שהתקבלה היא %2$s.',
 	'IN'						=> 'ב',
+	'INACTIVE'					=> 'לא פעיל',
 	'INDEX'						=> 'עמוד ראשי',
 	'INFORMATION'				=> 'מידע',
 	'INSECURE_REDIRECT'			=> 'נעשה נסיון הפניה לכתובת שעשויה להיות לא בטוחה.',
@@ -468,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>הנושא לא אושר</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>בקשה לאישור נושא</strong> על ידי %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'סוג ההתראה "%s" חסר במערכת הקבצים.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>אישור נדרש</strong> למשתמש החדש שנרשם: "%1$s"',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>הפעלה נדרשת</strong> למשתמשים לא פעילים או שנרשמו לאחרונה: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'אחרים',
 	'NOTIFICATION_X_OTHERS'				=> array(

@@ -72,3 +72,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'דלוק',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'גיבובי המיילים חושבו מחדש בהצלחה.',
 ));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Optionally you can specify a cron task name to run only the specified cron task.',
+));

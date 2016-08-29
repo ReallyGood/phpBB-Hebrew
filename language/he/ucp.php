@@ -341,7 +341,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'מישהו ציטט אותך בהודעה',
 	'NOTIFICATION_TYPE_REPORT'							=> 'מישהו דיווח על הודעה',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'מישהו פירסם נושא חדש בפורום אליו נרשמת לקבלת עדכונים',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'משתמש חדש שנרשם לאחרונה ממתין להפעלה',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'משתמש ממתין להפעלה',
 
 	'NOTIFY_METHOD'					=> 'אמצעי התראה',
 	'NOTIFY_METHOD_BOTH'			=> 'שניהם',

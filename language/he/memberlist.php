@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לחפש משתמשים.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'המערכת דורשת ממך להיות רשום ומחובר על מנת לצפות בפרופילים.',
 
+	'MANAGE_GROUP'			=> 'נהל קבוצה',
 	'MORE_THAN'				=> 'יותר מ',
 
 	'NO_CONTACT_FORM'		=> 'טופס יצירת הקשר עם המנהל הראשי לא פעיל.',
