@@ -572,6 +572,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'יציאת שרת SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'שנה זאת רק אם אתה יודע ששרת ה־SMTP משתמש ביציאה שונה.',
 	'SMTP_SERVER'					=> 'כתובת שרת ה־SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'שים לב כי יש לציין את הפרוטוקול בו עובד השרת שבו אתה משתמש. אם אתה משתמש ב־SSL, זה חייב להיות "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'הגדרות SMTP',
 	'SMTP_USERNAME'					=> 'שם משתמש ל־SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'הזן שם משתמש רק אם שרת ה־SMTP שלך דורש זאת.',

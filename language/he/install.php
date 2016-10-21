@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'בדיקת הגדרות מנהל ראשי',
 	'ADMIN_USERNAME'			=> 'שם משתמש למנהל הראשי',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'הזן שם משתמש באורך של בין 3 ועד 20 תווים.',
-	'APP_MAGICK'				=> 'תמיכה Imagemagick [ צירוף קבצים ]',
+	'APP_MAGICK'				=> 'תמיכה ImageMagick [ צירוף קבצים ]',
 	'AUTHOR_NOTES'				=> 'הערות יוצר<br />» %s',
 	'AVAILABLE'					=> 'זמין',
 	'AVAILABLE_CONVERTORS'		=> 'המרות זמינות',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'לא ניתן לקרוא %s #%d, טבלה %s (“%s”)',
 	'NO_CONVERTORS'				=> 'אין המרות זמינות לשימוש.',
 	'NO_CONVERT_SPECIFIED'		=> 'לא צוינה המרה.',
-	'NO_LOCATION'				=> 'לא ניתן לקבוע מיקום. אם אתה בטוח כי Imagemagick מותקן, תוכל לציין את המיקום מאוחר יותר בלוח הבקרה למנהלים ראשיים',
+	'NO_LOCATION'				=> 'לא ניתן לקבוע מיקום. אם אתה בטוח כי ImageMagick מותקן, תוכל לציין את המיקום מאוחר יותר בלוח הבקרה למנהלים ראשיים',
 	'NO_TABLES_FOUND'			=> 'לא נמצאו טבלאות.',
 
 	'OVERVIEW_BODY'					=> 'ברוך הבא ל־phpBB3!<br /><br />"phpBB הישראלי" הנו התרגום העברי הרשמי של phpBB® אשר הינה מערכת הפורומים המבוססת על קוד פתוח אשר בשימוש הרחב ביותר בעולם. phpBB3 הוא ההתקן האחרון בפיתוח הנמשך שבע שנים. כמו קודמיה, phpBB3 עשירה במאפיינים, ידידותית למשתמש, ונתמכת בצורה מלאה על־ידי צוות phpBB הישראלי. phpBB3 משפרת בצורה רבה את מה שקיים כבר ב־phpBB גרסה 2 המצליחה, ומוסיפה מאפיינים בעלי ביקוש רב אשר אינם קיימים בגרסאות הקודמות.אנו מקווים כי היא עוברת את ציפיותיך.<br /><br />מערכת התקנה זו תדריך אותך לאורך התקנת phpBB3, עדכון לגרסה האחרונה של phpBB3 מגרסאות קודמות, וכמו כן המרה ל־phpBB3 ממערכת פורומים שונות (כולל phpBB2). למידע נוסף, אנו ממליצים לך לקרוא את <a href="../docs/INSTALL.html">מדריך ההתקנה</a>.<br /><br />כדי לקרוא את רישיון phpBB3 וללמוד על קבלת תמיכה ועמדתנו לגביה, בחר באפשרויות המתאימות בתפריט הצדדי. להמשך, בחר בתווית המתאימה אשר מעל.',
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB3 עדיין תפעל אם ההגדרה פעילה, אבל אם אפשרי, מומלץ ש־register_globals תהיה כבויה בהתקן ה־PHP שלך מטעמי ביטחון.',
 	'PHP_SAFE_MODE'					=> 'מצב בטוח',
 	'PHP_SETTINGS'					=> 'גרסת PHP והגדרות',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>נדרש</strong> - אתה חייב להריץ את גרסה 5.3.3 של PHP או גבוהה יותר כדי להתקין את phpBB3. אם <var>safe mode</var> (מצב בטוח) מוצג להלן, התקן ה־PHP פועל במצב זה. המצב יגרום להגבלות על הניהול מרחוק ומאפיינים דומים.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>נדרש</strong> - אתה חייב להריץ לפחות את גרסה 5.3.3 של PHP (PHP 7 לא נתמך)  כדי להתקין את phpBB3. אם <var>safe mode</var> (מצב בטוח) מוצג להלן, התקן ה־PHP פועל במצב זה. המצב יגרום להגבלות על הניהול מרחוק ומאפיינים דומים.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'הגדרת ה־PHP <var>allow_url_fopen</var> פעילה',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>לא נדרש</strong> - ההגדרה אינה נדרשת, אך פונקציות מסוימות של phpBB3 כמו הסמלים האישיים של האתר הכבוי לא יעבדו כראוי בלעדיה.',
-	'PHP_VERSION_REQD'				=> 'גרסת PHP >= 5.3.3',
+	'PHP_VERSION_REQD'				=> 'גרסת PHP >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'מספר הודעה',
 	'PREFIX_FOUND'					=> 'סריקת הטבלאות שלך הציגה התקנה חוקית המשתמשת ב־<strong>%s</strong> בתור הקידומת לטבלאות.',
 	'PREPROCESS_STEP'				=> 'מבצע פונקציות/שאילתות מקדימות לתהליך',
@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'המשך עדכון בסיס נתונים',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'קובץ עדכון בסיס הנתונים אשר בתיקיית ההתקנה אינו מעודכן. וודא שהעלת את הגרסה הנכונה של הקובץ.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'עדכון בסיס הנתונים טרם הושלם.',
+	'DATABASE_VERSION'					=> 'גרסת בסיס נתונים',
 	'DELETE_USER_REMOVE'				=> 'מחק משתמש והסר הודעות',
 	'DELETE_USER_RETAIN'				=> 'מחק משתמש אבל שמור הודעות',
 	'DESTINATION'						=> 'קובץ מטרה',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'הקבצים הבאים לא שונו ומיצגים את הקבצים המקוריים של phpBB מהגרסה ממנה אתה מעוניין לעדכן.',
 	'FILES_UP_TO_DATE'				=> 'קבצים שכבר מעודכנים',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'הקבצים הבאים כבר מעודכנים לגרסה האחרונה ואינם דורשים עדכון.',
+	'FILES_VERSION'					=> 'גרסת קבצים',
 	'FTP_SETTINGS'					=> 'הגדרות FTP',
 	'FTP_UPDATE_METHOD'				=> 'העלאת FTP',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'קבצי העדכון אינם מעודכנים. קבצי העדכון שנמצאו מעדכנים מגרסה phpBB %1$s לגרסה phpBB %2$s אבל הגרסה האחרונה של phpBB היא %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'החבילה הנוכחית מתעדכנת לגרסה',
+	'PACKAGE_VERSION'					=> 'גרסת החבילה המתוקנת',
 	'PERFORM_DATABASE_UPDATE'			=> 'בצע עדכון בסיס נתונים',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'להלן כפתור לעדכון בסיס הנתונים. עדכון בסיס הנתונים עלול להמשך זמן רב, לכן אל תעצור את התהליך גם אם נראה שהוא נעצר. לאחר שעדכון בסיס הנתונים התבצע, עבור להוראות כדי להמשיך בתהליך העדכון.',
 	'PREVIOUS_VERSION'					=> 'גרסה קודמת',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'מעדכן מבנה בסיס נתונים',
 	'UPDATE_FILES'					=> 'עדכן קבצים',
 	'UPDATE_FILES_NOTICE'			=> 'וודא שעדכנת גם את קבצי המערכת שלך, הקובץ מעדכן את בסיס הנתונים שלך בלבד.',
+	'UPDATE_INCOMPLETE'				=> 'התקנת המערכת phpBB לא עודכנה בצורה תקינה.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'אנא קרא את המידע מתחת על מנת לתקן את השגיאה.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>עדכון לא תקין</h1>
+
+		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database_update script</a> and run it. If it is missing, please <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">download your package version</a>, upload the "install" folder to your phpBB root directory (where your config.php file is) and <a href="%1$s" title="%1$s">run the database update script</a>.</p>',
+		
 	'UPDATE_INSTALLATION'			=> 'עדכון התקן phpBB3',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'עם אפשרות זו, תוכל לעדכן את מערכת phpBB שלך לגרסה האחרונה.<br />במשך התהליך גרסת כל הקבצים תיבדק. תוכל לסקור את כל ההבדלים והקבצים לפני העדכון.<br /><br />קובץ העדכון עצמו יכול להתבצע בשתי דרכים שונות.</p><h2>עדכון ידני</h2><p>עם עדכון זו אתה מוריד את ערכת הקבצים ששונו בלבד כדי לוודא שלא תפגע בתוספות הקבצים שיכול להיות והוספת. לאחר שהורדת את החבילה אתה צריך להעלות את הקבצים ידנית אל מיקומם הנכון תחת תיקיית המערכת של phpBB3. לאחר שתסיים, תוכל לבצע את שלב בדיקת הקבצים שנית כדי לוודא שהעברת את הקבצים למיקומם הנכון.</p><h2>עדכון אוטומטי עם FTP</h2><p>שיטה זו דומה לשיטה הראשונה אבל ללא הצורך להוריד את הקבצים ששונו ולהעלות אותם בעצמך. הפעולה תתבצע בשבילך. כדי להשתמש בשיטה זו אתה צריך לדעת את פרטי החיבור ל־FTP מפני שתתבקש להם. לאחר הסיום תועבר לבדיקת הקבצים שנית כדי לוודא שהכול עודכן כראוי.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '

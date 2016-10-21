@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'				=> 'ממדים לקישור תמונה',
 	'IMAGE_LINK_SIZE_EXPLAIN'		=> 'הצג תמונה מצורפת כטקסט מקושר אם תמונה גדולה יותר מגודל זה. כדי לכבות אפשרות זו, קבע את הערכים ל־0 פיקסלים על 0 פיקסלים.',
-	'IMAGICK_PATH'					=> 'נתיב ל־Imagemagick',
+	'IMAGICK_PATH'					=> 'נתיב ל־ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'			=> 'נתיב מלא ליישום המרה imagemagick, למשל <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'מספר מרבי של קבצים מצורפים לכל הודעה',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>הלא מורשים</em>',
 
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'האם אתה בטוח כי ברצונך לאפס את סטטיסטיקות הקובץ?',
-	'SEARCH_IMAGICK'				=> 'אתר Imagemagick',
+	'SEARCH_IMAGICK'				=> 'אתר ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'אפשר/דחה רשימה',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'שנה את התנהגות ברירת המחדל כאשר אבטחת ההורדות פעילה של האפשר/דחה רשימה לזו של <strong>רשימה לבנה</strong> (אפשר) או <strong>רשימה שחורה</strong> (דחה).',
 	'SECURE_DOWNLOADS'				=> 'הפעל אבטחת הורדות',
