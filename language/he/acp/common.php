@@ -1,19 +1,19 @@
 <?php
 /**
- *
- * This file is part of the phpBB Forum Software package.
- *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For full copyright and license information, please see
- * the docs/CREDITS.txt file.
- *
- */
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'הרשאות של קבוצה',
 	'ACP_GROUPS_POSITION'			=> 'נהל סדר קבוצות',
 
+	'ACP_HELP_PHPBB'			=> 'Help support phpBB',
+
 	'ACP_ICONS'					=> 'סמלי נושאים',
 	'ACP_ICONS_SMILIES'			=> 'סמלי/סמיילים של נושאים',
 	'ACP_INACTIVE_USERS'		=> 'משתמשים לא פעילים',
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'הגדרות חיפוש',
 
 	'ACP_SECURITY_SETTINGS'		=> 'הגדרות אבטחה',
-	'ACP_SEND_STATISTICS'		=> 'שלח מידע סטטיסטי',
 	'ACP_SERVER_CONFIGURATION'	=> 'הגדרות שרת',
 	'ACP_SERVER_SETTINGS'		=> 'הגדרות שרת',
 	'ACP_SIGNATURE_SETTINGS'	=> 'הגדרות חתימה',
@@ -225,12 +226,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'חזור',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
+	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
+	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
+	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
+	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
+	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
+	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
+
+	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
+	'EXCEPTION' => 'Exception',
+
 	'COLOUR_SWATCH'			=> 'מאגר צבעים לשימוש בטוח ברשת',
 	'CONFIG_UPDATED'		=> 'ההגדרות עודכנו בהצלחה.',
 	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.',
 	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
 	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
 	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
+	'CURRENT_VERSION'		=> 'Current version',
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
@@ -256,6 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP של משתמש',
 	'IP_HOSTNAME'			=> 'כתובות IP או שמות שרתים',
 
+	'LATEST_VERSION'		=> 'Latest version',
 	'LOAD_NOTIFICATIONS'			=> 'הצג התראות',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'הצג את ההתראות בכל עמוד (בדרך כלל בראש העמוד).',
 	'LOGGED_IN_AS'			=> 'אתה מחובר בתור:',
@@ -288,7 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ־%1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
 	'PROCEED_TO_ACP'					=> '%sהמשך ללוח הבקרה למנהלים ראשיים%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
 	'REMIND'							=> 'הזכר',
+	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
 	'RESYNC'							=> 'סנכרון מחדש',
 
 	'RUNNING_TASK'			=> 'משימות רצות: %s.',
@@ -309,6 +327,10 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'לוח בקרה למשתמש',
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
 	'USER_CONTROL_PANEL'	=> 'לוח בקרה למשתמש',
+
+	'UPDATE_NEEDED'			=> 'The board is not up to date.',
+	'UPDATE_NOT_NEEDED'		=> 'The board is up to date.',
+	'UPDATES_AVAILABLE'		=> 'Updates available:',
 
 	'WARNING'				=> 'אזהרה',
 ));
@@ -417,11 +439,16 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'גודל הקבצים המצורפים',
 	'USERS_PER_DAY'		=> 'משתמשים ליום',
 
-	'VALUE'					=> 'ערך',
+	'VALUE'						=> 'ערך',
 	'VERSIONCHECK_FAIL'			=> 'נכשל הניסיון לקבל מידע על הגרסה האחרונה.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'בדיקת גרסה מחדש',
-	'VIEW_ADMIN_LOG'		=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
-	'VIEW_INACTIVE_USERS'	=> 'ראה משתמשים לא פעילים',
+	'VERSION_CHECK'				=> 'Version check',
+	'VERSION_CHECK_EXPLAIN'		=> 'Checks to see if your phpBB installation is up to date.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Your phpBB installation is not up to date.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Your phpBB installation is not up to date.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Your phpBB installation is up to date. There are no updates available at this time.',
+	'VIEW_ADMIN_LOG'			=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
+	'VIEW_INACTIVE_USERS'		=> 'ראה משתמשים לא פעילים',
 
 	'WELCOME_PHPBB'			=> 'ברוך הבא ל־phpBB3',
 	'WRITABLE_CONFIG'		=> 'קובץ ההגדרות שלך (config.php) ניתן לכתיבה. אנחנו ממליצים לשנות את ההרשאות ל־640 או לפחות ל־644 (לדוגמה: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
@@ -452,7 +479,7 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'המשתמש לא פעיל',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'אנא שלח מידע אודות השרת שלך והגדרות המערכת לphpBB בשביל ניתוח סטטיסטי. כל מידע שיכול לזהות אותך או את האתר שלך הוסר — המידע כולו <strong>אנונימי</strong>. אנו מבססים החלטות אודות גרסאות עתדיות של phpBB על בסיס מידע זה. הסטטיסטיקות יהיו זמינות לציבור. אנו גם משתפים מידע זה עם פרויקט PHP, שפת התיכנות עליה phpBB בנויה.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'בשימוש בכפתור מתחת אתה יכול להציג את כל הערכים שישלחו.',
@@ -460,8 +487,10 @@ $lang = array_merge($lang, array(
 	'GO_ACP_MAIN'				=> 'עבור לעמוד הראשי בלוח הבקרה למנהל הראשי',
 	'HIDE_STATISTICS'			=> 'הסתר פרטים',
 	'SEND_STATISTICS'			=> 'שלח מידע סטטיסטי',
+	'SEND_STATISTICS_LONG'		=> 'Send statistical information',
 	'SHOW_STATISTICS'			=> 'הצג פרטים',
 	'THANKS_SEND_STATISTICS'	=> 'תודה ששלחת את המידע.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB was unable to send statistics',
 ));
 
 // Log Entries
@@ -508,7 +537,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>שחרר משתמש מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>שחרר IP מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL'	=> '<strong>שחרר דואר אלקטרוני מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>שחרר דואר אלקטרוני מחסימה</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_USER'			=> '<strong>חסם משתמש</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>חסם IP</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
 	'LOG_BAN_EMAIL'			=> '<strong>חסם דואר אלקטרוני</strong> מסיבה “<em>%1$s</em>”<br />» %2$s',
@@ -698,7 +727,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>הסיר סיבת דיווח/חסימה</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>עדכן סיבת דיווח/חסימה</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'	=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
+	'LOG_REFERER_INVALID'		=> '<strong>בדיקת דף מפנה נכשלה</strong><br />»הדף המפנה היה “<em>%1$s</em>”. הבקשה נדחתה והחיבור נסגר.',
 	'LOG_RESET_DATE'			=> '<strong>תאריך התקנת המערכת אופס</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>מספר המשתמשים הרב ביותר שהיה מחובר בו זמנית אופס</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>אפס סטטיסטיקת קבצים</strong>',
@@ -782,16 +811,17 @@ $lang = array_merge($lang, array(
 
 	'LOG_WARNING_DELETED'		=> '<strong>מחק אזהרת משתמש</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>מחק אזהרות משתמש</strong><br />» %1$s',
-		2 => '<strong>מחק %2$d אזהרות משתמש</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1 => '<strong>Deleted user warning</strong><br />» %1$s',
+		2 => '<strong>Deleted %2$d user warnings</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),
-	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>מחק את כל אזהרות המשתמש</strong><br />» %s',
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Deleted all user warnings</strong><br />» %s',
 
-	'LOG_WORD_ADD'			=> '<strong>הוסיף מילה מצונזרת</strong><br />» %s',
-	'LOG_WORD_DELETE'		=> '<strong>מחק מילה מצונזרת</strong><br />» %s',
-	'LOG_WORD_EDIT'			=> '<strong>ערך מילה מצונזרת</strong><br />» %s',
+	'LOG_WORD_ADD'			=> '<strong>Added word censor</strong><br />» %s',
+	'LOG_WORD_DELETE'		=> '<strong>Deleted word censor</strong><br />» %s',
+	'LOG_WORD_EDIT'			=> '<strong>Edited word censor</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '<strong>תוספת הופעלה</strong><br />» %s',
-	'LOG_EXT_DISABLE'	=> '<strong>תוספת כובתה</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>נתוני התוספת נמחקו</strong><br />» %s',
+	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Extension updated</strong><br />» %s',
 ));

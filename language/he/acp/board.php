@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'אפשר להירשם לנושאים לקבלת עדכונים',
 	'BOARD_PM'					=> 'אפשר הודעות פרטיות',
 	'BOARD_PM_EXPLAIN'			=> 'אפשר הודעות פרטיות לכל המשתמשים.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Allow board notifications',
 ));
 
 // Avatar Settings
@@ -220,7 +221,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'כאן אתה יכול להגדיר את ההגדרות הקשורות להרשמה ולפרופיל.',
 
-	'ACC_ACTIVATION'			=> 'הפעלת חשבון',
+	'ACC_ACTIVATION'				=> 'הפעלת חשבון',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'קובע אם למשתמשים תהיה הרשאה מיידית למערכת או אם נדרש אישור. תוכל גם לכבות לגמרי הרשמות חדשות. <em>“דואר אלקטרוני של המערכת” חייב להיות פעיל כדי להפעיל את החשבון על ידי משתמש או מנהל.</em>',
 	'ACC_ACTIVATION_WARNING'		=> 'Please note that the currently selected activation method requires emails to be enabled, otherwise registration will be disabled. We recommend to either select a different activation method or reenable emails.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'הגבלת ההודעות למשתמש חדש',
@@ -303,7 +304,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'כאן אתה יכול לבחור ולהגדיר תוספות, אשר ייעודן לחסום בוטים משלוח טפסים אוטומטית. תוספות אלו בדרך כלל עובדות על ידי כך שהן מאתגרות את המשתמשים עם <em>CAPTCHA</em>, מבחן שנועד להיות מסובך לפתרון של מחשבים.',
-	'ACP_VC_EXT_GET_MORE'					=> 'לאמצעים נגד בוטים נוספים (וייתכן גם טובים יותר), בקר <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>במאגר התוספות העולמי</strong></a>. למידע נוסף אודות כיצד למנוע ספאם במערכת שלך, בקר <a href="https://www.phpbb.com/go/anti-spam"><strong>במאגר הידע העולמי</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'תוספות זמינות',
 	'CAPTCHA_UNAVAILABLE'					=> 'התוספת לא ניתנת לבחירה מכיוון שהדרישות שלה לא נענו.',
 	'CAPTCHA_GD'							=> 'ספריה גראפית',
@@ -349,6 +350,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'כתובת העוגייה',
 	'COOKIE_NAME'				=> 'שם העוגייה',
+	'COOKIE_NOTICE'				=> 'Cookie notice',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions.',
 	'COOKIE_PATH'				=> 'נתיב העוגייה',
 	'COOKIE_SECURE'				=> 'אבטחת עוגייה',
 	'COOKIE_SECURE_EXPLAIN'		=> 'אם השרת שלך רץ דרך SSL, קבע לפעיל, אחרת השאר כבוי. אם מופעל והשרת אינו רץ דרך SSL, התוצאה תהיה שגיאות שרת בהעברות.',
@@ -364,6 +367,7 @@ $lang = array_merge($lang, array(
 
 	'CONTACT_US_ENABLE'				=> 'הפעל את עמוד יצירת הקשר',
 	'CONTACT_US_ENABLE_EXPLAIN'		=> 'העמוד הזה מאפשר למשתמשים לשלוח דואר אלקטרוני למנהלים הראשיים של המערכת',
+
 	'CONTACT_US_INFO'				=> 'פרטי יצירת קשר',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'ההודעה מוצגת בעמוד יצירת הקשר',
 	'CONTACT_US_INFO_PREVIEW'		=> 'תצוגה מקדימה למידע שבעמוד יצירת הקשר',
@@ -376,7 +380,6 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_CDN'						=> 'אפשר שימוש של רשתות ספקי תוכן של צד שלישי',
 	'ALLOW_CDN_EXPLAIN'				=> 'אם הגדרה זו פעילה חלק מהקבצים ישלחו משרתי צד שלישי חיצוניים במקום השרת שלך זה מפחית את תעבורת הרשת אשר נצרכת משרתך, אבל עלול להוות בעיית פרטיות עבור מנהלי קהילות מסוימים. בהתקנת PHPBB רגילה, זה כולל טעינת "JQUERY" וכן הפונט "open sans" מרשת התוכן של גוגל.',
-
 	'ALLOW_LIVE_SEARCHES'			=> 'אפשר חיפוש בזמן אמת',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'אם אפשרות זו פעילה, המשתמשים יקבלו הצעות השלמה במהלך מילוי חלקים מהשדות בפורום.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'שדות פרופיל מותאמים אישית',
@@ -392,7 +395,6 @@ $lang = array_merge($lang, array(
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'הצג נושא/פורום פעיל בפרופילי המשתמשים ולוח הבקרה למשתמש. מומלץ לכבות במערכות עם יותר ממליון הודעות.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'זמן תצוגה להתראות',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'מספר הימים שלאחרם ההתראה תמחק. כתוב 0 אם ברצונך שהתראות לא ימחקו.',
-
 	'RECOMPILE_STYLES'				=> 'ערוך מחדש רכיבי עיצוב ישנים',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'בדוק לרכיבי עיצוב מעודכנים במערכת הקבצים וערוך מחדש.',
 	'YES_ANON_READ_MARKING'			=> 'הפעל סימון נושאים לאורחים',
@@ -480,8 +482,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'נתיב אחסון קבוצת הסיומות לאייקונים',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'נתיב תחת תיקיית המערכת של phpBB3, למשל <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'=> 'השתמש במריצה משימות מתוזמנות על ידי מריץ המשימות האוטומטי.',
-	'USE_SYSTEM_CRON_EXPLAIN'=> 'כאשר מכובה phpBB תארגן כך שמשימות מחזוריות יורצו אוטמטית. כאשר דלוקה, phpBB לא תארגן שום משימה שתרוץ בצורה עצמאית מנהל המערכת יהיה חייב להגדיר ש-<code>bin/phpbbcli.php cron:run</code> יופעל על ידי המערכת בהפרשי זמנים סבירים באמצעות מערכת cron (לדוגמה כל 5 דקות).',
+	'USE_SYSTEM_CRON'		=> 'השתמש במריצה משימות מתוזמנות על ידי מריץ המשימות האוטומטי.',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'כאשר מכובה phpBB תארגן כך שמשימות מחזוריות יורצו אוטמטית. כאשר דלוקה, phpBB לא תארגן שום משימה שתרוץ בצורה עצמאית מנהל המערכת יהיה חייב להגדיר ש-<code>bin/phpbbcli.php cron:run</code> יופעל על ידי המערכת בהפרשי זמנים סבירים באמצעות מערכת cron (לדוגמה כל 5 דקות).',
 ));
 
 // Security Settings
@@ -492,7 +494,6 @@ $lang = array_merge($lang, array(
 	'ALLOW_AUTOLOGIN'				=> 'אפשר התחברויות "זכור אותי"',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'קובע האם משתמשים יזכו לאפשרות "זכור אותי" בביקורם בפורום.',
 	'ALLOW_PASSWORD_RESET'			=> 'אפשר איפוס סיסמה ("שכחתי את הסיסמה")',
-
 	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'קובע האם משתמשים יוכלו להשתמש באפשרות "שכחתי את סיסמתי" הנמצאת בקישור בעמוד ההתחברות, על מנת לקבל גישה מחודשת לחשבונם. אם אתה משתמש בשיטת אימות חיצונית, יתכן שתרצה לבטל את האפשרות הזאת.',
 	'AUTOLOGIN_LENGTH'				=> 'זמן עד שהתחברות "זכור אותי" פגה (בימים)',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'מספר הימים שלאחרן התחברויות "זכור אותי" נמחקו. הכנס 0 אם אין ברצונך שהן תפוגנה.',
@@ -536,6 +537,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
 	'TPL_ALLOW_PHP'					=> 'אפשר php בערכות',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו ויבוצעו בערכות.',
+	'UPLOAD_CERT_VALID'				=> 'Validate upload certificate',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'If enabled, certificates of remote uploads will be validated. This requires the CA bundle to be defined by the <samp>openssl.cafile</samp> or <samp>curl.cainfo</samp> setting in your php.ini.',
 ));
 
 // Email Settings
@@ -560,6 +563,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'הטקסט אשר יצורף לכל הודעות הדואר האלקטרוני אשר המערכת שולחת.',
 	'ENABLE_EMAIL'					=> 'הפעל הודעות דואר אלקטרוני של המערכת',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'אם נקבע לכבוי, לא ישלחו הודעות דואר אלקטרוני על־ידי המערכת בכלל. <em>שים לב שכדי להפעיל חשבון על ידי משתמש או מנהל ראשי נדרש שאפשרות זו תהיה זמינה. אם כרגע מוגדר ל“משתמש” או “מנהל ראשי” בהגדרה של הפעלת חשבון, ביטול הגדרה זו יגרום לכך שלא יהיה ניתן להרשם למערכת.</em>',
+	'SEND_TEST_EMAIL'				=> 'Send a test email',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'This will send a test email to the address defined in your account.',
 	'SMTP_AUTH_METHOD'				=> 'שיטת אימות ל־SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'בשימוש רק אם שם המשתמש/הססמה נקבעו, שאל את ספק האחסון שלך אם אינך בטוח באיזו שיטה להשתמש.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -576,6 +581,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'הגדרות SMTP',
 	'SMTP_USERNAME'					=> 'שם משתמש ל־SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'הזן שם משתמש רק אם שרת ה־SMTP שלך דורש זאת.',
+	'TEST_EMAIL_SENT'				=> 'The test email has been sent.<br />If you don’t receive it, please check your emails configuration.<br /><br />If you require assistance, please visit the <a href="https://www.phpbb.com/community/">phpBB support forums</a>.',
 	'USE_SMTP'						=> 'השתמש בשרת SMTP לדואר אלקטרוני',
 	'USE_SMTP_EXPLAIN'				=> 'בחר “כן” אם אתה רוצה או חייב לשלוח דואר אלקטרוני דרך שרת קרוי במקום בפונקציית דואר מקומית.',
 ));
@@ -584,20 +590,20 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'כאן אתה יכול להפעיל ולנהל את השימוש ב־Jabber לשליחת הודעות מיידיות והודעות מערכת. Jabber הוא מקור פרוטוקול פתוח ולכן זמין לשימוש לכולם. כמה שרתי Jabber כוללים כניסות או העברות אשר מאפשרות לך ליצור קשר עם משתמשים בשרתים אחרים. לא כל השרתים מציעים את כל ההעברות ושינויים בפרוטוקולים יכולים למנוע מהעברות להתבצע. וודא שאתה מזמין פרטי חשבון שכבר רשום – phpBB3 תשתמש בפרטים אשר אתה מזין כאן.',
 
-	'JAB_ENABLE'					=> 'הפעל Jabber',
-	'JAB_ENABLE_EXPLAIN'			=> 'מפעיל שימוש בשליחת הודעות דרך Jabber.',
-	'JAB_GTALK_NOTE'				=> 'שים לב ש־GTalk לא יעבוד מפני שהפונקציה <samp>dns_get_record</samp> לא נמצאה. פונקציה זו אינה זמינה ב־PHP4, ואינה מיושמת במערכות Windows. היא כרגע אינה עובדת על מערכות המבוססות על BSD, כולל מערכת ההפעלה Mac.',
-	'JAB_PACKAGE_SIZE'				=> 'גודל חבילת Jabber',
-	'JAB_PACKAGE_SIZE_EXPLAIN'		=> 'זהו מספר ההודעות אשר נשלחות בחבילה אחת. אם נקבע ל־0 ההודעה תשלח באופן מיידי ולא תמתין לשליחת מאוחרת יותר.',
-	'JAB_PASSWORD'					=> 'ססמה ל־Jabber',
-	'JAB_PASSWORD_EXPLAIN'			=> '<em><strong>אזהרה:</strong> ססמה זו תשמר כטקסט פשוט בבסיס הנתונים ותוצג לכל אחד אשר יכול לגשת לבסיס הנתונים או אשר יכול לצפות בעמוד ההגדרות.</em>',
-	'JAB_PORT'						=> 'יציאת Jabber',
-	'JAB_PORT_EXPLAIN'				=> 'השאר ריק אלא אם כן אתה יודע שהיציאה היא לא 5222.',
-	'JAB_SERVER'					=> 'שרת Jabber',
-	'JAB_SERVER_EXPLAIN'			=> 'ראה %sjabber.org%s לרשימת שרתים.',
-	'JAB_SETTINGS_CHANGED'			=> 'הגדרות ה־Jabber שונו בהצלחה.',
-	'JAB_USE_SSL'					=> 'השתמש ב־SSL כדי להתחבר',
-	'JAB_USE_SSL_EXPLAIN'			=> 'אם פעיל, חיבור מאובטח ינסה להתבצע. יציאת ה־Jabber תשונה ל־5223 אם היציאה 5222 צוינה.',
-	'JAB_USERNAME'					=> 'שם משתמש ל־Jabber או JID',
-	'JAB_USERNAME_EXPLAIN'			=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
+	'JAB_ENABLE'				=> 'הפעל Jabber',
+	'JAB_ENABLE_EXPLAIN'		=> 'מפעיל שימוש בשליחת הודעות דרך Jabber.',
+	'JAB_GTALK_NOTE'			=> 'שים לב ש־GTalk לא יעבוד מפני שהפונקציה <samp>dns_get_record</samp> לא נמצאה. פונקציה זו אינה זמינה ב־PHP4, ואינה מיושמת במערכות Windows. היא כרגע אינה עובדת על מערכות המבוססות על BSD, כולל מערכת ההפעלה Mac.',
+	'JAB_PACKAGE_SIZE'			=> 'גודל חבילת Jabber',
+	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'זהו מספר ההודעות אשר נשלחות בחבילה אחת. אם נקבע ל־0 ההודעה תשלח באופן מיידי ולא תמתין לשליחת מאוחרת יותר.',
+	'JAB_PASSWORD'				=> 'ססמה ל־Jabber',
+	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>אזהרה:</strong> ססמה זו תשמר כטקסט פשוט בבסיס הנתונים ותוצג לכל אחד אשר יכול לגשת לבסיס הנתונים או אשר יכול לצפות בעמוד ההגדרות.</em>',
+	'JAB_PORT'					=> 'יציאת Jabber',
+	'JAB_PORT_EXPLAIN'			=> 'השאר ריק אלא אם כן אתה יודע שהיציאה היא לא 5222.',
+	'JAB_SERVER'				=> 'שרת Jabber',
+	'JAB_SERVER_EXPLAIN'		=> 'ראה %sjabber.org%s לרשימת שרתים.',
+	'JAB_SETTINGS_CHANGED'		=> 'הגדרות ה־Jabber שונו בהצלחה.',
+	'JAB_USE_SSL'				=> 'השתמש ב־SSL כדי להתחבר',
+	'JAB_USE_SSL_EXPLAIN'		=> 'אם פעיל, חיבור מאובטח ינסה להתבצע. יציאת ה־Jabber תשונה ל־5223 אם היציאה 5222 צוינה.',
+	'JAB_USERNAME'				=> 'שם משתמש ל־Jabber או JID',
+	'JAB_USERNAME_EXPLAIN'		=> 'ציין שם משתמש רשום או JID תקין. שם המשתמש לא ייבדק לאימות. אם ציינת רק שם משתמש, אז ה־JID שלך יהיה שם המשתמש והשרת שציינת למעלה. או, ציין JID תקין, לדוגמה user@jabber.org.',
 ));

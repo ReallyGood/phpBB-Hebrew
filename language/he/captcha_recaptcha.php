@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'בשביל להשתמש בreCaptcha, אתה חייב לצור חשבון ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'קוד האימות החזותי ששלחת שגוי',
+	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
 	'RECAPTCHA_PUBLIC'				=> 'מפתח reCaptcha ציבורי',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'מפתח הreCaptcha הציבורי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
@@ -48,5 +49,4 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'מפתח הreCaptcha האישי שלך. ניתן לקבל מפתחות ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'בניסיון למנוע שליחות אוטומטיות, אנו דורשים כי תקליד את הטקסט המוצג לשדה הטקסט מתחת.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'התרחשה שגיאה בהתחברות לשירות RECAPTCHA: לא ניתן לפתוח חיבור. נא לנסות שוב מאוחר יותר.',
 ));
