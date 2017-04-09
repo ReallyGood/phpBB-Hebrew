@@ -1,9 +1,9 @@
-Subject: phpBB is correctly configured to send emails
+Subject: phpBB מוגדר כראוי לשליחת דוא״ל
 
-Hello {USERNAME},
+שלומות {USERNAME},
 
-Congratulations. If you received this email, phpBB is correctly configured to send emails.
+ברכותינו. אם הודעת דוא״ל זו התקבלה, סימן ש־phpBB מוגדר כראוי לשליחת דואר אלקטרוני.
 
-In case you require assistance, please visit the phpBB support forums - https://www.phpbb.com/community/
+במקרה שזקוקה לך עזרה נוספת, נא לפנות לפורומי התמיכה של phpBB‏ - https://www.phpbb.com/community
 
 {EMAIL_SIG}
