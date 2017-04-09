@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'he',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'בשביל להשתמש בreCaptcha, אתה חייב לצור חשבון ב<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'קוד האימות החזותי ששלחת שגוי',
+	'RECAPTCHA_INCORRECT'			=> 'The solution you provided was incorrect',
 	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
 
 	'RECAPTCHA_PUBLIC'				=> 'מפתח reCaptcha ציבורי',

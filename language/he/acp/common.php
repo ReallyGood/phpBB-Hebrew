@@ -486,11 +486,11 @@ $lang = array_merge($lang, array(
 	'DONT_SEND_STATISTICS'		=> 'חזור ללוח הבקרה למנהל הראשי אם אתה לא רוצה לשלוח מידע סטטיסטי לphpBB.',
 	'GO_ACP_MAIN'				=> 'עבור לעמוד הראשי בלוח הבקרה למנהל הראשי',
 	'HIDE_STATISTICS'			=> 'הסתר פרטים',
-	'SEND_STATISTICS'			=> 'שלח מידע סטטיסטי',
-	'SEND_STATISTICS_LONG'		=> 'Send statistical information',
+	'SEND_STATISTICS'			=> 'שלח סטטיסטיקות',
+	'SEND_STATISTICS_LONG'		=> 'שלח מידע סטטיסטי',
 	'SHOW_STATISTICS'			=> 'הצג פרטים',
 	'THANKS_SEND_STATISTICS'	=> 'תודה ששלחת את המידע.',
-	'FAIL_SEND_STATISTICS'		=> 'phpBB was unable to send statistics',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB לא הצליח לשלוח סטטיסטיקות',
 ));
 
 // Log Entries
