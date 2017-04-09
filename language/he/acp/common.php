@@ -226,18 +226,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'חזור',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
-	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
-	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
-	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
-	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
-	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
-	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'לא ניתן לשנות את הקבוצה של הקובץ',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'לא ניתן לשנות את ההרשאות של הקובץ',
+	'CANNOT_COPY_FILES'		=> 'לא ניתן להעתיק קבצים',
+	'CANNOT_CREATE_SYMLINK'	=> 'לא ניתן ליצור קישור סימבולי',
+	'CANNOT_DELETE_FILES'	=> 'לא ניתן למחוק קבצים מהמערכת',
+	'CANNOT_DUMP_FILE'		=> 'לא ניתן לייצר קובץ dump',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'לא ניתן לשכפל תיקייה',
+	'CANNOT_RENAME_FILE'	=> 'לא ניתן לשנות שם קובץ במערכת',
+	'CANNOT_TOUCH_FILES'	=> 'לא ניתן להסיק אם הקובץ קיים',
 
-	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
-	'EXCEPTION' => 'Exception',
+	'CONTAINER_EXCEPTION' => 'אירעה תקלה בבנייה של המכולה עקב הרחבה מותקנת. מסיבה זו, כל ההרחבות נוטרלו באופן זמני. נא לנסות לטהר את מטמון הפורום. כל ההרחבות יופעלו מחדש באופן אוטומטי ברגע שתיפתר הבעיה במכולה. אם תקלה זו ממשיכה, נא לבקר ב־<a href="https://www.phpbb.com/support">phpBB.com</a> לתמיכה.',
+	'EXCEPTION' => 'חריגה',
 
 	'COLOUR_SWATCH'			=> 'מאגר צבעים לשימוש בטוח ברשת',
 	'CONFIG_UPDATED'		=> 'ההגדרות עודכנו בהצלחה.',
@@ -245,7 +245,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.',
 	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
 	'CRON_NO_TASKS'			=> 'No cron tasks could be found.',
-	'CURRENT_VERSION'		=> 'Current version',
+	'CURRENT_VERSION'		=> 'גרסה נוכחית',
 
 	'DEACTIVATE'				=> 'הפסק',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'הנתיב שהוזן “%s” אינו קיים.',
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP של משתמש',
 	'IP_HOSTNAME'			=> 'כתובות IP או שמות שרתים',
 
-	'LATEST_VERSION'		=> 'Latest version',
+	'LATEST_VERSION'		=> 'גרסה אחרונה',
 	'LOAD_NOTIFICATIONS'			=> 'הצג התראות',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'הצג את ההתראות בכל עמוד (בדרך כלל בראש העמוד).',
 	'LOGGED_IN_AS'			=> 'אתה מחובר בתור:',
@@ -304,9 +304,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'יש לך כרגע את ההרשאות מ־%1$s. אתה יכול לגלוש במערכת עם הרשאות משתמש זה, אבל לא לגשת ללוח הבקרה למנהלים ראשיים מפני שהרשאות הניהול הראשי לא הועברו. אתה יכול <a href="%2$s"><strong>לחזור להרשאות שלך שנקבעו</strong></a> בכל זמן נתון.',
 	'PROCEED_TO_ACP'					=> '%sהמשך ללוח הבקרה למנהלים ראשיים%s',
 
-	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
+	'RELEASE_ANNOUNCEMENT'		=> 'הכרזה',
 	'REMIND'							=> 'הזכר',
-	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
+	'REPARSE_LOCK_ERROR'				=> 'ההתחדשות כבר נמצאת בביצוע בתהליך אחר.',
 	'RESYNC'							=> 'סנכרון מחדש',
 
 	'RUNNING_TASK'			=> 'משימות רצות: %s.',
@@ -328,9 +328,9 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'הכנס כל שם משתמש בשורה נפרדת.',
 	'USER_CONTROL_PANEL'	=> 'לוח בקרה למשתמש',
 
-	'UPDATE_NEEDED'			=> 'The board is not up to date.',
-	'UPDATE_NOT_NEEDED'		=> 'The board is up to date.',
-	'UPDATES_AVAILABLE'		=> 'Updates available:',
+	'UPDATE_NEEDED'			=> 'פורום זה אינו עדכני.',
+	'UPDATE_NOT_NEEDED'		=> 'פורום זה עדכני.',
+	'UPDATES_AVAILABLE'		=> 'עדכונים זמינים:',
 
 	'WARNING'				=> 'אזהרה',
 ));
@@ -442,11 +442,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'ערך',
 	'VERSIONCHECK_FAIL'			=> 'נכשל הניסיון לקבל מידע על הגרסה האחרונה.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'בדיקת גרסה מחדש',
-	'VERSION_CHECK'				=> 'Version check',
-	'VERSION_CHECK_EXPLAIN'		=> 'Checks to see if your phpBB installation is up to date.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Your phpBB installation is not up to date.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Your phpBB installation is not up to date.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Your phpBB installation is up to date. There are no updates available at this time.',
+	'VERSION_CHECK'				=> 'בדיקת גרסה',
+	'VERSION_CHECK_EXPLAIN'		=> 'בדיקה אם הגרסה של phpBB שברשותך עדכנית.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'הגרסה של phpBB שברשותך אינה עדכנית.<br />להלן קישור להכרזה על הגרסה החדשה, המכילה מידע נוסף כמו גם הנחיות לגבי ביצוע העדכון.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'הגרסה של phpBB שברשותך אינה עדכנית.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'הגרסה של phpBB שברשותך עדכנית. נכון לעכשיו אין עדכונים זמינים.',
 	'VIEW_ADMIN_LOG'			=> 'ראה מעקב אחר פעולות מנהלים ראשיים',
 	'VIEW_INACTIVE_USERS'		=> 'ראה משתמשים לא פעילים',
 
@@ -487,10 +487,10 @@ $lang = array_merge($lang, array(
 	'GO_ACP_MAIN'				=> 'עבור לעמוד הראשי בלוח הבקרה למנהל הראשי',
 	'HIDE_STATISTICS'			=> 'הסתר פרטים',
 	'SEND_STATISTICS'			=> 'שלח מידע סטטיסטי',
-	'SEND_STATISTICS_LONG'		=> 'Send statistical information',
+	'SEND_STATISTICS_LONG'		=> 'שליחת מידע סטטיסטי',
 	'SHOW_STATISTICS'			=> 'הצג פרטים',
 	'THANKS_SEND_STATISTICS'	=> 'תודה ששלחת את המידע.',
-	'FAIL_SEND_STATISTICS'		=> 'phpBB was unable to send statistics',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB לא הצליח לשלוח נתונים סטטיסטיים',
 ));
 
 // Log Entries
