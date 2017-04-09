@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_BBCODE'				=> 'הוסף BBCode חדש',
 
 	'BBCODE_DANGER'				=> 'ככל הנראה ה־BBCode אותו אתה מנסה להוסיף משתמש בתג {TEXT} בתוך תכונת HTML. קיימת אפשרות לאירוע אבטחה מסוג XSS. נסה להשתמש באפשרויות מגבילות יותר כמו {SIMPLETEXT} או {INTTEXT} במקום. המשך רק אם אתה מבין את הסיכון הקיים ואתה מבין שהשימוש ב־{TEXT} הוא בלתי נמנע.',
-	'BBCODE_DANGER_PROCEED'		=> 'המשך', //'אני מבין את הסיכון',
+	'BBCODE_DANGER_PROCEED'		=> 'המשך\', //\'אני מבין את הסיכון',
 
 	'BBCODE_ADDED'				=> 'BBCode נוסף בהצלחה.',
 	'BBCODE_EDITED'				=> 'BBCode נערך בהצלחה.',
@@ -78,22 +78,22 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'אינך יכול ליצור עוד BBCode, אנא מחק אחד או יותר על מנת ליצור BBCode חדש.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'כל טקסט, אותיות, מספרים וכדומה. אתה לא יכול להשתמש בטוקן זה בתגי HTML tags. במקום זאת נסה להשתמש ב־IDENTIFIER, INTTEXT או SIMPLETEXT.',
-		'SIMPLETEXT'	=> 'תווים מאותיות לטיניות (A-Z), מספרים, רווחים, פסיקים, נקודות, מינוס, פלוס, מקף ותבליט',
-		'INTTEXT'		=> 'אותיות יוניקוד, מספרים, רווחים, פסיקים, נקודות, מינוסים, פלוסים, מקף, מובלטים.',
-		'IDENTIFIER'	=> 'תווים מאותיות לטיניות (A-Z), מספרים, מקף ותבליט',
-		'NUMBER'		=> 'סדרת מספרים כלשהי',
-		'EMAIL'			=> 'כתובת דואר אלקטרוני תקנית.',
-		'URL'			=> 'כתובת אינטרנט תקנית של כל פרוטוקול (http, ftp וכדומה לא מותרות לשימוש כדי למנוע ניצולי JavaScript). אם לא צוין פרוטוקול “http://” נכנס כברירת מחדל.',
-		'LOCAL_URL'		=> 'קישור מקומי. הקישור מוכרח להיות יחסי לעמוד הנושא ולא יכול להכיל שם שרת או פרוטוקול, מכיוון שהקישורים יתחילו ב “%s”.',
-		'RELATIVE_URL'	=> 'קישור יחסי. אתה יכול להשתמש בזה כדי להתאים חלקים מהקישור, אך שים לב: קישור מלא הוא קישור יחסי חוקי. כשאתה רוצה להשתמש בכתובות יחסיות למערכת שלך, השתמש בתג LOCAL_URL.',
-		'COLOR'			=> 'צבע HTML, יכול להיות בצורת מספר <samp>#FFFF00</samp> או צבע CSS לדוגמה <samp>fuchsia</samp> או <samp>InactiveBorder</samp>'
+		'TEXT'			=> 'Any text, including foreign characters, numbers, etc… You should not use this token in HTML tags. Instead try to use IDENTIFIER, INTTEXT or SIMPLETEXT.',
+		'SIMPLETEXT'	=> 'Characters from the latin alphabet (A-Z), numbers, spaces, commas, dots, minus, plus, hyphen and underscore',
+		'INTTEXT'		=> 'Unicode letter characters, numbers, spaces, commas, dots, minus, plus, hyphen, underscore and whitespaces.',
+		'IDENTIFIER'	=> 'Characters from the latin alphabet (A-Z), numbers, hyphen and underscore',
+		'NUMBER'		=> 'Any series of digits',
+		'EMAIL'			=> 'A valid email address',
+		'URL'			=> 'A valid URL using any protocol (http, ftp, etc… cannot be used for javascript exploits). If none is given, “http://” is prefixed to the string.',
+		'LOCAL_URL'		=> 'A local URL. The URL must be relative to the topic page and cannot contain a server name or protocol, as links are prefixed with “%s”',
+		'RELATIVE_URL'	=> 'A relative URL. You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL. When you want to use relative URLs of your board, use the LOCAL_URL token.',
+		'COLOR'			=> 'A HTML colour, can be either in the numeric form <samp>#FF1234</samp> or a <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> such as <samp>fuchsia</samp> or <samp>InactiveBorder</samp>',
 	),
 ));
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'מעמוד זה אתה יכול להוסיף, להסיר ולערוך את האייקונים אשר המשתמשים יכולים להוסיף לנושאים או ההודעות שלהם. אייקונים אלו בדרך כלל מוצגים ליד כותרות הנושאים בעמוד הפורום, או כותרות ההודעות בעמוד הנושא. אתה יכול גם להתקין וליצור חבילות אייקונים חדשות.',
+	'ACP_ICONS_EXPLAIN'		=> 'From this page you can add, remove and edit the icons users may add to their topics or posts. These icons are generally displayed next to topic titles on the forum listing, or the post subjects in topic listings. You can also install and create new packages of icons.',
 	'ACP_SMILIES_EXPLAIN'	=> 'הסמיילים או ההבעות הם תמונות קטנות, מונפשות לפעמים אשר בשימוש להעברת הבעה או הרגשה. מעמוד זה אתה יכול להוסיף, להסיר ולערוך את הסמיילים אשר המשתמשים יכולים להשתמש בהם בהודעות וההודעות הפרטיות שלהם. אתה יכול גם להתקין וליצור חבילות סמיילים חדשות.',
 	'ADD_SMILIES'			=> 'הוסף כמה סמיילים',
 	'ADD_SMILEY_CODE'		=> 'הוסף קוד סמיילי נוסף',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES'			=> 'סמיילים בשימוש',
 	'CURRENT_SMILIES_EXPLAIN'	=> 'תבחר מה לבצע עם הסמיילים שזה עתה הותקנו.',
 
-	'DISPLAY_ON_POSTING'	=> 'הצג בעמוד שליחת הודעה',
+	'DISPLAY_ON_POSTING'		=> 'הצג בעמוד שליחת הודעה',
 	'DISPLAY_POSTING'			=> 'בעמוד השליחה',
 	'DISPLAY_POSTING_NO'		=> 'לא בעמוד השליחה',
 
@@ -123,83 +123,83 @@ $lang = array_merge($lang, array(
 
 	'ICONS_ADD'				=> 'הוסף אייקון חדש',
 	'ICONS_ADDED'			=> array(
-		0	=> 'לא נוספו אייקונים.',
-		1	=> 'האייקון נוסף בהצלח.',
-		2	=> 'האייקונים נוספו בהצלחה.',
+		0	=> 'No icons were added.',
+		1	=> 'The icon has been added successfully.',
+		2	=> 'The icons have been added successfully.',
 	),
-	'ICONS_CONFIG'			=> 'הגדרת האייקון',
-	'ICONS_DELETED'			=> 'האייקון הוסר בהצלחה.',
-	'ICONS_EDIT'			=> 'ערוך אייקון',
+	'ICONS_CONFIG'			=> 'Icon configuration',
+	'ICONS_DELETED'			=> 'The icon has been removed successfully.',
+	'ICONS_EDIT'			=> 'Edit icon',
 	'ICONS_EDITED'			=> array(
-		0	=> 'לא עודכנו אייקונים.',
-		1	=> 'האייקון עודכן בהצלחה.',
-		2	=> 'האייקונים עודכנו בהצלחה.',
+		0	=> 'No icons were updated.',
+		1	=> 'The icon has been updated successfully.',
+		2	=> 'The icons have been updated successfully.',
 	),
-	'ICONS_HEIGHT'			=> 'גובה האייקון',
-	'ICONS_IMAGE'			=> 'תמונת האייקון',
-	'ICONS_IMPORTED'		=> 'חבילת האייקונים הותקנה בהצלחה.',
-	'ICONS_IMPORT_SUCCESS'	=> 'חבילת האייקונים יובאה בהצלחה.',
-	'ICONS_LOCATION'		=> 'מיקום האייקון',
-	'ICONS_NOT_DISPLAYED'	=> 'האייקונים הבאים אינם מופיעים בעמוד שליחת הודעה',
-	'ICONS_ORDER'			=> 'סדר האייקונים',
-	'ICONS_URL'				=> 'קובץ תמונת האייקון',
-	'ICONS_WIDTH'			=> 'רוחב האייקון',
-	'IMPORT_ICONS'			=> 'התקן חבילת אייקונים',
-	'IMPORT_SMILIES'		=> 'התקן חבילת סמיילים',
+	'ICONS_HEIGHT'			=> 'Icon height',
+	'ICONS_IMAGE'			=> 'Icon image',
+	'ICONS_IMPORTED'		=> 'The icons pack has been installed successfully.',
+	'ICONS_IMPORT_SUCCESS'	=> 'The icons pack was imported successfully.',
+	'ICONS_LOCATION'		=> 'Icon location',
+	'ICONS_NOT_DISPLAYED'	=> 'The following icons are not displayed on the posting page',
+	'ICONS_ORDER'			=> 'Icon order',
+	'ICONS_URL'				=> 'Icon image file',
+	'ICONS_WIDTH'			=> 'Icon width',
+	'IMPORT_ICONS'			=> 'Install icons package',
+	'IMPORT_SMILIES'		=> 'Install smilies package',
 
-	'KEEP_ALL'			=> 'תשאיר הכל',
+	'KEEP_ALL'			=> 'Keep all',
 
-	'MASS_ADD_SMILIES'	=> 'הוסף מספר סמיילים',
+	'MASS_ADD_SMILIES'	=> 'Add multiple smilies',
 
-	'NO_ICONS_ADD'		=> 'אין אייקונים להוסיף.',
-	'NO_ICONS_EDIT'		=> 'אין אייקונים לשנות',
-	'NO_ICONS_EXPORT'	=> 'אין לך אייקונים איתם ליצור חבילה.',
-	'NO_ICONS_PAK'		=> 'לא נמצאה חבילת אייקונים',
-	'NO_SMILIES_ADD'	=> 'אין סמיילים פנויים להוספה.',
-	'NO_SMILIES_EDIT'	=> 'אין סמיילים פנויים לשינוי.',
-	'NO_SMILIES_EXPORT'	=> 'אין לך סמיילים ליצור איתם חבילה.',
-	'NO_SMILIES_PAK'	=> 'לא נמצאו חבילות סמיילים.',
+	'NO_ICONS_ADD'		=> 'There are no icons available for adding.',
+	'NO_ICONS_EDIT'		=> 'There are no icons available for modifying.',
+	'NO_ICONS_EXPORT'	=> 'You have no icons with which to create a package.',
+	'NO_ICONS_PAK'		=> 'No icon packages found.',
+	'NO_SMILIES_ADD'	=> 'There are no smilies available for adding.',
+	'NO_SMILIES_EDIT'	=> 'There are no smilies available for modifying.',
+	'NO_SMILIES_EXPORT'	=> 'You have no smilies with which to create a package.',
+	'NO_SMILIES_PAK'	=> 'No smiley packages found.',
 
-	'PAK_FILE_NOT_READABLE'		=> '<samp>.pak</samp> לא הצליח לקרוא קובץ',
+	'PAK_FILE_NOT_READABLE'		=> 'Could not read <samp>.pak</samp> file.',
 
-	'REPLACE_MATCHES'	=> 'החלף התאמות',
+	'REPLACE_MATCHES'	=> 'Replace matches',
 
-	'SELECT_PACKAGE'			=> 'בחר קובץ חבילה',
-	'SMILIES_ADD'				=> 'הוסף סמיילי חדש',
+	'SELECT_PACKAGE'			=> 'Select a package file',
+	'SMILIES_ADD'				=> 'Add a new smiley',
 	'SMILIES_ADDED'				=> array(
-		0	=> 'לא נוספו סמיילים.',
-		1	=> 'הסמיילי נוסף בהצלחה.',
-		2	=> 'הסמיילים נוספו בהצלחה.',
+		0	=> 'No smilies were added.',
+		1	=> 'The smiley has been added successfully.',
+		2	=> 'The smilies have been added successfully.',
 	),
-	'SMILIES_CODE'				=> 'קוד הסמיילי',
-	'SMILIES_CONFIG'			=> 'הגדרת הסמיילי',
-	'SMILIES_DELETED'			=> 'הסמיילי הוסר בהצלחה.',
-	'SMILIES_EDIT'				=> 'ערוך סמיילי',
-	'SMILIE_NO_CODE'			=> 'הסמיילי “%s” לא נוסף, מכיוון שלא הוזן הקוד.',
-	'SMILIE_NO_EMOTION'			=> 'הסמיילי “%s” לא נוסף, מכיוון שלא הוזנה ההבעה.',
-	'SMILIE_NO_FILE'			=> 'הסמיילי “%s” לא נוסף, מכיוון שהקובץ חסר.',
+	'SMILIES_CODE'				=> 'Smiley code',
+	'SMILIES_CONFIG'			=> 'Smiley configuration',
+	'SMILIES_DELETED'			=> 'The smiley has been removed successfully.',
+	'SMILIES_EDIT'				=> 'Edit smiley',
+	'SMILIE_NO_CODE'			=> 'The smiley “%s” was ignored, as there was no code entered.',
+	'SMILIE_NO_EMOTION'			=> 'The smiley “%s” was ignored, as there was no emotion entered.',
+	'SMILIE_NO_FILE'			=> 'The smiley “%s” was ignored, as the file is missing.',
 	'SMILIES_EDITED'			=> array(
-		0	=> 'לא עודכנו סמיילים.',
-		1	=> 'הסמיילי עודכן בהצלחה.',
-		2	=> 'הסמיילים עודכנו בהצלחה.',
+		0	=> 'No smilies were updated.',
+		1	=> 'The smiley has been updated successfully.',
+		2	=> 'The smilies have been updated successfully.',
 	),
-	'SMILIES_EMOTION'			=> 'הבעה',
-	'SMILIES_HEIGHT'			=> 'גובה הסמיילי',
-	'SMILIES_IMAGE'				=> 'תמונת הסמיילי',
-	'SMILIES_IMPORTED'			=> 'חבילת הסמיילים הותקנה בהצלחה.',
-	'SMILIES_IMPORT_SUCCESS'	=> 'חבילת הסמיילים נוספה יובאה.',
-	'SMILIES_LOCATION'			=> 'מיקום הסמיילי',
-	'SMILIES_NOT_DISPLAYED'		=> 'הסמיילים הבאים אינם מופיעים בעמוד שליחת הודעות',
-	'SMILIES_ORDER'				=> 'סדר הסמיילי',
-	'SMILIES_URL'				=> 'קובץ תמונה של הסמיילי',
-	'SMILIES_WIDTH'				=> 'רוחב הסמיילי',
+	'SMILIES_EMOTION'			=> 'Emotion',
+	'SMILIES_HEIGHT'			=> 'Smiley height',
+	'SMILIES_IMAGE'				=> 'Smiley image',
+	'SMILIES_IMPORTED'			=> 'The smilies pack has been installed successfully.',
+	'SMILIES_IMPORT_SUCCESS'	=> 'The smilies pack was imported successfully.',
+	'SMILIES_LOCATION'			=> 'Smiley location',
+	'SMILIES_NOT_DISPLAYED'		=> 'The following smilies are not displayed on the posting page',
+	'SMILIES_ORDER'				=> 'Smiley order',
+	'SMILIES_URL'				=> 'Smiley image file',
+	'SMILIES_WIDTH'				=> 'Smiley width',
 
 	'TOO_MANY_SMILIES'			=> array(
-		1	=> 'ההגבלה של סמיילי %d הושגה.',
-		2	=> 'ההגבלה של %d סמיילים הושגה.',
+		1	=> 'Limit of %d smiley reached.',
+		2	=> 'Limit of %d smilies reached.',
 	),
 
-	'WRONG_PAK_TYPE'		=> 'החבילה שצוינה לא מכילה את הסוג הדרוש.',
+	'WRONG_PAK_TYPE'	=> 'The specified package does not contain the appropriate data.',
 ));
 
 // Word censors
@@ -207,19 +207,19 @@ $lang = array_merge($lang, array(
 	'ACP_WORDS_EXPLAIN'		=> 'מלוח בקרה זה אתה יכול להוסיף, לערוך, ולהסיר מילים אשר יצונזרו אוטומטית בפורומים. אנשים עדיין יכולים להירשם עם שמות משתמשים המכילים מילים אלו. סימנים כוללים (*) מתקבלים בשדה המילה.',
 	'ADD_WORD'				=> 'הוסף מילה חדשה',
 
-	'EDIT_WORD'				=> 'ערוך צנזור מילים.',
-	'ENTER_WORD'			=> 'אתה מוכרח לכתוב מילה ואת התחליף שלה.',
+	'EDIT_WORD'		=> 'ערוך צנזור מילים.',
+	'ENTER_WORD'	=> 'אתה מוכרח לכתוב מילה ואת התחליף שלה.',
 
-	'NO_WORD'				=> 'לא נבחרה מילה לשינוי.',
+	'NO_WORD'	=> 'לא נבחרה מילה לשינוי.',
 
-	'REPLACEMENT'			=> 'תחליף',
+	'REPLACEMENT'	=> 'תחליף',
 
-	'UPDATE_WORD'			=> 'עדכן צנזור מילים',
+	'UPDATE_WORD'	=> 'עדכן צנזור מילים',
 
-	'WORD'					=> 'מילה',
-	'WORD_ADDED'			=> 'מילת הצנזור נוספה בהצלחה.',
-	'WORD_REMOVED'			=> 'המילה שנבחרה הוסרה בהצלחה.',
-	'WORD_UPDATED'			=> 'המילה עודכנה בהצלחה.',
+	'WORD'				=> 'מילה',
+	'WORD_ADDED'		=> 'מילת הצנזור נוספה בהצלחה.',
+	'WORD_REMOVED'		=> 'המילה שנבחרה הוסרה בהצלחה.',
+	'WORD_UPDATED'		=> 'המילה עודכנה בהצלחה.',
 ));
 
 // Ranks
@@ -246,9 +246,9 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'		=> 'כאן אתה יכול לנהל את שמות המשתמשים אשר לא ניתנים לשימוש. שמות משתמשים לא מורשים יכולים לקבל את הסימן הכולל *.',
-	'ADD_DISALLOW_EXPLAIN'		=> 'אתה יכול לחסום שם משתמש בעזרת הסימן הכולל * כדי להתאים לכל תו.',
-	'ADD_DISALLOW_TITLE'		=> 'הוסף שם משתמש לא מורשה',
+	'ACP_DISALLOW_EXPLAIN'	=> 'כאן אתה יכול לנהל את שמות המשתמשים אשר לא ניתנים לשימוש. שמות משתמשים לא מורשים יכולים לקבל את הסימן הכולל *.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'אתה יכול לחסום שם משתמש בעזרת הסימן הכולל * כדי להתאים לכל תו.',
+	'ADD_DISALLOW_TITLE'	=> 'הוסף שם משתמש לא מורשה',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'אתה יכול למחוק שם משתמש לא מורשה על ידי בחירתו מהרשימה ולחיצה על שלח.',
 	'DELETE_DISALLOW_TITLE'		=> 'מחק שם משתמש לא מורשה',
@@ -262,9 +262,9 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'		=> 'מעמוד זה תוכל לנהל את הסיבות עבור הדיווחים ולהבחין בין הודעות כאשר אתה לא מאשר אותן. ישנה סיבת ברירת מחדל אחת, המסומנת ב־* (כוכבית), שאינך יכול למחוק. סיבה זאת נמצאת בשימוש עבור דיווח מותאם אישית, אם אין סיבה מתאימה.',
-	'ADD_NEW_REASON'			=> 'הוסף סיבה חדשה',
-	'AVAILABLE_TITLES'			=> 'פנוי למיקום כותרות הסיבות',
+	'ACP_REASONS_EXPLAIN'	=> 'Here you can manage the reasons used in reports and denial messages when disapproving posts. There is one default reason (marked with a *) you are not able to remove, this reason is normally used for custom messages if no reason fits.',
+	'ADD_NEW_REASON'		=> 'הוסף סיבה חדשה',
+	'AVAILABLE_TITLES'		=> 'פנוי למיקום כותרות הסיבות',
 
 	'IS_NOT_TRANSLATED'			=> 'מוקמה <strong>לא</strong> הסיבה',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'מוקמה. אם אתה רוצה לספק את טופס המיקום, ציין את המפתח העדכני מקובץ השפות תחת סיבות לדיווח. <strong>לא</strong> הסיבה',
@@ -287,5 +287,5 @@ $lang = array_merge($lang, array(
 	'REASON_TITLE_TRANSLATED'	=> 'כותרת הסיבה המוצגת',
 	'REASON_UPDATED'			=> 'הסיבה עודכנה בהצלחה.',
 
-	'USED_IN_REPORTS'			=> 'בשימוש בדיווחים',
+	'USED_IN_REPORTS'		=> 'בשימוש בדיווחים',
 ));

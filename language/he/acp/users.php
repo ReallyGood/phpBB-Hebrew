@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'אתה לא יכול להסיר את חשבון משתמש האורח.',
 	'CANNOT_REMOVE_FOUNDER'			=> 'אינך מורשה להסיר חשבונות של מייסדים.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'אינך מורשה להסיר חשבון של עצמך.',
-	'CANNOT_SET_FOUNDER_IGNORED'		=> 'אתה לא יכול לאפשר למשתמשים מהם אתה מתעלם להיות מייסדים.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'אתה לא יכול לאפשר למשתמשים מהם אתה מתעלם להיות מייסדים.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'אתה צריך להפעיל את המשתמשים לפני שאתה מאפשר להם להיות מייסדים, רק משתמשים פעילים ניתנים.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'אתה נדרש למלא שדה זה רק אם אתה מעוניין לשנות את הדואר האלקטרוני של המתשמש.',
 
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'קבוצות מוגדרות מראש שהמשתמש חבר בהם',
 	'USER_LIFTED_NR'				=> 'מעמד הנרשם לאחרונה הוסר בהצלחה מן המשתמש.',
 	'USER_NO_ATTACHMENTS'			=> 'אין קבצים מצורפים להצגה.',
-	'USER_NO_POSTS_TO_DELETE'		=> 'למשתמש זה אין הודעות לשמירה או למחיקה.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'למשתמש זה אין הודעות לשמירה או למחיקה.',
 	'USER_OUTBOX_EMPTIED'			=> 'תיבת ההודעות הפרטיות של המשתמש רוקנה בהצלחה.',
 	'USER_OUTBOX_EMPTY'				=> 'תיבת ההודעות הפרטיות היוצאות של המשתמש כבר הייתה ריקה.',
 	'USER_OVERVIEW_UPDATED'			=> 'פרטי משתמש עודכנו.',
