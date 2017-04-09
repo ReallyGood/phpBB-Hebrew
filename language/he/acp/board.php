@@ -161,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'כאן אתה יכול לקבוע את כל הגדרות השליחה.',
 	'ALLOW_POST_LINKS'					=> 'אפשר קישורים בהודעות/הודעות פרטיות',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'אם לא מורשה התג <code>[URL]</code> של BBCode והקישורים האוטומטיים כבויים',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Allowed schemes in links',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Users can only post schemeless URLs or one of the comma-separated list of allowed schemes.',
 	'ALLOW_POST_FLASH'					=> 'אפשר שימוש בתג <code>[FLASH]</code> של BBCode בהודעות. ',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'אם לא מורשה התג <code>[FLASH]</code> של BBCode כבוי בהודעות. אחרת מערכת ההרשאות שולטת על המשתמשים אשר יכולים להשתמש בתג <code>[FLASH]</code> של BBCode.',
 
@@ -565,6 +567,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_EMAIL_EXPLAIN'			=> 'אם נקבע לכבוי, לא ישלחו הודעות דואר אלקטרוני על־ידי המערכת בכלל. <em>שים לב שכדי להפעיל חשבון על ידי משתמש או מנהל ראשי נדרש שאפשרות זו תהיה זמינה. אם כרגע מוגדר ל“משתמש” או “מנהל ראשי” בהגדרה של הפעלת חשבון, ביטול הגדרה זו יגרום לכך שלא יהיה ניתן להרשם למערכת.</em>',
 	'SEND_TEST_EMAIL'				=> 'שליחת הודעת בדיקה',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'אפשרות זו תשלח הודעת בדיקה לכתובת הדוא״ל המוגדרת בחשבון שלך.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Allow self-signed SSL certificates',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Allow connections to SMTP server with self-signed SSL certificate.<em><strong>Warning:</strong> Allowing self-signed SSL certificates may cause security implications.</em>',
 	'SMTP_AUTH_METHOD'				=> 'שיטת אימות ל־SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'בשימוש רק אם שם המשתמש/הססמה נקבעו, שאל את ספק האחסון שלך אם אינך בטוח באיזו שיטה להשתמש.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -581,7 +585,12 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'הגדרות SMTP',
 	'SMTP_USERNAME'					=> 'שם משתמש ל־SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'הזן שם משתמש רק אם שרת ה־SMTP שלך דורש זאת.',
+	'SMTP_VERIFY_PEER'				=> 'Verify SSL certificate',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Require verification of SSL certificate used by SMTP server.<em><strong>Warning:</strong> Connecting peers with unverified SSL certificates may cause security implications.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Verify SMTP peer name',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Require verification of peer name for SMTP servers using SSL / TLS connections.<em><strong>Warning:</strong> Connecting to unverified peers may cause security implications.</em>',
 	'TEST_EMAIL_SENT'				=> 'הודעת הבדיקה נשלחה.<br />אם לא קיבלת אותה, נא לבדוק את הגדרות הדוא״ל שלך.<br /><br />אם נדרשת עזרה נוספת, נא לבקר ב<a href="https://www.phpbb.com/community/">פורום התמיכה של phpBB</a>.',
+
 	'USE_SMTP'						=> 'השתמש בשרת SMTP לדואר אלקטרוני',
 	'USE_SMTP_EXPLAIN'				=> 'בחר “כן” אם אתה רוצה או חייב לשלוח דואר אלקטרוני דרך שרת קרוי במקום בפונקציית דואר מקומית.',
 ));
