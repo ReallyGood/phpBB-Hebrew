@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> 'כל הפורומים',
 	'ALL_MESSAGES'					=> 'כל ההודעות',
 	'ALL_POSTS'						=> 'כל ההודעות',
-	'ALL_TIMES'						=> 'כל הזמנים הם <abbr title="%2$s">%1$s</abbr>',
+	'ALL_TIMES'						=> 'כל הזמנים הם <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'כל הנושאים',
 	'ALT_TEXT'						=> 'מלל חלופי',
 	'AND'							=> 'וגם',
