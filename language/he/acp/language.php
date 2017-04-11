@@ -37,12 +37,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'							=> 'קבצי שפה של לוח הבקרה למנהל הראשי',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'		=> 'כאן אתה יכול להתקין/להסיר חבילות שפה. חבילת השפה ברירת המחדל מסומנת בכוכבית (*).',
+	'ACP_FILES'						=> 'קבצי שפה של לוח הבקרה למנהל הראשי',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'כאן אתה יכול להתקין/להסיר חבילות שפה. חבילת השפה ברירת המחדל מסומנת בכוכבית (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'			=> 'האם אתה בטוח שברצונך למחוק את “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'האם אתה בטוח שברצונך למחוק את “%s”?',
 
-	'INSTALLED_LANGUAGE_PACKS'			=> 'חבילות שפה מותקנות',
+	'INSTALLED_LANGUAGE_PACKS'		=> 'חבילות שפה מותקנות',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'פרטי חבילת השפה עודכנו בהצלחה.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'חבילת השפה כבר מותקנת.',
@@ -61,18 +61,18 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'קוד ISO',
 	'LANG_LOCAL_NAME'					=> 'שם מקומי',
 
-	'MISSING_LANG_FILES'				=> 'קבצי שפה חסרים',
-	'MISSING_LANG_VARIABLES'			=> 'משתני שפה חסרים',
+	'MISSING_LANG_FILES'		=> 'קבצי שפה חסרים',
+	'MISSING_LANG_VARIABLES'	=> 'משתני שפה חסרים',
 
-	'NO_FILE_SELECTED'					=> 'אינך ציינת קובץ שפה.',
-	'NO_LANG_ID'						=> 'אינך ציינת חבילת שפות',
-	'NO_REMOVE_DEFAULT_LANG'			=> 'אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />אם אתה באמת רוצה למחוק את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'		=> 'אין חבילות שפה לא מותקנות.',
+	'NO_FILE_SELECTED'				=> 'אינך ציינת קובץ שפה.',
+	'NO_LANG_ID'					=> 'אינך ציינת חבילת שפות',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'אינך יכול למחוק את שפת ברירת המחדל של המערכת. <br />אם אתה באמת רוצה למחוק את החבילה, שנה את חבילת ברירת המחדל של המערכת תחילה.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'אין חבילות שפה לא מותקנות.',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'קבצי השפה הבאים חסרים מתיקית השפה “%s”',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'משתני השפה הבאים חסרים מחבילת השפה “%s”',
 
-	'UNINSTALLED_LANGUAGE_PACKS'		=> 'חבילות שפה לא מותקנת',
-	
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'חבילות שפה לא מותקנת',
+
 	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'צפה במאגר השפות',
 ));

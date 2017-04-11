@@ -38,19 +38,19 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'					=> 'שעה',
-	'30_MINS'					=> 'חצי שעה',
-	'6_HOURS'					=> '6 שעות',
+	'1_HOUR'		=> 'שעה',
+	'30_MINS'		=> 'חצי שעה',
+	'6_HOURS'		=> '6 שעות',
 
-	'ACP_BAN_EXPLAIN'			=> 'כאן תוכל לנהל את חסימת המשתמשים לפי שם, IP או כתובת דואר אלקטרוני. שיטות אלו מונעות ממשתמש להיכנס לכל חלק של המערכת. תוכל לתת סיבה קצרה (מקסימום 3000 תווים) לחסימה אם תרצה. הסיבה תוצג ביומן המנהלים הראשיים. ניתן לציין גם את אורך הזמן של החסימה. אם אתה רוצה שהחסימה תסתיים בתאריך מסוים במקום לאחר תקופת זמן שנקבעה בחר ב<span style="text-decoration: underline;">עד -&gt;</span> לאורך החסימה והזן תאריך בתבנית <kbd>YYYY-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'	=> 'כאן תוכל לנהל את חסימת המשתמשים לפי שם, IP או כתובת דואר אלקטרוני. שיטות אלו מונעות ממשתמש להיכנס לכל חלק של המערכת. תוכל לתת סיבה קצרה (מקסימום 3000 תווים) לחסימה אם תרצה. הסיבה תוצג ביומן המנהלים הראשיים. ניתן לציין גם את אורך הזמן של החסימה. אם אתה רוצה שהחסימה תסתיים בתאריך מסוים במקום לאחר תקופת זמן שנקבעה בחר ב<span style="text-decoration: underline;">עד -&gt;</span> לאורך החסימה והזן תאריך בתבנית <kbd>YYYY-MM-DD</kbd>.',
 
-	'BAN_EXCLUDE'				=> 'שחרר מחסימה',
-	'BAN_LENGTH'				=> 'אורך החסימה',
-	'BAN_REASON'				=> 'סיבה לחסימה',
-	'BAN_GIVE_REASON'			=> 'הסיבה המוצגת לחסום',
-	'BAN_UPDATE_SUCCESSFUL'		=> 'רשימת החסומים עודכנה בהצלחה.',
-	'BANNED_UNTIL_DATE'			=> 'עד %s', // לדוגמה: "עד ב' 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'		=> '%1$s (עד %2$s)', // לדוגמה: "7 ימים (עד ג' 14.Jul.2009, 14:44)"
+	'BAN_EXCLUDE'			=> 'שחרר מחסימה',
+	'BAN_LENGTH'			=> 'אורך החסימה',
+	'BAN_REASON'			=> 'סיבה לחסימה',
+	'BAN_GIVE_REASON'		=> 'הסיבה המוצגת לחסום',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'רשימת החסומים עודכנה בהצלחה.',
+	'BANNED_UNTIL_DATE'		=> 'עד %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (עד %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'חסום כתובת דואר אלקטרוני אחת או יותר',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את כתובות הדואר האלקטרוני שהוזנו מכל החסימות הנוכחיות.',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'IP_BAN'					=> 'חסום כתובת IP אחת או יותר',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'אפשר כדי לשחרר את כתובות הIP שהוזנו מכל החסימות הנוכחיות.',
-	'IP_BAN_EXPLAIN'			=> 'כדי לציין כמה כתובות IP או שמות שרתים, הזן כל אחד מהם בשורה חדשה. כדי לציין טווח של כתובות IP הפרד את ההתחלה והסיום עם מקף (-), כדי לציין תו משלים השתמש ב־“*”.',
+	'IP_BAN_EXPLAIN'			=> 'To specify several different IPs or hostnames enter each on a new line. To specify a range of IP addresses separate the start and end with a hyphen (-), to specify a wildcard use “*”.',
 	'IP_HOSTNAME'				=> 'כתובות IP או שמות שרתים',
 	'IP_NO_BANNED'				=> 'אין כתובות IP חסומות',
 	'IP_UNBAN'					=> 'בטל חסימה או שחרור לכתובות IP',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'OPTIONS_BANNED'			=> 'נחסם',
 	'OPTIONS_EXCLUDED'			=> 'שוחרר',
 
-	'PERMANENT'					=> 'תמידית',
+	'PERMANENT'		=> 'תמידית',
 
 	'UNTIL'						=> 'עד',
 	'USER_BAN'					=> 'חסום משתמש אחד או יותר על ידי שם משתמש',

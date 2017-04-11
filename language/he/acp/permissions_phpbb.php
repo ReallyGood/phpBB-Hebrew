@@ -120,6 +120,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'רשאי לכתוב נושא חדש',
 	'ACL_F_STICKY'		=> 'רשאי לכתוב נושאים דביקים',
 	'ACL_F_ANNOUNCE'	=> 'רשאי לכתוב הכרזות',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'רשאי לכתוב הכרזה גלובלית',
 	'ACL_F_REPLY'		=> 'רשאי להגיב לנושאים',
 	'ACL_F_EDIT'		=> 'רשאי לערוך את הודעותיו',
 	'ACL_F_DELETE'		=> 'רשאי למחוק את הודעותיו לצמיתות',
@@ -156,9 +157,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'רשאי למזג נושאים',
 
 	'ACL_M_INFO'		=> 'רשאי לראות פרטי הודעה',
-	'ACL_M_WARN'	=> 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'רשאי להזהיר<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_PM_REPORT'	=> 'רשאי לסגור ולמחוק דיווחים של הודעות פרטיות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'רשאי לנהל חסימות<br /><em>הגדרה זו נקבעת באופן גלובלי בלבד. היא אינה שייכת לפורום מסוים.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
