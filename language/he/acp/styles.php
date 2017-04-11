@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'לא ניתן להסיר את העיצוב "%s" מכיוון שיש עיצוב אחד או יותר תחתיו.',
 	'STYLE_UNINSTALLED'			=> 'העיצוב "%s" הוסר בהצלחה.',
 	'STYLE_USED_BY'				=> 'בשימוש על ידי (כולל רובוטים)',
+	'STYLE_VERSION'				=> 'Style version',
 
 	'UNINSTALL_DEFAULT'		=> 'אין באפשרותך להסיר את עיצוב ברירת המחדל.',
 

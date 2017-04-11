@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'אפשר להירשם לנושאים לקבלת עדכונים',
 	'BOARD_PM'					=> 'אפשר הודעות פרטיות',
 	'BOARD_PM_EXPLAIN'			=> 'אפשר הודעות פרטיות לכל המשתמשים.',
-	'ALLOW_BOARD_NOTIFICATIONS' => 'אפשר התראות מערכת',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'לאפשר התרעות',
 ));
 
 // Avatar Settings
@@ -161,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'כאן אתה יכול לקבוע את כל הגדרות השליחה.',
 	'ALLOW_POST_LINKS'					=> 'אפשר קישורים בהודעות/הודעות פרטיות',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'אם לא מורשה התג <code>[URL]</code> של BBCode והקישורים האוטומטיים כבויים',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Allowed schemes in links',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Users can only post schemeless URLs or one of the comma-separated list of allowed schemes.',
 	'ALLOW_POST_FLASH'					=> 'אפשר שימוש בתג <code>[FLASH]</code> של BBCode בהודעות. ',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'אם לא מורשה התג <code>[FLASH]</code> של BBCode כבוי בהודעות. אחרת מערכת ההרשאות שולטת על המשתמשים אשר יכולים להשתמש בתג <code>[FLASH]</code> של BBCode.',
 
@@ -304,7 +306,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'כאן אתה יכול לבחור ולהגדיר תוספות, אשר ייעודן לחסום בוטים משלוח טפסים אוטומטית. תוספות אלו בדרך כלל עובדות על ידי כך שהן מאתגרות את המשתמשים עם <em>CAPTCHA</em>, מבחן שנועד להיות מסובך לפתרון של מחשבים.',
-	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'לתוספי הגנה מפני ספאם נוספים (ואולי גם טובים יותר), נא לבקר ב<a href="https://www.phpbb.com/go/anti-spam-ext"><strong>מסד הנתונים של phpBB.com</strong></a>. למידע נוסף על חסימת ספאם בפורום שלך, נא לבקר ב<a href="https://www.phpbb.com/go/anti-spam"><strong>בסיס הידע של phpBB.com</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'תוספות זמינות',
 	'CAPTCHA_UNAVAILABLE'					=> 'התוספת לא ניתנת לבחירה מכיוון שהדרישות שלה לא נענו.',
 	'CAPTCHA_GD'							=> 'ספריה גראפית',
@@ -350,8 +352,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'כתובת העוגייה',
 	'COOKIE_NAME'				=> 'שם העוגייה',
-	'COOKIE_NOTICE'				=> 'Cookie notice',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions.',
+	'COOKIE_NOTICE'				=> 'הודעה על השימוש בעוגיות',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'אם מאופשר תוצג הודעה על השימוש בעוגיות לכלל המשתמשים המבקרים בפורום. הודעה זה עשויה להיות מחוייבת בחוק כתלות בתוכן הקיים בפורום שלך וההרחבות המופעלות.',
 	'COOKIE_PATH'				=> 'נתיב העוגייה',
 	'COOKIE_SECURE'				=> 'אבטחת עוגייה',
 	'COOKIE_SECURE_EXPLAIN'		=> 'אם השרת שלך רץ דרך SSL, קבע לפעיל, אחרת השאר כבוי. אם מופעל והשרת אינו רץ דרך SSL, התוצאה תהיה שגיאות שרת בהעברות.',
@@ -537,8 +539,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'אם מאופשר, הדף המפנה שנשלח ייבדק מול שרת/קוד בהגדרות. זה יכול לגרום לבעיות בפורומים שמשתמשים במספר כתובות או התחברויות חיצוניות.',
 	'TPL_ALLOW_PHP'					=> 'אפשר php בערכות',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'אם האפשרות פעילה, משפטי <code>PHP</code> ו־<code>INCLUDEPHP</code> יזוהו ויבוצעו בערכות.',
-	'UPLOAD_CERT_VALID'				=> 'Validate upload certificate',
-	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'If enabled, certificates of remote uploads will be validated. This requires the CA bundle to be defined by the <samp>openssl.cafile</samp> or <samp>curl.cainfo</samp> setting in your php.ini.',
+	'UPLOAD_CERT_VALID'				=> 'לאמת אישור אבטחה בהעלאה',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'אם מופעל, אישורי אבטחה של העלאות מרוחקות יאומתו. אפשרות זו מחייבת הגדרת צרור האישורים של רשות האישורים בתור <samp>openssl.cafile</samp> או <samp>curl.cainfo</samp> s בקובץ ה־php.ini.',
 ));
 
 // Email Settings
@@ -563,8 +565,10 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'הטקסט אשר יצורף לכל הודעות הדואר האלקטרוני אשר המערכת שולחת.',
 	'ENABLE_EMAIL'					=> 'הפעל הודעות דואר אלקטרוני של המערכת',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'אם נקבע לכבוי, לא ישלחו הודעות דואר אלקטרוני על־ידי המערכת בכלל. <em>שים לב שכדי להפעיל חשבון על ידי משתמש או מנהל ראשי נדרש שאפשרות זו תהיה זמינה. אם כרגע מוגדר ל“משתמש” או “מנהל ראשי” בהגדרה של הפעלת חשבון, ביטול הגדרה זו יגרום לכך שלא יהיה ניתן להרשם למערכת.</em>',
-	'SEND_TEST_EMAIL'				=> 'Send a test email',
-	'SEND_TEST_EMAIL_EXPLAIN'		=> 'This will send a test email to the address defined in your account.',
+	'SEND_TEST_EMAIL'				=> 'שליחת הודעת בדיקה',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'אפשרות זו תשלח הודעת בדיקה לכתובת הדוא״ל המוגדרת בחשבון שלך.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Allow self-signed SSL certificates',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Allow connections to SMTP server with self-signed SSL certificate.<em><strong>Warning:</strong> Allowing self-signed SSL certificates may cause security implications.</em>',
 	'SMTP_AUTH_METHOD'				=> 'שיטת אימות ל־SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'בשימוש רק אם שם המשתמש/הססמה נקבעו, שאל את ספק האחסון שלך אם אינך בטוח באיזו שיטה להשתמש.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -581,7 +585,12 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'הגדרות SMTP',
 	'SMTP_USERNAME'					=> 'שם משתמש ל־SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'הזן שם משתמש רק אם שרת ה־SMTP שלך דורש זאת.',
-	'TEST_EMAIL_SENT'				=> 'The test email has been sent.<br />If you don’t receive it, please check your emails configuration.<br /><br />If you require assistance, please visit the <a href="https://www.phpbb.com/community/">phpBB support forums</a>.',
+	'SMTP_VERIFY_PEER'				=> 'Verify SSL certificate',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Require verification of SSL certificate used by SMTP server.<em><strong>Warning:</strong> Connecting peers with unverified SSL certificates may cause security implications.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Verify SMTP peer name',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Require verification of peer name for SMTP servers using SSL / TLS connections.<em><strong>Warning:</strong> Connecting to unverified peers may cause security implications.</em>',
+	'TEST_EMAIL_SENT'				=> 'הודעת הבדיקה נשלחה.<br />אם לא קיבלת אותה, נא לבדוק את הגדרות הדוא״ל שלך.<br /><br />אם נדרשת עזרה נוספת, נא לבקר ב<a href="https://www.phpbb.com/community/">פורום התמיכה של phpBB</a>.',
+
 	'USE_SMTP'						=> 'השתמש בשרת SMTP לדואר אלקטרוני',
 	'USE_SMTP_EXPLAIN'				=> 'בחר “כן” אם אתה רוצה או חייב לשלוח דואר אלקטרוני דרך שרת קרוי במקום בפונקציית דואר מקומית.',
 ));
