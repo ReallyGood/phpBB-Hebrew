@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'התוספת לא מתאימה למערכת, אנא ודא כי גרסת ה-PHP וה-PHPBB תואמות (ראה בעמוד הפירוט של התוספת).',
 	'EXTENSION_DIR_INVALID'		=> 'לתוספת מבנה תיקייה שגוי, ועל כן לא ניתן להתקינה.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'לא ניתן להתקין את התוספת, אנא בדוק את דרישות התוספת.',
+	'EXTENSION_NOT_INSTALLED'	=> 'ההרחבה %s אינה זמינה. נא לבדוק שהיא אכן הותקנה כראוי.',
 
 	'DETAILS'				=> 'פרטים',
 
@@ -65,9 +66,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_SUCCESS'		=> 'התוספת הופסקה בהצלחה',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'התוספת הופעלה בהצלחה',
 
-	'EXTENSION_NAME'		=> 'שם התוסף',
-	'EXTENSION_ACTIONS'		=> 'פעולות',
-	'EXTENSION_OPTIONS'		=> 'אפשרויות',
+	'EXTENSION_NAME'			=> 'שם התוסף',
+	'EXTENSION_ACTIONS'			=> 'פעולות',
+	'EXTENSION_OPTIONS'			=> 'אפשרויות',
 	'EXTENSION_INSTALL_HEADLINE'=> 'מתקין תוסף',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>הורד תוסף ממאגר התוספות של phpBB</li>

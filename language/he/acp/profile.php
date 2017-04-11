@@ -125,10 +125,10 @@ $lang = array_merge($lang, array(
 	'LETTER_NUM_SPACERS'		=> 'כל אות, ספרות ורווחים',
 	'LETTER_NUM_UNDERSCORE'		=> 'כל אות, ספרות ומקפים תחתונים',
 
-	'MAX_FIELD_CHARS'			=> 'מספר תווים מקסימלי',
-	'MAX_FIELD_NUMBER'			=> 'מספר המשתמשים הגבוהה ביותר',
-	'MIN_FIELD_CHARS'			=> 'מספר תווים מינימלי',
-	'MIN_FIELD_NUMBER'			=> 'מספר המשתמשים הנמוך ביותר',
+	'MAX_FIELD_CHARS'		=> 'מספר תווים מקסימלי',
+	'MAX_FIELD_NUMBER'		=> 'מספר המשתמשים הגבוהה ביותר',
+	'MIN_FIELD_CHARS'		=> 'מספר תווים מינימלי',
+	'MIN_FIELD_NUMBER'		=> 'מספר המשתמשים הנמוך ביותר',
 
 	'NO_FIELD_ENTRIES'			=> 'אין כניסות מוגדרות',
 	'NO_FIELD_ID'				=> 'אין שדה מזוהה מסוים.',
@@ -170,7 +170,7 @@ $lang = array_merge($lang, array(
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'הכנס טקסט ברירית מחדל שיוצג, ערך ברירת מחדל. השאר ריק אם אתה רוצה שזה יוצג ריק מלכתחילה.',
 	'TRANSLATE'						=> 'תרגם',
 
-	'USER_FIELD_NAME'				=> 'שם/כותרת שדה שתוצג למשתמש',
+	'USER_FIELD_NAME'	=> 'שם/כותרת שדה שתוצג למשתמש',
 
 	'VISIBILITY_OPTION'				=> 'אפשרויות תצוגה',
 ));
