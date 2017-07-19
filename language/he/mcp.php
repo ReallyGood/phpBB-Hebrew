@@ -135,16 +135,16 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Are you sure you want to lock all selected topics?',
 	'LOGS_CURRENT_TOPIC'		=> 'Currently viewing logs of:',
 	'LOGIN_EXPLAIN_MCP'			=> 'To moderate this forum you must login.',
-	'LOGVIEW_VIEWPOST'			=> 'View post',
-	'LOGVIEW_VIEWTOPIC'			=> 'View topic',
+	'LOGVIEW_VIEWPOST'			=> 'צפייה בהודעה',
+	'LOGVIEW_VIEWTOPIC'			=> 'צפייה בנושא',
 	'LOGVIEW_VIEWLOGS'			=> 'View topic log',
-	'LOGVIEW_VIEWFORUM'			=> 'View forum',
+	'LOGVIEW_VIEWFORUM'			=> 'צפייה בפורום',
 	'LOOKUP_ALL'				=> 'Look up all IPs',
 	'LOOKUP_IP'					=> 'Look up IP',
 
 	'MARKED_NOTES_DELETED'		=> 'Successfully removed all marked user notes.',
 
-	'MCP_ADD'						=> 'Add a warning',
+	'MCP_ADD'						=> 'הוסף אזהרה',
 
 	'MCP_BAN'					=> 'Banning',
 	'MCP_BAN_EMAILS'			=> 'Ban emails',
@@ -157,10 +157,10 @@ $lang = array_merge($lang, array(
 	'MCP_LOGS_TOPIC_VIEW'			=> 'Topic logs',
 
 	'MCP_MAIN'						=> 'Main',
-	'MCP_MAIN_FORUM_VIEW'			=> 'View forum',
+	'MCP_MAIN_FORUM_VIEW'			=> 'צפייה בפורום',
 	'MCP_MAIN_FRONT'				=> 'Front page',
 	'MCP_MAIN_POST_DETAILS'			=> 'Post details',
-	'MCP_MAIN_TOPIC_VIEW'			=> 'View topic',
+	'MCP_MAIN_TOPIC_VIEW'			=> 'צפייה בנושא',
 	'MCP_MAKE_ANNOUNCEMENT'			=> 'Modify to “Announcement”',
 	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Are you sure you want to change this topic to an “Announcement”?',
 	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Modify to “Announcements”',
