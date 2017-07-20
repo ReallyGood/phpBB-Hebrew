@@ -144,12 +144,12 @@ $lang = array_merge($lang, array(
 
 	'MARKED_NOTES_DELETED'		=> 'Successfully removed all marked user notes.',
 
-	'MCP_ADD'						=> 'Add a warning',
+	'MCP_ADD'						=> 'הוסף אזהרה',
 
-	'MCP_BAN'					=> 'Banning',
-	'MCP_BAN_EMAILS'			=> 'Ban emails',
+	'MCP_BAN'					=> 'חסימה',
+	'MCP_BAN_EMAILS'			=> 'חסימת דואר אלקטרוני',
 	'MCP_BAN_IPS'				=> 'Ban IPs',
-	'MCP_BAN_USERNAMES'			=> 'Ban Usernames',
+	'MCP_BAN_USERNAMES'			=> 'חסימת שמות משתמשים',
 
 	'MCP_LOGS'						=> 'Moderator logs',
 	'MCP_LOGS_FRONT'				=> 'Front page',
@@ -157,10 +157,10 @@ $lang = array_merge($lang, array(
 	'MCP_LOGS_TOPIC_VIEW'			=> 'Topic logs',
 
 	'MCP_MAIN'						=> 'Main',
-	'MCP_MAIN_FORUM_VIEW'			=> 'View forum',
+	'MCP_MAIN_FORUM_VIEW'			=> 'הצג פורום',
 	'MCP_MAIN_FRONT'				=> 'Front page',
 	'MCP_MAIN_POST_DETAILS'			=> 'Post details',
-	'MCP_MAIN_TOPIC_VIEW'			=> 'View topic',
+	'MCP_MAIN_TOPIC_VIEW'			=> 'הצג נושא',
 	'MCP_MAKE_ANNOUNCEMENT'			=> 'Modify to “Announcement”',
 	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Are you sure you want to change this topic to an “Announcement”?',
 	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Modify to “Announcements”',
@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMALS'				=> 'Modify to “Standard Topics”',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Standard Topics”?',
 
-	'MCP_NOTES'						=> 'User notes',
+	'MCP_NOTES'						=> 'הערות משתמש',
 	'MCP_NOTES_FRONT'				=> 'Front page',
 	'MCP_NOTES_USER'				=> 'User details',
 
@@ -211,11 +211,11 @@ $lang = array_merge($lang, array(
 
 	'MCP_VIEW_USER'			=> 'View warnings for a specific user',
 
-	'MCP_WARN'				=> 'Warnings',
+	'MCP_WARN'				=> 'אזהרות',
 	'MCP_WARN_FRONT'		=> 'Front page',
-	'MCP_WARN_LIST'			=> 'List warnings',
+	'MCP_WARN_LIST'			=> 'רשימת אזהרות',
 	'MCP_WARN_POST'			=> 'Warn for specific post',
-	'MCP_WARN_USER'			=> 'Warn user',
+	'MCP_WARN_USER'			=> 'הזהר משתמש',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Are you sure you want to move the selected posts?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Using the form below you can move selected posts into another topic. The posts will be split from this topic and merged into the other topic. These posts will not be reordered and will appear as if the users posted them to the new topic.<br />Please enter the destination topic id or click on “Select topic” to search for one.',
@@ -291,8 +291,8 @@ $lang = array_merge($lang, array(
 	'POST_RESTORED_SUCCESS'		=> 'This post has been restored successfully.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Post unlocked successfully.',
 
-	'READ_USERNOTES'			=> 'User notes',
-	'READ_WARNINGS'				=> 'User warnings',
+	'READ_USERNOTES'			=> 'הערות משתמש',
+	'READ_WARNINGS'				=> 'אזהרות משתמש',
 	'REPORTER'					=> 'Reporter',
 	'REPORTED'					=> 'Reported',
 	'REPORTED_BY'				=> 'Reported by',
@@ -339,13 +339,13 @@ $lang = array_merge($lang, array(
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Please select the forum you wish this global announcement to be displayed.',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'One or more of the selected topics are global announcements. Please select the forum you wish these to be displayed.',
 	'SELECT_MERGE'						=> 'Select for merge',
-	'SELECT_TOPICS_FROM'				=> 'Select topics from',
-	'SELECT_TOPIC'						=> 'Select topic',
-	'SELECT_USER'						=> 'Select user',
+	'SELECT_TOPICS_FROM'				=> 'בחר נושא מ',
+	'SELECT_TOPIC'						=> 'בחר נושא',
+	'SELECT_USER'						=> 'בחר משתמש',
 	'SORT_ACTION'						=> 'Log action',
-	'SORT_DATE'							=> 'Date',
+	'SORT_DATE'							=> 'תאריך',
 	'SORT_IP'							=> 'IP address',
-	'SORT_WARNINGS'						=> 'Warnings',
+	'SORT_WARNINGS'						=> 'אזהרות',
 	'SPLIT_AFTER'						=> 'Split topic from selected post onwards',
 	'SPLIT_FORUM'						=> 'Forum for new topic',
 	'SPLIT_POSTS'						=> 'Split selected posts',
@@ -404,9 +404,9 @@ $lang = array_merge($lang, array(
 	'USER_FEEDBACK_ADDED'			=> 'User feedback added successfully.',
 	'USER_WARNING_ADDED'			=> 'User warned successfully.',
 
-	'VIEW_DETAILS'			=> 'View details',
-	'VIEW_PM'				=> 'View private message',
-	'VIEW_POST'				=> 'View post',
+	'VIEW_DETAILS'			=> 'הצג פרטים',
+	'VIEW_PM'				=> 'הצג הודעה פרטית',
+	'VIEW_POST'				=> 'הצג הודעה',
 
 	'WARNED_USERS'			=> 'Warned users',
 	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them.',
