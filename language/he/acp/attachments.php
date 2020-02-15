@@ -68,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'שטח אחסון מרבי זמין לקבצים מצורפים למערכת השלמה, כאשר 0 הנו בלתי מוגבל.',
 	'ATTACH_TO_POST'					=> 'צרף קובץ להודעה',
 
-	'CAT_FLASH_FILES'			=> 'קבצי פלאש',
 	'CAT_IMAGES'				=> 'תמונות',
 	'CHECK_CONTENT'				=> 'בדוק קבצים מצורפים',
 	'CHECK_CONTENT_EXPLAIN'		=> 'בדפדפנים מסוימים ניתנת האפשרות לגרום לדפדפן לטעות בסוג הקובץ של הקבצים שמעלים לשרת. סימון אפשרות זו תוודא שקבצים ידועים שעשויים לגרום למצב כזה ידחו באופן אוטומטי.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'ארכיונים',
 	'EXT_GROUP_DOCUMENTS'			=> 'מסמכים',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'קבצים הניתנים להורדה',
-	'EXT_GROUP_FLASH_FILES'			=> 'קבצי פלאש',
 	'EXT_GROUP_IMAGES'				=> 'תמונות',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'טקסט רגיל',
 
@@ -111,15 +109,13 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'ממדים לקישור תמונה',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'הצג תמונה מצורפת כטקסט מקושר אם תמונה גדולה יותר מגודל זה. כדי לכבות אפשרות זו, קבע את הערכים ל־0 פיקסלים על 0 פיקסלים.',
-	'IMAGICK_PATH'				=> 'נתיב ל־ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'		=> 'נתיב מלא ליישום המרה imagemagick, למשל <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'מספר מרבי של קבצים מצורפים לכל הודעה',
 	'MAX_ATTACHMENTS_PM'			=> 'מספר מרבי של קבצים מצורפים לכל הודעה פרטית',
 	'MAX_EXTGROUP_FILESIZE'			=> 'גודל קובץ מרבי',
 	'MAX_IMAGE_SIZE'				=> 'ממדי תמונה מרביים',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'גודל מרבי של תמונות מצורפות. קבע את שני הערכים ל־0 פיקסלים על 0 פיקסלים כדי לכבות את בדיקת הממדים.',
-	'MAX_THUMB_WIDTH'				=> 'רוחב מרבי לתמונה מוקטנת בפיקסלים',
+	'MAX_THUMB_WIDTH'				=> 'רוחב/גובה מרבי לתמונה מוקטנת בפיקסלים',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'תמונה מוקטנת הנוצרת לא תעבור את הרוחב הנקבע כאן.',
 	'MIN_THUMB_FILESIZE'			=> 'גודל קובץ מינימלי לתמונה מוקטנת',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'אל תיצור תמונה מוקטנת לתמונות היותר קטנות מגודל זה.',
@@ -135,7 +131,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'לא צוינה קבוצת סיומות.',
 	'NO_FILE_CAT'				=> 'ללא',
 	'NO_IMAGE'					=> 'ללא תמונה',
-	'NO_THUMBNAIL_SUPPORT'		=> 'תמיכה בתמונות מוקטנות כבויה. לפעילות טובה יותר סיומת הספריה הגראפית צריכה להיות זמינה או imagemagick צריכה להיות מותקנת. שניהן לא נמצאו.',
 	'NO_UPLOAD_DIR'				=> 'תיקיית הקבצים שציינת לא קיימת.',
 	'NO_WRITE_UPLOAD'			=> 'תיקיית הקבצים שציינת לא ניתנת לכתיבה. אנא שנה את הגישות על מנת לאפשר לשרת לכתוב אליה.',
 
@@ -147,7 +142,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'הסר או בטל שחרור מרשימת כתובות ה־IP/שמות השרתים <em>הלא מורשים</em>',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'האם אתה בטוח כי ברצונך לאפס את סטטיסטיקות הקובץ?',
 
-	'SEARCH_IMAGICK'				=> 'אתר ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'אפשר/דחה רשימה',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'שנה את התנהגות ברירת המחדל כאשר אבטחת ההורדות פעילה של האפשר/דחה רשימה לזו של <strong>רשימה לבנה</strong> (אפשר) או <strong>רשימה שחורה</strong> (דחה).',
 	'SECURE_DOWNLOADS'				=> 'הפעל אבטחת הורדות',
