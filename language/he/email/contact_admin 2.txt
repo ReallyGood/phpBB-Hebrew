@@ -1,0 +1,25 @@
+
+
+היי {TO_USERNAME},
+
+The following is an e-mail sent to you through the administration contact page on "{SITENAME}".
+מצורף להלן אימייל שנשלח דרך עמוד יצירת הקשר של מנהל המערכת ב-"{SITENAME}".
+<!-- IF S_IS_REGISTERED -->
+ההודעה נשלחה על ידי חשבון באתר.
+שם משתמש: {FROM_USERNAME}
+כתובת מייל: {FROM_EMAIL_ADDRESS}
+IP : {FROM_IP_ADDRESS}
+פרופיל: {U_FROM_PROFILE}
+<!-- ELSE -->
+The message was sent from a guest who specified the following contact information:
+ההודעה נשלחה על ידי אורח שציין את פרטי ההתקשרות הבאים:
+שם: {FROM_USERNAME}
+כתובת מייל: {FROM_EMAIL_ADDRESS}
+IP : {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+וזוהי ההודעה:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

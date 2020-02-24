@@ -1,0 +1,62 @@
+/* Online image */
+.online { background-image: url("./icon_user_online.gif"); }
+
+.imageset.icon_user_online {
+	background-image: url("./icon_user_online.gif");
+	padding-left: 58px;
+	padding-top: 58px;
+}
+
+
+/* Forum icons & Topic icons */
+.global_read													{ background-image: url("./announce_read.gif"); }
+.global_read_mine												{ background-image: url("./announce_read_mine.gif"); }
+.global_read_locked												{ background-image: url("./announce_read_locked.gif"); }
+.global_read_locked_mine										{ background-image: url("./announce_read_locked_mine.gif"); }
+.global_unread													{ background-image: url("./announce_unread.gif"); }
+.global_unread_mine												{ background-image: url("./announce_unread_mine.gif"); }
+.global_unread_locked											{ background-image: url("./announce_unread_locked.gif"); }
+.global_unread_locked_mine										{ background-image: url("./announce_unread_locked_mine.gif"); }
+
+.announce_read													{ background-image: url("./announce_read.gif"); }
+.announce_read_mine												{ background-image: url("./announce_read_mine.gif"); }
+.announce_read_locked											{ background-image: url("./announce_read_locked.gif"); }
+.announce_read_locked_mine										{ background-image: url("./announce_read_locked_mine.gif"); }
+.announce_unread												{ background-image: url("./announce_unread.gif"); }
+.announce_unread_mine											{ background-image: url("./announce_unread_mine.gif"); }
+.announce_unread_locked											{ background-image: url("./announce_unread_locked.gif"); }
+.announce_unread_locked_mine									{ background-image: url("./announce_unread_locked_mine.gif"); }
+
+.forum_link														{ background-image: url("./forum_link.gif"); }
+.forum_read														{ background-image: url("./forum_read.gif"); }
+.forum_read_locked												{ background-image: url("./forum_read_locked.gif"); }
+.forum_read_subforum											{ background-image: url("./forum_read_subforum.gif"); }
+.forum_unread													{ background-image: url("./forum_unread.gif"); }
+.forum_unread_locked											{ background-image: url("./forum_unread_locked.gif"); }
+.forum_unread_subforum											{ background-image: url("./forum_unread_subforum.gif"); }
+
+.sticky_read													{ background-image: url("./sticky_read.gif"); }
+.sticky_read_mine												{ background-image: url("./sticky_read_mine.gif"); }
+.sticky_read_locked												{ background-image: url("./sticky_read_locked.gif"); }
+.sticky_read_locked_mine										{ background-image: url("./sticky_read_locked_mine.gif"); }
+.sticky_unread													{ background-image: url("./sticky_unread.gif"); }
+.sticky_unread_mine												{ background-image: url("./sticky_unread_mine.gif"); }
+.sticky_unread_locked											{ background-image: url("./sticky_unread_locked.gif"); }
+.sticky_unread_locked_mine										{ background-image: url("./sticky_unread_locked_mine.gif"); }
+
+.topic_moved													{ background-image: url("./topic_moved.gif"); }
+.topic_read														{ background-image: url("./topic_read.gif"); }
+.topic_read_mine												{ background-image: url("./topic_read_mine.gif"); }
+.topic_read_hot													{ background-image: url("./topic_read_hot.gif"); }
+.topic_read_hot_mine											{ background-image: url("./topic_read_hot_mine.gif"); }
+.topic_read_locked												{ background-image: url("./topic_read_locked.gif"); }
+.topic_read_locked_mine											{ background-image: url("./topic_read_locked_mine.gif"); }
+.topic_unread													{ background-image: url("./topic_unread.gif"); }
+.topic_unread_mine												{ background-image: url("./topic_unread_mine.gif"); }
+.topic_unread_hot												{ background-image: url("./topic_unread_hot.gif"); }
+.topic_unread_hot_mine											{ background-image: url("./topic_unread_hot_mine.gif"); }
+.topic_unread_locked											{ background-image: url("./topic_unread_locked.gif"); }
+.topic_unread_locked_mine										{ background-image: url("./topic_unread_locked_mine.gif"); }
+
+.pm_read														{ background-image: url("./topic_read.gif"); }
+.pm_unread														{ background-image: url("./topic_unread.gif"); }

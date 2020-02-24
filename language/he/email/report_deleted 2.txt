@@ -1,0 +1,7 @@
+Subject: הדיווח שלך נמחק - "{POST_SUBJECT}"
+
+שלום {USERNAME},
+
+קיבלת הודעה זו מפני שהדיווח ששלחת לגבי ההודעה "{POST_SUBJECT}" בנושא "{TOPIC_TITLE}" ב־"{SITENAME}" נמחק על־ידי מנהל או מנהל ראשי.
+
+{EMAIL_SIG}
