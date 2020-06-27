@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+ 	'SUPPORT_BODY'		=> 'תמיכה מלאה תוענק לגרסה היציבה הנוכחית של phpBB3, וללא תשלום. התמיכה כוללת:</p><ul><li>התקנה</li><li>הגדרות</li><li>שאלות טכניות</li><li>בעיות הנוגעות לבאגים פוטנציאליים בתוכנה</li><li>ביצוע עדכון לגרסה היציבה העדכנית ביותר</li><li>ביצוע המרה מ phpBB 2.0.x ל phpBB3</li><li>ביצוע המרה ממערכות פורומים אחרות ל phpBB3 (לצורך כך קיים <a href="https://www.phpbb.com/community/viewforum.php?f=486">פורום הממירים</a>)</li></ul><p>אנו מעודדים משתמשים אשר עדיין עושים שימוש בגרסאות בטא של phpBB3 להחליף את הגרסה המותקנת שלהם בעותק טרי של הגרסה האחרונה.</p><h2>תוספים / עיצובים</h2><p>בקשות תמיכה בנושאים הנוגעים בהרחבות למערכת, יש לפרסם ב <a href="https://www.phpbb.com/community/viewforum.php?f=451">פורום התוספים</a>.<br />נושאים הנוגעים לעיצובים, יש לפרסם בפורום <a href="https://www.phpbb.com/community/viewforum.php?f=471">עיצובים</a>.<br /><br />במידה ושאלתך נוגעת לחבילה מסוימת, אנא פרסם אותה ישירות בנושא המיועד לחבילה זו.</p><h2>קבלת תמיכה</h2><p><a href="https://www.phpbb.com/support/">אזור התמיכה</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">מדריך להתחלה מהירה</a><br /><br />על מנת להיות מעודכן בכל העדכונים והגרסאות החדשות, עקוב אחרינו ב <a href="https://www.twitter.com/phpbb/">טוויטר</a> וב <a href="https://www.facebook.com/phpbb/">פייסבוק</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 supports the following databases:</p>
 	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
+ 		<li>MySQL 4.1.3 ומעלה (MySQLi נדרש)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB עדיין לא הותקנה.'
 ));
 
 // Requirements translation
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP version',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 5.4.0 or higher.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB זקוקה ל PHP גרסה 7.1.3 ומעלה.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() function is required',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'In order for phpBB to function correctly, the getimagesize function needs to be available.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 support',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
 
-	'STAGE_REQUIREMENTS'	=> 'Check requirements'
+	'STAGE_REQUIREMENTS'	=> 'בדיקת דרישות'
 ));
 
 // General error messages
@@ -186,19 +186,20 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'שגיאה בהתקנת מסד הנתונים',
 	'INST_ERR_NO_DB'				=> 'Cannot load the PHP module for the selected database type.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
 	'INST_ERR_DB_NO_NAME'			=> 'No database name specified.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
 	'INST_ERR_DB_CONNECT'			=> 'Could not connect to the database, see error message below.',
+ 	'INST_ERR_DB_NO_WRITABLE'		=> 'מסד הנתונים והתיקייה המכילה אותו צריכים להיות ניתנים לכתיבה.',	
 	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
 	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
@@ -218,13 +219,13 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
 
-		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',
+ 		<p>שמנו לב לכך שהעדכון האחרון של גרסת ה phpBB שלך טרם הושלמה. אנא עבור ל <a href="%1$s" title="%1$s">עדכון מסד הנתונים</a>, וודא שהאפשרות <em>עדכן את מסד הנתונים בלבד</em> מסומנת ולחץ על <strong>שלח</strong>. אל תשכח למחוק את התיקייה "install" לאחר שעדכון מסד הנתונים הסתיים בהצלחה.</p>',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS'			=> 'A new feature release <strong>%1$s</strong> is available. Please read <a href="%2$s" title="%2$s"><strong>the release announcement</strong></a> to learn about what it has to offer, and how to upgrade.',
+ 	'UPGRADE_INSTRUCTIONS'			=> 'גרסה המכילה תכונות חדשות <strong>%1$s</strong> זמינה כעת. אנא קרא את <a href="%2$s" title="%2$s"><strong>ההכרזה על שחרור הגרסה</strong></a> על מנת לדעת מהם השיפורים הקיימים בגרסה, וכיצד לבצע שדרוג.',	
 	'SERVER_CONFIG'				=> 'Server configuration',
 	'SCRIPT_PATH'				=> 'Script path',
 	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>.',
@@ -300,7 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_BOTS'				=> 'Registering bots',
 	'TASK_ADD_LANGUAGES'		=> 'Installing available languages',
 	'TASK_ADD_MODULES'			=> 'Installing modules',
-	'TASK_CREATE_SEARCH_INDEX'	=> 'Creating search index',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'יצירת אינדקס חיפוש',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Installing packaged extensions',
@@ -353,17 +354,40 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>How to update your installation with the Automatic Update Package</h1>
-
-		<p>The recommended way of updating your installation listed here is only valid for the automatic update package. You are also able to update your installation using the methods listed within the INSTALL.html document. The steps for updating phpBB3 automatically are:</p>
-
-		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Go to the <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> and download the "Automatic Update Package" archive.<br /><br /></li>
-			<li>Unpack the archive.<br /><br /></li>
-			<li>Upload the complete uncompressed "install" and "vendor" folders to your phpBB root directory (where your config.php file is).<br /><br /></li>
-		</ul>
-
-		<p>Once uploaded your board will be offline for normal users due to the install directory you uploaded now present.<br /><br />
+ 		<h1>כיצד לעדכן את ההתקנה שלך באמצעות החבילה המלאה</h1>
+ 
+ 		<p>הדרך המומלצת לעדכון ההתקנה שלך היא שימוש בחבילה המלאה. במידה וביצעת עריכות בקבצי הליבה של phpBB תוכל לעשות שימוש בחבילת העדכון האוטומטי על מנת ששינויים אלה לא ימחקו. ניתן לבצע עדכון גם באמצעות הדרכים המוזכרות בקובץ INSTALL.html. הצעדים לעדכון phpBB3 באמצעות החבילה המלאה הם:</p>
+  
+ 		<ol style="margin-left: 20px; font-size: 1.1em;">
+ 			<li><strong class="error">בצע גיבוי של כל קבצי המערכת ומסד הנתונים.</strong></li>
+ 			<li>עבור ל <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">עמוד ההורדות</a> והורד את הגרסה האחרונה של החבילה המלאה.</li>
+ 			<li>בצע חילוץ של התיקייה הדחוסה.</li>
+ 			<li>הסר (מחק) את הקובץ <code class="inline">config.php</code>, ואת התיקיות <code class="inline">/images</code>, <code class="inline">/store</code> ו <code class="inline">/files</code> <em>מתוך החבילה</em> (ולא מתוך האתר שלך).</li>
+ 			<li>עבור ללוח הבקרה למנהל הראשי, הגדרות מערכת, וודא כי prosilver מוגדר כעיצוב ברירת המחדל. במידה ולא, הגדר כי עיצוב ברירת המחדל יהיה prosilver.</li>
+ 			<li>מחק את התיקיות <code class="inline">/vendor</code> ו <code class="inline">/cache</code> מתוך קבצי המערכת שעל השרת שלך.</li>
+ 			<li>באמצעות FTP או SSH בצע העלאה של הקבצים והתיקיות הנותרים (התוכן שנותר בתיקיה phpBB3) לספריית השורש של התקנת המערכת שלך אשר על השרת, תוך דריסת הקבצים הקיימים. (שים לב: יש לוודא כי אינך מוחק אף תוסף בתיקיית <code class="inline">/ext</code> כאשר אתה מבצע את ההעלאה.)</li>
+ 			<li><strong><a href="%1$s" title="%1$s">כעת התחל בהליך השדרוג באמצעות הפניית הדפדפן לתיקייה install</a>.</strong></li>
+ 			<li>עקוב אחר הצעדים לעדכון מסד הנתונים והמתן לסיום ההליך.</li>
+ 			<li>באמצעות FTP או SSH מחק את התיקייה <code class="inline">/install</code> מספריית השורש של ההתקנה שלך.<br><br></li>
+ 		</ol>
+  
+ 		<p>כעת יש בידיך מערכת מעודכנת הכוללת את כל המשתמשים וההודעות. המשימות הבאות:</p>
+  		<ul style="margin-left: 20px; font-size: 1.1em;">
+ 			<li>עדכון חבילת השפה</li>
+ 			<li>עדכון העיצוב<br><br></li>
+  		</ul>
+  
+ 		<h1>כיצד לבצע עדכון באמצעות חבילת העדכון האוטומטי</h1>
+ 
+ 		<p>חבילת העדכון האוטומטי מומלצת רק כאשר קבצי הליבה של phpBB נערכו לאחר ההתקנה. ניתן לבצע את השדרוג גם באמצעות השיטות המפורטות בקובץ INSTALL.html. הצעדים לעדכון phpBB3 באמצעות חבילת העדכון האוטומטי הם:</p>
+ 
+ 		<ol style="margin-left: 20px; font-size: 1.1em;">
+ 			<li>עבור ל <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">עמוד ההורדות</a> והורד את חבילת העדכון האוטומטי.</li>
+ 			<li>בצע חילוץ של התיקייה הדחוסה.</li>
+ 			<li>בצע העלאה של התיקיות "install" ו "vendor" לספריית השורש של התקנת ה phpBB שלך (המקום בו נמצא גם הקובץ config.php).<br><br></li>
+ 		</ol>
+ 
+ 		<p>לאחר ביצוע ההעלאה המערכת לא תהיה זמינה עבור משתמשים רגילים וזאת בשל התיקייה install שנמצאת כעת על השרת.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
 		<br />
 		You will then be guided through the update process. You will be notified once the update is complete.
@@ -540,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversion completed',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.3. You can now login and <a href="../">access your board</a>. Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory. Remember that help on using phpBB is available online via the <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentation</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=466">support forums</a>.',
+ 	'CONVERT_COMPLETE_EXPLAIN'	=> 'המרת בהצלחה את המערכת שלך ל phpBB 3.3. אתה יכול כעת להתחבר ו<a href="../">לגשת למערכת שלך</a>. אנא וודא שההגדרות הועברו בהצלחה לפני שתפעיל מחדש את המערכת שלך באמצעות מחיקת התיקייה install. זכור כי תמיכה בשימוש ב phpBB זמינה בכל עת באמצעות <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">התיעוד</a> ו<a href="https://www.phpbb.com/community/viewforum.php?f=661">פורום התמיכה</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP upload for attachments is enabled at the old board. Please disable the FTP upload option and make sure a valid upload directory is specified, then copy all attachment files to this new web accessible directory. Once you have done this, restart the convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'There is no configuration information available for the conversion.',
