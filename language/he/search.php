@@ -36,89 +36,88 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'כל התווים',
-	'ALL_RESULTS'			=> 'כל התוצאות',
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
-	'DISPLAY_RESULTS'		=> 'הצג את תוצאות החיפוש כ',
-
-	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found %d match',
-		2	=> 'Search found %d matches',
-	),
-	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found more than %d match',
-		2	=> 'Search found more than %d matches',
-	),
-
-	'GLOBAL'				=> 'Global announcement',
-
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
-
-	'JUMP_TO_POST'			=> 'Jump to post',
-
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
-
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
-	),
-
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently.',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_LOAD'		=> 'Sorry but you cannot use search at this time. The server has high load. Please try again later.',
-	'NO_SEARCH_TIME'		=> array(
-		1	=> 'Sorry but you cannot use search at this time. Please try again in %d second.',
-		2	=> 'Sorry but you cannot use search at this time. Please try again in %d seconds.',
-	),
-	'NO_SEARCH_UNREADS'		=> 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
-
-	'POST_CHARACTERS'		=> 'characters of posts',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
-
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
-	'GO_TO_SEARCH_ADV'	=> 'Go to advanced search',
-
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCHED_QUERY'			=> 'Searched query',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches.',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. Subforums are searched automatically if you do not disable “search subforums“ below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
-	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.',
-
-	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'You must specify at least %d character of the authors name.',
-		2	=> 'You must specify at least %d characters of the authors name.',
-	),
+$lang = array_merge($lang, array (
+  'ALL_AVAILABLE' => 'כל התווים',
+  'ALL_RESULTS' => 'כל התוצאות',
+  'DISPLAY_RESULTS' => 'הצג את תוצאות החיפוש כ',
+  'FOUND_SEARCH_MATCHES' =>
+  array (
+    1 => 'החיפוש מצא תוצאה %d',
+    2 => 'החיפוש מצא %d תוצאות',
+  ),
+  'FOUND_MORE_SEARCH_MATCHES' =>
+  array (
+    1 => 'החיפוש מצא יותר מתוצאה %d',
+    2 => 'החיפוש מצא יותר מ-%d תוצאות',
+  ),
+  'GLOBAL' => 'הכרזה גלובלית',
+  'IGNORED_TERMS' => 'התעלמו',
+  'IGNORED_TERMS_EXPLAIN' => 'המילים הבאות בשאילתת החיפוש שלך לא נכללו מכיוון שהן מילים נפוצות מדי: <strong>%s</strong>.',
+  'JUMP_TO_POST' => 'עבור להודעה',
+  'LOGIN_EXPLAIN_EGOSEARCH' => 'עליך להירשם ולהתחבר כדי לצפות בהודעות שלך.',
+  'LOGIN_EXPLAIN_UNREADSEARCH' => 'עליך להירשם ולהתחבר כדי לצפות בהודעות שלא נקראו.',
+  'LOGIN_EXPLAIN_NEWPOSTS' => 'עליך להירשם ולהתחבר כדי לצפות בהודעות חדשות מאז ביקורך האחרון.',
+  'MAX_NUM_SEARCH_KEYWORDS_REFINE' =>
+  array (
+    1 => 'ציינת יותר מדי מילים לחיפוש. אנא אל תזין יותר ממילה %1$d.',
+    2 => 'ציינת יותר מדי מילים לחיפוש. אנא אל תזין יותר מ-%1$d מילים.',
+  ),
+  'NO_KEYWORDS' => 'עליך לציין לפחות מילה אחת לחיפוש. כל מילה חייבת להכיל לפחות %s ולא יותר מ-%s לא כולל תווים כלליים.',
+  'NO_RECENT_SEARCHES' => 'לא בוצעו חיפושים לאחרונה.',
+  'NO_SEARCH' => 'מצטערים, אין לך הרשאה להשתמש במערכת החיפוש.',
+  'NO_SEARCH_RESULTS' => 'לא נמצאו תוצאות מתאימות.',
+  'NO_SEARCH_LOAD' => 'מצטערים, לא ניתן להשתמש בחיפוש כרגע. השרת עמוס. אנא נסה שוב מאוחר יותר.',
+  'NO_SEARCH_TIME' =>
+  array (
+    1 => 'מצטערים, לא ניתן להשתמש בחיפוש כרגע. אנא נסה שוב בעוד שנייה %d.',
+    2 => 'מצטערים, לא ניתן להשתמש בחיפוש כרגע. אנא נסה שוב בעוד %d שניות.',
+  ),
+  'NO_SEARCH_UNREADS' => 'מצטערים, חיפוש הודעות שלא נקראו הושבת במערכת זו.',
+  'WORD_IN_NO_POST' => 'לא נמצאו הודעות מכיוון שהמילה <strong>%s</strong> אינה מופיעה באף הודעה.',
+  'WORDS_IN_NO_POST' => 'לא נמצאו הודעות מכיוון שהמילים <strong>%s</strong> אינן מופיעות באף הודעה.',
+  'POST_CHARACTERS' => 'תווים מההודעות',
+  'PHRASE_SEARCH_DISABLED' => 'חיפוש לפי ביטוי מדויק אינו נתמך במערכת זו.',
+  'RECENT_SEARCHES' => 'חיפושים אחרונים',
+  'RESULT_DAYS' => 'הגבל תוצאות לתקופה הקודמת',
+  'RESULT_SORT' => 'מיין תוצאות לפי',
+  'RETURN_FIRST' => 'החזר ראשונים',
+  'RETURN_FIRST_EXPLAIN' => 'הגדר ל-0 כדי להציג את ההודעה המלאה.',
+  'GO_TO_SEARCH_ADV' => 'עבור לחיפוש מתקדם',
+  'SEARCHED_FOR' => 'ביטוי חיפוש שנעשה בו שימוש',
+  'SEARCHED_TOPIC' => 'נושא שחופש',
+  'SEARCHED_QUERY' => 'שאילתה שחופשה',
+  'SEARCH_ALL_TERMS' => 'חפש את כל המילים או השתמש בשאילתה כפי שהוזנה',
+  'SEARCH_ANY_TERMS' => 'חפש אחת מהמילים',
+  'SEARCH_AUTHOR' => 'חפש לפי כותב',
+  'SEARCH_AUTHOR_EXPLAIN' => 'השתמש ב-* כתו כללי להתאמות חלקיות.',
+  'SEARCH_FIRST_POST' => 'הודעה ראשונה בנושאים בלבד',
+  'SEARCH_FORUMS' => 'חפש בפורומים',
+  'SEARCH_FORUMS_EXPLAIN' => 'בחר את הפורום או הפורומים בהם תרצה לחפש. תת-פורומים ייכללו בחיפוש אוטומטית אלא אם תבטל את "חפש בתת-פורומים" להלן.',
+  'SEARCH_IN_RESULTS' => 'חפש בתוצאות אלו',
+  'SEARCH_KEYWORDS_EXPLAIN' => 'הצב <strong>+</strong> לפני מילה שחייבת להימצא ו-<strong>-</strong> לפני מילה שאסור שתימצא. הכנס רשימת מילים מופרדות ב-<strong>|</strong> בתוך סוגריים אם רק אחת מהמילים צריכה להימצא. השתמש ב-* כתו כללי להתאמות חלקיות.',
+  'SEARCH_MSG_ONLY' => 'טקסט הודעה בלבד',
+  'SEARCH_OPTIONS' => 'אפשרויות חיפוש',
+  'SEARCH_QUERY' => 'שאילתת חיפוש',
+  'SEARCH_SUBFORUMS' => 'חפש בתת-פורומים',
+  'SEARCH_TITLE_MSG' => 'כותרות הודעות וטקסט הודעה',
+  'SEARCH_TITLE_ONLY' => 'כותרות נושאים בלבד',
+  'SEARCH_WITHIN' => 'חפש בתוך',
+  'SORT_ASCENDING' => 'עולה',
+  'SORT_AUTHOR' => 'כותב',
+  'SORT_DESCENDING' => 'יורד',
+  'SORT_FORUM' => 'פורום',
+  'SORT_POST_SUBJECT' => 'כותרת הודעה',
+  'SORT_TIME' => 'זמן פרסום',
+  'SPHINX_SEARCH_FAILED' => 'החיפוש נכשל: %s',
+  'SPHINX_SEARCH_FAILED_LOG' => 'מצטערים, לא ניתן היה לבצע את החיפוש. מידע נוסף על כשל זה נרשם ביומן השגיאות.',
+  'TOO_FEW_AUTHOR_CHARS' =>
+  array (
+    1 => 'עליך לציין לפחות תו %d משם הכותב.',
+    2 => 'עליך לציין לפחות %d תווים משם הכותב.',
+  ),
 ));
