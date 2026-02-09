@@ -36,37 +36,35 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'נושאים פעילים',
-	'ANNOUNCEMENTS'			=> 'הכרזות',
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
-	'FORUM_PERMISSIONS'		=> 'הרשאות הפורום',
-
-	'ICON_ANNOUNCEMENT'		=> 'הכרזה',
-	'ICON_STICKY'			=> 'דביק',
-
-	'LOGIN_NOTIFY_FORUM'	=> 'קיבלת התראה אודות פורום זה, אנא התחבר על מנת לצפות בו.',
-
-	'MARK_TOPICS_READ'		=> 'סמן נושאים כנקראו',
-
-	'NEW_POSTS_HOT'			=> 'יש הודעות חדשות [ הודעות חמות ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'		=> 'יש הודעות חדשות [ הודעות נעולות ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'		=> 'אין הודעות חדשות [ הודעות חמות ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'	=> 'אין הודעות חדשות [ הודעות נעולות ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'אין לך את ההרשאות המתאימות על מנת לקרוא הודעות בפורום זה.',
-	'NO_UNREAD_POSTS_HOT'		=> 'אין הודעות שלא נקראו [ הודעות חמות ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'אין הודעות שלא נקראו [ הודעות נעולות ]',
-
-	'POST_FORUM_LOCKED'		=> 'הפורום נעול',
-
-	'TOPICS_MARKED'			=> 'הנושאים בפורום זה סומנו כנקראו.',
-
-	'UNREAD_POSTS_HOT'		=> 'הודעות שלא נקראו [ הודעות חמות ]',
-	'UNREAD_POSTS_LOCKED'	=> 'הודעות שלא נקראו [ הודעות נעולות ]',
-
-	'VIEW_FORUM'			=> 'צפה בפורום',
-	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topics',
-	),
+$lang = array_merge($lang, array (
+  'ACTIVE_TOPICS' => 'נושאים פעילים',
+  'ANNOUNCEMENTS' => 'הכרזות',
+  'FORUM_PERMISSIONS' => 'הרשאות הפורום',
+  'ICON_ANNOUNCEMENT' => 'הכרזה',
+  'ICON_STICKY' => 'דביק',
+  'LOGIN_NOTIFY_FORUM' => 'קיבלת התראה אודות פורום זה, אנא התחבר על מנת לצפות בו.',
+  'MARK_TOPICS_READ' => 'סמן נושאים כנקראו',
+  'NEW_POSTS_HOT' => 'יש הודעות חדשות [ הודעות חמות ]',
+  'NEW_POSTS_LOCKED' => 'יש הודעות חדשות [ הודעות נעולות ]',
+  'NO_NEW_POSTS_HOT' => 'אין הודעות חדשות [ הודעות חמות ]',
+  'NO_NEW_POSTS_LOCKED' => 'אין הודעות חדשות [ הודעות נעולות ]',
+  'NO_READ_ACCESS' => 'אין לך את ההרשאות המתאימות על מנת לקרוא הודעות בפורום זה.',
+  'NO_FORUMS_IN_CATEGORY' => 'קטגוריה זו אינה מכילה פורומים.',
+  'NO_UNREAD_POSTS_HOT' => 'אין הודעות שלא נקראו [ הודעות חמות ]',
+  'NO_UNREAD_POSTS_LOCKED' => 'אין הודעות שלא נקראו [ הודעות נעולות ]',
+  'POST_FORUM_LOCKED' => 'הפורום נעול',
+  'TOPICS_MARKED' => 'הנושאים בפורום זה סומנו כנקראו.',
+  'UNREAD_POSTS_HOT' => 'הודעות שלא נקראו [ הודעות חמות ]',
+  'UNREAD_POSTS_LOCKED' => 'הודעות שלא נקראו [ הודעות נעולות ]',
+  'VIEW_FORUM' => 'צפה בפורום',
+  'VIEW_FORUM_TOPICS' => 
+  array (
+    1 => 'נושא %d',
+    2 => '%d נושאים',
+  ),
 ));
