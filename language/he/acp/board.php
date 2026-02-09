@@ -45,7 +45,7 @@ $lang = array_merge($lang, array (
   'BOARD_STYLE' => 'עיצוב מערכת',
   'CUSTOM_DATEFORMAT' => 'מותאם אישית…',
   'DEFAULT_DATE_FORMAT' => 'תבנית תאריך',
-  'DEFAULT_DATE_FORMAT_EXPLAIN' => 'תבנית התאריך זהה לפונקציית התאריך <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code> של PHP.',
+  'DEFAULT_DATE_FORMAT_EXPLAIN' => 'תבנית התאריך זהה לפונקציית התאריך <a href="https://secure.php.net/manual/function.date.php">date()</a> של PHP.',
   'DEFAULT_LANGUAGE' => 'שפת ברירת מחדל',
   'DEFAULT_STYLE' => 'עיצוב ברירת מחדל',
   'DEFAULT_STYLE_EXPLAIN' => 'עיצוב ברירת המחדל עבור משתמשים חדשים.',

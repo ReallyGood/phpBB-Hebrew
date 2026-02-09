@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array (
-  'TRANSLATION_INFO' => 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>.  &copy; 2026 - phpBB.co.il.',
+  'TRANSLATION_INFO' => 'מבוסס על <a href="http://www.phpbb.co.il">phpBB.co.il - פורומים בעברית</a>. &copy; 2026 - phpBB.co.il.',
   'DIRECTION' => 'rtl',
   'DATE_FORMAT' => '|d M Y|',
   'DATETIME_FORMAT' => '|d M Y, H:i|',
