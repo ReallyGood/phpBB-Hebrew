@@ -36,91 +36,83 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'APPROVE'								=> 'אשר',
-	'ATTACHMENT'						=> 'קובץ מצורף',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'האפשרות לצירוף קבצים בוטלה.',
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
-	'BOOKMARK_ADDED'		=> 'הנושא נוסף למועדפים בהצלחה.',
-	'BOOKMARK_ERR'			=> 'הוספת הנושא למועדפים נכשלה. אנא נסה שנית.',
-	'BOOKMARK_REMOVED'		=> 'הנושא הוסר מהמועדפים בהצלחה.',
-	'BOOKMARK_TOPIC'		=> 'הוסף למועדפים',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'הסר ממועדפים',
-	'BUMPED_BY'				=> 'הוקפץ לאחרונה על ידי %1$s בתאריך %2$s.',
-	'BUMP_TOPIC'			=> 'הקפץ נושא',
-
-	'CODE'					=> 'קוד',
-
-	'DELETE_TOPIC'			=> 'מחק נושא',
-	'DELETED_INFORMATION'	=> 'נמחק על ידי %1$s ב %2$s',
-	'DISAPPROVE'					=> 'אל תאשר',
-	'DOWNLOAD_NOTICE'		=> 'אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת.',
-
-	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Last edited by %2$s on %3$s, edited %1$d time in total.',
-		2	=> 'Last edited by %2$s on %3$s, edited %1$d times in total.',
-	),
-	'EMAIL_TOPIC'			=> 'Email topic',
-	'ERROR_NO_ATTACHMENT'	=> 'The selected attachment does not exist anymore.',
-
-	'FILE_NOT_FOUND_404'	=> 'The file <strong>%s</strong> does not exist.',
-	'FORK_TOPIC'			=> 'Copy topic',
-	'FULL_EDITOR'			=> 'Full Editor &amp; Preview',
-
-	'LINKAGE_FORBIDDEN'		=> 'You are not authorised to view, download or link from/to this site.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'You have been notified about this topic, please login to view it.',
-	'LOGIN_VIEWTOPIC'		=> 'The board requires you to be registered and logged in to view this topic.',
-
-	'MAKE_ANNOUNCE'				=> 'Change to “Announcement”',
-	'MAKE_GLOBAL'				=> 'Change to “Global”',
-	'MAKE_NORMAL'				=> 'Change to “Standard Topic”',
-	'MAKE_STICKY'				=> 'Change to “Sticky”',
-	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'You may select <strong>%d</strong> option',
-		2	=> 'You may select up to <strong>%d</strong> options',
-	),
-	'MISSING_INLINE_ATTACHMENT'	=> 'The attachment <strong>%s</strong> is no longer available',
-	'MOVE_TOPIC'				=> 'Move topic',
-
-	'NO_ATTACHMENT_SELECTED'=> 'You haven’t selected an attachment to download or view.',
-	'NO_NEWER_TOPICS'		=> 'There are no newer topics in this forum.',
-	'NO_OLDER_TOPICS'		=> 'There are no older topics in this forum.',
-	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
-	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
-	'NO_VOTES'				=> 'No votes',
-
-	'POLL_ENDED_AT'			=> 'Poll ended at %s',
-	'POLL_RUN_TILL'			=> 'Poll runs till %s',
-	'POLL_VOTED_OPTION'		=> 'You voted for this option',
-	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.',
-	'PRINT_TOPIC'			=> 'Print view',
-
-	'QUICK_MOD'				=> 'Quick-mod tools',
-	'QUICKREPLY'			=> 'Quick Reply',
-	'QUOTE'					=> 'Quote',
-
-	'REPLY_TO_TOPIC'		=> 'Reply to topic',
-	'RESTORE'				=> 'Restore',
-	'RESTORE_TOPIC'			=> 'Restore topic',
-	'RETURN_POST'			=> '%sReturn to the post%s',
-
-	'SUBMIT_VOTE'			=> 'Submit vote',
-
-	'TOPIC_TOOLS'			=> 'Topic tools',
-	'TOTAL_VOTES'			=> 'Total votes',
-
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
-
-	'VIEW_INFO'				=> 'Post details',
-	'VIEW_NEXT_TOPIC'		=> 'Next topic',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
-	'VIEW_RESULTS'			=> 'View results',
-	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '%d post',
-		2	=> '%d posts',
-	),
-	'VIEW_UNREAD_POST'		=> 'First unread post',
-	'VOTE_SUBMITTED'		=> 'Your vote has been cast.',
-	'VOTE_CONVERTED'		=> 'Changing votes is not supported for converted polls.',
-
+$lang = array_merge($lang, array (
+  'APPROVE' => 'אשר',
+  'ATTACHMENT' => 'קובץ מצורף',
+  'ATTACHMENT_FUNCTIONALITY_DISABLED' => 'האפשרות לצירוף קבצים בוטלה.',
+  'BOOKMARK_ADDED' => 'הנושא נוסף למועדפים בהצלחה.',
+  'BOOKMARK_ERR' => 'הוספת הנושא למועדפים נכשלה. אנא נסה שנית.',
+  'BOOKMARK_REMOVED' => 'הנושא הוסר מהמועדפים בהצלחה.',
+  'BOOKMARK_TOPIC' => 'הוסף למועדפים',
+  'BOOKMARK_TOPIC_REMOVE' => 'הסר ממועדפים',
+  'BUMPED_BY' => 'הוקפץ לאחרונה על ידי %1$s בתאריך %2$s.',
+  'BUMP_TOPIC' => 'הקפץ נושא',
+  'DELETE_TOPIC' => 'מחק נושא',
+  'DELETED_INFORMATION' => 'נמחק על ידי %1$s ב %2$s',
+  'DISAPPROVE' => 'דחה',
+  'DOWNLOAD_NOTICE' => 'אין לך את ההרשאות המתאימות על מנת לצפות בקבצים המצורפים להודעה זאת.',
+  'EDITED_TIMES_TOTAL' =>
+  array (
+    1 => 'נערך לאחרונה על ידי %2$s ב-%3$s, נערך פעם %1$d בסך הכול.',
+    2 => 'נערך לאחרונה על ידי %2$s ב-%3$s, נערך %1$d פעמים בסך הכול.',
+  ),
+  'EMAIL_TOPIC' => 'שלח נושא בדוא״ל',
+  'ERROR_NO_ATTACHMENT' => 'הקובץ המצורף שנבחר אינו קיים יותר.',
+  'FILE_NOT_FOUND_404' => 'הקובץ <strong>%s</strong> אינו קיים.',
+  'FORK_TOPIC' => 'העתק נושא',
+  'FULL_EDITOR' => 'עורך מלא ותצוגה מקדימה',
+  'LINKAGE_FORBIDDEN' => 'אין לך הרשאה לצפות, להוריד או לקשר מאתר זה או אליו.',
+  'LOGIN_NOTIFY_TOPIC' => 'קיבלת התראה לגבי נושא זה, אנא התחבר כדי לצפות בו.',
+  'LOGIN_VIEWTOPIC' => 'עליך להירשם ולהתחבר כדי לצפות בנושא זה.',
+  'MAKE_ANNOUNCE' => 'שנה ל״הכרזה״',
+  'MAKE_GLOBAL' => 'שנה ל״גלובלי״',
+  'MAKE_NORMAL' => 'שנה ל״נושא רגיל״',
+  'MAKE_STICKY' => 'שנה ל״נעוץ״',
+  'MAX_OPTIONS_SELECT' =>
+  array (
+    1 => 'באפשרותך לבחור אפשרות <strong>%d</strong>',
+    2 => 'באפשרותך לבחור עד <strong>%d</strong> אפשרויות',
+  ),
+  'MISSING_INLINE_ATTACHMENT' => 'הקובץ המצורף <strong>%s</strong> אינו זמין יותר',
+  'MOVE_TOPIC' => 'העבר נושא',
+  'NO_ATTACHMENT_SELECTED' => 'לא בחרת קובץ מצורף להורדה או לצפייה.',
+  'NO_NEWER_TOPICS' => 'אין נושאים חדשים יותר בפורום זה.',
+  'NO_OLDER_TOPICS' => 'אין נושאים ישנים יותר בפורום זה.',
+  'NO_UNREAD_POSTS' => 'אין הודעות חדשות שלא נקראו בנושא זה.',
+  'NO_VOTE_OPTION' => 'עליך לבחור אפשרות בעת ההצבעה.',
+  'NO_VOTES' => 'אין הצבעות',
+  'NO_AUTH_PRINT_TOPIC' => 'אין לך הרשאה להדפיס נושאים.',
+  'POLL_ENDED_AT' => 'הסקר הסתיים ב-%s',
+  'POLL_RUN_TILL' => 'הסקר פעיל עד %s',
+  'POLL_VOTED_OPTION' => 'הצבעת עבור אפשרות זו',
+  'POST_DELETED_RESTORE' => 'הודעה זו נמחקה. ניתן לשחזר אותה.',
+  'PRINT_TOPIC' => 'תצוגת הדפסה',
+  'QUICK_MOD' => 'כלי ניהול מהיר',
+  'QUICKREPLY' => 'תגובה מהירה',
+  'REPLY_TO_TOPIC' => 'הגב לנושא',
+  'RESTORE' => 'שחזר',
+  'RESTORE_TOPIC' => 'שחזר נושא',
+  'RETURN_POST' => '%sחזור להודעה%s',
+  'SUBMIT_VOTE' => 'שלח הצבעה',
+  'TOPIC_TOOLS' => 'כלי נושא',
+  'TOTAL_VOTES' => 'סך הצבעות',
+  'UNLOCK_TOPIC' => 'בטל נעילת נושא',
+  'VIEW_INFO' => 'פרטי הודעה',
+  'VIEW_NEXT_TOPIC' => 'הנושא הבא',
+  'VIEW_PREVIOUS_TOPIC' => 'הנושא הקודם',
+  'VIEW_QUOTED_POST' => 'צפה בהודעה המצוטטת',
+  'VIEW_RESULTS' => 'הצג תוצאות',
+  'VIEW_TOPIC_POSTS' =>
+  array (
+    1 => 'הודעה %d',
+    2 => '%d הודעות',
+  ),
+  'VIEW_UNREAD_POST' => 'ההודעה הראשונה שלא נקראה',
+  'VOTE_SUBMITTED' => 'הצבעתך נקלטה.',
+  'VOTE_CONVERTED' => 'שינוי הצבעות אינו נתמך בסקרים שהומרו.',
 ));
