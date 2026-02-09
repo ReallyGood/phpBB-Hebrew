@@ -2,7 +2,7 @@ Subject: דיווח כנגד הודעה - "{TOPIC_TITLE}"
 
 שלום {USERNAME},
 
-אתה מקבל התראה זו, מכיוון שההודעה "{POST_SUBJECT}" ב־ "{SITENAME}" דווחה.
+ההודעה "{POST_SUBJECT}" ב־ "{SITENAME}" דווחה.
 
 אם אתה רוצה לראות את הדיווח, לחץ כאן:
 {U_VIEW_REPORT}
