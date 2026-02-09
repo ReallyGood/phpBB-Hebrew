@@ -131,6 +131,6 @@ $lang = array_merge($lang, array (
   'VIEWING_PROFILE' => 'צופה בפרופיל - %s',
   'VIEW_FACEBOOK_PROFILE' => 'צפה בפרופיל פייסבוק',
   'VIEW_SKYPE_PROFILE' => 'צפה בפרופיל סקייפ',
-  'VIEW_TWITTER_PROFILE' => 'צפה בפרופיל טוויטר',
+  'VIEW_TWITTER_PROFILE' => 'צפה בפרופיל באקס',
   'VIEW_YOUTUBE_PROFILE' => 'צפה בפרופיל YouTube',
 ));
